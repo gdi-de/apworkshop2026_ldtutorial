@@ -10,7 +10,7 @@
     "wdt":"http://www.wikidata.org/prop/direct/"
   },
   "columns":{
-    "nummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno", "prefix":"Brunnen ","order": 1},
+    "nummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno", "prefix":"Brunnen ","lang":"de","order": 1},
     "trinkbrunnenart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
         "Kaiser":"http://gdi-de.org/brunnenart/Kaiser",
         "Botsch":"http://gdi-de.org/brunnenart/Botsch",
@@ -18,8 +18,8 @@
     }
     },
     "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","range":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},
-    "einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote","range":"http://www.w3.org/2001/XMLSchema#string","prop": "data","order": 1},
-    "informationen": {"propiri": "http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","prop": "data","order": 1}
+    "einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1},
+    "informationen": {"propiri": "http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1}
   },
   "addcolumns":{
     "city": {"propiri": "http://www.wikidata.org/prop/direct/P131","value":"https://www.wikidata.org/entity/Q64","concept":"https://www.wikidata.org/entity/Q42744322","prop": "obj","order": 1}

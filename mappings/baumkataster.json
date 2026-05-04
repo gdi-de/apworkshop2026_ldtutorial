@@ -10,7 +10,7 @@
     "wdt":"http://www.wikidata.org/prop/direct/"
   },
   "columns":{
-    "baumnummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno", "prefix":"Baum ","order": 1},
+    "baumnummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno","lang":"de", "prefix":"Baum ","order": 1},
     "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
     "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
     "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{

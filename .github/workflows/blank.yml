@@ -34,7 +34,7 @@ jobs:
     with: 
         input: source/baumkataster_berlin.geojson
         output: docs
-        ghpages: true
+        ghpages: true 
         mapping: mappings/baumkataster.json
         sepchar: ";"
   

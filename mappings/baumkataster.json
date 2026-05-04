@@ -11,8 +11,8 @@
   },
   "columns":{
     "baumnummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno","lang":"de", "prefix":"Baum ","order": 1},
-    "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
-    "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
+    "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
+    "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
     "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
       "Weide":"https://www.wikidata.org/wiki/Q36050",
       "Pappel":"https://www.wikidata.org/wiki/Q30456678",

@@ -8,7 +8,7 @@
   "prefixes":{
     "bibo":"http://purl.org/ontology/bibo/",
     "wdt":"http://www.wikidata.org/prop/direct/"
-  },
+  }, 
   "columns":{
     "nummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno", "prefix":"Brunnen ","lang":"de","order": 1},
     "trinkbrunnenart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{

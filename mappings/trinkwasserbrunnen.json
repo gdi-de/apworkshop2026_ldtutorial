@@ -5,7 +5,7 @@
   "class": {"uri": "https://www.wikidata.org/entity/Q1630622","labels": {"en": "drinking water fountain","de": "Trinkwasserbrunnen"}},
   "id": "nummer",
   "onlyschema":true,
-  "prefixes":{
+  "prefixes":{ 
     "bibo":"http://purl.org/ontology/bibo/",
     "wdt":"http://www.wikidata.org/prop/direct/"
   }, 

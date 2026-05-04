@@ -1,0 +1,33 @@
+{
+  "namespace": "http://gdi-de.org/ont#",
+  "attnamespace": "http://gdi-de.org/ont#",
+  "nsprefix":"gdide",
+  "class": {"uri": "http://gdi-de.org/ont#Tree","labels": {"en": "tree","de": "Baum"}},
+  "id": "baumnummer",
+  "onlyschema":true,
+  "prefixes":{
+    "bibo":"http://purl.org/ontology/bibo/",
+    "wdt":"http://www.wikidata.org/prop/direct/"
+  },
+  "columns":{
+    "baumnummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno", "prefix":"Baum ","order": 1},
+    "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
+    "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
+    "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
+     
+    }
+    },
+    "baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
+     
+    }
+    },
+    "gruenanlage": {"propiri":"http://www.wikidata.org/prop/direct/P2547","prop": "obj","order": 1,"valuemapping":{
+     
+    }
+    },
+    "standortfkt": {"prop": "obj","order": 1,"valuemapping":{
+     
+    }
+    }
+  }
+}

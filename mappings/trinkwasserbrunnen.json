@@ -12,7 +12,9 @@
   "columns":{
     "nummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno", "prefix":"Brunnen ","order": 1},
     "trinkbrunnenart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
-     
+        "Kaiser":"http://gdi-de.org/brunnenart/Kaiser",
+        "Botsch":"http://gdi-de.org/brunnenart/Botsch",
+        "Bituma":"http://gdi-de.org/brunnenart/Bituma"
     }
     },
     "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","datatype":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},

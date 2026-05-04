@@ -14,7 +14,7 @@
     "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
     "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
     "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
-     
+
     }
     },
     "baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{

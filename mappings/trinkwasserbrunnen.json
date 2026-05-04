@@ -1,5 +1,5 @@
 {
-  "namespace": "http://gdi-de.org/ont#",
+  "namespace": "https://git-de.github.io/apworkshop2026/",
   "attnamespace": "http://gdi-de.org/ont#",
   "nsprefix":"gdide",
   "class": {"uri": "https://www.wikidata.org/entity/Q1630622","labels": {"en": "drinking water fountain","de": "Trinkwasserbrunnen"}},
@@ -17,8 +17,8 @@
         "Bituma":"http://gdi-de.org/brunnenart/Bituma"
     }
     },
-    "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","range":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},
-    "einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1},
+    "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","proplabels":{"de":"Baujahr","en":"inception"},"range":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},
+    "einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote","proplabels":{"de":"Einschränkungen","en":"restrictions"},"range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1},
     "informationen": {"propiri": "http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1}
   },
   "addcolumns":{

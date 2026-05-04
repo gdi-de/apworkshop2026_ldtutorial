@@ -47,7 +47,7 @@ jobs:
       - mapit2
     with: 
         version: v018
-        rdffilepath: baumkataster_berlin_mappings_baumkataster.ttl trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl
+        rdffilepath: source_baumkataster_berlin_mappings_baumkataster.ttl source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl
         rdffilebranch: gh-pages
         docpath: docs
         prefixns: http://gdi-de.github.io/apworkshop2026/

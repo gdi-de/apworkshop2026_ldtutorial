@@ -14,12 +14,19 @@
     "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","proplabels":{"de":"Kronendurchmesser","en":"crown diameter"},"range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
     "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","proplabels":{"de":"Stammdurchmesser","en":"tree trunk diameter"},"range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
     "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
-      "Weide":"https://www.wikidata.org/wiki/Q36050",
+      "Amberbaum":"https://www.wikidata.org/wiki/Q469652",
+      "Amerikanischer Amberbaum":"https://www.wikidata.org/wiki/Q469652",
+      "Eberesche":{"uri":"https://www.wikidata.org/wiki/Q146198","labels":{"en":"rowan","de":"Eberesche"}},
+      "Eiche":{"uri":"https://www.wikidata.org/wiki/Q12004","labels":{"en":"oak","de":"Eiche"}},
+      "Esche":{"uri":"https://www.wikidata.org/wiki/Q156907","labels":{"en":"ash tree","de":"Esche"}},
+      "Fichte":{"uri":"https://www.wikidata.org/wiki/Q26782","labels":{"en":"spruce","de":"Fichte"}},
+      "Weide":{"uri":"https://www.wikidata.org/wiki/Q36050","labels":{"de":"Weide","en":"willow"},
       "Pappel":"https://www.wikidata.org/wiki/Q30456678",
-      "Silber-Pappel":"https://www.wikidata.org/wiki/Q146269",
+      "Silber-Pappel":{"uri":"https://www.wikidata.org/wiki/Q146269","labels":{"de":"Silber-Pappel","en":"silver poplar"},
       "Spitz-Ahorn":"https://www.wikidata.org/wiki/Q26745",
+      "Ulme":{"uri":"https://www.wikidata.org/wiki/Q59779164","labels":{"de":"Ulme","en":"elm tree"}},
+      "Berg-Ahorn":"https://www.wikidata.org/wiki/Q156944",
       "Winter-Linde":"https://www.wikidata.org/wiki/Q127849"
-
     }
     },
     "baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{

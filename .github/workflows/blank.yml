@@ -26,11 +26,25 @@ jobs:
         ghpages: true
         mapping: mappings/trinkwasserbrunnen.json
         sepchar: ";"
+
+  mapit2:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    uses: situx/geordfconverter/.github/workflows/geordfconvert.yml@main
+    needs: mapit
+    with: 
+        input: source/baumkataster_berlin.geojson
+        output: docs
+        ghpages: true
+        mapping: mappings/baumkataster.json
+        sepchar: ";"
   
   # This workflow contains a single job called "build"  
   build:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+    needs: 
+      - mapit
+      - mapit2
     with: 
         version: v018
         rdffilepath: ap_result.ttl

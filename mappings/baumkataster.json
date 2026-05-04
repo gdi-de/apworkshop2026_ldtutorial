@@ -1,5 +1,5 @@
 {
-  "namespace": "https://git-de.github.io/apworkshop2026/",
+  "namespace": "https://gdi-de.github.io/apworkshop2026/",
   "attnamespace": "http://gdi-de.org/ont#",
   "nsprefix":"gdide",
   "class": {"uri": "http://gdi-de.org/ont#Tree","labels": {"en": "tree","de": "Baum"}},

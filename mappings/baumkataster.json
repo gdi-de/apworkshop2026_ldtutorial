@@ -12,7 +12,7 @@
   "columns":{
     "baumnummer": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","prop": "anno","lang":"de", "prefix":"Baum ","order": 1},
     "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","proplabels":{"de":"Kronendurchmesser","en":"crown diameter"},"range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/meter","prop": "data","order": 1},
-    "stammdurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547","proplabels":{"de":"Stammdurchmesser","en":"tree trunk diameter"},"range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
+    "stammdurchmesser": {"proplabels":{"de":"Stammdurchmesser","en":"tree trunk diameter"},"range":"http://www.w3.org/2001/XMLSchema#double","unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter","prop": "data","order": 1},
     "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
       "Amberbaum":"https://www.wikidata.org/wiki/Q469652",
       "Amerikanischer Amberbaum":"https://www.wikidata.org/wiki/Q469652",
@@ -37,9 +37,6 @@
      
     }
     },
-    "standortfkt": {"prop": "obj","order": 1,"valuemapping":{
-     
-    }
-    }
+    "standortfkt": {"prop": "data","propiri":"http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#double","order": 1}
   }
 }

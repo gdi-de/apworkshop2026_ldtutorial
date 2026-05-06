@@ -95,6 +95,14 @@ Such treatments need to be done for every column including a number, since every
 
 ### Treating category String columns
 
+Category string columns suggest some form of subcategorization.
+
+Important questions to consider are:
+
+- How does the subcategorization relate to the chosen dataset classification?
+  Does the column actually subclassify a tree or does it subclassify sth. else?
+- Can we relate the subclassification to a URI schema from a daata repository already existant in the Semantic Web?
+
 ### Treating unique String columns
 
 ### Treating remaining String columns

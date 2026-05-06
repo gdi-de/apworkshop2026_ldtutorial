@@ -19,6 +19,21 @@
         "Brunnen für Jogger":{"uri":"http://gdi-de.org/brunnenart/Brunnen_fuer_Jogger","labels":{"de":"Brunnen für Jogger","en":"Brunnen für Jogger"}}
     }
     },
+    "bezirk":{"propiri":"http://www.wikidata.org/prop/direct/P131","proplabels":{"de":"Bezirk","en":"district"},"prop":"obj","valuemapping":{
+        "Neukölln":{"uri":"https://www.wikidata.org/wiki/Q4071168","labels":{"de":"Neukölln","en":"Neukölln"}},
+        "Charlottenburg-Wilmersdorf":{"uri":"https://www.wikidata.org/wiki/Q158095","labels":{"de":"Charlottenburg-Wilmersdorf","en":"Charlottenburg-Wilmersdorf"}},
+        "Friedrichshain-Kreuzberg":{"uri":"https://www.wikidata.org/wiki/Q158893","labels":{"de":"Friedrichshain-Kreuzberg","en":"Friedrichshain-Kreuzberg"}},
+        "Steglitz-Zehlendorf":{"uri":"https://www.wikidata.org/wiki/Q158064","labels":{"de":"Steglitz-Zehlendorf","en":"Steglitz-Zehlendorf"}},
+        "Marzahn-Hellersdorf":{"uri":"https://www.wikidata.org/wiki/Q119284","labels":{"de":"Marzahn-Hellersdorf","en":"Marzahn-Hellersdorf"}},
+        "Reinickendorf":{"uri":"https://www.wikidata.org/wiki/Q158876","labels":{"de":"Reinickendorf","en":"Reinickendorf"}},
+        "Lichtenberg":{"uri":"https://www.wikidata.org/wiki/Q329609","labels":{"de":"Lichtenberg","en":"Lichtenberg"}},
+        "Pankow":{"uri":"https://www.wikidata.org/wiki/Q163012","labels":{"de":"Pankow","en":"Pankow"}},
+        "Tempelhof-Schöneberg":{"uri":"https://www.wikidata.org/wiki/Q158106","labels":{"de":"Tempelhof-Schöneberg","en":"Tempelhof-Schöneberg"}},
+        "Treptow-Köpenick":{"uri":"https://www.wikidata.org/wiki/Q158089","labels":{"de":"Treptow-Köpenick","en":"Treptow-Köpenick"}},
+        "Spandau":{"uri":"https://www.wikidata.org/wiki/Q158083","labels":{"de":"Spandau","en":"Spandau"}},
+        "Mitte":{"uri":"https://www.wikidata.org/wiki/Q2013767","labels":{"de":"Mitte","en":"Mitte"}}
+      }
+    },
     "standort":{"propiri":"http://www.w3.org/2004/02/skos/core#definition","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop":"data"},
     "postleitzahl":{"propiri":"http://www.w3.org/ns/locn#postCode","range":"http://www.w3.org/2001/XMLSchema#integer","prop":"data"},
     "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","proplabels":{"de":"Baujahr","en":"inception"},"range":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},

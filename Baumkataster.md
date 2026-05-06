@@ -61,6 +61,29 @@ How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata
 
 > DE: eine verholzte Pflanze, die aus einer Wurzel, einem Stamm und einer Krone besteht
 
+RESULT: Reusing the Wikidata definition [tree (Q10884)](https://www.wikidata.org/wiki/Q10884)
+
+#### Identifying instances
+
+Every instance in the dataset should be identifiable by its own URI once the RDF conversion is complete.
+To ensure the uniqueness of data identification, we need to ensure that the dataset includes a local identifier.
+To that end, the preferred way is to find an identifier in our dataset.
+Another alternative would be to generate another column with an identifier.
+
+In our dataset, we therefore look for a column in our dataset that:
+- Has unique values
+- Has an indication of being an identifier from the column description, sth. like "id", "number", a.s.o.
+- Covers every instance of the dataset
+
+In the Baumkataster case, the only column that fulfills all aforementioned criteria is "baumnummer", a unique number assigned to each tree.
+We will keep this identifier in mind and apply it in a later step.
+
+#### Treating columns with numbers
+
+The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
+Both columns include double numbers.
+
+Unfortunately, the dataset itself cannot tell us about the context of these number columns.
 
 
 

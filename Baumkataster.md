@@ -93,7 +93,11 @@ This is where the mapping to linked open data needs to contain information about
 
 Such treatments need to be done for every column including a number, since every column could potentially describe sth. in a given unit.
 
-#### Treating columns with String values
+#### Treating category String columns
+
+#### Treating unique String columns
+
+#### Treating remaining String columns
 
 
 

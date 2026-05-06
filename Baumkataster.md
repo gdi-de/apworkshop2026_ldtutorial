@@ -75,6 +75,12 @@ In our dataset, we therefore look for a column in our dataset that:
 - Has an indication of being an identifier from the column description, sth. like "id", "number", a.s.o.
 - Covers every instance of the dataset
 
+| baumnummer | 
+|---|
+| GZAW870 |  
+| GZAW883 |
+| MOBG657 | 
+
 In the Baumkataster case, the only column that fulfills all aforementioned criteria is "baumnummer", a unique number assigned to each tree.
 We will keep this identifier in mind and apply it in a later step.
 
@@ -82,6 +88,13 @@ We will keep this identifier in mind and apply it in a later step.
 
 The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
 Both columns include double numbers.
+
+
+| kronendurchmesser | stammdurchmesser |
+|---|---|
+|  12.0 | 48.0 |
+| 6.0 | 19.0 | 
+|  5.0 | 32.0 |
 
 Unfortunately, the dataset itself cannot tell us about the context of these number columns.
 
@@ -114,7 +127,6 @@ The options here are as follows:
 Choice: Use both columns for categorization
 
 To allow for categorizations, a mapping of String values to concept URIs needs to be created:
-
 | baumart  | concept | label_en | label_de |
 |---|---|---|---|
 | Quercus robur |  [Q165145](https://www.wikidata.org/wiki/Q165145) |  Quercus robur | Stieleiche |

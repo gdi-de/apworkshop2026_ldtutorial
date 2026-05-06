@@ -48,7 +48,20 @@ The Semantic Web encourages us to reuse already existing definitions for **tree*
 - They exist elsewhere in the Semantic Web already
 - The definition matches our understanding of **tree** which is valid for this dataset
 
-**What do we think a tree is in the context of this dataset?**
+**Defining a tree in the context of this dataset?**
+
+- A wooden plant with leaves? (Bushes have leaves and wood....)
+- A plant with a trunk and crown?
+
+Defining sth. in a domain of which you are not an expert is not easy.
+
+How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata.org/wiki/Q10884)
+
+> EN: perennial woody plant
+
+> DE: eine verholzte Pflanze, die aus einer Wurzel, einem Stamm und einer Krone besteht
+
+
 
 
 ### Creating a suitable Linked Data Mapping

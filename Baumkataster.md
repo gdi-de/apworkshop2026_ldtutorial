@@ -1,4 +1,4 @@
-## The Baumkataster dataset
+# The Baumkataster dataset
 
 The [Baumkataster dataset]() consists of the following data fields, which have been illustrated in the next table with some example rows:
 
@@ -22,11 +22,11 @@ A first analysis of the dataset should answer some of the following questions:
  
 This analysis can be done with a simple script that checks for uniqueness and data types. Even software like QGIS supports simple column detection.  
 
-### Examination of data fields
+## Examination of data fields
 
 Let's investigate the data fields and any other information we need for conversion in this section.
 
-#### Classification of the dataset
+### Classification of the dataset
 
 Here, we ask which semantic class to assign to the dataset.
 We follow the following guidelines:
@@ -41,7 +41,7 @@ Bad classifications include:
 - **Oaks**: Does not cover the whole dataset
 - **HamburgTrees**: Unnecessary high specificity and unnecessary mix of two different concepts in one class
 
-##### How to create a classification **tree**?
+#### How to create a classification **tree**?
 
 The Semantic Web encourages us to reuse already existing definitions for **tree** if:
 
@@ -63,7 +63,7 @@ How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata
 
 RESULT: Reusing the Wikidata definition [tree (Q10884)](https://www.wikidata.org/wiki/Q10884)
 
-#### Identifying instances
+### Identifying instances
 
 Every instance in the dataset should be identifiable by its own URI once the RDF conversion is complete.
 To ensure the uniqueness of data identification, we need to ensure that the dataset includes a local identifier.
@@ -78,7 +78,7 @@ In our dataset, we therefore look for a column in our dataset that:
 In the Baumkataster case, the only column that fulfills all aforementioned criteria is "baumnummer", a unique number assigned to each tree.
 We will keep this identifier in mind and apply it in a later step.
 
-#### Treating columns with numbers
+### Treating columns with numbers
 
 The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
 Both columns include double numbers.
@@ -93,14 +93,11 @@ This is where the mapping to linked open data needs to contain information about
 
 Such treatments need to be done for every column including a number, since every column could potentially describe sth. in a given unit.
 
-#### Treating category String columns
+### Treating category String columns
 
-#### Treating unique String columns
+### Treating unique String columns
 
-#### Treating remaining String columns
-
-
+### Treating remaining String columns
 
 
-
-### Creating a suitable Linked Data Mapping
+## Creating a suitable Linked Data Mapping

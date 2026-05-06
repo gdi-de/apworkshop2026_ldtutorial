@@ -87,11 +87,11 @@ Unfortunately, the dataset itself cannot tell us about the context of these numb
 
 While the word "Durchmesser", diameter, would suggest a form of length measurement, we have no idea which measurement unit to apply.
 
-This is where the mapping to linked open data needs to contain information about the measurement unit, which may be derived either from a dataset documentation, the dataset provider or from plausibility checks by crossreferencing other datasets of similar kinds.
+This is where the mapping to linked open data needs to include information about the measurement unit, which may be derived from dataset documentation, the dataset provider, or plausibility checks by cross-referencing other datasets of similar kinds.
 
 - How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
 
-Such treatments need to be done for every column including a number, since every column could potentially describe sth. in a given unit.
+Such treatments need to be applied to every column, including numeric ones, since each column could potentially describe sth in a given unit.
 
 ### Treating category String columns
 
@@ -100,8 +100,25 @@ Category string columns suggest some form of subcategorization.
 Important questions to consider are:
 
 - How does the subcategorization relate to the chosen dataset classification?
-  Does the column actually subclassify a tree or does it subclassify sth. else?
-- Can we relate the subclassification to a URI schema from a daata repository already existant in the Semantic Web?
+  Does the column actually subclassify a tree, or does it subclassify sth. else?
+- Can we relate the subclassification to a URI schema from a data repository already existing in the Semantic Web?
+
+In our dataset, we have two columns that fit this category: **art** and **baumart**.
+
+**art** is a broader tree categorization, **baumart** is a more scientific tree categorization based on Latin designations.
+
+The options here are as follows:
+- Treat both columns as categorizations, i.e., a tree will be classified with a broader concept and a more specific concept
+- Treat only the more specific concept as a subclassification and the other column as a categorization independent of the classification of the dataset
+
+Choice: Use both columns for categorization
+
+To allow for categorizations, a mapping of String values to concept URIs needs to be created:
+
+| baumart  | concept | label_en | label_de |
+|---|---|---|---|
+| Quercus robur |  [Q165145](https://www.wikidata.org/wiki/Q165145) |  Quercus robur | Stieleiche |
+| Salix alba | [Q156918](https://www.wikidata.org/wiki/Q156918) | white willow | Silber-Weide |
 
 ### Treating unique String columns
 

@@ -60,6 +60,6 @@
      
     }
     },
-    "standortfkt": {"prop": "data","propiri":"http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#double","order": 1}
+    "standortfkt": {"prop": "data","propiri":"http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","order": 1}
   }
 }

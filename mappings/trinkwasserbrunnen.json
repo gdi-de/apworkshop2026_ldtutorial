@@ -14,9 +14,13 @@
     "trinkbrunnenart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
         "Kaiser":{"uri":"http://gdi-de.org/brunnenart/Kaiser","labels":{"de":"Kaiser","en":"Kaiser"}},
         "Botsch":{"uri":"http://gdi-de.org/brunnenart/Botsch","labels":{"de":"Botsch","en":"Botsch"}},
-        "Bituma":{"uri":"http://gdi-de.org/brunnenart/Bituma","labels":{"de":"Bituma","en":"Bituma"}}
+        "Bituma":{"uri":"http://gdi-de.org/brunnenart/Bituma","labels":{"de":"Bituma","en":"Bituma"}},
+        "Wiener Brunnen":{"uri":"http://gdi-de.org/brunnenart/Wiener_Brunnen","labels":{"de":"Wiener Brunnen","en":"Wiener Brunnen"}},
+        "Brunnen für Jogger":{"uri":"http://gdi-de.org/brunnenart/Brunnen_fuer_Jogger","labels":{"de":"Brunnen für Jogger","en":"Brunnen für Jogger"}}
     }
     },
+    "standort":{"propiri":"http://www.w3.org/2004/02/skos/core#definition","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop":"data"},
+    "postleitzahl":{"propiri":"http://www.w3.org/ns/locn#postCode","range":"http://www.w3.org/2001/XMLSchema#integer","prop":"data"},
     "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","proplabels":{"de":"Baujahr","en":"inception"},"range":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},
     "einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote","proplabels":{"de":"Einschränkungen","en":"restrictions"},"range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1},
     "informationen": {"propiri": "http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1}

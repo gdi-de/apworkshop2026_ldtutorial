@@ -35,10 +35,28 @@
     }
     },
     "baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
-     
+     "Prunus avium":"https://www.wikidata.org/wiki/Q165137",
+     "Populus alba":"https://www.wikidata.org/wiki/Q146269",
+     "Acer platanoides":"https://www.wikidata.org/wiki/Q26745",
+     "Fraxinus excelsior":"https://www.wikidata.org/wiki/Q156907",
+     "Pyrus communis":"https://www.wikidata.org/wiki/Q146281",
+     "Tilia cordata":"https://www.wikidata.org/wiki/Q158746",
+     "Robinia pseudoacacia":"https://www.wikidata.org/wiki/Q157417", 
+     "Salix alba":"https://www.wikidata.org/wiki/Q156918",
+     "Betula pendula":"https://www.wikidata.org/wiki/Q156895",
+     "Carpinus betulus":"https://www.wikidata.org/wiki/Q158776",
+     "Acer campestre":"https://www.wikidata.org/wiki/Q158785",
+     "Acer pseudoplatanus":"https://www.wikidata.org/wiki/Q156944",
+     "Quercus robur":"https://www.wikidata.org/wiki/Q165145",
+     "Betula nigra":"https://www.wikidata.org/wiki/Q1510231",
+     "Alnus glutinosa":"https://www.wikidata.org/wiki/Q156904",
+     "Juglans regia":"https://www.wikidata.org/wiki/Q46871",
+     "Salix caprea":"https://www.wikidata.org/wiki/Q159565",
+     "Populus tremula":"https://www.wikidata.org/wiki/Q146110",
+     "Prunus padus":"https://www.wikidata.org/wiki/Q165424"
     }
     },
-    "gruenanlage": {"propiri":"http://www.wikidata.org/prop/direct/P2547","prop": "obj","order": 1,"valuemapping":{
+    "gruenanlage": {"prop": "data","order": 1,"valuemapping":{
      
     }
     },

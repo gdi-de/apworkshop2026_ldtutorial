@@ -85,6 +85,18 @@ Both columns include double numbers.
 
 Unfortunately, the dataset itself cannot tell us about the context of these number columns.
 
+While the word "Durchmesser", diameter, would suggest a form of length measurement, we have no idea which measurement unit to apply.
+
+This is where the mapping to linked open data needs to contain information about the measurement unit, which may be derived either from a dataset documentation, the dataset provider or from plausibility checks by crossreferencing other datasets of similar kinds.
+
+- How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
+
+Such treatments need to be done for every column including a number, since every column could potentially describe sth. in a given unit.
+
+#### Treating columns with String values
+
+
+
 
 
 ### Creating a suitable Linked Data Mapping

@@ -26,6 +26,33 @@ This analysis can be done with a simple script that checks for uniqueness and da
 
 Let's investigate the data fields and any other information we need for conversion in this section.
 
+### Choosing an attribute and data namespace for the dataset
+
+Before the dataset can be analyzed, we need to define two kinds of namespaces.
+
+#### Datanamespace
+
+The data namespace is used to encode dataset instances after conversion. At best, this namespace can be resolved to at least an HTML and RDF serialization of the data instances.
+Since this tutorial uses GitHub for data publication, it makes sense to use the GitHub Pages namespace of this repository for data conversion.
+In a more professional setting, the hosting organization should provide a namespace, and data instances should be resolvable.
+
+> [!NOTE]
+> We choose **https://gdi-de.github.io/apworkshop2026_ldtutorial/** as our data namespace.
+
+> [!CAUTION]
+> In practice, it might be interesting to further categorize the namespace URL e.g. https://gdi-de.github.io/apworkshop2026_ldtutorial/**environment/tree** so that datasets of similar kinds will use the same namespace prefix. We will not discuss this issue further in this tutorial
+
+#### Vocabulary namespace
+
+In an ideal setting, the vocabulary namespace is not needed. This is when every column can be mapped to an already existing vocabulary.
+In practice, this is not always the case, which means missing vocabularies need to be defined to map all columns of a dataset, hence the need for a namespace.
+
+> [!NOTE]
+> We choose **[https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#](https://gdi-de.github.io/apworkshop2026/ont#)** as our vocabulary namespace. 
+
+> [!CAUTION]
+> Publishing a vocabulary and managing an organization's vocabulary should be taken seriously. At best, people should discuss missing properties with their agency and work together to define missing vocabularies centrally or in a collaborative setting. Hosting a vocabulary in the same repository as the data it describes is usually a bad practice and is taken for this tutorial only for the sake of simplicity.
+
 ### Classification of the dataset
 
 Here, we ask which semantic class to assign to the dataset.
@@ -84,7 +111,13 @@ Another alternative would be to generate another column with an identifier.
 | MOBG657 | 
 
 In the Baumkataster case, the only column that fulfills all aforementioned criteria is "baumnummer", a unique number assigned to each tree.
-We will keep this identifier in mind and apply it in a later step.
+The identifier will be combined with the previously defined data namespace to create URIs for the instances of the dataset.
+
+```ttl
+https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
+https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW883
+https://gdi-de.github.io/apworkshop2026_ldtutorial/MOBG657
+```
 
 #### Instance labels
 
@@ -93,7 +126,7 @@ We might label a single tree merely "GZAW870", but maybe a better variant would 
 We preserve the local identifier and add a more human-readable notion of a label at the same time
 
 > [!NOTE]
-> **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English. We choose the property [rdfs:label]("http://www.w3.org/2000/01/rdf-schema#label) to designate the label because only one type of label is present.
+> **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English. We choose the property [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) to designate the label because only one type of label is present.
 
 **Resulting Mapping Definitions:**
 ```json
@@ -105,10 +138,20 @@ We preserve the local identifier and add a more human-readable notion of a label
 }
 ```
 
+**Sample Triples:**
+```ttl
+@prefix gdidedata:<ttps://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+
+gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" .
+gdidedata:GZAW883 rdfs:label "Baum GZAW883"@de, "tree GZAW883"@en" .
+gdidedata:MOBG657 rdfs:label "Baum MOBG657"@de, "tree MOBG657"@en" .
+```
+
 ### Treating columns with numbers
 
 The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
-Both columns include exclusively doubles.
+Both columns include doubles exclusively.
 
 | kronendurchmesser | stammdurchmesser |
 |---|---|
@@ -130,13 +173,13 @@ This is where the mapping to linked open data needs to include information about
 
 > [!IMPORTANT]
 > - How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
-> - Dataset context: Can we expect the measurements to use the metric system?
-> - Is our dataset historic/from archaeology with ancient measurements or does it have specific requirements on the representation of measurements as mandated by a government regulation?
+- Dataset context: Can we expect the measurements to be in the metric system?
+> - Is our dataset historic/from archaeology with ancient measurements, or does it have specific requirements on the representation of measurements as mandated by a government regulation?
 
 Such treatments need to be applied to every column, including numeric ones, since each column could potentially describe sth in a given unit.
 
 > [!NOTE]
-> **CHOICE:** We treat **kronendurchmesser** and **stammdurchmesser** as DataTypeProperties with range [xsd:double](http://www.w3.org/2001/XMLSchema#double). kronendurchmesser will be assigned the unit [om:meter](http://www.ontology-of-units-of-measure.org/resource/om-2/meter) and stammdurchmesser the unit [om:centimetre](http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter). Wikidata does not define a property for tree trunk diameter and tree crown diameter, only a diameter property [P2547](http://www.wikidata.org/prop/direct/P2547), which is not suitable for inclusion because of a lack of specificity. Two new properties therefore need to be created in a separate vocabulary.
+> **CHOICE:** We treat **kronendurchmesser** and **stammdurchmesser** as DataTypeProperties with range [xsd:double](http://www.w3.org/2001/XMLSchema#double). kronendurchmesser will be assigned the unit [om:meter](http://www.ontology-of-units-of-measure.org/resource/om-2/meter) and stammdurchmesser the unit [om:centimetre](http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter). Wikidata does not define properties for tree trunk diameter and tree crown diameter; only a diameter property [P2547](http://www.wikidata.org/prop/direct/P2547), which is not suitable for inclusion due to its lack of specificity. Two new properties, therefore, need to be created in a separate vocabulary.
 
 ```json
 "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547",
@@ -151,7 +194,11 @@ Such treatments need to be applied to every column, including numeric ones, sinc
 "unit":"http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter",
 "prop": "data"
 },
- 
+```
+
+**Sample triples:**
+```ttl
+
 ```
 
 ### Treating category String columns

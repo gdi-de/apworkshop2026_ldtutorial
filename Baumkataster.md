@@ -354,7 +354,44 @@ The geometry column can be converted using a variety of RDF vocabularies, each o
 
 However, if only WGS84 coordinates are to be encoded, GeoSPARQL is not necessarily needed.
 
+### Choosing an appropriate GeoSPARQL serialization
 
+GeoSPARQL 1.1 provides serializations of Geometries in the following formats:
+- Well-Known Text + CRS
+- GML
+- KML (only WGS84 as per format definition)
+- GeoJSON (only WGS84 as per format definition)
+- DGGS
+
+The choice of serialization will depend on the need for the representation of different CRS, on compatibility considerations with applications and/or the web and finally the needs of the use case.
+
+> [!NOTE]
+> **CHOICE:** We choose the Well-Known Text serialization for this tutorial since it is the most common serialization and supports different CRS.
+
+**Resulting Mapping Definitions:**
+```json
+...
+"epsg:"EPSG:4326",
+"geomliteral":"WKT"
+...,
+```
+
+**Sample Triples:**
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .      
+
+gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" .
+gdidedata:GZAW870 rdf:type wd:Q10884 .
+
+gdidedata:GZAW870 geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of tree GZAW870"@en, "Geometrie des Baums GZAW870"@en ;
+                       geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
+```
 
 ## The need for integration
 

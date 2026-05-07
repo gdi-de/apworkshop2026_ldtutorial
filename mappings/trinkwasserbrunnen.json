@@ -1,8 +1,8 @@
 {
   "namespace": "https://gdi-de.github.io/apworkshop2026/",
-  "attnamespace": "http://gdi-de.org/ont#",
+  "attnamespace": "https://gdi-de.github.io/apworkshop2026/ont#",
   "nsprefix":"gdide",
-  "class": {"uri": "https://www.wikidata.org/entity/Q1630622","labels": {"en": "drinking water fountain","de": "Trinkwasserbrunnen"}},
+  "class": {"uri": "http://www.wikidata.org/entity/Q1630622","labels": {"en": "drinking water fountain","de": "Trinkwasserbrunnen"}},
   "id": "nummer",
   "onlyschema":true,
   "prefixes":{ 
@@ -20,18 +20,18 @@
     }
     },
     "bezirk":{"propiri":"http://www.wikidata.org/prop/direct/P131","proplabels":{"de":"Bezirk","en":"district"},"prop":"obj","valuemapping":{
-        "Neukölln":{"uri":"https://www.wikidata.org/wiki/Q4071168","labels":{"de":"Neukölln","en":"Neukölln"}},
-        "Charlottenburg-Wilmersdorf":{"uri":"https://www.wikidata.org/wiki/Q158095","labels":{"de":"Charlottenburg-Wilmersdorf","en":"Charlottenburg-Wilmersdorf"}},
-        "Friedrichshain-Kreuzberg":{"uri":"https://www.wikidata.org/wiki/Q158893","labels":{"de":"Friedrichshain-Kreuzberg","en":"Friedrichshain-Kreuzberg"}},
-        "Steglitz-Zehlendorf":{"uri":"https://www.wikidata.org/wiki/Q158064","labels":{"de":"Steglitz-Zehlendorf","en":"Steglitz-Zehlendorf"}},
-        "Marzahn-Hellersdorf":{"uri":"https://www.wikidata.org/wiki/Q119284","labels":{"de":"Marzahn-Hellersdorf","en":"Marzahn-Hellersdorf"}},
-        "Reinickendorf":{"uri":"https://www.wikidata.org/wiki/Q158876","labels":{"de":"Reinickendorf","en":"Reinickendorf"}},
-        "Lichtenberg":{"uri":"https://www.wikidata.org/wiki/Q329609","labels":{"de":"Lichtenberg","en":"Lichtenberg"}},
-        "Pankow":{"uri":"https://www.wikidata.org/wiki/Q163012","labels":{"de":"Pankow","en":"Pankow"}},
-        "Tempelhof-Schöneberg":{"uri":"https://www.wikidata.org/wiki/Q158106","labels":{"de":"Tempelhof-Schöneberg","en":"Tempelhof-Schöneberg"}},
-        "Treptow-Köpenick":{"uri":"https://www.wikidata.org/wiki/Q158089","labels":{"de":"Treptow-Köpenick","en":"Treptow-Köpenick"}},
-        "Spandau":{"uri":"https://www.wikidata.org/wiki/Q158083","labels":{"de":"Spandau","en":"Spandau"}},
-        "Mitte":{"uri":"https://www.wikidata.org/wiki/Q2013767","labels":{"de":"Mitte","en":"Mitte"}}
+        "Neukölln":{"uri":"http://www.wikidata.org/entity/Q4071168","labels":{"de":"Neukölln","en":"Neukölln"}},
+        "Charlottenburg-Wilmersdorf":{"uri":"http://www.wikidata.org/entity/Q158095","labels":{"de":"Charlottenburg-Wilmersdorf","en":"Charlottenburg-Wilmersdorf"}},
+        "Friedrichshain-Kreuzberg":{"uri":"http://www.wikidata.org/entity/Q158893","labels":{"de":"Friedrichshain-Kreuzberg","en":"Friedrichshain-Kreuzberg"}},
+        "Steglitz-Zehlendorf":{"uri":"http://www.wikidata.org/entity/Q158064","labels":{"de":"Steglitz-Zehlendorf","en":"Steglitz-Zehlendorf"}},
+        "Marzahn-Hellersdorf":{"uri":"http://www.wikidata.org/entity/Q119284","labels":{"de":"Marzahn-Hellersdorf","en":"Marzahn-Hellersdorf"}},
+        "Reinickendorf":{"uri":"http://www.wikidata.org/entity/Q158876","labels":{"de":"Reinickendorf","en":"Reinickendorf"}},
+        "Lichtenberg":{"uri":"http://www.wikidata.org/entity/Q329609","labels":{"de":"Lichtenberg","en":"Lichtenberg"}},
+        "Pankow":{"uri":"http://www.wikidata.org/entity/Q163012","labels":{"de":"Pankow","en":"Pankow"}},
+        "Tempelhof-Schöneberg":{"uri":"http://www.wikidata.org/entity/Q158106","labels":{"de":"Tempelhof-Schöneberg","en":"Tempelhof-Schöneberg"}},
+        "Treptow-Köpenick":{"uri":"http://www.wikidata.org/entity/Q158089","labels":{"de":"Treptow-Köpenick","en":"Treptow-Köpenick"}},
+        "Spandau":{"uri":"http://www.wikidata.org/entity/Q158083","labels":{"de":"Spandau","en":"Spandau"}},
+        "Mitte":{"uri":"http://www.wikidata.org/entity/Q2013767","labels":{"de":"Mitte","en":"Mitte"}}
       }
     },
     "standort":{"propiri":"http://www.w3.org/2004/02/skos/core#definition","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop":"data"},
@@ -41,6 +41,6 @@
     "informationen": {"propiri": "http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1}
   },
   "addcolumns":{
-    "city": {"propiri": "http://www.wikidata.org/prop/direct/P131","value":"https://www.wikidata.org/entity/Q64","concept":"https://www.wikidata.org/entity/Q42744322","prop": "obj","order": 1}
+    "city": {"propiri": "http://www.wikidata.org/prop/direct/P131","value":"http://www.wikidata.org/entity/Q64","concept":"http://www.wikidata.org/entity/Q42744322","prop": "obj","order": 1}
   }
 }

@@ -1,6 +1,6 @@
 # apworkshop2026_ldtutorial
 Tutorial Linked Open Data AP Workshop 2026
- 
+  
 This tutorial showcases the conversion of two Geodata sets retrieved from German geospatial agency websites into RDF (Linked Open Data) and how to handle the resulting data in practice. 
 
 ## Use Case 1: Baumkataster Hamburg (cadastre of trees alongside a street)

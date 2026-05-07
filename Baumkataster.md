@@ -122,6 +122,12 @@ While the word "Durchmesser", diameter, would suggest a form of length measureme
 
 This is where the mapping to linked open data needs to include information about the measurement unit, which may be derived from dataset documentation, the dataset provider, or plausibility checks by cross-referencing other datasets of similar kinds.
 
+> [!CAUTION]
+> Many vocabularies compete to represent measurement units, but the most prominent of them are ordered by popularity:
+> - [QUDT (Quantities Units, Dimensions and Measurements)](https://www.qudt.org)
+> - [OM (Ontology for Units of Measurements)](http://www.ontology-of-units-of-measure.org)
+> - OGC Registry 
+
 > [!IMPORTANT]
 > - How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
 > - Dataset context: Can we expect the measurements to use the metric system?

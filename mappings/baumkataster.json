@@ -56,7 +56,7 @@
      "Prunus padus":"http://www.wikidata.org/entity/Q165424"
     }
     },
-    "gruenanlage": {"propiri":"http://www.wikidata.org/prop/direct/P3018","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","proplabels":{"de":"Grünanlage","en":"green area"},"prop": "data","order":1},
+    "gruenanlage": {"propiri":"http://www.wikidata.org/prop/direct/P3018","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","proplabels":{"de":"Grünanlage","en":"green area"},"prop": "anno","order":1},
     "standortfkt": {"prop": "data","propiri":"http://www.w3.org/2000/01/rdf-schema#comment","lang":"de","range":"http://www.w3.org/2001/XMLSchema#string","order": 1}
   }
 }

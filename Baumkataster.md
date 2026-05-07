@@ -22,15 +22,11 @@ A first analysis of the dataset should answer some of the following questions:
  
 This analysis can be done with a simple script that checks for uniqueness and data types. Even software like QGIS supports simple column detection.  
 
-## Examination of data fields
-
-Let's investigate the data fields and any other information we need for conversion in this section.
-
-### Choosing an attribute and data namespace for the dataset
+## Choosing an attribute and data namespace for the dataset
 
 Before the dataset can be analyzed, we need to define two kinds of namespaces.
 
-#### Datanamespace
+### Datanamespace
 
 The data namespace is used to encode dataset instances after conversion. At best, this namespace can be resolved to at least an HTML and RDF serialization of the data instances.
 Since this tutorial uses GitHub for data publication, it makes sense to use the GitHub Pages namespace of this repository for data conversion.
@@ -42,7 +38,7 @@ In a more professional setting, the hosting organization should provide a namesp
 > [!CAUTION]
 > In practice, it might be interesting to further categorize the namespace URL e.g. https://gdi-de.github.io/apworkshop2026_ldtutorial/**environment/tree** so that datasets of similar kinds will use the same namespace prefix. We will not discuss this issue further in this tutorial
 
-#### Vocabulary namespace
+### Vocabulary namespace
 
 In an ideal setting, the vocabulary namespace is not needed. This is when every column can be mapped to an already existing vocabulary.
 In practice, this is not always the case, which means missing vocabularies need to be defined to map all columns of a dataset, hence the need for a namespace.
@@ -53,7 +49,7 @@ In practice, this is not always the case, which means missing vocabularies need 
 > [!CAUTION]
 > Publishing a vocabulary and managing an organization's vocabulary should be taken seriously. At best, people should discuss missing properties with their agency and work together to define missing vocabularies centrally or in a collaborative setting. Hosting a vocabulary in the same repository as the data it describes is usually a bad practice and is taken for this tutorial only for the sake of simplicity.
 
-### Classification of the dataset
+## Classification of the dataset
 
 Here, we ask which semantic class to assign to the dataset.
 We follow the following guidelines:
@@ -91,7 +87,7 @@ How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata
 > [!NOTE]
 > **CHOICE:** Reusing the Wikidata definition [tree (Q10884)](https://www.wikidata.org/wiki/Q10884) including its own definition. We add a German label "Baum"@de and an English label "tree"@en
 
-### Identifying and labeling instances
+## Identifying and labeling instances
 
 Every instance in the dataset should be identifiable by its own URI once the RDF conversion is complete.
 To ensure the uniqueness of data identification, we need to ensure that the dataset includes a local identifier.
@@ -119,7 +115,7 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW883
 https://gdi-de.github.io/apworkshop2026_ldtutorial/MOBG657
 ```
 
-#### Instance labels
+### Instance labels
 
 Local identifiers also make for good components of instance labels.
 We might label a single tree merely "GZAW870", but maybe a better variant would be to name it "Baum {baumnummer}" in German and "tree {baumnummer}" in English.
@@ -148,7 +144,7 @@ gdidedata:GZAW883 rdfs:label "Baum GZAW883"@de, "tree GZAW883"@en" .
 gdidedata:MOBG657 rdfs:label "Baum MOBG657"@de, "tree MOBG657"@en" .
 ```
 
-### Treating columns with numbers
+## Treating columns with numbers
 
 The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
 Both columns include doubles exclusively.
@@ -201,7 +197,7 @@ Such treatments need to be applied to every column, including numeric ones, sinc
 
 ```
 
-### Treating category String columns
+## Treating category String columns
 
 Category string columns suggest some form of subcategorization.
 
@@ -249,11 +245,11 @@ To allow for categorizations, a mapping of String values to concept URIs needs t
 ...
 ```
 
-### Treating unique String columns
+## Treating unique String columns
 
 None of the columns of the given dataset are unique String columns, so a treatment of these columns does not apply here.
 
-### Treating remaining String columns
+## Treating remaining String columns
 
 Let's take a look at the remaining columns of this dataset.
 
@@ -291,7 +287,7 @@ The following options remain here:
 
 ```
 
-### The need for integration
+## The need for integration
 
 Depending on the use case, not all information given inside the respective dataset is important for integration.
 Guidelines for non-integration:

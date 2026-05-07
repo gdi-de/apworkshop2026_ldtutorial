@@ -46,7 +46,7 @@ Bad classifications include:
 The Semantic Web encourages us to reuse already existing definitions for **tree** if:
 
 - They exist elsewhere in the Semantic Web already
-- The definition matches our understanding of **tree** which is valid for this dataset
+- The definition matches our understanding of **tree**, which is valid for this dataset
 
 **Defining a tree in the context of this dataset?**
 
@@ -71,10 +71,11 @@ To ensure the uniqueness of data identification, we need to ensure that the data
 To that end, the preferred way is to find an identifier in our dataset.
 Another alternative would be to generate another column with an identifier.
 
-In our dataset, we therefore look for a column in our dataset that:
-- Has unique values
-- Has an indication of being an identifier from the column description, sth. like "id", "number", a.s.o.
-- Covers every instance of the dataset
+> [!IMPORTANT]
+> In our dataset, we therefore look for a column in our dataset that:
+> - Has unique values
+> - Has an indication of being an identifier from the column description, sth. like "id", "number", a.s.o.
+> - Covers every instance of the dataset
 
 | baumnummer | 
 |---|
@@ -92,7 +93,7 @@ We might label a single tree merely "GZAW870", but maybe a better variant would 
 We preserve the local identifier and add a more human-readable notion of a label at the same time
 
 > [!NOTE]
-> **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English.
+> **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English. We choose the property [rdfs:label]("http://www.w3.org/2000/01/rdf-schema#label) to designate the label because only one type of label is present.
 
 **Resulting Mapping Definitions:**
 ```json
@@ -107,8 +108,7 @@ We preserve the local identifier and add a more human-readable notion of a label
 ### Treating columns with numbers
 
 The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
-Both columns include double numbers.
-
+Both columns include exclusively doubles.
 
 | kronendurchmesser | stammdurchmesser |
 |---|---|
@@ -122,7 +122,10 @@ While the word "Durchmesser", diameter, would suggest a form of length measureme
 
 This is where the mapping to linked open data needs to include information about the measurement unit, which may be derived from dataset documentation, the dataset provider, or plausibility checks by cross-referencing other datasets of similar kinds.
 
-- How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
+> [!IMPORTANT]
+> - How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
+> - Dataset context: Can we expect the measurements to use the metric system?
+> - Is our dataset historic/from archaeology with ancient measurements or does it have specific requirements on the representation of measurements as mandated by a government regulation?
 
 Such treatments need to be applied to every column, including numeric ones, since each column could potentially describe sth in a given unit.
 
@@ -149,11 +152,11 @@ Such treatments need to be applied to every column, including numeric ones, sinc
 
 Category string columns suggest some form of subcategorization.
 
-Important questions to consider are:
-
-- How does the subcategorization relate to the chosen dataset classification?
-  Does the column actually subclassify a tree, or does it subclassify sth. else?
-- Can we relate the subclassification to a URI schema from a data repository already existing in the Semantic Web?
+> [!IMPORTANT]
+>Questions to consider are:
+> - How does the subcategorization relate to the chosen dataset classification?
+> - Does the column actually subclassify a tree, or does it subclassify sth. else?
+> - Can we relate the subclassification to a URI schema from a data repository already existing in the Semantic Web?
 
 In our dataset, we have two columns that fit this category: **art** and **baumart**.
 
@@ -163,18 +166,39 @@ The options here are as follows:
 - Treat both columns as categorizations, i.e., a tree will be classified with a broader concept and a more specific concept
 - Treat only the more specific concept as a subclassification and the other column as a categorization independent of the classification of the dataset
 
-> [!NOTE]
-> **CHOICE:** We use both columns for categorization.
-
 To allow for categorizations, a mapping of String values to concept URIs needs to be created:
 | baumart  | concept | label_en | label_de |
 |---|---|---|---|
 | Quercus robur |  [Q165145](https://www.wikidata.org/wiki/Q165145) |  Quercus robur | Stieleiche |
 | Salix alba | [Q156918](https://www.wikidata.org/wiki/Q156918) | white willow | Silber-Weide |
 
+> [!NOTE]
+> **CHOICE:** We create a mapping of column values to Wikidata concepts, which allows the unique description of the semantics of the respective column's contents. The concepts are related to the instance using the [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) property. Each concept also becomes a subclass of the class(es) chosen as the classification of the dataset, as signified with the [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf) property. We define German and English labels per mapped concept. German labels are taken from the dataset itself, English labels are additionally defined.
+
+**Resulting Mapping Definitions:**
+```json
+...
+"art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
+    "Amberbaum":"https://www.wikidata.org/wiki/Q469652",
+    "Amerikanischer Amberbaum":"https://www.wikidata.org/wiki/Q469652",
+    "Eberesche":{"uri":"https://www.wikidata.org/wiki/Q146198","labels":{"en":"rowan","de":"Eberesche"}},
+    "Eiche":{"uri":"https://www.wikidata.org/wiki/Q12004","labels":{"en":"oak","de":"Eiche"}},
+    ...
+  }
+},
+"baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","valuemapping":{
+ "Prunus avium":"https://www.wikidata.org/wiki/Q165137",
+ "Populus alba":"https://www.wikidata.org/wiki/Q146269",
+ "Acer platanoides":"https://www.wikidata.org/wiki/Q26745",
+  ....
+ }
+},
+...
+```
+
 ### Treating unique String columns
 
-None of the columns of the given dataset are unique String columns, so that a treatment of these columns does not apply here.
+None of the columns of the given dataset are unique String columns, so a treatment of these columns does not apply here.
 
 ### Treating remaining String columns
 
@@ -196,11 +220,22 @@ The following options remain here:
 - Treat the respective columns as comments. This would depend on an assessment of the need for integration
 
 > [!NOTE]
-> **CHOICE:** For the sake of simplicity in this example, we treat standortfkt as a comment.
+> **CHOICE:** For the sake of simplicity in this example, we treat standortfkt as a German comment and gruenanlage as a German [xsd:string](http://www.w3.org/2001/XMLSchema#string). We choose the Wikidata Property [P3018](http://www.wikidata.org/prop/direct/P3018) which describes a protected area as the identifier for the green area described by **gruenanlage**
 
 **Resulting Mapping Definitions:**
 ```json
-"standortfkt": {"prop": "data","propiri":"http://www.w3.org/2000/01/rdf-schema#comment","range":"http://www.w3.org/2001/XMLSchema#string","order": 1}
+"gruenanlage": {
+"propiri":"http://www.wikidata.org/prop/direct/P3018",
+"range":"http://www.w3.org/2001/XMLSchema#string",
+"lang":"de",
+"proplabels":{"de":"Grünanlage","en":"green area"},
+"prop": "data"},
+"standortfkt": {"prop": "data","propiri":"http://www.w3.org/2000/01/rdf-schema#comment","lang":"de","range":"http://www.w3.org/2001/XMLSchema#string"}
+```
+
+**Resulting Sample Triple Representation**:
+```ttl
+
 ```
 
 ### The need for integration

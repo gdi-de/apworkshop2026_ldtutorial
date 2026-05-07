@@ -340,6 +340,22 @@ The following options remain here:
 
 ```
 
+## Treating the Geometry
+
+The geometry column can be converted using a variety of RDF vocabularies, each of which have different focal points.
+
+[Annex E](https://opengeospatial.github.io/ogc-geosparql/geosparql11/document.html#_8ebafca6-d4a4-aefa-9338-3a691278375e) of the GeoSPARQL 1.1 specification lists 16 different vocabularies besides GeoSPARQL which have been used to encode Geometries in RDF.
+
+> [!IMPORTANT]
+> We will focus on GeoSPARQL 1.1 integration here for the following reasons:
+> - GeoSPARQL 1.1 is an official OGC standard
+> - GeoSPARQL 1.1 is the only RDF standard to support different CRS systems
+> - GeoSPARQL 1.1 supports all geometry types available in the GML and (Extended) Well-Known Text Specifications
+
+However, if only WGS84 coordinates are to be encoded, GeoSPARQL is not necessarily needed.
+
+
+
 ## The need for integration
 
 Depending on the use case, not all information given inside the respective dataset is important for integration.

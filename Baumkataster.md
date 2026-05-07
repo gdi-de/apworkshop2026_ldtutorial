@@ -122,7 +122,7 @@ Another alternative would be to generate another column with an identifier.
 | GZAW883 |
 | MOBG657 | 
 
-In the Baumkataster case, the only column that fulfills all aforementioned criteria is "baumnummer", a unique number assigned to each tree.
+In the Baumkataster case, the only column that fulfills all aforementioned criteria is **baumnummer**, a unique number assigned to each tree.
 The identifier will be combined with the previously defined data namespace to create URIs for the instances of the dataset.
 
 ```ttl
@@ -322,7 +322,7 @@ The following options remain here:
 - Treat the respective columns as comments. This would depend on an assessment of the need for integration
 
 > [!NOTE]
-> **CHOICE:** For the sake of simplicity in this example, we treat standortfkt as a German comment and gruenanlage as a German [xsd:string](http://www.w3.org/2001/XMLSchema#string). We choose the Wikidata Property [P3018](http://www.wikidata.org/prop/direct/P3018) which describes a protected area as the identifier for the green area described by **gruenanlage**
+> **CHOICE:** For the sake of simplicity in this example, we treat **standortfkt** as a German comment and **gruenanlage** as a German [xsd:string](http://www.w3.org/2001/XMLSchema#string). We choose the Wikidata Property [P3018](http://www.wikidata.org/prop/direct/P3018) which describes a protected area as the identifier for the green area described by **gruenanlage**
 
 **Resulting Mapping Definitions:**
 ```json

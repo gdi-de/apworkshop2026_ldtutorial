@@ -87,6 +87,22 @@ How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata
 > [!NOTE]
 > **CHOICE:** Reusing the Wikidata definition [tree (Q10884)](https://www.wikidata.org/wiki/Q10884) including its own definition. We add a German label "Baum"@de and an English label "tree"@en
 
+**Resulting Mapping Definitions:**
+```json
+...
+"class": {"uri": "https://www.wikidata.org/entity/Q10884","labels": {"en": "tree","de": "Baum"}},
+...
+```
+
+**Sample Triples:**
+```ttl
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#label> .
+
+wd:Q10884 rdfs:label "tree"@en, "Baum"@de .
+```
+
+
 ## Identifying and labeling instances
 
 Every instance in the dataset should be identifiable by its own URI once the RDF conversion is complete.
@@ -194,7 +210,24 @@ Such treatments need to be applied to every column, including numeric ones, sinc
 
 **Sample triples:**
 ```ttl
+@prefix gdidedata:<ttps://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix gdideont:<ttps://gdi-de.github.io/apworkshop2026_ldtutorial/ont#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
 
+gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" .
+gdidedata:GZAW870 gdideont:kronendurchmesser gdidedata:GZAW870_kronendurchmesser .
+                  gdideont:stammdurchmesser gdidedata:GZAW870_stammdurchmesser .
+gdidedata:GZAW870_kronendurchmesser rdf:type om:Measure ;
+                                    rdfs:label "Measurement of Kronendurchmesser of tree GZAW870"@en, "Kronendurchmesser von Baum GZAW870"@de ;
+                                    om:hasUnit om:meter ;
+                                    om:hasValue "12.0"^^xsd:double .
+gdidedata:GZAW870_stammdurchmesser rdf:type om:Measure ;
+                                    rdfs:label "Measurement of Stammdurchmesser of tree GZAW870"@en, "Stammdurchmesser von Baum GZAW870"@de ;
+                                    om:hasUnit om:centimeter ;
+                                    om:hasValue "48.0"^^xsd:double .    
 ```
 
 ## Treating category String columns

@@ -348,6 +348,10 @@ Guidelines for non-integration:
 - Is the dataset integrated for a specific purpose, and some information is irrelevant?
 - 
 
+## Adding additional non-existent information
 
+### Licensing
+
+### Dataset metadata
 
 ## Creating a suitable Linked Data Mapping

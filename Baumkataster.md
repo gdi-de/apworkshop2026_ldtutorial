@@ -111,7 +111,7 @@ To that end, the preferred way is to find an identifier in our dataset.
 Another alternative would be to generate another column with an identifier.
 
 > [!IMPORTANT]
-> In our dataset, we therefore look for a column in our dataset that:
+> In our dataset, we therefore look for a column that:
 > - Has unique values
 > - Has an indication of being an identifier from the column description, sth. like "id", "number", a.s.o.
 > - Covers every instance of the dataset

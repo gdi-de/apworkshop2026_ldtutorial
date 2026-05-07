@@ -78,14 +78,14 @@ The Semantic Web encourages us to reuse already existing definitions for **tree*
 
 Defining sth. in a domain of which you are not an expert is not easy.
 
-How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata.org/wiki/Q10884)
+How about reusing a definition of Wikidata? [tree (Q10884)](https://www.wikidata.org/entity/Q10884)
 
 > EN: perennial woody plant
 
 > DE: eine verholzte Pflanze, die aus einer Wurzel, einem Stamm und einer Krone besteht
 
 > [!NOTE]
-> **CHOICE:** Reusing the Wikidata definition [tree (Q10884)](https://www.wikidata.org/wiki/Q10884) including its own definition. We add a German label "Baum"@de and an English label "tree"@en
+> **CHOICE:** Reusing the Wikidata definition [tree (Q10884)](https://www.wikidata.org/entity/Q10884) including its own definition. We add a German label "Baum"@de and an English label "tree"@en
 
 **Resulting Mapping Definitions:**
 ```json
@@ -210,9 +210,9 @@ Such treatments need to be applied to every column, including numeric ones, sinc
 
 **Sample triples:**
 ```ttl
-@prefix gdidedata:<ttps://gdi-de.github.io/apworkshop2026_ldtutorial/> .
-@prefix gdideont:<ttps://gdi-de.github.io/apworkshop2026_ldtutorial/ont#> .
-@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix gdideont: <https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
@@ -251,8 +251,8 @@ The options here are as follows:
 To allow for categorizations, a mapping of String values to concept URIs needs to be created:
 | baumart  | concept | label_en | label_de |
 |---|---|---|---|
-| Quercus robur |  [Q165145](https://www.wikidata.org/wiki/Q165145) |  Quercus robur | Stieleiche |
-| Salix alba | [Q156918](https://www.wikidata.org/wiki/Q156918) | white willow | Silber-Weide |
+| Quercus robur |  [Q165145](https://www.wikidata.org/entity/Q165145) |  Quercus robur | Stieleiche |
+| Salix alba | [Q156918](https://www.wikidata.org/entity/Q156918) | white willow | Silber-Weide |
 
 > [!NOTE]
 > **CHOICE:** We create a mapping of column values to Wikidata concepts, which allows the unique description of the semantics of the respective column's contents. The concepts are related to the instance using the [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) property. Each concept also becomes a subclass of the class(es) chosen as the classification of the dataset, as signified with the [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf) property. We define German and English labels per mapped concept. German labels are taken from the dataset itself, English labels are additionally defined.
@@ -261,21 +261,41 @@ To allow for categorizations, a mapping of String values to concept URIs needs t
 ```json
 ...
 "art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
-    "Amberbaum":"https://www.wikidata.org/wiki/Q469652",
-    "Amerikanischer Amberbaum":"https://www.wikidata.org/wiki/Q469652",
-    "Eberesche":{"uri":"https://www.wikidata.org/wiki/Q146198","labels":{"en":"rowan","de":"Eberesche"}},
-    "Eiche":{"uri":"https://www.wikidata.org/wiki/Q12004","labels":{"en":"oak","de":"Eiche"}},
+    "Amberbaum":"https://www.wikidata.org/entity/Q469652",
+    "Amerikanischer Amberbaum":"https://www.wikidata.org/entity/Q469652",
+    "Eberesche":{"uri":"https://www.wikidata.org/entity/Q146198","labels":{"en":"rowan","de":"Eberesche"}},
+    "Eiche":{"uri":"https://www.wikidata.org/entity/Q12004","labels":{"en":"oak","de":"Eiche"}},
     ...
   }
 },
 "baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","valuemapping":{
- "Prunus avium":"https://www.wikidata.org/wiki/Q165137",
- "Populus alba":"https://www.wikidata.org/wiki/Q146269",
- "Acer platanoides":"https://www.wikidata.org/wiki/Q26745",
+ "Prunus avium":"https://www.wikidata.org/entity/Q165137",
+ "Populus alba":"https://www.wikidata.org/entity/Q146269",
+ "Acer platanoides":"https://www.wikidata.org/entity/Q26745",
   ....
  }
 },
 ...
+```
+
+**Sample triples:**
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+#Inclusion of Wikidata type for Quercus rubur: Stieleiche as subclass of tree
+wd:Q166145 rdfs:subClassOf  wd:Q10884 ;
+           rdfs:label "Quercus robur"@en, "Stieleiche"@de .          
+
+# Classification of tree
+gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" .
+gdidedata:GZAW870 rdf:type wd:Q10884 .
+
+# Typing tree instance as Quercus rubur
+gdidedata:GZAW870 rdf:type wd:Q166145 .
+
 ```
 
 ## Treating unique String columns

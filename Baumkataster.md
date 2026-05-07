@@ -64,7 +64,7 @@ Bad classifications include:
 - **Oaks**: Does not cover the whole dataset
 - **HamburgTrees**: Unnecessary high specificity and unnecessary mix of two different concepts in one class
 
-#### How to create a classification **tree**?
+#### How to create a classification for the concept **tree**?
 
 The Semantic Web encourages us to reuse already existing definitions for **tree** if:
 

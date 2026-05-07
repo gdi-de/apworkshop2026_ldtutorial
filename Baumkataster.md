@@ -136,7 +136,7 @@ This is where the mapping to linked open data needs to include information about
 Such treatments need to be applied to every column, including numeric ones, since each column could potentially describe sth in a given unit.
 
 > [!NOTE]
-> **CHOICE:** We treat kronendurchmesser and stammdurchmesser as DataTypeProperties with range [xsd:double](http://www.w3.org/2001/XMLSchema#double). kronendurchmesser will be assigned the unit [om:meter](http://www.ontology-of-units-of-measure.org/resource/om-2/meter) and stammdurchmesser the unit [om:centimetre](http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter) .
+> **CHOICE:** We treat **kronendurchmesser** and **stammdurchmesser** as DataTypeProperties with range [xsd:double](http://www.w3.org/2001/XMLSchema#double). kronendurchmesser will be assigned the unit [om:meter](http://www.ontology-of-units-of-measure.org/resource/om-2/meter) and stammdurchmesser the unit [om:centimetre](http://www.ontology-of-units-of-measure.org/resource/om-2/centimeter). Wikidata does not define a property for tree trunk diameter and tree crown diameter, only a diameter property [P2547](http://www.wikidata.org/prop/direct/P2547), which is not suitable for inclusion because of a lack of specificity. Two new properties therefore need to be created in a separate vocabulary.
 
 ```json
 "kronendurchmesser": {"propiri": "http://www.wikidata.org/prop/direct/P2547",

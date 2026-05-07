@@ -185,7 +185,7 @@ This is where the mapping to linked open data needs to include information about
 
 > [!IMPORTANT]
 > - How are tree trunk diameters usually measured? Does it make sense to have a tree trunk diameter unit of km?
-- Dataset context: Can we expect the measurements to be in the metric system?
+> - Dataset context: Can we expect the measurements to be in the metric system?
 > - Is our dataset historic/from archaeology with ancient measurements, or does it have specific requirements on the representation of measurements as mandated by a government regulation?
 
 Such treatments need to be applied to every column, including numeric ones, since each column could potentially describe sth in a given unit.

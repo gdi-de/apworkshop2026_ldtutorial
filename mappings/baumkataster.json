@@ -5,7 +5,7 @@
   "class": {"uri": "https://gdi-de.github.io/apworkshop2026/ont#Tree","labels": {"en": "tree","de": "Baum"}},
   "id": "baumnummer",
   "onlyschema":true,
-  "prefixes":{
+  "prefixes":{ 
     "bibo":"http://purl.org/ontology/bibo/",
     "wdt":"http://www.wikidata.org/prop/direct/"
   },

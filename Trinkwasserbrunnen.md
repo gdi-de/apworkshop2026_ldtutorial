@@ -120,3 +120,171 @@ gdidedata:1 rdfs:label "Brunnen 1"@de, "water fountain 1"@en" .
 gdidedata:22 rdfs:label "Brunnen 22"@de, "water fountain 22"@en" .
 gdidedata:116 rdfs:label "Brunnen 116"@de, "water fountain 116"@en" .
 ```
+
+uestions to consider are:
+> - How does the subcategorization relate to the chosen dataset classification?
+> - Does the column actually subclassify a tree, or does it subclassify sth. else?
+> - Can we relate the subclassification to a URI schema from a data repository already existing in the Semantic Web?
+
+In our dataset, we have two columns that fit this category: **art** and **baumart**.
+
+**art** is a broader tree categorization, **baumart** is a more scientific tree categorization based on Latin designations.
+
+The options here are as follows:
+- Treat both columns as categorizations, i.e., a tree will be classified with a broader concept and a more specific concept
+- Treat only the more specific concept as a subclassification and the other column as a categorization independent of the classification of the dataset
+
+To allow for categorizations, a mapping of String values to concept URIs needs to be created:
+| baumart  | concept | label_en | label_de |
+|---|---|---|---|
+| Quercus robur |  [Q165145](https://www.wikidata.org/entity/Q165145) |  Quercus robur | Stieleiche |
+| Salix alba | [Q156918](https://www.wikidata.org/entity/Q156918) | white willow | Silber-Weide |
+
+> [!NOTE]
+> **CHOICE:** We create a mapping of column values to Wikidata concepts, which allows the unique description of the semantics of the respective column's contents. The concepts are related to the instance using the [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) property. Each concept also becomes a subclass of the class(es) chosen as the classification of the dataset, as signified with the [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf) property. We define German and English labels per mapped concept. German labels are taken from the dataset itself, English labels are additionally defined.
+
+**Resulting Mapping Definitions:**
+```json
+...
+"art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
+    "Amberbaum":"https://www.wikidata.org/entity/Q469652",
+    "Amerikanischer Amberbaum":"https://www.wikidata.org/entity/Q469652",
+    "Eberesche":{"uri":"https://www.wikidata.org/entity/Q146198","labels":{"en":"rowan","de":"Eberesche"}},
+    "Eiche":{"uri":"https://www.wikidata.org/entity/Q12004","labels":{"en":"oak","de":"Eiche"}},
+    ...
+  }
+},
+"baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","valuemapping":{
+ "Prunus avium":"https://www.wikidata.org/entity/Q165137",
+ "Populus alba":"https://www.wikidata.org/entity/Q146269",
+ "Acer platanoides":"https://www.wikidata.org/entity/Q26745",
+  ....
+ }
+},
+...
+```
+
+**Sample triples:**
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+#Inclusion of Wikidata type for Quercus rubur: Stieleiche as subclass of tree
+wd:Q166145 rdfs:subClassOf  wd:Q10884 ;
+           rdfs:label "Quercus robur"@en, "Stieleiche"@de .          
+
+# Classification of tree
+gdidedata:1 rdfs:label "Brunnen 1"@de, "water fountain 1"@en" .
+gdidedata:1 rdf:type wd:Q10884 .
+
+# Typing tree instance as Quercus rubur
+gdidedata:1 rdf:type wd:Q166145 .
+
+```
+
+## Treating columns with numbers
+
+The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
+Both columns include doubles exclusively.
+
+| postleitzahl | baujahr |
+|---|---|
+| 12349 | 1985 |
+| 10719 | 2010 | 
+| 12101 | 2019 |
+
+The dataset itself cannot tell us anything about the context of these numbers in a machine-readable way.
+However, we can analyze, from the column title, that a German zip code (**postleitzahl**) and a year designation is represented.
+
+This clarifies two important things:
+
+- Due to that fact that a German zip code is modeled in column **postleitzahl** we can infer an [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) datatype of 5 digits length. Since we know that the semantics of the column is a zip code, we know that no unit needs to be assigned to values of this column. The column represents a postal identifier which happens to look like a quantity.
+- Since we know that the **baujahr** column represents year, we can use the datatype [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) is applicable for this column. Due to the usage of the type [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) no other unit designation is needed.
+
+
+> [!NOTE]
+> **CHOICE:** Due to context knowledge we treat **postleitzahl** and **baujahr** as DataTypeProperties with range [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) and [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) respectively.
+> We choose the IRI [locn:zipCode](http://www.w3.org/ns/locn#postCode) to describe the **postleitzahl** relation and [wd:P571 (inception)](https://www.wikidata.org/prop/direct/P571) to described the **baujahr** column. We keep the German labels for both columns in the graph.
+
+```json
+"postleitzahl":{"propiri":"http://www.w3.org/ns/locn#postCode",
+"range":"http://www.w3.org/2001/XMLSchema#integer",
+"prop":"data"},
+
+"baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571",
+"proplabels":{"de":"Baujahr","en":"inception"},
+"range":"http://www.w3.org/2001/XMLSchema#gYear",
+"prop": "data"
+},
+
+```
+
+**Sample triples:**
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix gdideont: <https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountrain 1"@en" .
+gdidedata:1 locn:postCode "12349"^^xsd:integer .
+gdidedata:1 wdt:P571 "1985"^^xsd:gYear .   
+```
+
+## Treating the Geometry
+
+The geometry column can be converted using a variety of RDF vocabularies, each of which have different focal points.
+
+[Annex E](https://opengeospatial.github.io/ogc-geosparql/geosparql11/document.html#_8ebafca6-d4a4-aefa-9338-3a691278375e) of the GeoSPARQL 1.1 specification lists 16 different vocabularies besides GeoSPARQL which have been used to encode Geometries in RDF.
+
+> [!IMPORTANT]
+> We will focus on GeoSPARQL 1.1 integration here for the following reasons:
+> - GeoSPARQL 1.1 is an official OGC standard
+> - GeoSPARQL 1.1 is the only RDF standard to support different CRS systems
+> - GeoSPARQL 1.1 supports all geometry types available in the GML and (Extended) Well-Known Text Specifications
+
+However, if only WGS84 coordinates are to be encoded, GeoSPARQL is not necessarily needed.
+
+### Choosing an appropriate GeoSPARQL serialization
+
+GeoSPARQL 1.1 provides serializations of Geometries in the following formats:
+- Well-Known Text + CRS
+- GML
+- KML (only WGS84 as per format definition)
+- GeoJSON (only WGS84 as per format definition)
+- DGGS
+
+The choice of serialization will depend on the need for the representation of different CRS, on compatibility considerations with applications and/or the web and finally the needs of the use case.
+
+> [!NOTE]
+> **CHOICE:** We choose the Well-Known Text serialization for this tutorial since it is the most common serialization and supports different CRS.
+
+**Resulting Mapping Definitions:**
+```json
+...
+"epsg:"EPSG:4326",
+"geomliteral":"WKT"
+...,
+```
+
+**Sample Triples:**
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .      
+
+gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountain 1"@en" .
+gdidedata:1 geo:hasGeometry gdidedata:1_geom .
+
+gdidedata:1_geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of tree GZAW870"@en, "Geometrie des Baums GZAW870"@en ;
+                       geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
+```

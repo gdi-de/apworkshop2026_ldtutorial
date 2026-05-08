@@ -386,9 +386,10 @@ The choice of serialization will depend on the need for the representation of di
 @prefix sf: <http://www.opengis.net/ont/sf#> .      
 
 gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" .
-gdidedata:GZAW870 rdf:type wd:Q10884 .
+gdidedata:GZAW870 rdf:type wd:Q10884 ;
+                  geo:hasGeometry gdidedata:GZAW870_geom .
 
-gdidedata:GZAW870 geom rdf:type sf:Point ;
+gdidedata:GZAW870_geom rdf:type sf:Point ;
                        rdfs:label "Geometry of tree GZAW870"@en, "Geometrie des Baums GZAW870"@en ;
                        geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
 ```

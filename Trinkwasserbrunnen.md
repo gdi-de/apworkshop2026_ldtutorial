@@ -121,69 +121,6 @@ gdidedata:22 rdfs:label "Brunnen 22"@de, "water fountain 22"@en" .
 gdidedata:116 rdfs:label "Brunnen 116"@de, "water fountain 116"@en" .
 ```
 
-uestions to consider are:
-> - How does the subcategorization relate to the chosen dataset classification?
-> - Does the column actually subclassify a tree, or does it subclassify sth. else?
-> - Can we relate the subclassification to a URI schema from a data repository already existing in the Semantic Web?
-
-In our dataset, we have two columns that fit this category: **art** and **baumart**.
-
-**art** is a broader tree categorization, **baumart** is a more scientific tree categorization based on Latin designations.
-
-The options here are as follows:
-- Treat both columns as categorizations, i.e., a tree will be classified with a broader concept and a more specific concept
-- Treat only the more specific concept as a subclassification and the other column as a categorization independent of the classification of the dataset
-
-To allow for categorizations, a mapping of String values to concept URIs needs to be created:
-| baumart  | concept | label_en | label_de |
-|---|---|---|---|
-| Quercus robur |  [Q165145](https://www.wikidata.org/entity/Q165145) |  Quercus robur | Stieleiche |
-| Salix alba | [Q156918](https://www.wikidata.org/entity/Q156918) | white willow | Silber-Weide |
-
-> [!NOTE]
-> **CHOICE:** We create a mapping of column values to Wikidata concepts, which allows the unique description of the semantics of the respective column's contents. The concepts are related to the instance using the [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) property. Each concept also becomes a subclass of the class(es) chosen as the classification of the dataset, as signified with the [rdfs:subClassOf](http://www.w3.org/2000/01/rdf-schema#subClassOf) property. We define German and English labels per mapped concept. German labels are taken from the dataset itself, English labels are additionally defined.
-
-**Resulting Mapping Definitions:**
-```json
-...
-"art": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","order": 1,"valuemapping":{
-    "Amberbaum":"https://www.wikidata.org/entity/Q469652",
-    "Amerikanischer Amberbaum":"https://www.wikidata.org/entity/Q469652",
-    "Eberesche":{"uri":"https://www.wikidata.org/entity/Q146198","labels":{"en":"rowan","de":"Eberesche"}},
-    "Eiche":{"uri":"https://www.wikidata.org/entity/Q12004","labels":{"en":"oak","de":"Eiche"}},
-    ...
-  }
-},
-"baumart": {"propiri": "http://www.w3.org/2000/01/rdf-schema#subClassOf","prop": "subclass","valuemapping":{
- "Prunus avium":"https://www.wikidata.org/entity/Q165137",
- "Populus alba":"https://www.wikidata.org/entity/Q146269",
- "Acer platanoides":"https://www.wikidata.org/entity/Q26745",
-  ....
- }
-},
-...
-```
-
-**Sample triples:**
-```ttl
-@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix wd: <http://www.wikidata.org/entity/>
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
-#Inclusion of Wikidata type for Quercus rubur: Stieleiche as subclass of tree
-wd:Q166145 rdfs:subClassOf  wd:Q10884 ;
-           rdfs:label "Quercus robur"@en, "Stieleiche"@de .          
-
-# Classification of tree
-gdidedata:1 rdfs:label "Brunnen 1"@de, "water fountain 1"@en" .
-gdidedata:1 rdf:type wd:Q10884 .
-
-# Typing tree instance as Quercus rubur
-gdidedata:1 rdf:type wd:Q166145 .
-
-```
-
 ## Treating columns with numbers
 
 The Baumkataster dataset contains two columns whose values are exclusively numbers: **kronendurchmesser** and **stammdurchmesser**.
@@ -231,9 +168,61 @@ This clarifies two important things:
 @prefix locn: <http://www.w3.org/ns/locn#> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 
-gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountrain 1"@en" .
+gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountain 1"@en" .
 gdidedata:1 locn:postCode "12349"^^xsd:integer .
 gdidedata:1 wdt:P571 "1985"^^xsd:gYear .   
+```
+
+## Treating remaining String columns
+
+Let's take a look at the remaining columns of this dataset.
+
+| standort | einschraenkungen | informationen |
+|---|---|---|
+| Sangerhauser Weg/ Haselnussweg (am Britzer Garten nahe Rosengarten) | zur Zeit wegen Reparatur außer Betrieb | Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php |
+| Joachimsthaler Platz (nahe U-Bahnhof Kurfürstendamm) |  | Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php |
+| Tempelhofer Feld (in der Nähe vom Eingang Südwest -Tempelhofer Damm) | | Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php |  
+
+The **standort** column provides a narrative description of the position of the drinking fountain which is often not precise enough to geocode.
+The **einschraenkungen** column describes possible access restrictions of the drinking fountain.
+The **informationen** column seems to provide additional information about the drinking fountain. Looking at its contents, it mostly provides the operation times of the drinking fountain. So one might think that the column is mislabeled.
+
+
+> [!NOTE]
+> **CHOICE:** We treat **standort** as a [xsd:string](http://www.w3.org/2001/XMLSchema#string) property with a German label and interpret it as a [skos:definition](http://www.w3.org/2004/02/skos/core#definition) since it defines in which situation the drinking fountain is located. 
+> We treat **einschraenkungen** in the same way, i.e. [xsd:string](http://www.w3.org/2001/XMLSchema#string) property with a German label , but interpret it as a [skos:scopeNote](http://www.w3.org/2004/02/skos/core#scopeNote), defining the scope of usage for the drinking fountain.
+> We treat **informationen** by taking its column description literally, despite the contents describing access times only. Hence, we use the [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment) property to declare its contents additional information in German.
+
+
+**Resulting Mapping Definitions:**
+```json
+"standort":{"propiri":"http://www.w3.org/2004/02/skos/core#definition",
+"range":"http://www.w3.org/2001/XMLSchema#string",
+"lang":"de","prop":"data"},
+"einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote",
+"proplabels":{"de":"Einschränkungen","en":"restrictions"},
+"range":"http://www.w3.org/2001/XMLSchema#string",
+"lang":"de",
+"prop": "data"},
+"informationen": {
+"propiri": "http://www.w3.org/2000/01/rdf-schema#comment",
+"range":"http://www.w3.org/2001/XMLSchema#string",
+"lang":"de",
+"prop": "data"}
+```
+
+**Resulting Sample Triple Representation**:
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountain 1"@en" .
+gdidedata:1 skos:definition "Sangerhauser Weg/ Haselnussweg (am Britzer Garten nahe Rosengarten)"@de .
+            skos:scopeNote "zur Zeit wegen Reparatur außer Betrieb"@de .
+            rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php"@de .
 ```
 
 ## Treating the Geometry

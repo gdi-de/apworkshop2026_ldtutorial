@@ -337,7 +337,15 @@ The following options remain here:
 
 **Resulting Sample Triple Representation**:
 ```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" .
+gdidedata:GZAW870 rdf:type wd:Q10884 .
+gdidedata:GZAW870 rdfs:comment "sonst. öff. Flächen"@de" .
+gdidedata:GZAW870 wdt:P3018 "Grünzug Altenwerder"@de .
 ```
 
 ## Treating the Geometry

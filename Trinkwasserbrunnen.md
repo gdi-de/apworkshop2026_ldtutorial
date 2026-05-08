@@ -206,7 +206,7 @@ This clarifies two important things:
 
 > [!NOTE]
 > **CHOICE:** Due to context knowledge we treat **postleitzahl** and **baujahr** as DataTypeProperties with range [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) and [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) respectively.
-> We choose the IRI [locn:zipCode](http://www.w3.org/ns/locn#postCode) to describe the **postleitzahl** relation and [wd:P571 (inception)](https://www.wikidata.org/prop/direct/P571) to described the **baujahr** column. We keep the German labels for both columns in the graph.
+> We choose the IRI [locn:zipCode](http://www.w3.org/ns/locn#postCode) to describe the **postleitzahl** relation and [wdt:P571 (inception)](https://www.wikidata.org/prop/direct/P571) to described the **baujahr** column. We keep the German labels for both columns in the graph.
 
 ```json
 "postleitzahl":{"propiri":"http://www.w3.org/ns/locn#postCode",
@@ -285,6 +285,6 @@ gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountain 1"@en" .
 gdidedata:1 geo:hasGeometry gdidedata:1_geom .
 
 gdidedata:1_geom rdf:type sf:Point ;
-                       rdfs:label "Geometry of tree GZAW870"@en, "Geometrie des Baums GZAW870"@en ;
-                       geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
+                       rdfs:label "Geometry of drinking fountain 1"@en, "Geometrie des Brunnens 1"@en ;
+                       geo:asWKT "POINT(13.415048, 52.431351036930394)"^^geo:wktLiteral .
 ```

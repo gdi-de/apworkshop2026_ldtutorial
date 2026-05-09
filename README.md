@@ -33,6 +33,8 @@ For these terms, a new vocabulary definition needs to be created.
 > - [owl:DataTypeProperty](http://www.w3.org/2002/07/owl#DataTypeProperty), [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty) or [owl:AnnotationProperty](http://www.w3.org/2002/07/owl#AnnotationProperty) instances with at least one label and one definition
 > - Constraints on the aforementioned instances using [OWL](https://www.w3.org/TR/owl-features/) restrictions or [SHACL](https://www.w3.org/TR/shacl/) shapes
 
+Generally, all published vocabularies should adhere to the [Best Practices for Implementing FAIR
+Vocabularies and Ontologies on the Web](https://dgarijo.com/papers/best_practices2020.pdf)
 
 ## Publishing Linked Open Data
 

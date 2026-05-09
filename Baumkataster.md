@@ -430,17 +430,3 @@ We summarize the insights gained by answering the aforementioned questions in a 
 The mapping files can be found in this repository as [mappings/baumkataster.json](mappings/baumkataster.json) and [mappings/trinkwasserbrunnen.json](mappings/trinkwasserbrunnen.json) respectively.
 
 The RDF conversion can be codes in a programming language of choice, but for the sake of simplicity, we reuse the [geordfconverter](https://github.com/situx/geordfconverter/) tool.
-
-
-
-## Publishing Linked Open Data
-
-### Choosing a publication deployment setting
-
-
-### Derefencing URIs
-
-### Content Negotiation
-
-
-## Querying Linked Open Data

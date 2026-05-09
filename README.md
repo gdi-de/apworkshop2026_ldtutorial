@@ -111,3 +111,9 @@ For this tutorial, querying linked open data through a [SPARQL](https://www.w3.o
 
 However, linked data files may still be queried using client software.
 
+### Querying linked open data using JavaScript
+
+### Querying linked open data in Python
+
+### Querying linked open data in QGIS
+

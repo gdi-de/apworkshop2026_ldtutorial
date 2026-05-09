@@ -1,6 +1,6 @@
 # The Baumkataster dataset
 
-The [Baumkataster dataset]() consists of the following data fields, which have been illustrated in the next table with some example rows:
+The [Baumkataster dataset](source/baumkataster_berlin.geojson) consists of the following data fields, which have been illustrated in the next table with some example rows:
 
 | baumnummer  | kronendurchmesser | stammdurchmesser | art | baumart | gruenanlage | standortfkt | thegeom |
 |---|---|---|---|---|---|---|---|
@@ -106,9 +106,9 @@ wd:Q10884 rdfs:label "tree"@en, "Baum"@de .
 ## Identifying and labeling instances
 
 Every instance in the dataset should be identifiable by its own URI once the RDF conversion is complete.
-To ensure the uniqueness of data identification, we need to ensure that the dataset includes a local identifier.
+To ensure the uniqueness of data identification, we need to include a local identifier in the dataset.
 To that end, the preferred way is to find an identifier in our dataset.
-Another alternative would be to generate another column with an identifier.
+Another alternative would be to create a new column with an identifier.
 
 > [!IMPORTANT]
 > In our dataset, we therefore look for a column that:
@@ -123,7 +123,7 @@ Another alternative would be to generate another column with an identifier.
 | MOBG657 | 
 
 In the Baumkataster case, the only column that fulfills all aforementioned criteria is **baumnummer**, a unique number assigned to each tree.
-The identifier will be combined with the previously defined data namespace to create URIs for the instances of the dataset.
+The identifier will be combined with the previously defined data namespace to create URIs for dataset instances.
 
 ```ttl
 https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
@@ -414,13 +414,29 @@ Guidelines for non-integration:
 
 ### Licensing
 
+Every dataset should include license information, which can be represented in the linked open data graph.
+There are two choices for the representation of licenses:
+- Represent the original dataset itself and add a license statement
+- Attach a license statement to every instance of the linked data graph publication
+
 ### Dataset metadata
+The metadata of the given dataset might be somethiing that should also be integrated into the linked open data graph.
+The prerequisite for that is a format of metadata which is represented or can be represented in RDF.
 
-## Creating a suitable Linked Data Mapping
+## Summarizing the Linked Data Mapping
 
-## Choosing a RDF serialization format
+We summarize the insights gained by answering the aforementioned questions in a linked open data mapping file which will form the basis for the conversion of the soure file to an RDF representation.
+
+The mapping files can be found in this repository as [mappings/baumkataster.json](mappings/baumkataster.json) and [mappings/trinkwasserbrunnen.json](mappings/trinkwasserbrunnen.json) respectively.
+
+The RDF conversion can be codes in a programming language of choice, but for the sake of simplicity, we reuse the [geordfconverter](https://github.com/situx/geordfconverter/) tool.
+
+
 
 ## Publishing Linked Open Data
+
+### Choosing a publication deployment setting
+
 
 ### Derefencing URIs
 

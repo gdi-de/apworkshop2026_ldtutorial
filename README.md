@@ -20,6 +20,20 @@ Drinking water fountains are a common occurrence in many German cities, includin
 
 ### Conversion results
 
+## Publishing newly defined vocabularies
+
+During the course of the dataset mapping, a few terms could not be mapped to existing vocabularies.
+However, their integration into the linked data deployments seemed important enough not to drop them.
+
+For these terms, a new vocabulary definition needs to be created.
+
+> [!IMPORTANT]
+> A vocabulary will be represented as an RDF file which only includes:
+> - rdfs:Class or owl:Class instances with at least one label and one definition
+> - owl:DataTypeProperty, owl:ObjectProperty or owl:AnnotationProperty instances with at least one label and one definition
+> - Constraints on the aforementioned instances using owl restrictions or SHACL shapes
+
+
 ## Publishing Linked Open Data
 
 The two use cases illustrated how to create a linked open data serialization of the respective data in RDF.

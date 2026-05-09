@@ -22,16 +22,16 @@ Drinking water fountains are a common occurrence in many German cities, includin
 
 ## Publishing newly defined vocabularies
 
-During the course of the dataset mapping, a few terms could not be mapped to existing vocabularies.
+During the dataset mapping process, a few terms could not be mapped to existing vocabularies.
 However, their integration into the linked data deployments seemed important enough not to drop them.
 
 For these terms, a new vocabulary definition needs to be created.
 
 > [!IMPORTANT]
-> A vocabulary will be represented as an RDF file which only includes:
-> - rdfs:Class or owl:Class instances with at least one label and one definition
-> - owl:DataTypeProperty, owl:ObjectProperty or owl:AnnotationProperty instances with at least one label and one definition
-> - Constraints on the aforementioned instances using owl restrictions or SHACL shapes
+> A vocabulary will be represented as an RDF file, which only includes:
+> - rdfs:Class or [owl:Class](http://www.w3.org/2002/07/owl#Class) instances with at least one label and one definition
+> - [owl:DataTypeProperty](http://www.w3.org/2002/07/owl#DataTypeProperty), [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty) or [owl:AnnotationProperty](http://www.w3.org/2002/07/owl#AnnotationProperty) instances with at least one label and one definition
+> - Constraints on the aforementioned instances using [OWL](https://www.w3.org/TR/owl-features/) restrictions or [SHACL](https://www.w3.org/TR/shacl/) shapes
 
 
 ## Publishing Linked Open Data
@@ -47,7 +47,7 @@ Relevant literature:
 
 ### Choosing a publication deployment setting
 
-The next step after the conversion process to RDF has succeeded is to create a deployment of web resources of all data instances in the linked open data set.
+The next step after the conversion process succeeds is to create a deployment of web resources for all data instances in the linked open data set.
 
 Works to consider here are:
 - [Linked Open Usable Data](https://linked.art/loud/)
@@ -65,7 +65,7 @@ Hence, we decided to pursue a data dump-based approach. This decision might vary
 > [!NOTE]
 > We have chosen the following publication modes for the dataset.
 > - HTML for human readability
-> - TTL and JSON-LD as RDF serializations
+> - [TTL](https://www.w3.org/TR/turtle/) and [JSON-LD](https://www.w3.org/TR/json-ld11/) as [RDF](https://www.w3.org/TR/rdf11-concepts/) serializations
 
 #### Choosing target communities for linked data publication
 
@@ -82,12 +82,12 @@ There are likely use cases in administration and beyond, but for the sake of thi
 We therefore answer the aforementioned questions for a community of users working with geospatial data.
 
 Typical GIS users are not necessarily familiar with the linked open data paradigm, but are familiar with the following forms of publication:
-- Geospatial data formats (e.g., GeoJSON)
-- Geospatial APIS, e.g., OGC API Features
+- Geospatial data formats (e.g., [GeoJSON](https://datatracker.ietf.org/doc/html/rfc7946))
+- Geospatial APIs, e.g., [OGC API Features](https://ogcapi.ogc.org/features/) 
 
 > [!NOTE]
 > We publish geospatial features as a single GeoJSON file, with one feature per instance.
-We also publish a static OGC API Features deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications.
+We also publish a static [OGC API Features](https://ogcapi.ogc.org/features/) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications.
 
 ### Dereferencing URIs
 
@@ -105,7 +105,7 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
 
 ## Querying Linked Open Data 
 
-For this tutorial, querying linked open data through a SPARQL endpoint service is not readily possible, because as a standalone showcase, only a static webspace has been provided.
+For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint service is not readily possible, because as a standalone showcase, only a static webspace has been provided.
 
 However, linked data files may still be queried using client software.
 

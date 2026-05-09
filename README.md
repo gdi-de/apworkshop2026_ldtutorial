@@ -111,9 +111,50 @@ For this tutorial, querying linked open data through a [SPARQL](https://www.w3.o
 
 However, linked data files may still be queried using client software.
 
+### SPARQL 1.0/1.1 or GeoSPARQL 1.0/1.1?
+
+The SPARQL query language allows users to query linked open data publications and brings with it a variety of in-query operations that users can take advantage of.
+In particular, SPARQL allows:
+- Filter triples
+- Use predicate paths for easier navigation
+- Order results
+- Group results
+
+The SPARQL query language has no support for in-query operations on geospatial data, such as intersection and union of geometries, or checks for these capabilities.
+To support such operations, a GeoSPARQL-compatible implementation needs to be used.
+
 ### Querying linked open data using JavaScript
+
+The HTML deployment of this repository includes a JavaScript Query page that, by default, loads the entire generated RDF dataset.
+The query capabilities of this JavaScript Query engine rely on the software library [comunica](https://comunica.dev)
 
 ### Querying linked open data in Python
 
+Python scripts may use the library [rdflib](https://rdflib.readthedocs.io/en/stable/) to query RDF data.
+
+```python
+from rdflib import Graph
+
+# Create a Graph
+g = Graph()
+
+# Parse in an RDF file hosted on the Internet
+g.parse("http://www.w3.org/People/Berners-Lee/card")
+
+# Loop through each triple in the graph (subj, pred, obj)
+for subj, pred, obj in g:
+    # Check if there is at least one triple in the Graph
+    if (subj, pred, obj) not in g:
+       raise Exception("It better be!")
+
+# Print the number of "triples" in the Graph
+print(f"Graph g has {len(g)} statements.")
+# Prints: Graph g has 86 statements.
+
+# Print out the entire Graph in the RDF Turtle format
+print(g.serialize(format="turtle"))
+```
+
 ### Querying linked open data in QGIS
 
+Support for linked open data resources in QGIS is given by the SPARQLing Unicorn QGIS plugin.

@@ -38,10 +38,14 @@ Generally, all published vocabularies should adhere to the
 
 For the sake of this example, we will discuss only selected details of how these principles are implemented here.
 
+[!IMPORTANT]
+> Important aspects when publishing a linked open data vocabulary:
+> - Choosing a non-common prefix for the vocabulary. Check existing prefixes, e.g., on [prefix.cc](http://prefix.cc) and mark this prefix with a description in the [VANN vocabulary for annotating vocabulary descriptions](https://vocab.org/vann/)
+> - 
+
 We then use the software [pyLODE](https://github.com/rdflib/pyLODE) to render the generated vocabulary on an HTML page and to make it dereferencable for human users.
 
 In both datasets, we have defined a vocabulary namespace of [https://github.com/gdi-de/apworkshop2026_ldtutorial/ont#](https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#)
-
 
 
 ## Publishing Linked Open Data
@@ -53,7 +57,6 @@ Relevant literature:
 
 - [Linked Open Data Best Practices](https://www.w3.org/TR/ld-bp/)
 - [Spatial Data On The Web Best Practices](https://www.w3.org/TR/sdw-bp/)
-- 
 
 ### Choosing a publication deployment setting
 
@@ -114,12 +117,17 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
 
 [HTTP Content Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Content_negotiation) 
 is a negotiation process between a web browser and a web server to agree on the kind of format that will be submitted as the result of an HTTP request.
-This means that we could have a client-side request which requests an RDF serialization vs. another client-side request for HTML.
+This means we could have a client-side request for an RDF serialization vs. another for HTML.
 
-Common HTTP webservers like Apache or NGINX allow for the configuration of content negotiation, however such a configuration is currently not enabled on Github Pages.
+Common HTTP web servers like Apache or NGINX allow for the configuration of content negotiation, which is currently not enabled on GitHub Pages.
 
-Therefore, on Github pages webspaces, it is necessary to state the format by means of the URL itself, e.g. https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.html or https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.ttl
+Therefore, on GitHub pages webspaces, it is necessary to state the format by means of the URL itself, e.g., https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.html or https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.ttl
 
+### Machine-readable linked data set description using VoID
+
+The [Vocabulary of Interlinked Datasets (VoID)](https://www.w3.org/TR/void/) is a vocabulary to describe metadata about RDF datasets.
+Compared to metadata such as DCAT, which describes context, licenses, and further information about the data publishing and serving process, VoID describes statistics, access metadata, and structural metadata, as well as the nature, structure, and links between multiple datasets.
+Hence, data discovery within an RDF ecosystem is greatly enhanced.
 
 
 ## Querying Linked Open Data 

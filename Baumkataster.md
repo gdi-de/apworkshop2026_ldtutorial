@@ -412,6 +412,32 @@ Guidelines for non-integration:
 
 ## Adding additional non-existent information
 
+Besides, e.g., missing units or other information implicitly given in the dataset's data structure, other information needed to characterize linked open data is missing entirely from the dataset.
+
+For a linked open dataset to be comprehensively described, this information would need to be gathered from accompanying PDF documentation or asked for by the respective authorities.
+
+### Provenance information
+
+Provenance information can be added to the dataset using specific vocabularies such as [PROV-O](https://www.w3.org/TR/prov-o/) provenance ontology.
+PROV-O promises to capture the dataset's creation process.
+
+<img width="2625" height="1480" alt="provo" src="https://github.com/user-attachments/assets/f587c876-8333-4076-87e8-2a75e3859b95" />
+
+The provenance ontology defines three different entities:
+
+- [prov:Entity](http://www.w3.org/ns/prov#Entity): An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary.
+- [prov:Activity](http://www.w3.org/ns/prov#Activity): An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.
+- [prov:Agent](http://www.w3.org/ns/prov#Agent): An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity.
+
+This means the vocabulary helps establish WHO created a dataset (ENTITY) and the creation process (ACTIVITY).
+
+Let's apply this methodology to the Baumkataster dataset:
+
+```
+
+```
+
+
 ### Licensing
 
 Every dataset should include license information, which can be represented in the linked open data graph.
@@ -420,8 +446,8 @@ There are two choices for the representation of licenses:
 - Attach a license statement to every instance of the linked data graph publication
 
 ### Dataset metadata
-The metadata of the given dataset might be somethiing that should also be integrated into the linked open data graph.
-The prerequisite for that is a format of metadata which is represented or can be represented in RDF.
+The metadata of the given dataset might also be integrated into the linked open data graph.
+The prerequisite for that is a metadata format that is represented in, or can be represented in, RDF.
 
 ## Summarizing the Linked Data Mapping
 

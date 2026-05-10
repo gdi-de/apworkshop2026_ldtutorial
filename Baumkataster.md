@@ -445,14 +445,37 @@ There are two choices for the representation of licenses:
 - Represent the original dataset itself and add a license statement
 - Attach a license statement to every instance of the linked data graph publication
 
+To attach a license statement to instances of the knowledge graph, the license itself must be identified by a URI.
+This is the case for many common licenses already, but it should be checked for the specific license used.
+
+Example: CC License: CC BY-NC-SA 4.0
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix dc:<http://purl.org/dc/elements/1.1/>
+gdidedata:GZAW870  dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
+```
+
+While the aforementioned example references individual triples, the
+
+> [!NOTE]
+> **CHOICE:** We choose to attach a license statement to every instance.
+
+
+**Resulting Mapping Definitions:**
+```json
+"license:"http://creativecommons.org/licenses/by-nc-sa/4.0",
+```
+
 ### Dataset metadata
 The metadata of the given dataset might also be integrated into the linked open data graph.
 The prerequisite for that is a metadata format that is represented in, or can be represented in, RDF.
 
+
 ## Summarizing the Linked Data Mapping
 
-We summarize the insights gained by answering the aforementioned questions in a linked open data mapping file which will form the basis for the conversion of the soure file to an RDF representation.
+We summarize the insights gained by answering the aforementioned questions in a linked open data mapping file, which will form the basis for the conversion of the source file to an RDF representation.
 
 The mapping files can be found in this repository as [mappings/baumkataster.json](mappings/baumkataster.json) and [mappings/trinkwasserbrunnen.json](mappings/trinkwasserbrunnen.json) respectively.
 
-The RDF conversion can be codes in a programming language of choice, but for the sake of simplicity, we reuse the [geordfconverter](https://github.com/situx/geordfconverter/) tool.
+The RDF conversion can be implemented in a programming language of choice, but for simplicity, we reuse the [geordfconverter](https://github.com/situx/geordfconverter/) tool.

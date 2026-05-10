@@ -394,8 +394,8 @@ gdidedata:GZAW870_geom rdf:type sf:Point ;
                        rdfs:label "Geometry of tree GZAW870"@en, "Geometrie von Baum GZAW870"@de ;
                        geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
 ```
-GeoSPARQL requires to create two instances per tree in the case of this particular dataset.
-One instance, the tree itself is a subclass of geo:Feature, and represents the geosptial feature component.
+GeoSPARQL requires creating two instances per tree in the case of this particular dataset.
+In one instance, the tree itself is a subclass of geo:Feature, and represents the geospatial feature component.
 The other instance represents the geometry and its potentially many serializations.
 
 ### Choosing an appropriate GeoSPARQL serialization

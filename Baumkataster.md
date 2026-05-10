@@ -1,7 +1,7 @@
 # The Baumkataster dataset
 
 The [Baumkataster dataset](source/baumkataster_berlin.geojson) consists of the following data fields, which have been illustrated in the next table with some example rows:
-
+ 
 | baumnummer  | kronendurchmesser | stammdurchmesser | art | baumart | gruenanlage | standortfkt | thegeom |
 |---|---|---|---|---|---|---|---|
 | GZAW870 |  12.0 |  48.0 | Weide | Salix spec.  |  Grünzug Altenwerder | sonst. öff. Flächen  |  POINT(9.918514827294882, 53.498226989745973) |

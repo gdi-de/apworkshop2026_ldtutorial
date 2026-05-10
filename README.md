@@ -141,7 +141,7 @@ Previously, we decided to provide additional support for GIS users and chose to 
 In this tutorial, we rely solely on GitHub Pages for this repository, so a fully-fledged OGC API Features web service is out of scope.
 Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.
 
-The static OGC API Features service is available [here](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/)
+The static OGC API Features service is available [here as preview](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/) and [here](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) as and [OpenAPI](https://swagger.io/specification/) description.
 
 
 

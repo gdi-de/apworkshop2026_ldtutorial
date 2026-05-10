@@ -367,7 +367,7 @@ gdidedata:GZAW870 wdt:P3018 "Grünzug Altenwerder"@de .
 
 ## Treating the Geometry
 
-The geometry column can be converted using a variety of RDF vocabularies, each of which have different focal points.
+The geometry column can be converted using a variety of RDF vocabularies, each with a different focus.
 
 [Annex E](https://opengeospatial.github.io/ogc-geosparql/geosparql11/document.html#_8ebafca6-d4a4-aefa-9338-3a691278375e) of the GeoSPARQL 1.1 specification lists 16 different vocabularies besides GeoSPARQL which have been used to encode Geometries in RDF.
 
@@ -378,6 +378,25 @@ The geometry column can be converted using a variety of RDF vocabularies, each o
 > - GeoSPARQL 1.1 supports all geometry types available in the GML and (Extended) Well-Known Text Specifications
 
 However, if only WGS84 coordinates are to be encoded, GeoSPARQL is not necessarily needed.
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+
+gdidedata:GZAW870 rdfs:label "Baum GZAW870"@de, "tree GZAW870"@en" ;
+                  rdf:type wd:Q10884 ;
+                  geo:hasGeometry gdidedata:GZAW870_geom .
+gdidedata:GZAW870_geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of tree GZAW870"@en, "Geometrie von Baum GZAW870"@de ;
+                       geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
+```
+GeoSPARQL requires to create two instances per tree in the case of this particular dataset.
+One instance, the tree itself is a subclass of geo:Feature, and represents the geosptial feature component.
+The other instance represents the geometry and its potentially many serializations.
 
 ### Choosing an appropriate GeoSPARQL serialization
 
@@ -392,6 +411,12 @@ The choice of serialization will depend on the need for the representation of di
 
 > [!NOTE]
 > **CHOICE:** We choose the Well-Known Text serialization for this tutorial since it is the most common serialization and supports different CRS.
+
+```ttl
+gdidedata:GZAW870_geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of tree GZAW870"@en, "Geometrie von Baum GZAW870"@de ;
+                       geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
+```
 
 **Resulting Mapping Definitions:**
 ```json

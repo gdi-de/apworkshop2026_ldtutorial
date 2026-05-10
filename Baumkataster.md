@@ -457,7 +457,7 @@ There are two choices for the representation of licenses:
 To attach a license statement to instances of the knowledge graph, the license itself must be identified by a URI.
 This is the case for many common licenses already, but it should be checked for the specific license used.
 
-Example: CC License: CC BY-NC-SA 4.0
+Example: CC License: [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0)
 
 ```ttl
 @prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
@@ -465,10 +465,27 @@ Example: CC License: CC BY-NC-SA 4.0
 gdidedata:GZAW870  dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
 ```
 
-While the aforementioned example references individual triples, the
+While the aforementioned example references individual triples, the dataset itself may also be modeled in RDF, so that the license information can be placed at the dataset instance. To model the dataset, the [DCAT vocabulary](https://www.w3.org/TR/vocab-dcat-3/) can be used. 
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+gdidedata:tree_ds rdf:type dcat:Dataset ;
+                  rdfs:label "Dataset of Baumkataster"@en ;
+                  dcat:distribution gdidedata:tree_ds_dist .
+gdidedata:tree_ds_dist rdf:type dcat:Distribution ;
+                       rdfs:label "Distribution of the Dataset of Baumkataster"@en ;
+                       dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
+gdidedata:GZAW870 void:inDataset gdidedata:tree_ds .
+```
 
 > [!NOTE]
-> **CHOICE:** We choose to attach a license statement to every instance.
+> **CHOICE:** We choose to attach a license statement to every instance and, for the sake of simplicity, do not model the dataset itself. The example given in this section should provide enough information for a user to take this step.
 
 
 **Resulting Mapping Definitions:**

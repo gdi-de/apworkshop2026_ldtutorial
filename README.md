@@ -99,7 +99,7 @@ Typical GIS users are not necessarily familiar with the linked open data paradig
 
 > [!NOTE]
 > We publish geospatial features as a single GeoJSON file, with one feature per instance.
-We also publish a static [OGC API Features](https://ogcapi.ogc.org/features/) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications.
+> We also publish a static [OGC API Features](https://ogcapi.ogc.org/features/) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications.
 
 ### Dereferencing URIs
 
@@ -128,10 +128,26 @@ The [Vocabulary of Interlinked Datasets (VoID)](https://www.w3.org/TR/void/) is 
 Compared to metadata such as DCAT, which describes context, licenses, and further information about the data publishing and serving process, VoID describes statistics, access metadata, and structural metadata, as well as the nature, structure, and links between multiple datasets.
 Hence, data discovery within an RDF ecosystem is greatly enhanced.
 
+### Exposing data through (static) APIs
+
+For all selected target communities, the selected APIs need to be investigated for their potential to provide the data that has been created.
+Previously, we decided to provide additional support for GIS users and chose to provide them with an OGC API Features service.
+
+> [!IMPORTANT]
+> Key questions:
+> How should the service be provided? Do we need an additional web application?
+> Which parts of the newly created linked open data graph should be exposed through the API, and how do we mark them in the knowledge graph?
+
+In this tutorial, we rely solely on GitHub Pages for this repository, so a fully-fledged OGC API Features web service is out of scope.
+Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.
+
+The static OGC API Features service is available [here](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/)
+
+
 
 ## Querying Linked Open Data 
 
-For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint service is not readily possible, because, as a standalone showcase, only a static webspace has been provided.
+For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint is not readily possible because, as a standalone showcase, only a static web space has been provided.
 
 However, linked data files may still be queried using client software.
 

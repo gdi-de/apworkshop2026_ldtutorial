@@ -38,10 +38,9 @@ Generally, all published vocabularies should adhere to the
 
 For the sake of this example, we will discuss only selected details of how these principles are implemented here.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > Important aspects when publishing a linked open data vocabulary:
 > - Choosing a non-common prefix for the vocabulary. Check existing prefixes, e.g., on [prefix.cc](http://prefix.cc) and mark this prefix with a description in the [VANN vocabulary for annotating vocabulary descriptions](https://vocab.org/vann/)
-> - 
 
 We then use the software [pyLODE](https://github.com/rdflib/pyLODE) to render the generated vocabulary on an HTML page and to make it dereferencable for human users.
 

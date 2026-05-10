@@ -33,8 +33,16 @@ For these terms, a new vocabulary definition needs to be created.
 > - [owl:DataTypeProperty](http://www.w3.org/2002/07/owl#DataTypeProperty), [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty) or [owl:AnnotationProperty](http://www.w3.org/2002/07/owl#AnnotationProperty) instances with at least one label and one definition
 > - Constraints on the aforementioned instances using [OWL](https://www.w3.org/TR/owl-features/) restrictions or [SHACL](https://www.w3.org/TR/shacl/) shapes
 
-Generally, all published vocabularies should adhere to the [Best Practices for Implementing FAIR
-Vocabularies and Ontologies on the Web](https://dgarijo.com/papers/best_practices2020.pdf)
+Generally, all published vocabularies should adhere to the 
+[Best Practices for Implementing FAIR Vocabularies and Ontologies on the Web](https://dgarijo.com/papers/best_practices2020.pdf)
+
+For the sake of this example, we will discuss only selected details of how these principles are implemented here.
+
+We then use the software [pyLODE](https://github.com/rdflib/pyLODE) to render the generated vocabulary on an HTML page and to make it dereferencable for human users.
+
+In both datasets, we have defined a vocabulary namespace of [https://github.com/gdi-de/apworkshop2026_ldtutorial/ont#](https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#)
+
+
 
 ## Publishing Linked Open Data
 

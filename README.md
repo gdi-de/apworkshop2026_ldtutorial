@@ -112,10 +112,19 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
 
 #### Content Negotiation
 
+[HTTP Content Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Content_negotiation) 
+is a negotiation process between a web browser and a web server to agree on the kind of format that will be submitted as the result of an HTTP request.
+This means that we could have a client-side request which requests an RDF serialization vs. another client-side request for HTML.
+
+Common HTTP webservers like Apache or NGINX allow for the configuration of content negotiation, however such a configuration is currently not enabled on Github Pages.
+
+Therefore, on Github pages webspaces, it is necessary to state the format by means of the URL itself, e.g. https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.html or https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.ttl
+
+
 
 ## Querying Linked Open Data 
 
-For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint service is not readily possible, because as a standalone showcase, only a static webspace has been provided.
+For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint service is not readily possible, because, as a standalone showcase, only a static webspace has been provided.
 
 However, linked data files may still be queried using client software.
 

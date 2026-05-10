@@ -256,6 +256,24 @@ The geometry column can be converted using a variety of RDF vocabularies, each o
 
 However, if only WGS84 coordinates are to be encoded, GeoSPARQL is not necessarily needed.
 
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+
+gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking water fountrain 1"@en" ;
+                  geo:hasGeometry gdidedata:1_geom .
+gdidedata:1_geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of drinking water fountain 1"@en, "Geometrie von Brunnen 1"@de ;
+                       geo:asWKT "POINT(13.415048, 52.431351036930394)"^^geo:wktLiteral .
+```
+GeoSPARQL requires creating two instances per tree in the case of this particular dataset.
+In one instance, the tree itself is a subclass of geo:Feature, and represents the geospatial feature component.
+The other instance represents the geometry and its potentially many serializations.
+
 ### Choosing an appropriate GeoSPARQL serialization
 
 GeoSPARQL 1.1 provides serializations of Geometries in the following formats:
@@ -286,9 +304,6 @@ The choice of serialization will depend on the need for the representation of di
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .      
-
-gdidedata:1 rdfs:label "Brunnen 1"@de, "drinking fountain 1"@en" .
-gdidedata:1 geo:hasGeometry gdidedata:1_geom .
 
 gdidedata:1_geom rdf:type sf:Point ;
                        rdfs:label "Geometry of drinking fountain 1"@en, "Geometrie des Brunnens 1"@en ;

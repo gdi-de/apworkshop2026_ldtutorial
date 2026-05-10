@@ -23,6 +23,23 @@ A first analysis of the dataset should answer some of the following questions:
  
 This analysis can be done with a simple script that checks for uniqueness and data types. Even software like QGIS supports simple column detection.  
 
+## The need for integration
+
+Depending on the use case, not all information given inside the respective dataset is important for integration.
+Guidelines for non-integration:
+
+> [!IMPORTANT]
+> Criteria for non-integration of columns
+> - Is information duplicated in the dataset? Then only one piece of information is needed
+> - Is the dataset integrated for a specific purpose, and some information is irrelevant?
+> - Is some information of low quality and should be dismissed because of this?
+> - Does the inclusion of the information violate laws, regulations, or licenses in the area where the dataset will be published?
+
+Depending on those criteria, the number of dataset columns to work on may be reduced.
+
+> [!NOTE]
+> We have identified no columns in the dataset that are irrelevant for integration. With this in mind, we will proceed with a further analysis.
+
 ## Choosing an attribute and data namespace for the dataset
 
 Before the dataset can be analyzed, we need to define two kinds of namespaces.

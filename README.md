@@ -113,20 +113,33 @@ However, linked data files may still be queried using client software.
 
 ### SPARQL 1.0/1.1 or GeoSPARQL 1.0/1.1?
 
-The SPARQL query language allows users to query linked open data publications and brings with it a variety of in-query operations that users can take advantage of.
+The SPARQL query language allows users to query linked open data publications and provides a variety of in-query operations to take advantage of.
 In particular, SPARQL allows:
 - Filter triples
 - Use predicate paths for easier navigation
 - Order results
 - Group results
 
-The SPARQL query language has no support for in-query operations on geospatial data, such as intersection and union of geometries, or checks for these capabilities.
+The SPARQL query language has no support for in-query operations on geospatial data, such as geometry intersection and union, or for checking these capabilities.
 To support such operations, a GeoSPARQL-compatible implementation needs to be used.
 
 ### Querying linked open data using JavaScript
 
-The HTML deployment of this repository includes a JavaScript Query page that, by default, loads the entire generated RDF dataset.
+The HTML deployment of this repository includes a [JavaScript SPARQL Query page](https://gdi-de.github.io/apworkshop2026_ldtutorial/sparql.html?endpoint=https://gdi-de.github.io/apworkshop2026_ldtutorial/) that, by default, loads the entire generated RDF dataset.
 The query capabilities of this JavaScript Query engine rely on the software library [comunica](https://comunica.dev)
+
+<img width="1885" height="1034" alt="image" src="https://github.com/user-attachments/assets/47e18029-b201-4e28-a75f-50a3293e6530" />
+
+```sparql
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT * WHERE {
+  <https://gdi-de.github.io/apworkshop2026/42> ?rel ?val .
+  OPTIONAL{?val rdfs:label ?valLabel .}
+} LIMIT 100
+```
+This SPARQL query returns all information associated with the drinking water fountain with ID 42.
+It only uses SPARQL 1.1 capabilities and does not need GeoSPARQL support.
 
 ### Querying linked open data in Python
 

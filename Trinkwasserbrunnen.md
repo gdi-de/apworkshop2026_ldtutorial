@@ -356,3 +356,104 @@ gdidedata:1_geom rdf:type sf:Point ;
                        rdfs:label "Geometry of drinking fountain 1"@en, "Geometrie des Brunnens 1"@en ;
                        geo:asWKT "POINT(13.415048, 52.431351036930394)"^^geo:wktLiteral .
 ```
+
+## Deriving additional columns from value information
+
+In the previous analysis, we found information in columns that would be better modeled as their own property values in the RDF graph.
+Such additional information can be given in the conversion process.
+
+We identify two additional pieces of information that can be added, since they are consistent across all instances:
+
+- The homepage of the trees described in the **information** column, which can be modeled using the [foaf:homepage](http://xmlns.com/foaf/0.1/) relation
+- The operation time of the drinking fountains as described in the **information** column, which can be modeled using the [owl:time vocabulary](https://www.w3.org/TR/owl-time/)
+
+> [!NOTE]
+> **CHOICE:** We add the two consistent information about homepage and opening duration as additional column definitions to the mapping and convert the results to RDF.
+
+**Resulting Mapping Definitions:**
+```json
+"homepage":{"propiri":"http://xmlns.com/foaf/0.1/homepage","value":"https://www.bwb.de/de/trinkbrunnen.php","prop":"data","range":"http://www.w3.org/2001/XMLSchema#anyURI"},
+```
+
+**Sample Triples:**
+```ttl
+
+```
+
+## Adding additional non-existent information
+
+Besides, e.g., missing units or other information implicitly given in the dataset's data structure, other information needed to characterize linked open data is missing entirely from the dataset.
+
+For a linked open dataset to be comprehensively described, this information would need to be gathered from accompanying PDF documentation or asked for by the respective authorities.
+
+### Provenance information
+
+Provenance information can be added to the dataset using specific vocabularies such as [PROV-O](https://www.w3.org/TR/prov-o/) provenance ontology.
+PROV-O promises to capture the dataset's creation process.
+
+<img width="2625" height="1480" alt="provo" src="https://github.com/user-attachments/assets/f587c876-8333-4076-87e8-2a75e3859b95" />
+
+The provenance ontology defines three different entities:
+
+- [prov:Entity](http://www.w3.org/ns/prov#Entity): An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary.
+- [prov:Activity](http://www.w3.org/ns/prov#Activity): An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities.
+- [prov:Agent](http://www.w3.org/ns/prov#Agent): An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity.
+
+This means the vocabulary helps establish WHO created a dataset (ENTITY) and the creation process (ACTIVITY).
+
+Let's apply this methodology to the Baumkataster dataset:
+
+```
+
+```
+
+
+### Licensing
+
+Every dataset should include license information, which can be represented in the linked open data graph.
+There are two choices for the representation of licenses:
+- Represent the original dataset itself and add a license statement
+- Attach a license statement to every instance of the linked data graph publication
+
+To attach a license statement to instances of the knowledge graph, the license itself must be identified by a URI.
+This is the case for many common licenses already, but it should be checked for the specific license used.
+
+Example: CC License: [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0)
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix dc:<http://purl.org/dc/elements/1.1/>
+gdidedata:1 dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
+```
+
+While the aforementioned example references individual triples, the dataset itself may also be modeled in RDF, so that the license information can be placed at the dataset instance. To model the dataset, the [DCAT vocabulary](https://www.w3.org/TR/vocab-dcat-3/) can be used. 
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+
+gdidedata:fountain_ds rdf:type dcat:Dataset ;
+                  rdfs:label "Dataset of drinking fountains"@en ;
+                  dcat:distribution gdidedata:fountain_ds_dist .
+gdidedata:fountain_ds_dist rdf:type dcat:Distribution ;
+                       rdfs:label "Distribution of the Dataset of drinking fountains"@en ;
+                       dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
+gdidedata:1 void:inDataset gdidedata:fountain_ds .
+```
+
+> [!NOTE]
+> **CHOICE:** We choose to attach a license statement to every instance and, for the sake of simplicity, do not model the dataset itself. The example given in this section should provide enough information for a user to take this step.
+
+
+**Resulting Mapping Definitions:**
+```json
+"license:"http://creativecommons.org/licenses/by-nc-sa/4.0",
+```
+
+### Dataset metadata
+The metadata of the given dataset might also be integrated into the linked open data graph.
+The prerequisite for that is a metadata format that is represented in, or can be represented in, RDF.

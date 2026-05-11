@@ -39,7 +39,7 @@ Depending on those criteria, the number of dataset columns to work on may be red
 > [!NOTE]
 > We have identified no columns in the dataset that are irrelevant for integration. With this in mind, we will proceed with a further analysis.
 
-## The number of instances
+## How many instances per table row?
 
 Having chosen the columns which should become part of the new RDF dataset, the question arises to how many RDF instances the dataset will resolve.
 

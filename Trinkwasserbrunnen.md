@@ -40,6 +40,53 @@ Depending on those criteria, the number of dataset columns to work on may be red
 > [!NOTE]
 > We have identified no columns in the dataset that are irrelevant for integration. With this in mind, we will proceed with a further analysis.
 
+## How many instances per table row?
+
+Having chosen the columns which should become part of the new RDF dataset, the question arises to how many RDF instances the dataset will resolve.
+
+> [!IMPORTANT]
+> - Create new instances when a group of columns described can be described as its own entity
+> - Check if the new entity is related to the instance described by the whole column and name the entity appropriately
+
+Suppose there is a dataset which contains a school and the address of said school with the columns, "schoolid", "schoolname", "street", "housenumber", "postcode", "city", "geometry".
+One might model the school as follows:
+
+```ttl
+@prefix locn:<http://www.w3.org/ns/locn#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex:<http://example.org/> .
+ex:myschool rdf:type wd:Q3914 ;
+            rdfs:label "my school" ;
+            locn:postcode "12345"^^xsd:integer ;
+            locn:thoroughfare "my street" ;
+            locn:locatorDesignator "1"^^xsd:integer ;
+            locn:postName "Frankfurt am Main" .
+```
+
+However, one could also justify creating a new instance "address" that contains the address parts of the school instance.
+
+```ttl
+@prefix locn:<http://www.w3.org/ns/locn#> .
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ex:<http://example.org/> .
+ex:myschool rdf:type wd:Q3914 ;
+            rdfs:label "my school" ;
+            locn:address ex:myschool_address .
+ex:myschool_address rdf:type locn:Address .
+            locn:postcode "12345"^^xsd:integer ;
+            locn:thoroughfare "my street" ;
+            locn:locatorDesignator "1"^^xsd:integer ;
+            locn:postName "Frankfurt am Main" .
+```
+
+In this case, splitting the entities into school and address is chosen not only because of their semantics, but also because the existing vocabulary locn suggests it. The URI of the address instance extends the URI of the instance modeling the school. While this is not a requirement, it helps track instances in the knowledge graph.
+
+> [!NOTE]
+> For the Trinkwasserbrunnen dataset, we have identified no columns that need to become their own entities.
+> Hence, only entities for the respective columns will be pursued in the following.
+
 ## Choosing an attribute and data namespace for the dataset
 
 Before the dataset can be analyzed, we need to define two kinds of namespaces.

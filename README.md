@@ -84,9 +84,9 @@ Hence, we decided to pursue a data dump-based approach. This decision might vary
 To determine the correct linked open usable data deployment, we need to infer the deployment's users.
 
 > [!IMPORTANT]
-> Which community of users do we anticipate will use this linked open data set?
-> Which data formats/data services do people in these communities commonly use?
-> Do we need to consider special laws and/or regulations when publishing linked data for this community?
+> - Which community of users do we anticipate will use this linked open data set?
+> - Which data formats/data services do people in these communities commonly use?
+> - Do we need to consider special laws and/or regulations when publishing linked data for this community?
 
 For the two datasets, we cannot pinpoint a specific user base beyond people interested in using geodata.
 There are likely use cases in administration and beyond, but for the sake of this tutorial, we cannot make a more precise assessment.
@@ -104,8 +104,8 @@ Previously, we decided to provide additional support for GIS users and chose to 
 
 > [!IMPORTANT]
 > Key questions:
-> How should the service be provided? Do we need an additional web application?
-> Which parts of the newly created linked open data graph should be exposed through the API, and how do we mark them in the knowledge graph?
+> - How should the service be provided? Do we need an additional web application?
+> - Which parts of the newly created linked open data graph should be exposed through the API, and how do we mark them in the knowledge graph?
 
 In this tutorial, we rely solely on GitHub Pages for this repository, so a fully-fledged OGC API Features web service is out of scope.
 Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.

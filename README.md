@@ -102,7 +102,7 @@ Typical GIS users are not necessarily familiar with the linked open data paradig
 > We infer groupings by subclass categorization and create collection instances in the knowledge graph.
 > We then publish these collections as a static [OGC API Features](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/indexc.html) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications. We publish an [OpenAPI description](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) of the static service.
 
-[!CAUTION]
+> [!CAUTION]
 > A note on static OGC API Features capabilities:
 > A static OGC API Features deployment will answer API calls to:
 > - /landingpage

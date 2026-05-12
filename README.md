@@ -149,7 +149,11 @@ This means we could have a client-side request for an RDF serialization vs. anot
 
 Common HTTP web servers like Apache or NGINX allow for the configuration of content negotiation, which is currently not enabled on GitHub Pages.
 
-Therefore, on GitHub pages webspaces, it is necessary to state the format by means of the URL itself, e.g., https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.html or https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.ttl
+Therefore, on GitHub pages webspaces, it is necessary to state the format by means of the URL itself, e.g., 
+
+https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.html or 
+
+https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870/index.ttl
 
 ### Machine-readable linked data set description using VoID
 

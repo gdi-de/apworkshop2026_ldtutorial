@@ -111,8 +111,9 @@ Typical GIS users are not necessarily familiar with the linked open data paradig
 > - /collections/{COLLECTION}
 > - /collections/{COLLECTION}/items
 > - /collections/{COLLECTION}/items/{FEATUREID}
+> 
 > However, the static version is not able to answer API calls with HTML parameters such as "limit" and especially not CQL queries.
-> Hence, only full feature collections are returned.
+> Hence, only complete feature collections are returned.
 > For these additional capabilities, a real webservice is required.
 
 

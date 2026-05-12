@@ -284,7 +284,7 @@ from rdflib import Graph
 g = Graph()
 
 # Parse in an RDF file hosted on the Internet
-g.parse("http://www.w3.org/People/Berners-Lee/card")
+g.parse("https://gdi-de.github.io/apworkshop2026_ldtutorial/index.ttl")
 
 # Loop through each triple in the graph (subj, pred, obj)
 for subj, pred, obj in g:

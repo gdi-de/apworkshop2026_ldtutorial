@@ -97,6 +97,37 @@ Typical GIS users are not necessarily familiar with the linked open data paradig
 - Geospatial data formats (e.g., [GeoJSON](https://datatracker.ietf.org/doc/html/rfc7946))
 - Geospatial APIs, e.g., [OGC API Features](https://ogcapi.ogc.org/features/) 
 
+### Exposing data through (static) APIs
+
+For all selected target communities, the selected APIs need to be investigated for their potential to provide the data that has been created.
+Previously, we decided to provide additional support for GIS users and chose to provide them with an OGC API Features service.
+
+> [!IMPORTANT]
+> Key questions:
+> How should the service be provided? Do we need an additional web application?
+> Which parts of the newly created linked open data graph should be exposed through the API, and how do we mark them in the knowledge graph?
+
+In this tutorial, we rely solely on GitHub Pages for this repository, so a fully-fledged OGC API Features web service is out of scope.
+Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.
+
+> [!NOTE]
+> We publish geospatial features as a single GeoJSON files, with one feature per instance.
+> We infer groupings by subclass categorization and create collection instances in the knowledge graph.
+> We then publish these collections as a static [OGC API Features](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/indexc.html) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications. We publish an [OpenAPI description](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) of the static service.
+
+> [!CAUTION]
+> A note on static OGC API Features capabilities:
+> A static OGC API Features deployment will answer API calls to:
+> - /landingpage
+> - /capabilities
+> - /collections
+> - /collections/{COLLECTION}
+> - /collections/{COLLECTION}/items
+> - /collections/{COLLECTION}/items/{FEATUREID}
+> 
+> However, the static version is not able to answer API calls with HTML parameters such as "limit" and especially not CQL queries.
+> Hence, only complete feature collections are returned.
+> For these additional capabilities, a real webservice is required.
 
 ### Dereferencing URIs
 
@@ -107,7 +138,8 @@ Take, for instance, the URI for one of the trees of the tree dataset:
 ```
 https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
 ```
-
+We expect this URI to resolve to at least one human readable representation and one machine-readable representation in RDF.
+Since we are working on GitHub pages only, these serializations need to be added to the webspace of this repository, which can be explored in the gh-pages branch.
 
 #### Content Negotiation
 
@@ -200,38 +232,6 @@ ex:myds rdf:type void:Dataset ;
 
 > [!NOTE]
 > **CHOICE:** We choose to include VEXT to maximize the reusability of the data dump.
-
-### Exposing data through (static) APIs
-
-For all selected target communities, the selected APIs need to be investigated for their potential to provide the data that has been created.
-Previously, we decided to provide additional support for GIS users and chose to provide them with an OGC API Features service.
-
-> [!IMPORTANT]
-> Key questions:
-> How should the service be provided? Do we need an additional web application?
-> Which parts of the newly created linked open data graph should be exposed through the API, and how do we mark them in the knowledge graph?
-
-In this tutorial, we rely solely on GitHub Pages for this repository, so a fully-fledged OGC API Features web service is out of scope.
-Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.
-
-> [!NOTE]
-> We publish geospatial features as a single GeoJSON files, with one feature per instance.
-> We infer groupings by subclass categorization and create collection instances in the knowledge graph.
-> We then publish these collections as a static [OGC API Features](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/indexc.html) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications. We publish an [OpenAPI description](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) of the static service.
-
-> [!CAUTION]
-> A note on static OGC API Features capabilities:
-> A static OGC API Features deployment will answer API calls to:
-> - /landingpage
-> - /capabilities
-> - /collections
-> - /collections/{COLLECTION}
-> - /collections/{COLLECTION}/items
-> - /collections/{COLLECTION}/items/{FEATUREID}
-> 
-> However, the static version is not able to answer API calls with HTML parameters such as "limit" and especially not CQL queries.
-> Hence, only complete feature collections are returned.
-> For these additional capabilities, a real webservice is required.
 
 ## Querying Linked Open Data 
 

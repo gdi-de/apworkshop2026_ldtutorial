@@ -97,25 +97,6 @@ Typical GIS users are not necessarily familiar with the linked open data paradig
 - Geospatial data formats (e.g., [GeoJSON](https://datatracker.ietf.org/doc/html/rfc7946))
 - Geospatial APIs, e.g., [OGC API Features](https://ogcapi.ogc.org/features/) 
 
-> [!NOTE]
-> We publish geospatial features as a single GeoJSON files, with one feature per instance.
-> We infer groupings by subclass categorization and create collection instances in the knowledge graph.
-> We then publish these collections as a static [OGC API Features](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/indexc.html) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications. We publish an [OpenAPI description](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) of the static service.
-
-> [!CAUTION]
-> A note on static OGC API Features capabilities:
-> A static OGC API Features deployment will answer API calls to:
-> - /landingpage
-> - /capabilities
-> - /collections
-> - /collections/{COLLECTION}
-> - /collections/{COLLECTION}/items
-> - /collections/{COLLECTION}/items/{FEATUREID}
-> 
-> However, the static version is not able to answer API calls with HTML parameters such as "limit" and especially not CQL queries.
-> Hence, only complete feature collections are returned.
-> For these additional capabilities, a real webservice is required.
-
 
 ### Dereferencing URIs
 
@@ -144,6 +125,82 @@ The [Vocabulary of Interlinked Datasets (VoID)](https://www.w3.org/TR/void/) is 
 Compared to metadata such as DCAT, which describes context, licenses, and further information about the data publishing and serving process, VoID describes statistics, access metadata, and structural metadata, as well as the nature, structure, and links between multiple datasets.
 Hence, data discovery within an RDF ecosystem is greatly enhanced.
 
+> [!IMPORTANT]
+> VOID provides many statistics which can be generated from the finished RDF Dump. Each statistic can help search engines to:
+> - Index datasets better
+> - Automatically categorize datasets better
+> - Enable search engines, AI objects and SPARQL resolvers to better find relevant data
+
+**Example Triples:**
+```ttl
+@prefix void:<http://rdfs.org/ns/void#> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+ex:myds rdf:type void:Dataset ;
+        rdfs:label "My dataset" ;
+        void:exampleResource ex:myExampleResource ; # Specify a representative resource for the dataset
+        void:rootResource ex:myRootResource ; # A resource from which the graph can be explored (fully) in an easy way: A well-connected node in the graph
+        void:vocabulary geo: ; # Specify vocabularies used in the dataset
+        void:dataDump "http://www.example.org/mydatadump.ttl"^^xsd:anyURI ; # Specify one ore more data dumps in different formats
+        dcterms:subject <http://dbpedia.org/resource/Location>, <http://dbpedia.org/resource/OGC_GeoSPARQL ; # Defining themes of the dataset as URIs
+        void:uriSpace "http://mydatanamespace" . # Definition of the data namespace in RDF
+
+<ex:myds_subClassOf> a void:Dataset ;               # Property Partition: How often is a property used in the dataset?
+    rdfs:label "Property Partition: subClassOf"@en ;
+    void:property rdfs:subClassOf ;
+    void:triples 10 .
+```
+
+> [!NOTE]
+> **CHOICE:** We choose to add a VOID desceiption to the dataset in order to make it better findable and reusable.
+
+#### Defining used vocabularies explicitly using VOAF
+
+The [Vocabulary of a Friend (VOAF)](http://lov.okfn.org/vocommons/voaf/) allows to describe vocabularies which are used in RDF graphs and can be used in conjunction with VoID to uniquely describe vocabulary contexts.
+
+```ttl
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset ex:myds .
+```
+We define the namespace geo: of GeoSPARQL as a [voaf:Vocabulary](http://lov.okfn.org/vocommons/voaf/Vocabulary), add statement that our datadump uses the GeoSPARQL vocabulary using   [voaf:usageInDataset](http://lov.okfn.org/vocommons/voaf/useageInDataset) and using [void:vocabulary](https://www.w3.org/TR/void/vocabulary) to point to the vocabulary usage from the [void:Dataset](https://www.w3.org/TR/void/Dataset) definition. 
+
+> [!NOTE]
+> **CHOICE:** We choose to give a precise definition of the vocabularies we use in the dataset using the VOAF vocabulary.
+
+#### Even more statistics with VoID Ext (VEXT)
+
+[VoID Ext](https://www.ldf.fi/service/pylode?url=http://ldf.fi/void-ext) is an extension vocabulary to VoID which allows to model more precise statistics about the RDF dataset.
+
+Additional statistics include:
+
+- Namespace partitions
+- IRI length partitions
+- Datatype partitions
+- Distinct Node counts
+
+**Example Triples:** Numbers provided are fictional
+```ttl
+ex:myds rdf:type void:Dataset ;
+    vext:averageLiteralLength 0 ;
+    vext:averageObjectIRILength 39 ;
+    vext:averagePropertyIRILength 38 ;
+    vext:averageSubjectIRILength 55 ;
+    vext:datatypes 0 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 44234 ;
+    vext:distinctLiterals 0 ;
+    vext:distinctRDFNodes 44234 ;
+    vext:languages 0 ;
+    vext:propertyClasses 0 .
+```
+
+> [!NOTE]
+> **CHOICE:** We choose to include VEXT to maximize the reusability of the data dump.
+
 ### Exposing data through (static) APIs
 
 For all selected target communities, the selected APIs need to be investigated for their potential to provide the data that has been created.
@@ -157,9 +214,24 @@ Previously, we decided to provide additional support for GIS users and chose to 
 In this tutorial, we rely solely on GitHub Pages for this repository, so a fully-fledged OGC API Features web service is out of scope.
 Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.
 
-The static OGC API Features service is available [here as preview](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/) and [here](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) as and [OpenAPI](https://swagger.io/specification/) description.
+> [!NOTE]
+> We publish geospatial features as a single GeoJSON files, with one feature per instance.
+> We infer groupings by subclass categorization and create collection instances in the knowledge graph.
+> We then publish these collections as a static [OGC API Features](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/indexc.html) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications. We publish an [OpenAPI description](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) of the static service.
 
-
+> [!CAUTION]
+> A note on static OGC API Features capabilities:
+> A static OGC API Features deployment will answer API calls to:
+> - /landingpage
+> - /capabilities
+> - /collections
+> - /collections/{COLLECTION}
+> - /collections/{COLLECTION}/items
+> - /collections/{COLLECTION}/items/{FEATUREID}
+> 
+> However, the static version is not able to answer API calls with HTML parameters such as "limit" and especially not CQL queries.
+> Hence, only complete feature collections are returned.
+> For these additional capabilities, a real webservice is required.
 
 ## Querying Linked Open Data 
 

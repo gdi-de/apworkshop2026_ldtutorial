@@ -100,7 +100,7 @@ Typical GIS users are not necessarily familiar with the linked open data paradig
 ### Exposing data through (static) APIs
 
 For all selected target communities, the selected APIs need to be investigated for their potential to provide the data that has been created.
-Previously, we decided to provide additional support for GIS users and chose to provide them with an OGC API Features service.
+Previously, we decided to provide additional support for GIS users by offering an OGC API Features service.
 
 > [!IMPORTANT]
 > Key questions:
@@ -111,12 +111,11 @@ In this tutorial, we rely solely on GitHub Pages for this repository, so a fully
 Instead, we can create a static OGC API Features version that allows downloading full datasets but cannot provide search functionality.
 
 > [!NOTE]
-> We publish geospatial features as a single GeoJSON files, with one feature per instance.
+> We publish geospatial features as a single GeoJSON file, with one feature per instance.
 > We infer groupings by subclass categorization and create collection instances in the knowledge graph.
 > We then publish these collections as a static [OGC API Features](https://gdi-de.github.io/apworkshop2026_ldtutorial/collections/indexc.html) deployment so that the geodata, modeled as linked open data, can be accessed in GIS applications. We publish an [OpenAPI description](https://gdi-de.github.io/apworkshop2026_ldtutorial/api/api.html) of the static service.
 
 > [!CAUTION]
-> A note on static OGC API Features capabilities:
 > A static OGC API Features deployment will answer API calls to:
 > - /landingpage
 > - /capabilities
@@ -125,9 +124,9 @@ Instead, we can create a static OGC API Features version that allows downloading
 > - /collections/{COLLECTION}/items
 > - /collections/{COLLECTION}/items/{FEATUREID}
 > 
-> However, the static version is not able to answer API calls with HTML parameters such as "limit" and especially not CQL queries.
+However, the static version cannot handle API calls with HTML parameters such as "limit" and, especially, CQL queries.
 > Hence, only complete feature collections are returned.
-> For these additional capabilities, a real webservice is required.
+> For these additional capabilities, a real web service is required.
 
 ### Dereferencing URIs
 
@@ -138,8 +137,8 @@ Take, for instance, the URI for one of the trees of the tree dataset:
 ```
 https://gdi-de.github.io/apworkshop2026_ldtutorial/GZAW870
 ```
-We expect this URI to resolve to at least one human readable representation and one machine-readable representation in RDF.
-Since we are working on GitHub pages only, these serializations need to be added to the webspace of this repository, which can be explored in the gh-pages branch.
+We expect this URI to resolve to at least one human-readable representation and one machine-readable representation in RDF.
+Since we are working on GitHub Pages only, these serializations need to be added to the repository's web space, which can be explored in the gh-pages branch.
 
 #### Content Negotiation
 
@@ -147,7 +146,7 @@ Since we are working on GitHub pages only, these serializations need to be added
 is a negotiation process between a web browser and a web server to agree on the kind of format that will be submitted as the result of an HTTP request.
 This means we could have a client-side request for an RDF serialization vs. another for HTML.
 
-Common HTTP web servers like Apache or NGINX allow for the configuration of content negotiation, which is currently not enabled on GitHub Pages.
+Common HTTP web servers like Apache or NGINX support content negotiation, which is currently not enabled on GitHub Pages.
 
 Therefore, on GitHub pages webspaces, it is necessary to state the format by means of the URL itself, e.g., 
 
@@ -162,10 +161,10 @@ Compared to metadata such as DCAT, which describes context, licenses, and furthe
 Hence, data discovery within an RDF ecosystem is greatly enhanced.
 
 > [!IMPORTANT]
-> VOID provides many statistics which can be generated from the finished RDF Dump. Each statistic can help search engines to:
+> VOID provides many statistics that can be generated from the finished RDF Dump. Each statistic can help search engines to:
 > - Index datasets better
 > - Automatically categorize datasets better
-> - Enable search engines, AI objects and SPARQL resolvers to better find relevant data
+> - Enable search engines, AI objects, and SPARQL resolvers to better find relevant data
 
 **Example Triples:**
 ```ttl
@@ -189,11 +188,11 @@ ex:myds rdf:type void:Dataset ;
 ```
 
 > [!NOTE]
-> **CHOICE:** We choose to add a VOID desceiption to the dataset in order to make it better findable and reusable.
+> **CHOICE:** We choose to add a VOID description to the dataset in order to make it better findable and reusable.
 
 #### Defining used vocabularies explicitly using VOAF
 
-The [Vocabulary of a Friend (VOAF)](http://lov.okfn.org/vocommons/voaf/) allows to describe vocabularies which are used in RDF graphs and can be used in conjunction with VoID to uniquely describe vocabulary contexts.
+The [Vocabulary of a Friend (VOAF)](http://lov.okfn.org/vocommons/voaf/) allows for describing vocabularies that are used in RDF graphs and can be used in conjunction with VoID to uniquely describe vocabulary contexts.
 
 ```ttl
 geo: a voaf:Vocabulary ;
@@ -205,11 +204,11 @@ geo: a voaf:Vocabulary ;
 We define the namespace geo: of GeoSPARQL as a [voaf:Vocabulary](http://lov.okfn.org/vocommons/voaf/Vocabulary), add statement that our datadump uses the GeoSPARQL vocabulary using   [voaf:usageInDataset](http://lov.okfn.org/vocommons/voaf/useageInDataset) and using [void:vocabulary](https://www.w3.org/TR/void/vocabulary) to point to the vocabulary usage from the [void:Dataset](https://www.w3.org/TR/void/Dataset) definition. 
 
 > [!NOTE]
-> **CHOICE:** We choose to give a precise definition of the vocabularies we use in the dataset using the VOAF vocabulary.
+> **CHOICE:** We choose to give a precise definition of the vocabulary we use in the dataset using the VOAF vocabulary.
 
 #### Even more statistics with VoID Ext (VEXT)
 
-[VoID Ext](https://www.ldf.fi/service/pylode?url=http://ldf.fi/void-ext) is an extension vocabulary to VoID which allows to model more precise statistics about the RDF dataset.
+[VoID Ext](https://www.ldf.fi/service/pylode?url=http://ldf.fi/void-ext) is an extension vocabulary to VoID that allows for modeling more precise statistics about the RDF dataset.
 
 Additional statistics include:
 

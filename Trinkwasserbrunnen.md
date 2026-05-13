@@ -114,31 +114,6 @@ In practice, this is not always the case, which means missing vocabularies need 
 > [!CAUTION]
 > Publishing a vocabulary and managing an organization's vocabulary should be taken seriously. At best, people should discuss missing properties with their agency and work together to define missing vocabularies centrally or in a collaborative setting. Hosting a vocabulary in the same repository as the data it describes is usually a bad practice and is taken for this tutorial only for the sake of simplicity.
 
-## How to find appropriate vocabularies?
-
-A lot of RDF vocabularies have already been defined for standard use cases such as:
-- Modeling of vocabularies (VOAF)
-- Bibliography management (BIBO)
-- Metadata descriptions (DublinCore)
-
-> [!IMPORTANT]
-> A rule of thumb:
-> - The more commonplace the use case seems to be, the more likely it is that a vocabulary has already been defined.
-> - Example I: "I want to represent geometries in RDF" - This does not seem uncommon... a vocabulary likely exists
-> - Example II: "I have my own classification of objects that I did never share with the world" - Very unlikely that a vocabulary exists unless you defined and published it yourself
-
-To find vocabularies some homepages provides search capabilities:
-- [BARTOC](https://bartoc.org/)
-- [LOV: Linked Open Voacbularies](https://lov.linkeddata.es/dataset/lov/about)
-- Several W3C speccifications like [RDF](https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/), [RDFS](https://www.w3.org/TR/rdf-schema/), [OWL](https://www.w3.org/TR/owl2-overview/), [SHACL](https://www.w3.org/TR/shacl/), Profiles
-
-In addition, it makes sense to check already existing databases for URIs of definitions that can be reused:
-- [Wikidata](https://www.wikidata.org/)
-- [DBPedia](https://www.dbpedia.org/)
-- [LinkedGeoData](https://linkedgeodata.org/)
-
-We will use some of these mentioned resources in the following mapping of the dataset to RDF.
-
 ## Classification of the dataset
 
 Here, we ask which semantic class to assign to the dataset.
@@ -208,6 +183,31 @@ gdidedata:1 rdfs:label "Brunnen 1"@de, "water fountain 1"@en" .
 gdidedata:22 rdfs:label "Brunnen 22"@de, "water fountain 22"@en" .
 gdidedata:116 rdfs:label "Brunnen 116"@de, "water fountain 116"@en" .
 ```
+
+## How to find appropriate vocabularies?
+
+A lot of RDF vocabularies have already been defined for standard use cases such as:
+- Modeling of vocabularies (VOAF)
+- Bibliography management (BIBO)
+- Metadata descriptions (DublinCore)
+
+> [!IMPORTANT]
+> A rule of thumb:
+> - The more commonplace the use case seems to be, the more likely it is that a vocabulary has already been defined.
+> - Example I: "I want to represent geometries in RDF" - This does not seem uncommon... a vocabulary likely exists
+> - Example II: "I have my own classification of objects that I did never share with the world" - Very unlikely that a vocabulary exists unless you defined and published it yourself
+
+To find vocabularies some homepages provides search capabilities:
+- [BARTOC](https://bartoc.org/)
+- [LOV: Linked Open Voacbularies](https://lov.linkeddata.es/dataset/lov/about)
+- Several W3C speccifications like [RDF](https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/), [RDFS](https://www.w3.org/TR/rdf-schema/), [OWL](https://www.w3.org/TR/owl2-overview/), [SHACL](https://www.w3.org/TR/shacl/), Profiles
+
+In addition, it makes sense to check already existing databases for URIs of definitions that can be reused:
+- [Wikidata](https://www.wikidata.org/)
+- [DBPedia](https://www.dbpedia.org/)
+- [LinkedGeoData](https://linkedgeodata.org/)
+
+We will use some of these mentioned resources in the following mapping of the dataset to RDF.
 
 ## Treating columns with numbers
 

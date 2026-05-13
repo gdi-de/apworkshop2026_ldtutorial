@@ -86,7 +86,7 @@
      "Tilia tomentosa":"http://www.wikidata.org/entity/Q161382",
      "Ulmus":"http://www.wikidata.org/entity/Q131113",
      "Ulmus glabra":"http://www.wikidata.org/entity/Q147498",
-     "Ulmus laevis":"http://www.wikidata.org/entity/Q147492",
+     "Ulmus laevis":"http://www.wikidata.org/entity/Q147492"
     }
     },
     "gruenanlage": {"propiri":"http://www.wikidata.org/prop/direct/P3018","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","proplabels":{"de":"Grünanlage","en":"green area"},"prop": "anno","order":1},

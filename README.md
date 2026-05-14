@@ -9,7 +9,7 @@ Trees in Germany are numbered and classified according to the type of tree, thei
 [Use Case 1](Baumkataster.md) examines how to convert these parameters into Linked Open Data.
 
 ### Conversion results
-
+  
  
 
 ## Use Case 2: Trinkwasserbrunnen Berlin (drinking water fountains)

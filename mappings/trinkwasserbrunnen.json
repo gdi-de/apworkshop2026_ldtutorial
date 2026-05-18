@@ -43,7 +43,7 @@
   "addcolumns":{
     "city": {"propiri": "http://www.wikidata.org/prop/direct/P131","value":"http://www.wikidata.org/entity/Q64","concept":"http://www.wikidata.org/entity/Q42744322","prop": "obj","order": 1},
     "homepage":{"propiri":"http://xmlns.com/foaf/0.1/homepage","value":"https://www.bwb.de/de/trinkbrunnen.php","prop":"data","range":"http://www.w3.org/2001/XMLSchema#anyURI"},
-    "openmonths":{"propiri":"http://www.w3.org/2006/time#hasTime","concept":"https://www.w3.org/TR/owl-time/#time:GeneralDurationDescription","collection":true,"columns":{
+    "openmonths":{"propiri":"http://www.w3.org/2006/time#hasTime","proplabels":{"de":"offen","en":"open"},"concept":"http://www.w3.org/2006/time#TemporalEntity","collection":true,"columns":{
         "startmonth":{"propiri":"http://www.w3.org/2006/time#hasBeginning","value":"http://www.w3.org/ns/time/gregorian/May","prop":"obj"},
         "endmonth":{"propiri":"http://www.w3.org/2006/time#hasEnd","value":"http://www.w3.org/ns/time/gregorian/October","prop":"obj"}
       }

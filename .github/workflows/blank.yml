@@ -52,7 +52,8 @@ jobs:
         wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl
         wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl
         sed '/^@/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl > brunnenmod.ttl
-        cat source_baumkataster_berlin_mappings_baumkataster_ont.ttl brunnenmod.ttl > forpylode.ttl
+        sed '/^[^@]/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl > brunnenmodhead.ttl
+        cat brunnenmodhead.ttl source_baumkataster_berlin_mappings_baumkataster_ont.ttl brunnenmod.ttl > forpylode.ttl
         cat forpylode.ttl
         pylode -o docs/ont/index.html -i forpylode.ttl
     - name: Deploy 🚀

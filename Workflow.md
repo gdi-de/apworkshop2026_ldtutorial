@@ -1,4 +1,4 @@
-# Repository Workflow
+# Publication Workflow
 
 This section documents the source artifacts in this repository and how they are used to produce the linked open data publication that is envisioned in this tutorial.
 It needs to be stressed that this workflow is one of many possible workflows for publishing linked open data, some of which are tailored to GitHub's particularities.

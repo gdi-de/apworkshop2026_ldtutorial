@@ -38,6 +38,9 @@ jobs:
 
   vocbuild:
     runs-on: ubuntu-latest
+    needs: 
+      - mapit
+      - mapit2
     steps:
     - name: "Build Vocabulary documentation"
       run: | 
@@ -67,6 +70,7 @@ jobs:
     needs: 
       - mapit
       - mapit2
+      - vocbuild
     with: 
         version: v018
         rdffilepath: source_baumkataster_berlin_mappings_baumkataster.ttl source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl

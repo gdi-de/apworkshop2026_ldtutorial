@@ -6,7 +6,7 @@ The reader is advised to consider the many options for software and publication 
 
 In the following, we first illustrate the conversion of GeoJSON files to RDF data, then the conversion of missing vocabularies to an RDF vocabulary, and finally the creation of an HTML deployment to host linked open data on GitHub Pages.
 
-## Mapping GeoJSON to RDF
+## Mapping GeoJSON to RDF 
 
 The first step in the publication workflow is converting GeoJSON source files to RDF.
 While the [Baumkataster](Baumkataster.md) and [Trinkwasserbrunnen](Trinkwasserbrunnen.md) files explain the reasoning behind the creation of the mapping file from GeoJSON to RDF,

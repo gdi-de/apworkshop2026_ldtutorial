@@ -160,7 +160,7 @@ It
 - Creates static APIs for easier data access
 - Creates RDF statistics
 - Adds class groupings to RDF datasets
-- Generation of metadata
+- Generation of metadata 
 
 ### Inclusion into Github Actions
 

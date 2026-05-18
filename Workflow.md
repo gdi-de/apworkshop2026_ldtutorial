@@ -140,14 +140,69 @@ Hence, this publication helps to resolve missing vocabulary URIs, but cannot be 
 
 ## Publishing Linked Open Data
 
-The last step of the publication workflow is the publication of the HTML deployment of the linked open data dump.
+The last step of the publication workflow is publishing the HTML deployment of the linked open data dump.
 
 ### Source data
 
+The source data for this job are the two RDF data files, which were gained from GeoRDFConverter in the first step
+
+- Trinkwasserbrunnen RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl) 
+- Baumkataster RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster.ttl)
+
 ### The SPARQLing Unicorn Ontology Documentation Script
+
+The [SPARQLing Unicorn Ontology Documentation Script](https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc/) is a standalone part of the [SPARQLing Unicorn QGIS Plugin](https://plugins.qgis.org/plugins/sparqlunicorn/), which allows the creation of HTML deployments of RDF files according to the principles of [LOUD Dumps](https://eceasst.org/index.php/eceasst/article/view/2630).
+It
+- Renders RDF instances as defined by a given data namespace as HTML files according to a given template
+- Creates further exports (GeoJSON, TTL, GraphML) according to input parameters
+- Creates static APIs for easier data access
+- Creates RDF statistics
+- Adds class groupings to RDF datasets
+- Generation of metadata
 
 ### Inclusion into Github Actions
 
+The script provides a reusable GitHub Workflow for generating deployments.
+The reusable workflow is called with the parameters defined in its repository [SPARQLing Unicorn Ontology Documentation Script](https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc/).
+
+```yml
+build:
+  uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+  needs: 
+    - mapit
+    - mapit2
+    - vocbuild
+  with: 
+      version: v018
+      rdffilepath: source_baumkataster_berlin_mappings_baumkataster.ttl source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl
+      rdffilebranch: gh-pages
+      docpath: docs
+      prefixns: https://gdi-de.github.io/apworkshop2026/
+      prefixnsshort: gdide
+      indexpages: true
+      createcollections: true
+      createnonNSPages: true
+      createVOWL: true
+      metadatatable: true
+      preferredlang: en
+      license: CC BY 4.0
+      ghpages: true
+```
+The script was used with the default settings and the default language, English.
+
 ### Result data
 
+The script produces a variety of deployment results, which are published in the GitHub Pages branch:
+For each instance to be rendered:
+- A folder named after the instance with the serializations as index.html, index.ttl, index.json, etc.
+For the whole publication:
+- A folder per inferred collection
+- A classtree, statistics, build log, and search file in JavaScript
+- Static API results in folder names that are mandated by the API service. In this case /collections for a static OGC API features service
+
 ### Summary
+
+The HTML deployment allows to dereference every URI in the datanamespace of the to-be-published dataset in a way that is accessible to humans.
+It allows users to explore the linked open data dump, search, and view structured statistics.
+In addition, the deployment allows access via OGC API Features in QGIS, using Linked Open Data Clients by accessing TTL files from the deployment.
+

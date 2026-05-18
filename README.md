@@ -8,17 +8,11 @@ Trees in Germany are numbered and classified according to the type of tree, thei
  
 [Use Case 1](Baumkataster.md) examines how to convert these parameters into Linked Open Data.
 
-### Conversion results
-  
- 
-
 ## Use Case 2: Trinkwasserbrunnen Berlin (drinking water fountains)
 
 Drinking water fountains are a common occurrence in many German cities, including Berlin.
 
 [Use Case 2](Trinkwasserbrunnen.md) Drinking water fountains are classified by type, origin, accessibility, and location.
-
-### Conversion results
 
 ## Publishing newly defined vocabularies
 
@@ -302,3 +296,7 @@ print(g.serialize(format="turtle"))
 ### Querying linked open data in QGIS
 
 Support for linked open data resources in QGIS is given by the SPARQLing Unicorn QGIS plugin.
+
+## Publication Workflow
+
+The publication workflow as used in this repository is illustrated in [this section](Workflow.md)

@@ -34,7 +34,7 @@
         "Mitte":{"uri":"http://www.wikidata.org/entity/Q2013767","labels":{"de":"Mitte","en":"Mitte"}}
       }
     },
-    "standort":{"propiri":"http://www.w3.org/2004/02/skos/core#definition","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop":"data"},
+    "standortfkt":{"propiri":"http://www.w3.org/2004/02/skos/core#definition","range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop":"data"},
     "postleitzahl":{"propiri":"http://www.w3.org/ns/locn#postCode","range":"http://www.w3.org/2001/XMLSchema#integer","prop":"data"},
     "baujahr": {"propiri": "http://www.wikidata.org/prop/direct/P571","proplabels":{"de":"Baujahr","en":"inception"},"range":"http://www.w3.org/2001/XMLSchema#gYear","prop": "data","order": 1},
     "einschraenkungen": {"propiri": "http://www.w3.org/2004/02/skos/core#scopeNote","proplabels":{"de":"Einschränkungen","en":"restrictions"},"range":"http://www.w3.org/2001/XMLSchema#string","lang":"de","prop": "data","order": 1},

@@ -2,35 +2,145 @@
 
 This section documents the source artifacts in this repository and how they are used to produce the linked open data publication that is envisioned in this tutorial.
 It needs to be stressed that this workflow is one of many possible workflows for publishing linked open data, some of which are tailored to GitHub's particularities.
-The reader is advised to consider the many options for software and publication workflows, and to take the tools suggested here only as one possible way for linked data publishing.
+The reader is advised to consider the many options for software and publication workflows, and to take the tools suggested here as only one possible approach to linked data publishing.
 
-In the following, we illustrate the conversion of GeoJSON files first to RDF data, next missing vocabularies to an RDF vocabulary and finally the creation of a HTML deployment to host linked open data on GitHub pages.
+In the following, we first illustrate the conversion of GeoJSON files to RDF data, then the conversion of missing vocabularies to an RDF vocabulary, and finally the creation of an HTML deployment to host linked open data on GitHub Pages.
 
 ## Mapping GeoJSON to RDF
 
+The first step in the publication workflow is converting GeoJSON source files to RDF.
+While the [Baumkataster](Baumkataster.md) and [Trinkwasserbrunnen](Trinkwasserbrunnen.md) files explain the reasoning behind the creation of the mapping file from GeoJSON to RDF,
+this section explains the technical part of the conversion.
+
 ### Source data and schema files
+
+The source files for conversion are located in the folder "source" and consist of two GeoJSON files.
+These files have already been preprocessed from two WFS services, where the original files (in GML) were accessed because of the following reasons:
+- GeoJSON files can be natively rendered in the GitHub repository view
+- A conversion to WGS84 was performed because the GeoJSON format requires it, and only WGS84 can be natively rendered in GitHub
+
+Apart from these conversions, the source data remains unchanged.
+
+The mapping files can be found in the "mappings" folder, one file per GeoJSON conversion.
 
 ### GeoRDFConverter
 
+We use the free software [GeoRDFConverter](https://github.com/situx/geordfconverter/) to convert GeoJSON to RDF.
+GeoRDFConverter uses the [GeoPandas library](https://geopandas.org/) to read GeoFormats and the [RDFLib library](https://rdflib.readthedocs.io/en/stable/) to write RDF files according to the mapping definition.
+It produces
+- The resulting RDF in the TTL format and JSON-LD
+- The result of a column autodetection
+- A vocabulary file of missing terms, if applicable
+- An error log if errors occurred in the conversion 
+
 ### Inclusion into GitHub Actions
+
+This repository contains a GitHub Action workflow in .github/workflows/blank.yml.
+GeoRDFConverter is called in a reusable workflow for each file to be converted.
+
+```yml
+mapit:
+  uses: situx/geordfconverter/.github/workflows/geordfconvert.yml@main
+  with: 
+      input: source/trinkwasser_brunnen_berlin.geojson
+      output: docs
+      ghpages: true
+      mapping: mappings/trinkwasserbrunnen.json
+      sepchar: ";"
+```
+The workflow parts have been named "mapit" and call the reusable geordfconverter workflow with parameters as defined in [GeoRDFConverter's](https://github.com/situx/geordfconverter/) repository.
 
 ### Result data
 
-### Summary and alternatives
+The result of the conversion is the following files:
+
+- Trinkwasserbrunnen RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl) [JSON-LD](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.json)
+- Baumkataster RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster.ttl) [JSON-LD](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster.json)
+- Baumkataster and Trinkwasserbrunnen Missing Vocabularies [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl) [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl)
+- Baumkataster and Trinkwasserbrunnen Error Log [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_err.json) [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_err.json)
+- Baumkataster and Trinkwasserbrunnen Automappings [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_map.json) [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_map.json)
+
+### Summary
+
+The first step converted GeoJSON files, following a mapping, to two RDF serializations: TTL and JSON-LD. It also identified missing vocabularies and exported them in the given vocabulary namespace for further publication in the next step. 
+Finally, the autogenerated mappings and error logs were exported for convenience and debugging.
+
 
 ## Publishing vocabularies
 
+The previous GeoRDFConverter integration step has provided us not only with RDF files, but also with exports of vocabularies in the defined vocabulary namespace, which need to be published in this step. 
+We use the software pyLODE to publish the vocabulary under the namespace of this GitHub page.
+This is done for demonstration purposes for this tutorial. In a professional setting, one should strive to establish an authoritative vocabulary namespace for management.
+
 ### Source data
+
+The source data for this step consists of two files created in the previous process.
+
+- Baumkataster and Trinkwasserbrunnen Missing Vocabularies [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl) [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl)
+
+Since the two files include the missing vocabulary definitions, they will serve as the basis for the vocabulary definitions and eventual publication.
 
 ### The software pyLODE
 
+[pyLODE](https://github.com/RDFLib/pyLODE) is software that allows the publication of RDF vocabularies.
+An RDF vocabulary processed with pyLODE is rendered in HTML under a homepage, which should be located under the URI of the vocabulary's definition.
+
 ### Inclusion into Github Actions
+
+In the GitHub actions workflow of this repository in .github/workflows/blank.yml, pyLODE is called in the vocbuild job:
+
+```yml
+  vocbuild:
+    runs-on: ubuntu-latest
+    needs: 
+      - mapit
+      - mapit2
+    steps:
+    - name: "Build Vocabulary documentation"
+      run: | 
+        sudo apt-get update
+        sudo apt-get install python3 python3-setuptools python3-pip python3-dev  -y
+        sudo pip3 install wheel pylode==2.13.2
+        mkdir docs
+        mkdir docs/ont
+        wget source_baumkataster_berlin_mappings_baumkataster_ont.ttl .
+        wget source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl .
+        sed '/^@/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl brunnenmod.ttl
+        cat source_baumkataster_berlin_mappings_baumkataster_ont.ttl brunnenmod.ttl > forpylode.ttl
+        pylode -o docs/ont/index.html -i forpylode.ttl
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
+      with:
+         BRANCH: gh-pages
+         FOLDER: docs/
+         clean: false
+```
+This job merges the two exported TTL source files, installs Python dependencies for pyLODE, and finally executes pyLODE to create the HTML documentation for the vocabulary in the correct result folder.
+The result is pushed to the gh-pages branch for later publication.
 
 ### Result data
 
-### Summary and alternatives
+pyLODE produces the following result files:
+
+- doc/ont/index.html: The HTML rendering of the vocabulary
+- doc/ont/index.ttl: The TTL representation of the vocabulary
+
+### Summary
+
+pyLODE helped publish the missing vocabulary under the URI of this GitHub repository.
+This means that at least the URIs of this vocabulary are resolvable.
+However, instead of relying on this automated process, the vocabulary should be curated and published elsewhere.
+In doing so, all elements described in the best practices for publishing vocabularies on the web could be followed.
+In particular, the vocabulary would get:
+- Its own prefix
+- Consistent and curated definitions
+- A proper documentation in RDF, using for instance [VOAF](http://lov.okfn.org/vocommons/voaf/) among others
+
+Hence, this publication helps to resolve missing vocabulary URIs, but cannot be a permanent substitute for a properly published vocabulary.
 
 ## Publishing Linked Open Data
+
+The last step of the publication workflow is the publication of the HTML deployment of the linked open data dump.
 
 ### Source data
 
@@ -40,4 +150,4 @@ In the following, we illustrate the conversion of GeoJSON files first to RDF dat
 
 ### Result data
 
-### Summary and alternatives
+### Summary

@@ -90,30 +90,32 @@ An RDF vocabulary processed with pyLODE is rendered in HTML under a homepage, wh
 In the GitHub actions workflow of this repository in .github/workflows/blank.yml, pyLODE is called in the vocbuild job:
 
 ```yml
-  vocbuild:
-    runs-on: ubuntu-latest
-    needs: 
-      - mapit
-      - mapit2
-    steps:
-    - name: "Build Vocabulary documentation"
-      run: | 
-        sudo apt-get update
-        sudo apt-get install python3 python3-setuptools python3-pip python3-dev  -y
-        sudo pip3 install wheel pylode==2.13.2
-        mkdir docs
-        mkdir docs/ont
-        wget source_baumkataster_berlin_mappings_baumkataster_ont.ttl .
-        wget source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl .
-        sed '/^@/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl brunnenmod.ttl
-        cat source_baumkataster_berlin_mappings_baumkataster_ont.ttl brunnenmod.ttl > forpylode.ttl
-        pylode -o docs/ont/index.html -i forpylode.ttl
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@v4.3.3
-      with:
-         BRANCH: gh-pages
-         FOLDER: docs/
-         clean: false
+vocbuild:
+  runs-on: ubuntu-latest
+  needs: 
+    - mapit
+    - mapit2
+  steps:
+  - name: "Build Vocabulary documentation"
+    run: | 
+      sudo apt-get update
+      sudo apt-get install python3 python3-setuptools python3-pip python3-dev  -y
+      sudo pip3 install wheel pylode==2.13.2
+      mkdir docs
+      mkdir docs/ont
+      wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl
+      wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl
+      sed '/^@/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl > brunnenmod.ttl
+      sed '/^[^@]/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl > brunnenmodhead.ttl
+      cat brunnenmodhead.ttl source_baumkataster_berlin_mappings_baumkataster_ont.ttl brunnenmod.ttl > forpylode.ttl
+      cat forpylode.ttl
+      pylode -o docs/ont/index.html -i forpylode.ttl
+  - name: Deploy 🚀
+    uses: JamesIves/github-pages-deploy-action@v4.3.3
+    with:
+       BRANCH: gh-pages
+       FOLDER: docs/
+       clean: false   
 ```
 This job merges the two exported TTL source files, installs Python dependencies for pyLODE, and finally executes pyLODE to create the HTML documentation for the vocabulary in the correct result folder.
 The result is pushed to the gh-pages branch for later publication.

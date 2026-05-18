@@ -13,7 +13,7 @@ Drinking water fountains are a common occurrence in many German cities, includin
 
 [Use Case 2](Trinkwasserbrunnen.md) Drinking water fountains are classified by type, origin, accessibility, and location.
 
-## Publishing newly defined vocabularies 
+## Publishing newly defined vocabularies  
 
 During the dataset mapping process, a few terms could not be mapped to existing vocabularies.
 However, their integration into the linked data deployments seemed important enough not to drop them.

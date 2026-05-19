@@ -257,22 +257,22 @@ Upon discovery of a dataset, when it comes to its actual contents, humans often 
 > - What is the method of classification applied to the data?
 > - How interoperable and detailed is this dataset compared to the data I work with usually?
 
-To that end, the classifications which have been applied in the mapping process to RDF have to be made transparent to the end user and need to be visualized in a human-readable manner.
-In the following, we introduce two approaches for RDF visualizations as an example case. Both approaches are applied in the data deployment.
+To that end, the classifications applied in the mapping process to RDF must be made transparent to the end user and visualized in a human-readable manner.
+In the following, we introduce two approaches to RDF visualizations as an example. Both approaches are applied in the data deployment.
 
 ### Using the Visual Notation For OWL Ontologies (VOWL)
 
-The [Visual Notation for OWL Ontologies (VOWL)](https://www.semantic-web-journal.net/system/files/swj1114.pdf) is a JSON notation, which allows a JavaScript based viewer to display essential components of a vocabulary:
+The [Visual Notation for OWL Ontologies (VOWL)](https://www.semantic-web-journal.net/system/files/swj1114.pdf) is a JSON notation, which allows a JavaScript-based viewer to display essential components of a vocabulary:
 - Classes and Properties
 - Ranges and Domains
-- Constraint relations between aforementioned items
+- Constraint relations between the aforementioned items
 
 A demo site of VOWL is available [here](https://service.tib.eu/webvowl/).
 
-VOWL allows users to gain insights into the classifications applied to a dataset without the need to investigate its data instances.
-Users may at a glance be allowed to get an impression of what contents are available in the dataset to answer questions like:
+VOWL allows users to gain insights into the classifications applied to a dataset without having to examine its data instances.
+Users may, at a glance, be allowed to get an impression of what content is available in the dataset to answer questions like:
 - Is that dataset worth investigating further?
-- What is the definition of the classifications and is the definition aligned with my goals?
+- What is the definition of the classifications, and is the definition aligned with my goals?
 
 > [!NOTE]
 > **CHOICE:** We choose to add a VOWL description of all relevant classes to the homepage of the HTML deployment.
@@ -281,23 +281,23 @@ Users may at a glance be allowed to get an impression of what contents are avail
 
 The [classtree vocabulary CT](https://sparqlunicorn.github.io/sparqlunicornGoesGIS-ontdoc/classtreevocab.html) allows to annotate classtree hierarchies with specific classifiers, so that class tree visualizations can be derived in a better way.
 
-The CT vocabulary defines tree nodes which categorize specific classes by the contents they link to.
+The CT vocabulary defines tree nodes that categorize specific classes by the contents they link to.
 
 For instance, it adds whether a class links to geodata, whether a property should link to sth. with a unit or to sth. like a concept of time.
 
-This allows rendering software to display these information in a tree visualization such as in this HTML deployment.
+This allows rendering software to display this information in a tree visualization, such as in this HTML deployment.
 
 <img width="339" height="410" alt="image" src="https://github.com/user-attachments/assets/10461060-75cc-4f53-a36c-78481dec0ad4" />
 
 In this excerpt from a class tree visualization of this repository, we can see general classes displayed as a yellow circle.
 
-Classes which are known to have geometry instances in the dataset are displayed with an icon representing planet earth.
+Classes that are known to have geometry instances in the dataset are displayed with an icon representing planet Earth.
 
-In this way, users obtain more visual information about classes which might help them decide on further discovery.
+In this way, users obtain more visual information about classes, which might help them decide on further discovery.
 
 <img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/41542418-6704-4e12-9e47-37a3e0d9a0d4" />
 
-An investigation of one of the geoclasses using the context menu can tell us about the kind of properties being associated with the instance.
+An investigation of one of the geoclasses using the context menu can tell us which properties are associated with the instance.
 
 We can observe a property which is typically linked to an instance of a geometry ("hasGeometry") marked up using the earth icon or the rdfs:label property indicating the label marked up with the icon for a property associated with labels.
 
@@ -316,20 +316,20 @@ Typical software to use would be:
 - [yEd](https://www.yworks.com/products/yed)
 - [Gephi](https://gephi.org/)
 
-In this tutorial, no graph format export has been configured to the HTML deployment, but could just be another serialization to be considered.
+In this tutorial, no graph format export has been configured to the HTML deployment, but it could just be another serialization to be considered.
 
 > [!NOTE]
-> **CHOICE:** In this tutorial we do not provide an export for third-party graph visualization software.
+> **CHOICE:** In this tutorial, we do not provide an export for third-party graph visualization software.
 
 ## Findability of linked data
 
-Since linked open data is published also in a HTML serialization, it can be convenient for search engines to index, given the HTML is properly formatted for this purpose.
-We describe three different technologies which aid in the indexing of the published linked open data pages by search engines and explain how they were applied in this tutorial.
+Since linked open data is also published in HTML, it can be convenient for search engines to index it, provided the HTML is properly formatted for this purpose.
+We describe three technologies that aid search engines in indexing published linked open data pages and explain how they were applied in this tutorial.
 
 ### RDFa
 
 [RDF in Attributes](https://www.w3.org/TR/rdfa-core/) ([RDFa](https://rdfa.info/)) is a way to embed RDF in HTML webpages.
-The goal is to use already existing HTML elements on a homepage and mark them up in such a way, that their contents may be interpreted in RDF.
+The goal is to use existing HTML elements on a homepage and mark them up so that their contents can be interpreted in RDF.
 The HTML homepage, thereby acts as the subject of the RDF triple.
 Elements are marked up with a predicate URI and use their value as the object.
 

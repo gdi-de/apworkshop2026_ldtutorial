@@ -237,7 +237,7 @@ This clarifies two important things:
 
 > [!NOTE]
 > **CHOICE:** Due to context knowledge we treat **postleitzahl** and **baujahr** as DataTypeProperties with range [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) and [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) respectively.
-> We choose the IRI [locn:zipCode](http://www.w3.org/ns/locn#postCode) to describe the **postleitzahl** relation and [wdt:P571 (inception)](https://www.wikidata.org/prop/direct/P571) to described the **baujahr** column. We keep the German labels for both columns in the graph.
+> We choose the IRI [locn:postCode](http://www.w3.org/ns/locn#postCode) to describe the **postleitzahl** relation and [wdt:P571 (inception)](https://www.wikidata.org/prop/direct/P571) to described the **baujahr** column. We keep the German labels for both columns in the graph.
 
 ```json
 "postleitzahl":{"propiri":"http://www.w3.org/ns/locn#postCode",

@@ -483,7 +483,7 @@ print(f"Graph g has {len(g)} statements.")
 # Print out the entire Graph in the RDF Turtle format
 print(g.serialize(format="turtle"))
 ```
-
+ 
 ### Querying linked open data in QGIS
 
 Support for linked open data resources in [QGIS](https://qgis.org/) is given by the [SPARQLing Unicorn QGIS plugin](https://github.com/sparqlunicorn/sparqlunicornGoesGIS).

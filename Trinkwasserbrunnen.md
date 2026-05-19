@@ -417,7 +417,7 @@ We identify two additional pieces of information that can be added, since they a
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix greg: <<http://www.w3.org/ns/time/gregorian/> .
+@prefix greg: <http://www.w3.org/ns/time/gregorian/> .
 
 gdidedata:100  foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI ;
                time:hasTime <https://gdi-de.github.io/apworkshop2026/100_openmonths> .

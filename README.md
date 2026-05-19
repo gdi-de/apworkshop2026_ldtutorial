@@ -324,7 +324,7 @@ In this tutorial, no graph format export has been configured to the HTML deploym
 ## Findability of linked data
 
 Since linked open data is published also in a HTML serialization, it can be convenient for search engines to index, given the HTML is properly formatted for this purpose.
-We describe three different technologies which aid in the indexing of the publised linked open data pages by search engines and explain how they were applied in this tutorial.
+We describe three different technologies which aid in the indexing of the published linked open data pages by search engines and explain how they were applied in this tutorial.
 
 ### RDFa
 
@@ -414,6 +414,8 @@ The generated HTML has both RDFa and Microdata attached.
 In addition, a JSON-LD version of each linked data published site is available in the deployment.
 
 In this way, JSON-LD is not embedded in the HTML page, as the JSON-LD markup suggests, but a search engine will be able to pick up the JSON-LD serialization in the same publication folder.
+
+To explore Microdata published in this way, users may install extensions such as the [Virtuoso Structured Data Sniffer](https://chromewebstore.google.com/detail/openlink-structured-data/egdaiaihbdoiibopledjahjaihbmjhdj?pli=1), a plugin that visualizes all aformentioned Microformats as a browser extension.
 
 > [!NOTE]
 > **CHOICE:** Becauses of the capabilities of the software we use for HTML deployment, little effort is needed to create a deployment that fulfills all of the aforementioned formats.

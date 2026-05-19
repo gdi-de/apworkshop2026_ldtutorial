@@ -270,7 +270,19 @@ Users may at a glance be allowed to get an impression of what contents are avail
 
 The classtree vocabulary CT allows to annotate classtree hierarchies with specific classifiers, so that class tree visualizations can be derived in a better way.
 
+### Using third-party graph visualizing software
 
+Software to visualize graph structures has been developed since many years, but they are rarely readily available to parse RDF.
+To be able to view RDF graphs, in graph visualization software, RDF therefore has to be converted to other formats such as:
+
+- [GraphML](http://graphml.graphdrawing.org/specification.html)
+- [GEXF](https://gexf.net/)
+
+Typical software to use would be:
+- [yEd](https://www.yworks.com/products/yed)
+- [Gephi](https://gephi.org/)
+
+In this tutorial, no graph format export has been configured to the HTML deployment, but could just be another serialization to be considered,
 
 ## Querying Linked Open Data 
 

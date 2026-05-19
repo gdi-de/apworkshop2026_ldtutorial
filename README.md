@@ -12,7 +12,7 @@ Trees in Germany are numbered and classified according to the type of tree, thei
 Drinking water fountains are a common occurrence in many German cities, including Berlin. 
 
 [Use Case 2](Trinkwasserbrunnen.md) Drinking water fountains are classified by type, origin, accessibility, and location.
-
+ 
 ## Publishing newly defined vocabularies  
 
 During the dataset mapping process, a few terms could not be mapped to existing vocabularies.

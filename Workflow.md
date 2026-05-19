@@ -55,10 +55,10 @@ The workflow parts have been named "mapit" and call the reusable geordfconverter
 The result of the conversion is the following files:
 
 - Trinkwasserbrunnen RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl) [JSON-LD](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.json)
-- Baumkataster RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster.ttl) [JSON-LD](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster.json)
-- Baumkataster and Trinkwasserbrunnen Missing Vocabularies [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl) [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl)
-- Baumkataster and Trinkwasserbrunnen Error Log [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_err.json) [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_err.json)
-- Baumkataster and Trinkwasserbrunnen Automappings [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_map.json) [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_map.json)
+- Baumkataster RDF in [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster.ttl) [JSON-LD](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.json)
+- Baumkataster and Trinkwasserbrunnen Missing Vocabularies [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl) [TTL](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl)
+- Baumkataster and Trinkwasserbrunnen Error Log [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_err.json) [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_err.json)
+- Baumkataster and Trinkwasserbrunnen Automappings [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_map.json) [JSON](https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_map.json)
 
 ### Summary
 

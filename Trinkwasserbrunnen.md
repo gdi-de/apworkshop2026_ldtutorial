@@ -159,7 +159,13 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/116
 
 Local identifiers also make for good components of instance labels.
 We might label a single water fountain merely "1", but maybe a better variant would be to name it "Brunnen {nummer}" in German and "water fountain {nummer}" in English.
-We preserve the local identifier and add a more human-readable notion of a label at the same time
+We preserve the local identifier and add a more human-readable notion of a label at the same time.
+
+> [!CAUTION]
+> Many vocabularies provide properties for labels. Despite rdfs:label being the most prominent choice, the correct choide of a label property depends on several factors:
+> - Is it one label or are there many? For many, consider e.g. [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel) [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
+> - Is the label to be considered a title? Then maybe a more specific property like [dc:title](http://purl.org/dc/terms/title) is a better choice
+> - Is it a very specific label which makes sense only in a specific context? Consider extending rdfs:label to create your own specific label property 
 
 > [!NOTE]
 > **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English. We choose the property [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) to designate the label because only one type of label is present.
@@ -397,12 +403,32 @@ We identify two additional pieces of information that can be added, since they a
 **Resulting Mapping Definitions:**
 ```json
 "homepage":{"propiri":"http://xmlns.com/foaf/0.1/homepage","value":"https://www.bwb.de/de/trinkbrunnen.php","prop":"data","range":"http://www.w3.org/2001/XMLSchema#anyURI"},
+"openmonths":{"propiri":"http://www.w3.org/2006/time#hasTime","proplabels""de":"offen","en":"open"},"concept":"http://www.w3.org/2006/time#TemporalEntity","collection":true,
+  "columns":{
+          "startmonth":{"propiri":"http://www.w3.org/2006/time#hasBeginning","value":"http://www.w3.org/ns/time/gregorian/May","prop":"obj"},
+          "endmonth":{"propiri":"http://www.w3.org/2006/time#hasEnd","value":"http://www.w3.org/ns/time/gregorian/October","prop":"obj"}
+  }
+}
 ```
 
 **Sample Triples:**
 ```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/>
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix greg: <<http://www.w3.org/ns/time/gregorian/> .
 
+gdidedata:100  foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI ;
+               time:hasTime <https://gdi-de.github.io/apworkshop2026/100_openmonths> .
+
+gdidedata:100_openmonths a time:TemporalEntity ;
+    rdfs:label "openmonths"@en ;
+    time:hasBeginning greg:May ;
+    time:hasEnd greg:October .
 ```
+
+The resulting triples consists of two instances. The first instance is the instance of the drinking fountain, the other instance is the instance of the opening months which is a [time:TemporalEntity](http://www.w3.org/2006/time#TemporalEntity).
 
 ## Adding additional non-existent information
 
@@ -425,7 +451,7 @@ The provenance ontology defines three different entities:
 
 This means the vocabulary helps establish WHO created a dataset (ENTITY) and the creation process (ACTIVITY).
 
-Let's apply this methodology to the Baumkataster dataset:
+Let's apply this methodology to the Trinkwasserbrunnen dataset:
 
 ```
 

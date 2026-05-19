@@ -139,7 +139,9 @@ Since we are working on GitHub Pages only, these serializations need to be added
 is a negotiation process between a web browser and a web server to agree on the kind of format that will be submitted as the result of an HTTP request.
 This means we could have a client-side request for an RDF serialization vs. another for HTML.
 
-Common HTTP web servers like Apache or NGINX support content negotiation, which is currently not enabled on GitHub Pages.
+> [!CAUTION]
+> Common HTTP web servers like [Apache](https://httpd.apache.org/) or [NGINX](https://nginx.org/) support content negotiation, however, not all publicly available webspaces support it.
+> GitHub and GitLab pages have no support for Content Negotiation at this time.
 
 Therefore, on GitHub pages webspaces, it is necessary to state the format by means of the URL itself, e.g., 
 
@@ -202,6 +204,7 @@ geo: rdf:type voaf:Vocabulary ;
     voaf:usageInDataset ex:myds .
 ```
 We define the namespace geo: of GeoSPARQL as a [voaf:Vocabulary](http://lov.okfn.org/vocommons/voaf/Vocabulary), add statement that our datadump uses the GeoSPARQL vocabulary using   [voaf:usageInDataset](http://lov.okfn.org/vocommons/voaf/useageInDataset) and using [void:vocabulary](https://www.w3.org/TR/void/vocabulary) to point to the vocabulary usage from the [void:Dataset](https://www.w3.org/TR/void/Dataset) definition. 
+
 In addition, we use the [Vocabulary Annotation Vocabulary (VANN)](http://purl.org/vocab/vann/) to define the preferred prefix for the vocabulary in our data dump, as well as the namespace URI of the vocabulary for further reference.
 
 > [!NOTE]
@@ -266,10 +269,35 @@ Users may at a glance be allowed to get an impression of what contents are avail
 - Is that dataset worth investigating further?
 - What is the definition of the classifications and is the definition aligned with my goals?
 
+> [!NOTE]
+> **CHOICE:** We choose to add a VOWL description of all relevant classes to the homepage of the HTML deployment.
+
 ### Representing class hierarchies with CT
 
 The [classtree vocabulary CT](https://sparqlunicorn.github.io/sparqlunicornGoesGIS-ontdoc/classtreevocab.html) allows to annotate classtree hierarchies with specific classifiers, so that class tree visualizations can be derived in a better way.
 
+The CT vocabulary defines tree nodes which categorize specific classes by the contents they link to.
+
+For instance, it adds whether a class links to geodata, whether a property should link to sth. with a unit or to sth. like a concept of time.
+
+This allows rendering software to display these information in a tree visualization such as in this HTML deployment.
+
+<img width="339" height="410" alt="image" src="https://github.com/user-attachments/assets/10461060-75cc-4f53-a36c-78481dec0ad4" />
+
+In this excerpt from a class tree visualization of this repository, we can see general classes displayed as a yellow circle.
+
+Classes which are known to have geometry instances in the dataset are displayed with an icon representing planet earth.
+
+In this way, users obtain more visual information about classes which might help them decide on further discovery.
+
+<img width="516" height="713" alt="image" src="https://github.com/user-attachments/assets/41542418-6704-4e12-9e47-37a3e0d9a0d4" />
+
+An investigation of one of the geoclasses using the context menu can tell us about the kind of properties being associated with the instance.
+
+We can observe a property which is typically linked to an instance of a geometry ("hasGeometry") marked up using the earth icon or the rdfs:label property indicating the label marked up with the icon for a property associated with labels.
+
+> [!NOTE]
+> **CHOICE:** We choose to add a classtree view based on the principles of the classtree vocabulary to the HTML deployment in order to simplify the navigation and classification of data instances and classes for users
 
 ### Using third-party graph visualizing software
 
@@ -284,6 +312,9 @@ Typical software to use would be:
 - [Gephi](https://gephi.org/)
 
 In this tutorial, no graph format export has been configured to the HTML deployment, but could just be another serialization to be considered.
+
+> [!NOTE]
+> **CHOICE:** In this tutorial we do not provide an export for third-party graph visualization software.
 
 ## Findability of linked data
 
@@ -337,6 +368,10 @@ The generated HTML has both RDFa and Microdata attached.
 In addition, a JSON-LD version of each linked data published site is available in the deployment.
 
 In this way, JSON-LD is not embedded in the HTML page, as the JSON-LD markup suggests, but a search engine will be able to pick up the JSON-LD serialization in the same publication folder.
+
+> [!NOTE]
+> **CHOICE:** Becauses of the capabilities of the software we use for HTML deployment, little effort is needed to create a deployment that fulfills all of the aforementioned formats.
+> Hence we choose to support them all simultaneously. In a different setting either RDFa or JSON-LD might suffice.
 
 ## Querying Linked Open Data 
 

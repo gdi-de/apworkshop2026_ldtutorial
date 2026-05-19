@@ -268,7 +268,8 @@ Users may at a glance be allowed to get an impression of what contents are avail
 
 ### Representing class hierarchies with CT
 
-The classtree vocabulary CT allows to annotate classtree hierarchies with specific classifiers, so that class tree visualizations can be derived in a better way.
+The [classtree vocabulary CT](https://sparqlunicorn.github.io/sparqlunicornGoesGIS-ontdoc/classtreevocab.html) allows to annotate classtree hierarchies with specific classifiers, so that class tree visualizations can be derived in a better way.
+
 
 ### Using third-party graph visualizing software
 
@@ -291,11 +292,52 @@ We describe three different technologies which aid in the indexing of the publis
 
 #### RDFa
 
-#### Microcode
+[RDF annotated](https://www.w3.org/TR/rdfa-core/) ([RDFa](https://rdfa.info/)) is a way to embed RDF in HTML webpages.
+The goal is to use already existing HTML elements on a homepage and mark them up in such a way, that their contents may be interpreted in RDF.
+The HTML homepage, thereby acts as the subject of the RDF triple.
+Elements are marked up with a predicate URI and use their value as the object.
+
+```html
+<div vocab="http://schema.org/" typeof="Person">
+  <a property="image" href="http://manu.sporny.org/images/manu.png">
+    <span property="name">Manu Sporny</span></a>, 
+  <span property="jobTitle">Founder/CEO</span>
+  <div>
+    Phone: <span property="telephone">(540) 961-4469</span>
+  </div>
+  <div>
+    E-mail: <a property="email" href="mailto:msporny@digitalbazaar.com">msporny@digitalbazaar.com</a>
+  </div>
+  <div>
+    Links: <a property="url" href="http://manu.sporny.org/">Manu's homepage</a>
+  </div>
+</div>
+```
+<img width="705" height="420" alt="image" src="https://github.com/user-attachments/assets/f716a081-39c8-4bef-8252-aa19aa3849ad" />
+
+The example, as taken from the [RDFa Playground](https://rdfa.info/play/) shows how a simple homepage in which elements of a person are described can be marked up in RDF.
+The resulting graph can be queried using the schema.org vocabulary.
+
+#### HTML Microdata
+
+[HTML Microdata](https://www.w3.org/TR/2021/NOTE-microdata-20210128/) is another competing format to RDFa, which marks up elements of a homepage.
+The syntax is simpler and is expressivity is not as developed as RDFa.
+
+See [this article](https://medium.com/@davetekle/microdata-vs-microformats-vs-rdfa-a-guide-to-structured-data-on-the-web-8fff03a48cfd) for a brief comparison of the two standards.
 
 #### JSON-LD
 
+The last option is to include JSON-LD natively in HTML.
+Using this method, the expressivity is the same as RDFa, but the RDFa annotation is at a specific place in the HTML document.
+
 #### Application in the LOD publication
+
+The HTML deployment in this example takes advantage of all three methods.
+The generated HTML has both RDFa and Microdata attached.
+In addition, a JSON-LD version of each linked data published site is available in the deployment.
+
+In this way, JSON-LD is not embedded in the HTML page, as the JSON-LD markup suggests, but a search engine will be able to pick up the JSON-LD serialization in the same publication folder.
+
 ## Querying Linked Open Data 
 
 For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint is not readily possible because, as a standalone showcase, only a static web space has been provided.

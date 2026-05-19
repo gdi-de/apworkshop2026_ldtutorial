@@ -415,7 +415,7 @@ In addition, a JSON-LD version of each linked data published site is available i
 
 In this way, JSON-LD is not embedded in the HTML page, as the JSON-LD markup suggests, but a search engine will be able to pick up the JSON-LD serialization in the same publication folder.
 
-To explore Microdata published in this way, users may install extensions such as the [Virtuoso Structured Data Sniffer](https://chromewebstore.google.com/detail/openlink-structured-data/egdaiaihbdoiibopledjahjaihbmjhdj?pli=1), a plugin that visualizes all aformentioned Microformats as a browser extension.
+To explore Microdata published in this way, users may install extensions such as the [Virtuoso Structured Data Sniffer](https://chromewebstore.google.com/detail/openlink-structured-data/egdaiaihbdoiibopledjahjaihbmjhdj?pli=1), a browser extension that visualizes all aformentioned Microformats.
 
 > [!NOTE]
 > **CHOICE:** Becauses of the capabilities of the software we use for HTML deployment, little effort is needed to create a deployment that fulfills all of the aforementioned formats.

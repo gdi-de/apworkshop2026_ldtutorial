@@ -164,7 +164,8 @@ Hence, data discovery within an RDF ecosystem is greatly enhanced.
 @prefix void:<http://rdfs.org/ns/void#> .
 @prefix xsd:<http://www.w3.org/2001/XMLSchema#> .
 @prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
 ex:myds rdf:type void:Dataset ;
         rdfs:label "My dataset" ;
         void:exampleResource ex:myExampleResource ; # Specify a representative resource for the dataset
@@ -188,13 +189,20 @@ ex:myds rdf:type void:Dataset ;
 The [Vocabulary of a Friend (VOAF)](http://lov.okfn.org/vocommons/voaf/) allows for describing vocabularies that are used in RDF graphs and can be used in conjunction with VoID to uniquely describe vocabulary contexts.
 
 ```ttl
-geo: a voaf:Vocabulary ;
+@prefix voaf:<http://purl.org/vocommons/voaf#> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix geo:<http://www.opengis.net/ont/geosparql#> .
+@prefix ex:<http://example.org/> .
+geo: rdf:type voaf:Vocabulary ;
     rdfs:label "The GeoSPARQL Ontology"@en ;
     vann:preferredNamespacePrefix "geo"^^xsd:string ;
     vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
     voaf:usageInDataset ex:myds .
 ```
 We define the namespace geo: of GeoSPARQL as a [voaf:Vocabulary](http://lov.okfn.org/vocommons/voaf/Vocabulary), add statement that our datadump uses the GeoSPARQL vocabulary using   [voaf:usageInDataset](http://lov.okfn.org/vocommons/voaf/useageInDataset) and using [void:vocabulary](https://www.w3.org/TR/void/vocabulary) to point to the vocabulary usage from the [void:Dataset](https://www.w3.org/TR/void/Dataset) definition. 
+In addition, we use the [Vocabulary Annotation Vocabulary (VANN)](http://purl.org/vocab/vann/) to define the preferred prefix for the vocabulary in our data dump, as well as the namespace URI of the vocabulary for further reference.
 
 > [!NOTE]
 > **CHOICE:** We choose to give a precise definition of the vocabulary we use in the dataset using the VOAF vocabulary.
@@ -228,6 +236,41 @@ ex:myds rdf:type void:Dataset ;
 
 > [!NOTE]
 > **CHOICE:** We choose to include VEXT to maximize the reusability of the data dump.
+
+
+## Data Discovery: Visualizing RDF/OWL class structures
+
+When an RDF file has been created and published it is important that the data and the data structure within the dataset can be explored and understood by humans.
+Upon discovery of a dataset, when it comes to its actual contents, humans often want to answer one of the following questions:
+
+> [!IMPORTANT]
+> - Are the contents of the dataset relevant to my application case?
+> - Which data fields are included in the dataset?
+> - What is the method of classification applied to the data?
+> - How interoperable and detailed is this dataset compared to the data I work with usually?
+
+To that end, the classifications which have been applied in the mapping process to RDF have to be made transparent to the end user and need to be visualized in a human-readable manner.
+In the following, we introduce two approaches for RDF visualizations as an example case. Both approaches are applied in the data deployment.
+
+### Using the Visual Notation For OWL Ontologies (VOWL)
+
+The [Visual Notation for OWL Ontologies (VOWL)](https://www.semantic-web-journal.net/system/files/swj1114.pdf) is a JSON notation, which allows a JavaScript based viewer to display essential components of a vocabulary:
+- Classes and Properties
+- Ranges and Domains
+- Constraint relations between aforementioned items
+
+A demo site of VOWL is available [here](https://service.tib.eu/webvowl/).
+
+VOWL allows users to gain insights into the classifications applied to a dataset without the need to investigate its data instances.
+Users may at a glance be allowed to get an impression of what contents are available in the dataset to answer questions like:
+- Is that dataset worth investigating further?
+- What is the definition of the classifications and is the definition aligned with my goals?
+
+### Representing class hierarchies with CT
+
+The classtree vocabulary CT allows to annotate classtree hierarchies with specific classifiers, so that class tree visualizations can be derived in a better way.
+
+
 
 ## Querying Linked Open Data 
 

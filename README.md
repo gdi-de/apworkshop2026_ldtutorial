@@ -22,7 +22,7 @@ For these terms, a new vocabulary definition needs to be created.
 
 > [!IMPORTANT]
 > A vocabulary will be represented as an RDF file, which only includes:
-> - rdfs:Class or [owl:Class](http://www.w3.org/2002/07/owl#Class) instances with at least one label and one definition
+> - [rdfs:Class](http://www.w3.org/2000/01/rdf-schema#Class) or [owl:Class](http://www.w3.org/2002/07/owl#Class) instances with at least one label and one definition
 > - [owl:DataTypeProperty](http://www.w3.org/2002/07/owl#DataTypeProperty), [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty) or [owl:AnnotationProperty](http://www.w3.org/2002/07/owl#AnnotationProperty) instances with at least one label and one definition
 > - Constraints on the aforementioned instances using [OWL](https://www.w3.org/TR/owl-features/) restrictions or [SHACL](https://www.w3.org/TR/shacl/) shapes
 
@@ -34,11 +34,12 @@ For the sake of this example, we will discuss only selected details of how these
 > [!IMPORTANT]
 > Important aspects when publishing a linked open data vocabulary:
 > - Choosing a non-common prefix for the vocabulary. Check existing prefixes, e.g., on [prefix.cc](http://prefix.cc) and mark this prefix with a description in the [VANN vocabulary for annotating vocabulary descriptions](https://vocab.org/vann/)
+> - Choose a vocabulary name that represents its contents
+> - Choose an acronym for your vocabulary that is easy to remember
 
 We then use the software [pyLODE](https://github.com/rdflib/pyLODE) to render the generated vocabulary on an HTML page and to make it dereferencable for human users.
 
-In both datasets, we have defined a vocabulary namespace of [https://github.com/gdi-de/apworkshop2026_ldtutorial/ont#](https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#)
-
+In both datasets, we have defined a vocabulary namespace of [https://github.com/gdi-de/apworkshop2026_ldtutorial/ont#](https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#) und which the vocabulary definition is deployed.
 
 ## Publishing Linked Open Data
 
@@ -156,7 +157,7 @@ Compared to metadata such as DCAT, which describes context, licenses, and furthe
 Hence, data discovery within an RDF ecosystem is greatly enhanced.
 
 > [!IMPORTANT]
-> VOID provides many statistics that can be generated from the finished RDF Dump. Each statistic can help search engines to:
+> VoID provides many statistics that can be generated from the finished RDF Dump. Each statistic can help search engines to:
 > - Index datasets better
 > - Automatically categorize datasets better
 > - Enable search engines, AI objects, and SPARQL resolvers to better find relevant data
@@ -483,7 +484,16 @@ print(g.serialize(format="turtle"))
 
 ### Querying linked open data in QGIS
 
-Support for linked open data resources in QGIS is given by the SPARQLing Unicorn QGIS plugin.
+Support for linked open data resources in [QGIS](https://qgis.org/) is given by the [SPARQLing Unicorn QGIS plugin](https://github.com/sparqlunicorn/sparqlunicornGoesGIS).
+
+The plugin may be used to include the aggregated data dump at the following address:
+
+```
+https://gdi-de.github.io/apworkshop2026_ldtutorial/index.ttl
+```
+
+The data dump will be downloaded in QGIS and further processed in the plugin using RDFLib.
+The query capabilities of this data dump will therefore depend on the query capabilities of the RDFLib library.
 
 ## Publication Workflow
 

@@ -223,6 +223,10 @@ Additional statistics include:
 
 **Example Triples:** Numbers provided are fictional
 ```ttl
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void:<http://rdfs.org/ns/void#> .
+@prefix vext:<http://ldf.fi/void-ext> .
+@prefix ex:<http://example.org/> .
 ex:myds rdf:type void:Dataset ;
     vext:averageLiteralLength 0 ;
     vext:averageObjectIRILength 39 ;
@@ -354,12 +358,53 @@ The resulting graph can be queried using the schema.org vocabulary.
 [HTML Microdata](https://www.w3.org/TR/2021/NOTE-microdata-20210128/) is another competing format to RDFa, which marks up elements of a homepage.
 The syntax is simpler and is expressivity is not as developed as RDFa.
 
+```html
+<div itemscope itemtype="http://schema.org/Person"> 
+	Hello, my name is 
+	<span itemprop="name">John Doe</span>, 
+	I am a 
+	<span itemprop="jobTitle">graduate research assistant</span> 
+	at the 
+	<span itemprop="affiliation">University of Dreams</span>. 
+	My friends call me 
+	<span itemprop="additionalName">Johnny</span>. 
+	You can visit my homepage at 
+	<a href="http://www.example.com/~JohnnyD" itemprop="url">www.example.com/~JohnnyD</a>. 
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		I live at 
+		<span itemprop="streetAddress">1234 Peach Drive</span>,
+		<span itemprop="addressLocality">Warner Robins</span>,
+		<span itemprop="addressRegion">Georgia</span>.
+	</div>
+</div>
+```
+
 See [this article](https://medium.com/@davetekle/microdata-vs-microformats-vs-rdfa-a-guide-to-structured-data-on-the-web-8fff03a48cfd) for a brief comparison of the two standards.
 
 ### JSON-LD
 
-The last option is to include JSON-LD natively in HTML.
+The last option is to include [JSON-LD](https://www.w3.org/TR/json-ld11/) natively in HTML.
 Using this method, the expressivity is the same as RDFa, but the RDFa annotation is at a specific place in the HTML document.
+
+```html
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hummelsen",
+    "addressRegion": "NRW",
+    "streetAddress": "Op de Dyk"
+  },
+  "description": "Bestens erhaltene und aufgearbeitete Möbel im Landhausstil.",
+  "name": "Vintage Möbel und Deko am Dyk",
+  "telephone": "850-648-4200"
+}
+</script>
+```
+
+JSON-LD is embedded in a script tag of type application/ld+json in HTML which contains all metadata which would be encoded in other microformats.
 
 ### Application in the LOD publication
 

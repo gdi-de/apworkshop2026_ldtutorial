@@ -282,8 +282,20 @@ Typical software to use would be:
 - [yEd](https://www.yworks.com/products/yed)
 - [Gephi](https://gephi.org/)
 
-In this tutorial, no graph format export has been configured to the HTML deployment, but could just be another serialization to be considered,
+In this tutorial, no graph format export has been configured to the HTML deployment, but could just be another serialization to be considered.
 
+### Increasing Findability of linked data
+
+Since linked open data is published also in a HTML serialization, it can be convenient for search engines to index, given the HTML is properly formatted for this purpose.
+We describe three different technologies which aid in the indexing of the publised linked open data pages by search engines and explain how they were applied in this tutorial.
+
+#### RDFa
+
+#### Microcode
+
+#### JSON-LD
+
+#### Application in the LOD publication
 ## Querying Linked Open Data 
 
 For this tutorial, querying linked open data through a [SPARQL](https://www.w3.org/TR/sparql11-query/) endpoint is not readily possible because, as a standalone showcase, only a static web space has been provided.

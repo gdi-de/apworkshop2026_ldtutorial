@@ -327,7 +327,7 @@ We describe three different technologies which aid in the indexing of the publis
 
 ### RDFa
 
-[RDF annotated](https://www.w3.org/TR/rdfa-core/) ([RDFa](https://rdfa.info/)) is a way to embed RDF in HTML webpages.
+[RDF in Attributes](https://www.w3.org/TR/rdfa-core/) ([RDFa](https://rdfa.info/)) is a way to embed RDF in HTML webpages.
 The goal is to use already existing HTML elements on a homepage and mark them up in such a way, that their contents may be interpreted in RDF.
 The HTML homepage, thereby acts as the subject of the RDF triple.
 Elements are marked up with a predicate URI and use their value as the object.

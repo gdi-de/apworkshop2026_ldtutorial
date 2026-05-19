@@ -285,12 +285,12 @@ Typical software to use would be:
 
 In this tutorial, no graph format export has been configured to the HTML deployment, but could just be another serialization to be considered.
 
-### Increasing Findability of linked data
+## Findability of linked data
 
 Since linked open data is published also in a HTML serialization, it can be convenient for search engines to index, given the HTML is properly formatted for this purpose.
 We describe three different technologies which aid in the indexing of the publised linked open data pages by search engines and explain how they were applied in this tutorial.
 
-#### RDFa
+### RDFa
 
 [RDF annotated](https://www.w3.org/TR/rdfa-core/) ([RDFa](https://rdfa.info/)) is a way to embed RDF in HTML webpages.
 The goal is to use already existing HTML elements on a homepage and mark them up in such a way, that their contents may be interpreted in RDF.
@@ -318,19 +318,19 @@ Elements are marked up with a predicate URI and use their value as the object.
 The example, as taken from the [RDFa Playground](https://rdfa.info/play/) shows how a simple homepage in which elements of a person are described can be marked up in RDF.
 The resulting graph can be queried using the schema.org vocabulary.
 
-#### HTML Microdata
+### HTML Microdata
 
 [HTML Microdata](https://www.w3.org/TR/2021/NOTE-microdata-20210128/) is another competing format to RDFa, which marks up elements of a homepage.
 The syntax is simpler and is expressivity is not as developed as RDFa.
 
 See [this article](https://medium.com/@davetekle/microdata-vs-microformats-vs-rdfa-a-guide-to-structured-data-on-the-web-8fff03a48cfd) for a brief comparison of the two standards.
 
-#### JSON-LD
+### JSON-LD
 
 The last option is to include JSON-LD natively in HTML.
 Using this method, the expressivity is the same as RDFa, but the RDFa annotation is at a specific place in the HTML document.
 
-#### Application in the LOD publication
+### Application in the LOD publication
 
 The HTML deployment in this example takes advantage of all three methods.
 The generated HTML has both RDFa and Microdata attached.

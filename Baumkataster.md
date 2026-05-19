@@ -199,7 +199,13 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/MOBG657
 
 Local identifiers also make for good components of instance labels.
 We might label a single tree merely "GZAW870", but maybe a better variant would be to name it "Baum {baumnummer}" in German and "tree {baumnummer}" in English.
-We preserve the local identifier and add a more human-readable notion of a label at the same time
+We preserve the local identifier and add a more human-readable notion of a label at the same time.
+
+> [!CAUTION]
+> Many vocabularies provide properties for labels. Despite rdfs:label being the most prominent choice, the correct choide of a label property depends on several factors:
+> - Is it one label or are there many? For many, consider e.g. [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel) [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
+> - Is the label to be considered a title? Then maybe a more specific property like [dc:title](http://purl.org/dc/terms/title) is a better choice
+> - Is it a very specific label which makes sense only in a specific context? Consider extending rdfs:label to create your own specific label property 
 
 > [!NOTE]
 > **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English. We choose the property [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) to designate the label because only one type of label is present.

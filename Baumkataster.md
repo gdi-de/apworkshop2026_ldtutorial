@@ -549,7 +549,6 @@ Let's apply this methodology to the Baumkataster dataset:
 
 ```
 
-
 ### Licensing
 
 Every dataset should include license information, which can be represented in the linked open data graph.
@@ -560,12 +559,14 @@ There are two choices for the representation of licenses:
 To attach a license statement to instances of the knowledge graph, the license itself must be identified by a URI.
 This is the case for many common licenses already, but it should be checked for the specific license used.
 
-Example: CC License: [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0)
+For example, all Creative Commons licenses can be addressed using a URI like [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0)
+
+For the Trinkwasserbrunnen dataset we follow the license given in its metadata, which is the [Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0)
 
 ```ttl
 @prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
 @prefix dc:<http://purl.org/dc/elements/1.1/>
-gdidedata:GZAW870  dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
+gdidedata:1 dc:license <https://www.govdata.de/dl-de/by-2-0> .
 ```
 
 While the aforementioned example references individual triples, the dataset itself may also be modeled in RDF, so that the license information can be placed at the dataset instance. To model the dataset, the [DCAT vocabulary](https://www.w3.org/TR/vocab-dcat-3/) can be used. 
@@ -578,22 +579,22 @@ While the aforementioned example references individual triples, the dataset itse
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 
-gdidedata:tree_ds rdf:type dcat:Dataset ;
-                  rdfs:label "Dataset of Baumkataster"@en ;
-                  dcat:distribution gdidedata:tree_ds_dist .
-gdidedata:tree_ds_dist rdf:type dcat:Distribution ;
-                       rdfs:label "Distribution of the Dataset of Baumkataster"@en ;
-                       dc:license <http://creativecommons.org/licenses/by-nc-sa/4.0> .
-gdidedata:GZAW870 void:inDataset gdidedata:tree_ds .
+gdidedata:fountain_ds rdf:type dcat:Dataset ;
+                  rdfs:label "Dataset of drinking fountains"@en ;
+                  dcat:distribution gdidedata:fountain_ds_dist .
+gdidedata:fountain_ds_dist rdf:type dcat:Distribution ;
+                       rdfs:label "Distribution of the Dataset of drinking fountains"@en ;
+                       dc:license <https://www.govdata.de/dl-de/by-2-0> .
+gdidedata:1 void:inDataset gdidedata:fountain_ds .
 ```
 
 > [!NOTE]
 > **CHOICE:** We choose to attach a license statement to every instance and, for the sake of simplicity, do not model the dataset itself. The example given in this section should provide enough information for a user to take this step.
-
+> For the Trinkwasserbrunnen dataset we use the [Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0)  which is mandated by the [source data](https://gdi.berlin.de/geonetwork/srv/api/records/8aaca41b-d665-447a-93ec-b76e431852fc) 
 
 **Resulting Mapping Definitions:**
 ```json
-"license:"http://creativecommons.org/licenses/by-nc-sa/4.0",
+"license:"https://www.govdata.de/dl-de/by-2-0",
 ```
 
 ### Dataset metadata

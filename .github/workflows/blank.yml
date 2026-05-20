@@ -30,7 +30,7 @@ jobs:
     uses: situx/geordfconverter/.github/workflows/geordfconvert.yml@main
     needs: mapit
     with: 
-        input: source/baumkataster_berlin.geojson
+        input: source/baumkataster_hamburg.geojson
         output: docs
         ghpages: true 
         mapping: mappings/baumkataster.json

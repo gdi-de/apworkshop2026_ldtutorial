@@ -5,13 +5,14 @@ This tutorial showcases the conversion of two Geodata sets retrieved from German
 ## Use Case 1: Baumkataster Hamburg (cadastre of trees alongside a street)
 Trees in Germany are numbered and classified according to the type of tree, their position within an urban environment, and, finally, certain parameters that help characterize their shape.
  
-[Use Case 1](Baumkataster.md) examines how to convert these parameters into Linked Open Data.
+[Use Case 1](Baumkataster.md) examines how to convert these parameters from a [tree cadastre in Hamburg](https://metaver.de/trefferanzeige?docuuid=D3FA796F-3D12-4784-B7F2-E19855472D2A) into Linked Open Data.
 
 ## Use Case 2: Trinkwasserbrunnen Berlin (drinking water fountains)  
    
 Drinking water fountains are a common occurrence in many German cities, including Berlin. 
 
-[Use Case 2](Trinkwasserbrunnen.md) Drinking water fountains are classified by type, origin, accessibility, and location.
+[Use Case 2](Trinkwasserbrunnen.md) investigates how a [dataset of drinking water fountains in Berlin](https://gdi.berlin.de/geonetwork/srv/api/records/8aaca41b-d665-447a-93ec-b76e431852fc) classified by type, origin, accessibility and location can be mapped to RDF.
+ 
  
 ## Publishing newly defined vocabularies   
 

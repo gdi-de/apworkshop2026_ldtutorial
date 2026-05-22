@@ -10,7 +10,7 @@ The [Trinkwasserbrunnen dataset]() consists of the following data fields, which 
 
 
 We can see that this dataset is in an open format (GeoJSON) and meets the 3-star criteria for linked open data. 
-However, it lacks representation in RDF and links to other data resources to be a 5-star LOD.
+However, it lacks representation in RDF and links to other data resources to be a [5-star LOD](https://www.w3.org/community/webize/2014/01/17/what-is-5-star-linked-data/).
 
 To convert this dataset, we first need to gather some initial information about it:
 

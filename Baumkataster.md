@@ -9,7 +9,7 @@ The [Baumkataster dataset](source/baumkataster_berlin.geojson) consists of the f
 | MOBG657 |  5.0 | 32.0  |  Vogel-Kirsche | Prunus avium | Moorburg | sonst. öff. Flächen | POINT(9.91853784213246, 53.495375315136243)  |
 
 We can see that this dataset is in an open format (GeoJSON) and meets the 3-star criteria for linked open data. 
-However, it lacks representation in RDF and links to other data resources to be a 5-star LOD.
+However, it lacks representation in RDF and links to other data resources to be a [5-star LOD](https://www.w3.org/community/webize/2014/01/17/what-is-5-star-linked-data/).
 
 To convert this dataset, we first need to gather some initial information about it:
 

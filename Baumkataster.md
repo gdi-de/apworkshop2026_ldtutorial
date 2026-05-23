@@ -522,6 +522,46 @@ gdidedata:GZAW870_geom rdf:type sf:Point ;
                        geo:asWKT "POINT(9.918514827294882, 53.498226989745973)"^^geo:wktLiteral .
 ```
 
+### Representing the spatial reference system
+
+Every geometric representation is associated with a spatial reference system that describes its location on Earth or on another interstellar object.
+
+While many formats exist for representing CRS information, e.g., PROJ4, PROJJSON, and WKT, a native RDF representation of CRS elements is currently being developed in an [OGC working group](https://github.com/opengeospatial/ontology-crs).
+
+The proposed ontology allows to represent the following elements of a CRS, each as a typed RDF instance in a knowledge graph:
+- The Coordinate Reference System
+- The Datum
+- The Coordinate System
+- Coordinate Transformations
+- Projection Types
+- Planets and Spheroids
+
+The coordinate reference systems involved in this example have already been described using CRS definitions, so that a conversion to RDF according to the vocabulary of the OGC CRS working group can be performed.
+
+> [!CAUTION]
+> Since the work of the OGC working group is still ongoing, changes regarding the namespace and certain elements of the contents of the vocabulary definition could change.
+> We are aware of this in this tutorial and will update the definitions for a real-world use case in line with developments from the standardization group.
+
+Given an RDF definition of a CRS, the question remains of how to relate the CRS definition to the actual geometries that are defined in the knowledge graph.
+The proposed geo:inSRS property of GeoSPARQL aims to aid in that regard.
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .      
+
+gdidedata:1_geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of drinking fountain 1"@en, "Geometrie des Brunnens 1"@en ;
+                       geo:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> ;
+                       geo:asWKT "POINT(13.415048, 52.431351036930394)"^^geo:wktLiteral .
+```
+
+> [!NOTE]
+> **CHOICE:** Despite the CRS vocabulary still being in draft by the OGC, we use the RDF representation to add information about the CRS system used for our geometries.
+> We connect the information using the proposed geo:inSRS property of GeoSPARQL.
+
 ## Adding additional non-existent information
 
 Besides, e.g., missing units or other information implicitly given in the dataset's data structure, other information needed to characterize linked open data is missing entirely from the dataset.

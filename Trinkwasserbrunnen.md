@@ -25,7 +25,7 @@ This analysis can be done with a simple script that checks for uniqueness and da
 
 ## The need for integration
 
-Depending on the use case, not all information given inside the respective dataset is important for integration.
+Depending on the use case, not all information in the dataset is important for integration.
 Guidelines for non-integration:
 
 > [!IMPORTANT]
@@ -42,7 +42,7 @@ Depending on those criteria, the number of dataset columns to work on may be red
 
 ## How many instances per table row?
 
-Having chosen the columns which should become part of the new RDF dataset, the question arises to how many RDF instances the dataset will resolve.
+Having chosen the columns which should become part of the new RDF dataset, the question arises as to how many RDF instances the dataset will resolve.
 
 > [!IMPORTANT]
 > - Create new instances when a group of columns described can be described as its own entity
@@ -64,7 +64,7 @@ ex:myschool rdf:type wd:Q3914 ;
             locn:postName "Frankfurt am Main" .
 ```
 
-However, one could also justify creating a new instance "address" that contains the address parts of the school instance.
+However, one could also justify creating a new "address" instance that contains the address components of the school instance.
 
 ```ttl
 @prefix locn:<http://www.w3.org/ns/locn#> .
@@ -94,14 +94,14 @@ Before the dataset can be analyzed, we need to define two kinds of namespaces.
 ### Datanamespace
 
 The data namespace is used to encode dataset instances after conversion. At best, this namespace can be resolved to at least an HTML and RDF serialization of the data instances.
-Since this tutorial uses GitHub for data publication, it makes sense to use the GitHub Pages namespace of this repository for data conversion.
+Since this tutorial uses GitHub for data publication, it makes sense to use this repository's GitHub Pages namespace for data conversion.
 In a more professional setting, the hosting organization should provide a namespace, and data instances should be resolvable.
 
 > [!NOTE]
 > We choose **https://gdi-de.github.io/apworkshop2026_ldtutorial/** as our data namespace.
 
 > [!CAUTION]
-> In practice, it might be interesting to further categorize the namespace URL e.g. https://gdi-de.github.io/apworkshop2026_ldtutorial/**environment/tree** so that datasets of similar kinds will use the same namespace prefix. We will not discuss this issue further in this tutorial
+> In practice, it might be interesting to further categorize the namespace URL, e.g., https://gdi-de.github.io/apworkshop2026_ldtutorial/environment/fountain, so that datasets of similar kinds will use the same namespace prefix. We will not discuss this issue further in this tutorial
 
 ### Vocabulary namespace
 
@@ -112,7 +112,7 @@ In practice, this is not always the case, which means missing vocabularies need 
 > We choose **[https://gdi-de.github.io/apworkshop2026_ldtutorial/ont#](https://gdi-de.github.io/apworkshop2026/ont#)** as our vocabulary namespace. 
 
 > [!CAUTION]
-> Publishing a vocabulary and managing an organization's vocabulary should be taken seriously. At best, people should discuss missing properties with their agency and work together to define missing vocabularies centrally or in a collaborative setting. Hosting a vocabulary in the same repository as the data it describes is usually a bad practice and is taken for this tutorial only for the sake of simplicity.
+> Publishing a vocabulary and managing an organization's vocabulary should be taken seriously. At best, people should discuss missing properties with their agency and work together to define missing vocabularies centrally or in a collaborative setting. Hosting vocabulary in the same repository as the data it describes is usually a bad practice, and this tutorial does so only for the sake of simplicity.
 
 ## Classification of the dataset
 
@@ -158,14 +158,14 @@ https://gdi-de.github.io/apworkshop2026_ldtutorial/116
 ### Instance labels
 
 Local identifiers also make for good components of instance labels.
-We might label a single water fountain merely "1", but maybe a better variant would be to name it "Brunnen {nummer}" in German and "water fountain {nummer}" in English.
+We might label a single water fountain simply "1", but a better approach would be to name it "Brunnen {nummer}" in German and "water fountain {nummer}" in English.
 We preserve the local identifier and add a more human-readable notion of a label at the same time.
 
 > [!CAUTION]
-> Many vocabularies provide properties for labels. Despite rdfs:label being the most prominent choice, the correct choide of a label property depends on several factors:
+> Many vocabularies provide properties for labels. Despite [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) being the most prominent choice, the correct choice of a label property depends on several factors:
 > - Is it one label or are there many? For many, consider e.g. [skos:prefLabel](http://www.w3.org/2004/02/skos/core#prefLabel) [skos:altLabel](http://www.w3.org/2004/02/skos/core#altLabel)
 > - Is the label to be considered a title? Then maybe a more specific property like [dc:title](http://purl.org/dc/terms/title) is a better choice
-> - Is it a very specific label which makes sense only in a specific context? Consider extending rdfs:label to create your own specific label property 
+> - Is it a very specific label that makes sense only in a specific context? Consider extending [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) to create your own specific label property 
 
 > [!NOTE]
 > **CHOICE:** We treat baumnummer as the local identifier for this dataset. The identifier becomes part of the instance label in German and English. We choose the property [rdfs:label](http://www.w3.org/2000/01/rdf-schema#label) to designate the label because only one type of label is present.
@@ -192,7 +192,7 @@ gdidedata:116 rdfs:label "Brunnen 116"@de, "water fountain 116"@en" .
 
 ## How to find appropriate vocabularies?
 
-A lot of RDF vocabularies have already been defined for standard use cases such as:
+A lot of RDF vocabularies have already been defined for standard use cases, such as:
 - Modeling of vocabularies (VOAF)
 - Bibliography management (BIBO)
 - Metadata descriptions (DublinCore)
@@ -201,9 +201,9 @@ A lot of RDF vocabularies have already been defined for standard use cases such 
 > A rule of thumb:
 > - The more commonplace the use case seems to be, the more likely it is that a vocabulary has already been defined.
 > - Example I: "I want to represent geometries in RDF" - This does not seem uncommon... a vocabulary likely exists
-> - Example II: "I have my own classification of objects that I did never share with the world" - Very unlikely that a vocabulary exists unless you defined and published it yourself
+> - Example II: "I have my own classification of objects that I have never shared with the world" - Very unlikely that a vocabulary exists unless you defined and published it yourself
 
-To find vocabularies some homepages provides search capabilities:
+To find vocabularies, some homepages provide search capabilities:
 - [BARTOC](https://bartoc.org/)
 - [LOV: Linked Open Voacbularies](https://lov.linkeddata.es/dataset/lov/about)
 - Several W3C speccifications like [RDF](https://www.w3.org/TR/1999/REC-rdf-syntax-19990222/), [RDFS](https://www.w3.org/TR/rdf-schema/), [OWL](https://www.w3.org/TR/owl2-overview/), [SHACL](https://www.w3.org/TR/shacl/), Profiles
@@ -227,12 +227,12 @@ Both columns include doubles exclusively.
 | 12101 | 2019 |
 
 The dataset itself cannot tell us anything about the context of these numbers in a machine-readable way.
-However, we can analyze, from the column title, that a German zip code (**postleitzahl**) and a year designation is represented.
+However, we can infer from the column title that a German zip code (**postleitzahl**) and a year designation are present.
 
 This clarifies two important things:
 
-- Due to that fact that a German zip code is modeled in column **postleitzahl** we can infer an [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) datatype of 5 digits length. Since we know that the semantics of the column is a zip code, we know that no unit needs to be assigned to values of this column. The column represents a postal identifier which happens to look like a quantity.
-- Since we know that the **baujahr** column represents year, we can use the datatype [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) is applicable for this column. Due to the usage of the type [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear) no other unit designation is needed.
+- Due to the fact that a German zip code is modeled in column **postleitzahl**, we can infer an [xsd:integer](http://www.w3.org/2001/XMLSchema#integer) datatype of 5 digits in length. Since we know that the semantics of the column is a zip code, we know that no unit needs to be assigned to values of this column. The column represents a postal identifier that resembles a quantity.
+- Since we know that the **baujahr** column represents a year, we can use the datatype [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear), which is applicable for this column. Due to the usage of the type [xsd:gYear](http://www.w3.org/2001/XMLSchema#gYear), no other unit designation is needed.
 
 
 > [!NOTE]
@@ -284,7 +284,7 @@ The **informationen** column seems to provide additional information about the d
 
 > [!NOTE]
 > **CHOICE:** We treat **standort** as a [xsd:string](http://www.w3.org/2001/XMLSchema#string) property with a German label and interpret it as a [skos:definition](http://www.w3.org/2004/02/skos/core#definition) since it defines in which situation the drinking fountain is located. 
-> We treat **einschraenkungen** in the same way, i.e. [xsd:string](http://www.w3.org/2001/XMLSchema#string) property with a German label , but interpret it as a [skos:scopeNote](http://www.w3.org/2004/02/skos/core#scopeNote), defining the scope of usage for the drinking fountain.
+> We treat **einschraenkungen** in the same way, i.e. [xsd:string](http://www.w3.org/2001/XMLSchema#string) property with a German label, but interpret it as a [skos:scopeNote](http://www.w3.org/2004/02/skos/core#scopeNote), defining the scope of usage for the drinking fountain.
 > We treat **informationen** by taking its column description literally, despite the contents describing access times only. Hence, we use the [rdfs:comment](http://www.w3.org/2000/01/rdf-schema#comment) property to declare its contents additional information in German.
 
 
@@ -377,7 +377,6 @@ The choice of serialization will depend on the need for the representation of di
 ```ttl
 @prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix wd: <http://www.wikidata.org/entity/>
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .      
@@ -386,6 +385,46 @@ gdidedata:1_geom rdf:type sf:Point ;
                        rdfs:label "Geometry of drinking fountain 1"@en, "Geometrie des Brunnens 1"@en ;
                        geo:asWKT "POINT(13.415048, 52.431351036930394)"^^geo:wktLiteral .
 ```
+### Representing the spatial reference system
+
+Every geometric representation is associated with a spatial reference system that describes its location on Earth or on another interstellar object.
+
+While many formats exist for representing CRS information, e.g., PROJ4, PROJJSON, and WKT, a native RDF representation of CRS elements is currently being developed in an [OGC working group](https://github.com/opengeospatial/ontology-crs).
+
+The proposed ontology allows to represent the following elements of a CRS, each as a typed RDF instance in a knowledge graph:
+- The Coordinate Reference System
+- The Datum
+- The Coordinate System
+- Coordinate Transformations
+- Projection Types
+- Planets and Spheroids
+
+The coordinate reference systems involved in this example have already been described using CRS definitions, so that a conversion to RDF according to the vocabulary of the OGC CRS working group can be performed.
+
+> [!CAUTION]
+> Since the work of the OGC working group is still ongoing, changes regarding the namespace and certain elements of the contents of the vocabulary definition could change.
+> We are aware of this in this tutorial and will update the definitions for a real-world use case in line with developments from the standardization group.
+
+Given an RDF definition of a CRS, the question remains of how to relate the CRS definition to the actual geometries that are defined in the knowledge graph.
+The proposed geo:inSRS property of GeoSPARQL aims to aid in that regard.
+
+```ttl
+@prefix gdidedata: <https://gdi-de.github.io/apworkshop2026_ldtutorial/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .      
+
+gdidedata:1_geom rdf:type sf:Point ;
+                       rdfs:label "Geometry of drinking fountain 1"@en, "Geometrie des Brunnens 1"@en ;
+                       geo:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> ;
+                       geo:asWKT "POINT(13.415048, 52.431351036930394)"^^geo:wktLiteral .
+```
+
+> [!NOTE]
+> **CHOICE:** Despite the CRS vocabulary still being in draft by the OGC, we use the RDF representation to add information about the CRS system used for our geometries.
+> We connect the information using the proposed geo:inSRS property of GeoSPARQL.
+
 
 ## Deriving additional columns from value information
 

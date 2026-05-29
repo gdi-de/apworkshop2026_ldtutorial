@@ -549,3 +549,8 @@ gdidedata:1 void:inDataset gdidedata:fountain_ds .
 ### Dataset metadata
 The metadata of the given dataset might also be integrated into the linked open data graph.
 The prerequisite for that is a metadata format that is represented in, or can be represented in, RDF.
+
+For the dataset here, we can find DCAT-AP formatted metadata in TTL, which can be directly integrated into the knowledge graph with only on prerequisite.
+The corresponding metadata file has been added to the source folder of this repository.
+The data instances need to be made aware of the DCAT-AP metadata description and in particular its URI.
+With this addition in the knowledge graph, the files may simply be integrated into the already existing knowledge graph.

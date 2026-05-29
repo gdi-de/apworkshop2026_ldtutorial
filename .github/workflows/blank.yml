@@ -23,6 +23,8 @@ jobs:
         input: source/trinkwasser_brunnen_berlin.geojson
         output: docs
         ghpages: true
+        addfiles: source/trinkwasser_brunnen_berlin_md.ttl 
+        dcaturi: https://gdk.gdi-de.org/inspire/srv/eng/xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc/
         mapping: mappings/trinkwasserbrunnen.json
         sepchar: ";"
 
@@ -32,7 +34,9 @@ jobs:
     with: 
         input: source/baumkataster_hamburg.geojson
         output: docs
-        ghpages: true 
+        ghpages: true
+        addfiles: source/baumkataster_hamburg_md.ttl 
+        dcaturi: http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/
         mapping: mappings/baumkataster.json
         sepchar: ";"
 

@@ -346,7 +346,7 @@ The options here are as follows:
 To allow for categorizations, a mapping of String values to concept URIs needs to be created:
 | baumart  | concept | label_en | label_de |
 |---|---|---|---|
-| Quercus robur |  [Q165145](https://www.wikidata.org/entity/Q165145) |  Quercus robur | Stieleiche |
+| Quercus robur | [Q165145](https://www.wikidata.org/entity/Q165145) |  Quercus robur | Stieleiche |
 | Salix alba | [Q156918](https://www.wikidata.org/entity/Q156918) | white willow | Silber-Weide |
 
 > [!NOTE]

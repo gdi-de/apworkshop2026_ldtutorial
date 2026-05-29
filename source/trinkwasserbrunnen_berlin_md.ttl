@@ -1,0 +1,82 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gsp: <http://www.opengis.net/ont/geosparql#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gdk.gdi-de.org/inspire/srv/eng/xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc> a dcat:Dataset ;
+    dcatde:contributorID <http://dcat-ap.de/def/contributors/gdiDE> ;
+    dct:accessRights <http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations> ;
+    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/ANNUAL> ;
+    dct:description "Der Datensatz zeigt die Standorte der Trinkwasserbrunnen in Berlin an. Mit den Trinkwasserbrunnen wird kostenlos und öffentlich zugänglich Trinkwasser bereitgestellt. Die Trinkwasserbrunnen sind von Mai bis Oktober in Betrieb und werden von den Berliner Wasserbetrieben mit Unterstützung des Landes Berlin aufgestellt und betrieben." ;
+    dct:identifier "8aaca41b-d665-447a-93ec-b76e431852fc" ;
+    dct:issued "2025-06-15"^^xsd:date ;
+    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
+    dct:modified "2025-12-15T09:29:37.348945+00:00"^^xsd:dateTime ;
+    dct:publisher [ a foaf:Agent ;
+            foaf:mbox "Silke.block@bwb.de" ;
+            foaf:name "Berliner Wasserbetriebe" ] ;
+    dct:spatial [ a dct:Location ;
+            locn:geometry "POLYGON ((13.0928 52.6688, 13.7501 52.6688, 13.7501 52.3454, 13.0928 52.3454, 13.0928 52.6688))"^^gsp:wktLiteral ] ;
+    dct:title "Trinkwasserbrunnen" ;
+    dct:type <http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset> ;
+    adms:identifier "8aaca41b-d665-447a-93ec-b76e431852fc" ;
+    dcat:contactPoint [ a vcard:Organization ;
+            vcard:fn "Berliner Wasserbetriebe" ;
+            vcard:hasEmail <mailto:Silke.block@bwb.de> ;
+            vcard:hasTelephone <tel:+493086442550> ] ;
+    dcat:distribution <https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS#distribution> ;
+    dcat:keyword "berlin",
+        "berliner-wasserbetriebe",
+        "brunnen",
+        "geodaten",
+        "kaiserbrunnen",
+        "karten",
+        "open-data",
+        "opendata",
+        "sachdaten",
+        "trinkbrunnen",
+        "trinkwasser",
+        "trinkwasserbrunnen" ;
+    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/REGI>,
+        <http://publications.europa.eu/resource/authority/data-theme/TRAN> .
+
+<http://dcat-ap.de/def/licenses/dl-zero-de/2.0> a dct:LicenseDocument ;
+    dct:type <http://purl.org/adms/licencetype/UnknownIPR> .
+
+<http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations> a dct:RightsStatement .
+
+<http://publications.europa.eu/resource/authority/frequency/ANNUAL> a dct:Frequency .
+
+<http://publications.europa.eu/resource/authority/language/DEU> a dct:LinguisticSystem .
+
+<https://gdi.berlin.de/data/trinkwasserbrunnen/docs/datenformatbeschreibung_trinkwasserbrunnen.pdf> a foaf:Document .
+
+<https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS#distribution> a dcat:Distribution ;
+    dct:description "Downloaddienst - Trinkwasserbrunnen (WFS)" ;
+    dct:format "HTML" ;
+    dct:issued "2025-12-03T04:28:30.591794"^^xsd:dateTime ;
+    dct:license <http://dcat-ap.de/def/licenses/dl-zero-de/2.0> ;
+    dct:modified "2025-12-03T04:28:30.552624"^^xsd:dateTime ;
+    dct:title "Downloaddienst - Trinkwasserbrunnen (WFS)" ;
+    dcat:accessURL <https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS> ;
+    dcat:downloadURL <https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS> ;
+    dcat:mediaType "Text/HTML" ;
+    foaf:page <https://gdi.berlin.de/data/trinkwasserbrunnen/docs/datenformatbeschreibung_trinkwasserbrunnen.pdf>,
+        <https://gdi.berlin.de/services/wms/trinkwasserbrunnen?request=GetCapabilities&service=WMS>,
+        <https://gdi.berlin.de/viewer/main/?Map/layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen>,
+        <https://www.bwb.de/de/trinkbrunnen.php> .
+
+<https://gdi.berlin.de/services/wms/trinkwasserbrunnen?request=GetCapabilities&service=WMS> a foaf:Document .
+
+<https://gdi.berlin.de/viewer/main/?Map/layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen> a foaf:Document .
+
+<https://www.bwb.de/de/trinkbrunnen.php> a foaf:Document .
+
+<https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS> a rdfs:Resource .
+

@@ -13,7 +13,7 @@ Drinking water fountains are a common occurrence in many German cities, includin
 
 [Use Case 2](Trinkwasserbrunnen.md) investigates how a [dataset of drinking water fountains in Berlin](https://gdi.berlin.de/geonetwork/srv/api/records/8aaca41b-d665-447a-93ec-b76e431852fc) classified by type, origin, accessibility and location can be mapped to RDF.
  
- 
+  
 ## Publishing newly defined vocabularies   
 
 During the dataset mapping process, a few terms could not be mapped to existing vocabularies.

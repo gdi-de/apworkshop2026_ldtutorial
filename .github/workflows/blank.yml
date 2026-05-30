@@ -24,7 +24,7 @@ jobs:
         output: docs
         ghpages: true
         addfiles: source/trinkwasser_brunnen_berlin_md.ttl 
-        dcaturi: https://gdk.gdi-de.org/inspire/srv/eng/xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc/
+        dcaturi: https://gdk.gdi-de.org/inspire/srv/eng/xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc
         mapping: mappings/trinkwasserbrunnen.json
         sepchar: ";"
 

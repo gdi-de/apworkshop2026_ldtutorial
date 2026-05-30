@@ -8,7 +8,7 @@ Trees in Germany are numbered and classified according to the type of tree, thei
 [Use Case 1](Baumkataster.md) examines how to convert these parameters from a [tree cadastre in Hamburg](https://metaver.de/trefferanzeige?docuuid=D3FA796F-3D12-4784-B7F2-E19855472D2A) into Linked Open Data.
 
 ## Use Case 2: Trinkwasserbrunnen Berlin (drinking water fountains)  
-   
+    
 Drinking water fountains are a common occurrence in many German cities, including Berlin. 
  
 [Use Case 2](Trinkwasserbrunnen.md) investigates how a [dataset of drinking water fountains in Berlin](https://gdi.berlin.de/geonetwork/srv/api/records/8aaca41b-d665-447a-93ec-b76e431852fc) classified by type, origin, accessibility and location can be mapped to RDF.

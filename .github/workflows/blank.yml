@@ -54,7 +54,7 @@ jobs:
         sudo pip3 install wheel pylode==2.13.2
         mkdir docs
         mkdir docs/ont
-        wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_berlin_mappings_baumkataster_ont.ttl
+        wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_baumkataster_hamburg_mappings_baumkataster_ont.ttl
         wget https://gdi-de.github.io/apworkshop2026_ldtutorial/source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl
         sed '/^@/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl > brunnenmod.ttl
         sed '/^[^@]/d' source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen_ont.ttl > brunnenmodhead.ttl

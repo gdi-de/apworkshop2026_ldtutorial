@@ -3247,7 +3247,7 @@ gdide:100_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:100_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/100"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3257,7 +3257,7 @@ gdide:101_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:101_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/101"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3267,7 +3267,7 @@ gdide:102_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:102_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/102"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3277,7 +3277,7 @@ gdide:103_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:103_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/103"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3287,7 +3287,7 @@ gdide:104_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:104_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/104"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3297,7 +3297,7 @@ gdide:105_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:105_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/105"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3307,7 +3307,7 @@ gdide:106_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:106_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/106"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3317,7 +3317,7 @@ gdide:107_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:107_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/107"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3327,7 +3327,7 @@ gdide:108_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:108_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/108"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3337,7 +3337,7 @@ gdide:109_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:109_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/109"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3347,7 +3347,7 @@ gdide:10_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:10_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/10"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3357,7 +3357,7 @@ gdide:110_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:110_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/110"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3367,7 +3367,7 @@ gdide:111_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:111_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/111"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3377,7 +3377,7 @@ gdide:112_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:112_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/112"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3387,7 +3387,7 @@ gdide:113_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:113_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/113"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3397,7 +3397,7 @@ gdide:114_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:114_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/114"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3407,7 +3407,7 @@ gdide:115_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:115_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/115"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3417,7 +3417,7 @@ gdide:116_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:116_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/116"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3427,7 +3427,7 @@ gdide:117_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:117_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/117"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3437,7 +3437,7 @@ gdide:118_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:118_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/118"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3447,7 +3447,7 @@ gdide:119_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:119_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/119"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3457,7 +3457,7 @@ gdide:11_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:11_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/11"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3467,7 +3467,7 @@ gdide:120_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:120_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/120"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3477,7 +3477,7 @@ gdide:121_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:121_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/121"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3487,7 +3487,7 @@ gdide:122_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:122_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/122"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3497,7 +3497,7 @@ gdide:123_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:123_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/123"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3507,7 +3507,7 @@ gdide:124_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:124_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/124"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3517,7 +3517,7 @@ gdide:125_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:125_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/125"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3527,7 +3527,7 @@ gdide:126_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:126_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/126"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3537,7 +3537,7 @@ gdide:127_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:127_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/127"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3547,7 +3547,7 @@ gdide:128_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:128_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/128"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3557,7 +3557,7 @@ gdide:129_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:129_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/129"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3567,7 +3567,7 @@ gdide:12_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:12_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/12"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3577,7 +3577,7 @@ gdide:130_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:130_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/130"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3587,7 +3587,7 @@ gdide:131_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:131_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/131"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3597,7 +3597,7 @@ gdide:132_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:132_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/132"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3607,7 +3607,7 @@ gdide:133_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:133_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/133"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3617,7 +3617,7 @@ gdide:134_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:134_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/134"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3627,7 +3627,7 @@ gdide:135_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:135_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/135"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3637,7 +3637,7 @@ gdide:136_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:136_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/136"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3647,7 +3647,7 @@ gdide:137_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:137_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/137"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3657,7 +3657,7 @@ gdide:138_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:138_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/138"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3667,7 +3667,7 @@ gdide:139_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:139_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/139"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3677,7 +3677,7 @@ gdide:13_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:13_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/13"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3687,7 +3687,7 @@ gdide:140_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:140_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/140"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3697,7 +3697,7 @@ gdide:141_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:141_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/141"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3707,7 +3707,7 @@ gdide:142_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:142_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/142"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3717,7 +3717,7 @@ gdide:143_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:143_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/143"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3727,7 +3727,7 @@ gdide:144_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:144_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/144"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3737,7 +3737,7 @@ gdide:145_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:145_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/145"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3747,7 +3747,7 @@ gdide:146_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:146_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/146"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3757,7 +3757,7 @@ gdide:147_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:147_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/147"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3767,7 +3767,7 @@ gdide:148_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:148_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/148"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3777,7 +3777,7 @@ gdide:149_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:149_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/149"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3787,7 +3787,7 @@ gdide:14_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:14_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/14"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3797,7 +3797,7 @@ gdide:150_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:150_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/150"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3807,7 +3807,7 @@ gdide:151_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:151_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/151"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3817,7 +3817,7 @@ gdide:152_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:152_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/152"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3827,7 +3827,7 @@ gdide:153_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:153_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/153"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3837,7 +3837,7 @@ gdide:154_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:154_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/154"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3847,7 +3847,7 @@ gdide:155_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:155_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/155"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3857,7 +3857,7 @@ gdide:156_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:156_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/156"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3867,7 +3867,7 @@ gdide:157_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:157_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/157"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3877,7 +3877,7 @@ gdide:158_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:158_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/158"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3887,7 +3887,7 @@ gdide:159_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:159_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/159"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3897,7 +3897,7 @@ gdide:15_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:15_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/15"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3907,7 +3907,7 @@ gdide:160_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:160_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/160"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3917,7 +3917,7 @@ gdide:161_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:161_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/161"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3927,7 +3927,7 @@ gdide:162_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:162_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/162"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3937,7 +3937,7 @@ gdide:163_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:163_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/163"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3947,7 +3947,7 @@ gdide:164_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:164_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/164"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3957,7 +3957,7 @@ gdide:165_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:165_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/165"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3967,7 +3967,7 @@ gdide:166_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:166_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/166"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3977,7 +3977,7 @@ gdide:167_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:167_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/167"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3987,7 +3987,7 @@ gdide:168_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:168_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/168"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -3997,7 +3997,7 @@ gdide:169_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:169_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/169"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4007,7 +4007,7 @@ gdide:16_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:16_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/16"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4017,7 +4017,7 @@ gdide:170_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:170_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/170"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4027,7 +4027,7 @@ gdide:171_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:171_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/171"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4037,7 +4037,7 @@ gdide:172_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:172_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/172"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4047,7 +4047,7 @@ gdide:173_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:173_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/173"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4057,7 +4057,7 @@ gdide:174_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:174_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/174"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4067,7 +4067,7 @@ gdide:175_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:175_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/175"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4077,7 +4077,7 @@ gdide:176_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:176_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/176"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4087,7 +4087,7 @@ gdide:177_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:177_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/177"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4097,7 +4097,7 @@ gdide:178_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:178_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/178"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4107,7 +4107,7 @@ gdide:179_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:179_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/179"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4117,7 +4117,7 @@ gdide:17_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:17_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/17"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4127,7 +4127,7 @@ gdide:180_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:180_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/180"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4137,7 +4137,7 @@ gdide:181_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:181_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/181"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4147,7 +4147,7 @@ gdide:182_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:182_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/182"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4157,7 +4157,7 @@ gdide:183_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:183_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/183"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4167,7 +4167,7 @@ gdide:184_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:184_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/184"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4177,7 +4177,7 @@ gdide:185_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:185_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/185"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4187,7 +4187,7 @@ gdide:186_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:186_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/186"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4197,7 +4197,7 @@ gdide:187_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:187_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/187"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4207,7 +4207,7 @@ gdide:188_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:188_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/188"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4217,7 +4217,7 @@ gdide:189_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:189_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/189"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4227,7 +4227,7 @@ gdide:18_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:18_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/18"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4237,7 +4237,7 @@ gdide:190_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:190_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/190"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4247,7 +4247,7 @@ gdide:191_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:191_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/191"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4257,7 +4257,7 @@ gdide:192_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:192_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/192"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4267,7 +4267,7 @@ gdide:193_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:193_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/193"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4277,7 +4277,7 @@ gdide:194_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:194_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/194"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4287,7 +4287,7 @@ gdide:195_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:195_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/195"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4297,7 +4297,7 @@ gdide:196_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:196_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/196"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4307,7 +4307,7 @@ gdide:197_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:197_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/197"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4317,7 +4317,7 @@ gdide:199_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:199_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/199"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4327,7 +4327,7 @@ gdide:19_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:19_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/19"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4337,7 +4337,7 @@ gdide:1_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:1_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/1"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4347,7 +4347,7 @@ gdide:200_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:200_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/200"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4357,7 +4357,7 @@ gdide:201_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:201_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/201"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4367,7 +4367,7 @@ gdide:202_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:202_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/202"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4377,7 +4377,7 @@ gdide:203_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:203_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/203"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4387,7 +4387,7 @@ gdide:204_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:204_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/204"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4397,7 +4397,7 @@ gdide:205_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:205_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/205"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4407,7 +4407,7 @@ gdide:206_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:206_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/206"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4417,7 +4417,7 @@ gdide:207_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:207_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/207"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4427,7 +4427,7 @@ gdide:208_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:208_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/208"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4437,7 +4437,7 @@ gdide:209_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:209_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/209"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4447,7 +4447,7 @@ gdide:20_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:20_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/20"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4457,7 +4457,7 @@ gdide:210_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:210_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/210"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4467,7 +4467,7 @@ gdide:211_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:211_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/211"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4477,7 +4477,7 @@ gdide:212_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:212_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/212"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4487,7 +4487,7 @@ gdide:213_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:213_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/213"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4497,7 +4497,7 @@ gdide:214_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:214_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/214"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4507,7 +4507,7 @@ gdide:215_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:215_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/215"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4517,7 +4517,7 @@ gdide:216_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:216_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/216"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4527,7 +4527,7 @@ gdide:217_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:217_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/217"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4537,7 +4537,7 @@ gdide:218_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:218_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/218"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4547,7 +4547,7 @@ gdide:219_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:219_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/219"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4557,7 +4557,7 @@ gdide:21_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:21_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/21"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4567,7 +4567,7 @@ gdide:220_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:220_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/220"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4577,7 +4577,7 @@ gdide:221_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:221_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/221"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4587,7 +4587,7 @@ gdide:222_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:222_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/222"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4597,7 +4597,7 @@ gdide:223_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:223_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/223"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4607,7 +4607,7 @@ gdide:224_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:224_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/224"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4617,7 +4617,7 @@ gdide:225_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:225_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/225"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4627,7 +4627,7 @@ gdide:226_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:226_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/226"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4637,7 +4637,7 @@ gdide:227_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:227_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/227"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4647,7 +4647,7 @@ gdide:228_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:228_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/228"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4657,7 +4657,7 @@ gdide:229_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:229_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/229"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4667,7 +4667,7 @@ gdide:22_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:22_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/22"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4677,7 +4677,7 @@ gdide:230_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:230_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/230"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4687,7 +4687,7 @@ gdide:231_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:231_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/231"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4697,7 +4697,7 @@ gdide:232_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:232_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/232"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4707,7 +4707,7 @@ gdide:233_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:233_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/233"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4717,7 +4717,7 @@ gdide:234_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:234_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/234"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4727,7 +4727,7 @@ gdide:235_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:235_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/235"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4737,7 +4737,7 @@ gdide:236_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:236_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/236"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4747,7 +4747,7 @@ gdide:237_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:237_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/237"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4757,7 +4757,7 @@ gdide:238_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:238_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/238"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4767,7 +4767,7 @@ gdide:239_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:239_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/239"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4777,7 +4777,7 @@ gdide:23_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:23_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/23"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4787,7 +4787,7 @@ gdide:240_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:240_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/240"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4797,7 +4797,7 @@ gdide:241_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:241_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/241"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4807,7 +4807,7 @@ gdide:242_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:242_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/242"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4817,7 +4817,7 @@ gdide:243_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:243_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/243"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4827,7 +4827,7 @@ gdide:24_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:24_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/24"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4837,7 +4837,7 @@ gdide:25_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:25_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/25"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4847,7 +4847,7 @@ gdide:26_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:26_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/26"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4857,7 +4857,7 @@ gdide:27_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:27_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/27"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4867,7 +4867,7 @@ gdide:28_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:28_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/28"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4877,7 +4877,7 @@ gdide:29_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:29_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/29"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4887,7 +4887,7 @@ gdide:2_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:2_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/2"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4897,7 +4897,7 @@ gdide:30_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:30_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/30"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4907,7 +4907,7 @@ gdide:31_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:31_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/31"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4917,7 +4917,7 @@ gdide:32_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:32_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/32"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4927,7 +4927,7 @@ gdide:33_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:33_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/33"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4937,7 +4937,7 @@ gdide:34_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:34_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/34"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4947,7 +4947,7 @@ gdide:35_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:35_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/35"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4957,7 +4957,7 @@ gdide:36_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:36_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/36"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4967,7 +4967,7 @@ gdide:37_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:37_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/37"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4977,7 +4977,7 @@ gdide:38_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:38_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/38"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4987,7 +4987,7 @@ gdide:39_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:39_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/39"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -4997,7 +4997,7 @@ gdide:3_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:3_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/3"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5007,7 +5007,7 @@ gdide:40_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:40_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/40"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5017,7 +5017,7 @@ gdide:41_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:41_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/41"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5027,7 +5027,7 @@ gdide:42_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:42_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/42"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5037,7 +5037,7 @@ gdide:43_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:43_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/43"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5047,7 +5047,7 @@ gdide:44_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:44_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/44"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5057,7 +5057,7 @@ gdide:45_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:45_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/45"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5067,7 +5067,7 @@ gdide:46_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:46_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/46"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5077,7 +5077,7 @@ gdide:47_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:47_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/47"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5087,7 +5087,7 @@ gdide:48_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:48_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/48"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5097,7 +5097,7 @@ gdide:49_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:49_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/49"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5107,7 +5107,7 @@ gdide:4_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:4_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/4"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5117,7 +5117,7 @@ gdide:50_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:50_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/50"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5127,7 +5127,7 @@ gdide:51_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:51_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/51"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5137,7 +5137,7 @@ gdide:52_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:52_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/52"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5147,7 +5147,7 @@ gdide:53_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:53_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/53"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5157,7 +5157,7 @@ gdide:54_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:54_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/54"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5167,7 +5167,7 @@ gdide:55_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:55_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/55"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5177,7 +5177,7 @@ gdide:56_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:56_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/56"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5187,7 +5187,7 @@ gdide:57_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:57_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/57"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5197,7 +5197,7 @@ gdide:58_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:58_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/58"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5207,7 +5207,7 @@ gdide:59_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:59_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/59"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5217,7 +5217,7 @@ gdide:5_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:5_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/5"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5227,7 +5227,7 @@ gdide:60_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:60_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/60"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5237,7 +5237,7 @@ gdide:61_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:61_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/61"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5247,7 +5247,7 @@ gdide:62_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:62_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/62"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5257,7 +5257,7 @@ gdide:63_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:63_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/63"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5267,7 +5267,7 @@ gdide:64_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:64_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/64"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5277,7 +5277,7 @@ gdide:65_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:65_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/65"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5287,7 +5287,7 @@ gdide:66_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:66_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/66"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5297,7 +5297,7 @@ gdide:67_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:67_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/67"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5307,7 +5307,7 @@ gdide:68_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:68_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/68"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5317,7 +5317,7 @@ gdide:69_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:69_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/69"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5327,7 +5327,7 @@ gdide:6_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:6_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/6"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5337,7 +5337,7 @@ gdide:70_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:70_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/70"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5347,7 +5347,7 @@ gdide:71_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:71_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/71"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5357,7 +5357,7 @@ gdide:72_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:72_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/72"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5367,7 +5367,7 @@ gdide:73_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:73_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/73"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5377,7 +5377,7 @@ gdide:74_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:74_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/74"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5387,7 +5387,7 @@ gdide:75_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:75_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/75"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5397,7 +5397,7 @@ gdide:76_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:76_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/76"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5407,7 +5407,7 @@ gdide:77_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:77_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/77"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5417,7 +5417,7 @@ gdide:78_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:78_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/78"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5427,7 +5427,7 @@ gdide:79_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:79_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/79"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5437,7 +5437,7 @@ gdide:7_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:7_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/7"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5447,7 +5447,7 @@ gdide:80_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:80_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/80"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5457,7 +5457,7 @@ gdide:81_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:81_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/81"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5467,7 +5467,7 @@ gdide:82_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:82_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/82"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5477,7 +5477,7 @@ gdide:83_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:83_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/83"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5487,7 +5487,7 @@ gdide:84_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:84_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/84"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5497,7 +5497,7 @@ gdide:85_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:85_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/85"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5507,7 +5507,7 @@ gdide:86_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:86_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/86"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5517,7 +5517,7 @@ gdide:87_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:87_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/87"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5527,7 +5527,7 @@ gdide:88_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:88_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/88"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5537,7 +5537,7 @@ gdide:89_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:89_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/89"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5547,7 +5547,7 @@ gdide:8_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:8_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/8"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5557,7 +5557,7 @@ gdide:90_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:90_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/90"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5567,7 +5567,7 @@ gdide:91_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:91_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/91"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5577,7 +5577,7 @@ gdide:92_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:92_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/92"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5587,7 +5587,7 @@ gdide:93_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:93_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/93"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5597,7 +5597,7 @@ gdide:94_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:94_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/94"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5607,7 +5607,7 @@ gdide:95_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:95_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/95"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5617,7 +5617,7 @@ gdide:96_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:96_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/96"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5627,7 +5627,7 @@ gdide:97_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:97_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/97"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5637,7 +5637,7 @@ gdide:98_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:98_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/98"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5647,7 +5647,7 @@ gdide:99_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:99_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/99"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 
@@ -5657,7 +5657,7 @@ gdide:9_geom a sf:Point ;
     gsp:inSRS <http://www.opengis.net/def/crs/EPSG/0/4326> .
 
 gdide:9_openmonths a time:TemporalEntity ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/9"@en ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;
     time:hasEnd <http://www.w3.org/ns/time/gregorian/October> .
 

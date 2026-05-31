@@ -1,0 +1,32 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Botsch_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Botsch Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/22>,
+        <https://gdi-de.github.io/apworkshop2026/23>,
+        <https://gdi-de.github.io/apworkshop2026/24>,
+        <https://gdi-de.github.io/apworkshop2026/27>,
+        <https://gdi-de.github.io/apworkshop2026/29>,
+        <https://gdi-de.github.io/apworkshop2026/30>,
+        <https://gdi-de.github.io/apworkshop2026/31>,
+        <https://gdi-de.github.io/apworkshop2026/32>,
+        <https://gdi-de.github.io/apworkshop2026/34>,
+        <https://gdi-de.github.io/apworkshop2026/35>,
+        <https://gdi-de.github.io/apworkshop2026/36>,
+        <https://gdi-de.github.io/apworkshop2026/37>,
+        <https://gdi-de.github.io/apworkshop2026/38>,
+        <https://gdi-de.github.io/apworkshop2026/40>,
+        <https://gdi-de.github.io/apworkshop2026/41>,
+        <https://gdi-de.github.io/apworkshop2026/42>,
+        <https://gdi-de.github.io/apworkshop2026/48>,
+        <https://gdi-de.github.io/apworkshop2026/55>,
+        <https://gdi-de.github.io/apworkshop2026/59>,
+        <https://gdi-de.github.io/apworkshop2026/72> .
+

@@ -1,0 +1,28 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <http://www.w3.org/ns/locn#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gdi-de.github.io/apworkshop2026/167> a <http://www.w3.org/ns/ldp#Resource>,
+        <https://gdi-de.github.io/apworkshop2026/ont#Kaiser>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Brunnen 167"@de ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset>,
+        <https://gdk.gdi-de.org/inspire/srv/eng/xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc> ;
+    geo:hasGeometry <https://gdi-de.github.io/apworkshop2026/167_geom> ;
+    rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
+    skos:scopeNote "nan"@de ;
+    time:hasTime <https://gdi-de.github.io/apworkshop2026/167_openmonths> ;
+    ns2:postCode 13055 ;
+    ns1:P131 <http://www.wikidata.org/entity/Q329609>,
+        <http://www.wikidata.org/entity/Q64> ;
+    ns1:P571 "2021"^^xsd:gYear ;
+    foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
+

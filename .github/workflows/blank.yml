@@ -80,7 +80,7 @@ jobs:
       - vocbuild
     with: 
         version: v018
-        rdffilepath: source_baumkataster_berlin_mappings_baumkataster.ttl source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl
+        rdffilepath: source_baumkataster_hamburg_mappings_baumkataster.ttl source_trinkwasser_brunnen_berlin_mappings_trinkwasserbrunnen.ttl
         rdffilebranch: gh-pages
         docpath: docs
         prefixns: https://gdi-de.github.io/apworkshop2026/

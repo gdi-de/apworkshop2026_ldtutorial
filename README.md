@@ -5,7 +5,7 @@ This tutorial showcases the conversion of two Geodata sets retrieved from German
 ## Use Case 1: Baumkataster Hamburg (cadastre of trees alongside a street)
 Trees in Germany are numbered and classified according to the type of tree, their position within an urban environment, and, finally, certain parameters that help characterize their shape.
  
-[Use Case 1](Baumkataster.md) examines how to convert these parameters from a [tree cadastre in Hamburg](https://metaver.de/trefferanzeige?docuuid=D3FA796F-3D12-4784-B7F2-E19855472D2A) into Linked Open Data.  
+[Use Case 1](Baumkataster.md) examines how to convert these parameters from a [tree cadastre in Hamburg](https://metaver.de/trefferanzeige?docuuid=D3FA796F-3D12-4784-B7F2-E19855472D2A) into Linked Open Data.   
 
 ## Use Case 2: Trinkwasserbrunnen Berlin (drinking water fountains)   
     

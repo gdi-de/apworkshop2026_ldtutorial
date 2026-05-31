@@ -1,0 +1,52 @@
+{
+  "columns": {
+    "art": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "baumart": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "baumnummer": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "geometry": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "gruenanlage": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "kronendurchmesser": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:double",
+      "unique": false
+    },
+    "stammdurchmesser": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:double",
+      "unique": false
+    },
+    "standortfkt": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    }
+  }
+}

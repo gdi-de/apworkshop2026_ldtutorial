@@ -36,7 +36,7 @@ jobs:
         output: docs
         ghpages: true
         addfiles: source/baumkataster_hamburg_md.ttl 
-        dcaturi: http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/
+        dcaturi: http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7
         mapping: mappings/baumkataster.json
         sepchar: ";"
 

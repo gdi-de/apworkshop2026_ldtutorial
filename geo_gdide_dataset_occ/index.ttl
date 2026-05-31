@@ -9,5 +9,6 @@
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in gdide_dataset" ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     ns1:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    ns1:occurrences 10 .
+    ns1:occurrences 10,
+        134 .
 

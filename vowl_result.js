@@ -31141,7 +31141,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/9_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/100",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31170,7 +31170,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/100_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/101",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31199,7 +31199,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/101_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/102",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31228,7 +31228,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/102_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/103",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31257,7 +31257,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/103_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/104",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31286,7 +31286,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/104_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/105",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31315,7 +31315,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/105_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/106",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31344,7 +31344,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/106_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/107",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31373,7 +31373,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/107_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/108",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31402,7 +31402,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/108_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/109",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31431,7 +31431,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/109_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/10",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31460,7 +31460,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/10_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/110",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31489,7 +31489,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/110_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/111",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31518,7 +31518,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/111_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/112",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31547,7 +31547,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/112_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/113",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31576,7 +31576,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/113_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/114",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31605,7 +31605,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/114_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/115",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31634,7 +31634,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/115_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/116",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31663,7 +31663,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/116_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/117",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31692,7 +31692,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/117_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/118",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31721,7 +31721,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/118_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/119",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31750,7 +31750,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/119_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/11",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31779,7 +31779,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/11_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/120",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31808,7 +31808,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/120_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/121",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31837,7 +31837,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/121_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/122",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31866,7 +31866,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/122_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/123",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31895,7 +31895,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/123_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/124",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31924,7 +31924,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/124_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/125",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31953,7 +31953,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/125_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/126",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -31982,7 +31982,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/126_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/127",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32011,7 +32011,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/127_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/128",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32040,7 +32040,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/128_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/129",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32069,7 +32069,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/129_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/12",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32098,7 +32098,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/12_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/130",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32127,7 +32127,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/130_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/131",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32156,7 +32156,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/131_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/132",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32185,7 +32185,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/132_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/133",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32214,7 +32214,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/133_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/134",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32243,7 +32243,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/134_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/135",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32272,7 +32272,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/135_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/136",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32301,7 +32301,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/136_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/137",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32330,7 +32330,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/137_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/138",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32359,7 +32359,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/138_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/139",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32388,7 +32388,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/139_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/13",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32417,7 +32417,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/13_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/140",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32446,7 +32446,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/140_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/141",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32475,7 +32475,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/141_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/142",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32504,7 +32504,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/142_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/143",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32533,7 +32533,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/143_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/144",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32562,7 +32562,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/144_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/145",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32591,7 +32591,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/145_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/146",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32620,7 +32620,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/146_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/147",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32649,7 +32649,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/147_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/148",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32678,7 +32678,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/148_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/149",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32707,7 +32707,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/149_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/14",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32736,7 +32736,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/14_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/150",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32765,7 +32765,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/150_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/151",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32794,7 +32794,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/151_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/152",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32823,7 +32823,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/152_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/153",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32852,7 +32852,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/153_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/154",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32881,7 +32881,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/154_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/155",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32910,7 +32910,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/155_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/156",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32939,7 +32939,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/156_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/157",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32968,7 +32968,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/157_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/158",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -32997,7 +32997,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/158_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/159",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33026,7 +33026,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/159_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/15",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33055,7 +33055,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/15_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/160",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33084,7 +33084,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/160_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/161",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33113,7 +33113,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/161_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/162",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33142,7 +33142,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/162_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/163",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33171,7 +33171,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/163_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/164",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33200,7 +33200,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/164_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/165",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33229,7 +33229,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/165_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/166",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33258,7 +33258,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/166_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/167",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33287,7 +33287,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/167_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/168",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33316,7 +33316,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/168_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/169",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33345,7 +33345,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/169_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/16",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33374,7 +33374,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/16_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/170",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33403,7 +33403,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/170_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/171",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33432,7 +33432,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/171_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/172",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33461,7 +33461,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/172_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/173",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33490,7 +33490,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/173_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/174",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33519,7 +33519,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/174_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/175",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33548,7 +33548,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/175_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/176",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33577,7 +33577,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/176_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/177",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33606,7 +33606,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/177_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/178",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33635,7 +33635,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/178_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/179",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33664,7 +33664,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/179_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/17",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33693,7 +33693,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/17_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/180",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33722,7 +33722,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/180_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/181",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33751,7 +33751,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/181_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/182",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33780,7 +33780,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/182_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/183",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33809,7 +33809,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/183_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/184",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33838,7 +33838,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/184_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/185",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33867,7 +33867,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/185_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/186",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33896,7 +33896,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/186_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/187",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33925,7 +33925,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/187_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/188",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33954,7 +33954,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/188_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/189",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -33983,7 +33983,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/189_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/18",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34012,7 +34012,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/18_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/190",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34041,7 +34041,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/190_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/191",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34070,7 +34070,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/191_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/192",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34099,7 +34099,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/192_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/193",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34128,7 +34128,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/193_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/194",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34157,7 +34157,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/194_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/195",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34186,7 +34186,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/195_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/196",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34215,7 +34215,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/196_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/197",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34244,7 +34244,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/197_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/199",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34273,7 +34273,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/199_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/19",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34302,7 +34302,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/19_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/1",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34331,7 +34331,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/1_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/200",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34360,7 +34360,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/200_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/201",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34389,7 +34389,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/201_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/202",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34418,7 +34418,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/202_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/203",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34447,7 +34447,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/203_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/204",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34476,7 +34476,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/204_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/205",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34505,7 +34505,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/205_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/206",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34534,7 +34534,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/206_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/207",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34563,7 +34563,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/207_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/208",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34592,7 +34592,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/208_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/209",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34621,7 +34621,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/209_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/20",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34650,7 +34650,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/20_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/210",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34679,7 +34679,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/210_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/211",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34708,7 +34708,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/211_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/212",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34737,7 +34737,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/212_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/213",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34766,7 +34766,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/213_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/214",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34795,7 +34795,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/214_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/215",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34824,7 +34824,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/215_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/216",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34853,7 +34853,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/216_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/217",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34882,7 +34882,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/217_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/218",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34911,7 +34911,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/218_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/219",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34940,7 +34940,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/219_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/21",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34969,7 +34969,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/21_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/220",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -34998,7 +34998,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/220_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/221",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35027,7 +35027,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/221_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/222",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35056,7 +35056,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/222_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/223",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35085,7 +35085,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/223_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/224",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35114,7 +35114,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/224_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/225",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35143,7 +35143,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/225_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/226",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35172,7 +35172,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/226_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/227",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35201,7 +35201,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/227_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/228",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35230,7 +35230,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/228_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/229",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35259,7 +35259,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/229_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/22",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35288,7 +35288,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/22_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/230",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35317,7 +35317,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/230_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/231",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35346,7 +35346,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/231_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/232",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35375,7 +35375,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/232_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/233",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35404,7 +35404,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/233_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/234",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35433,7 +35433,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/234_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/235",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35462,7 +35462,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/235_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/236",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35491,7 +35491,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/236_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/237",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35520,7 +35520,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/237_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/238",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35549,7 +35549,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/238_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/239",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35578,7 +35578,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/239_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/23",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35607,7 +35607,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/23_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/240",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35636,7 +35636,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/240_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/241",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35665,7 +35665,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/241_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/242",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35694,7 +35694,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/242_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/243",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35723,7 +35723,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/243_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/24",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35752,7 +35752,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/24_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/25",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35781,7 +35781,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/25_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/26",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35810,7 +35810,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/26_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/27",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35839,7 +35839,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/27_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/28",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35868,7 +35868,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/28_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/29",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35897,7 +35897,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/29_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/2",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35926,7 +35926,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/2_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/30",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35955,7 +35955,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/30_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/31",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -35984,7 +35984,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/31_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/32",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36013,7 +36013,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/32_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/33",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36042,7 +36042,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/33_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/34",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36071,7 +36071,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/34_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/35",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36100,7 +36100,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/35_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/36",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36129,7 +36129,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/36_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/37",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36158,7 +36158,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/37_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/38",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36187,7 +36187,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/38_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/39",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36216,7 +36216,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/39_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/3",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36245,7 +36245,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/3_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/40",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36274,7 +36274,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/40_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/41",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36303,7 +36303,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/41_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/42",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36332,7 +36332,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/42_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/43",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36361,7 +36361,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/43_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/44",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36390,7 +36390,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/44_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/45",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36419,7 +36419,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/45_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/46",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36448,7 +36448,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/46_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/47",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36477,7 +36477,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/47_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/48",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36506,7 +36506,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/48_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/49",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36535,7 +36535,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/49_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/4",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36564,7 +36564,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/4_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/50",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36593,7 +36593,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/50_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/51",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36622,7 +36622,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/51_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/52",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36651,7 +36651,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/52_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/53",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36680,7 +36680,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/53_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/54",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36709,7 +36709,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/54_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/55",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36738,7 +36738,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/55_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/56",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36767,7 +36767,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/56_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/57",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36796,7 +36796,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/57_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/58",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36825,7 +36825,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/58_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/59",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36854,7 +36854,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/59_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/5",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36883,7 +36883,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/5_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/60",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36912,7 +36912,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/60_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/61",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36941,7 +36941,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/61_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/62",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36970,7 +36970,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/62_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/63",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -36999,7 +36999,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/63_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/64",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37028,7 +37028,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/64_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/65",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37057,7 +37057,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/65_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/66",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37086,7 +37086,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/66_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/67",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37115,7 +37115,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/67_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/68",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37144,7 +37144,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/68_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/69",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37173,7 +37173,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/69_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/6",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37202,7 +37202,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/6_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/70",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37231,7 +37231,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/70_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/71",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37260,7 +37260,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/71_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/72",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37289,7 +37289,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/72_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/73",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37318,7 +37318,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/73_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/74",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37347,7 +37347,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/74_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/75",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37376,7 +37376,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/75_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/76",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37405,7 +37405,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/76_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/77",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37434,7 +37434,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/77_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/78",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37463,7 +37463,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/78_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/79",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37492,7 +37492,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/79_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/7",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37521,7 +37521,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/7_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/80",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37550,7 +37550,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/80_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/81",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37579,7 +37579,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/81_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/82",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37608,7 +37608,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/82_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/83",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37637,7 +37637,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/83_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/84",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37666,7 +37666,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/84_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/85",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37695,7 +37695,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/85_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/86",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37724,7 +37724,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/86_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/87",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37753,7 +37753,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/87_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/88",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37782,7 +37782,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/88_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/89",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37811,7 +37811,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/89_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/8",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37840,7 +37840,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/8_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/90",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37869,7 +37869,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/90_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/91",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37898,7 +37898,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/91_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/92",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37927,7 +37927,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/92_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/93",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37956,7 +37956,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/93_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/94",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -37985,7 +37985,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/94_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/95",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -38014,7 +38014,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/95_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/96",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -38043,7 +38043,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/96_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/97",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -38072,7 +38072,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/97_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/98",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -38101,7 +38101,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/98_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/99",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -38130,7 +38130,7 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/99_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": "openmonths",
+   "label": "openmonths for https://gdi-de.github.io/apworkshop2026/9",
    "annotations": {
     "http://www.w3.org/2006/time#hasBeginning": [
      {
@@ -38643,7 +38643,7 @@ var vowlresult={
      {
       "identifier": "http://purl.org/dc/terms/publisher",
       "language": "undefined",
-      "value": "n836bc755e5234fc4ac480bcbaee5354ab1",
+      "value": "ndacc2bfef6ba41efba9989a55bfa0aaeb1",
       "type": "label"
      }
     ],
@@ -38651,7 +38651,7 @@ var vowlresult={
      {
       "identifier": "http://purl.org/dc/terms/spatial",
       "language": "undefined",
-      "value": "n836bc755e5234fc4ac480bcbaee5354ab2",
+      "value": "ndacc2bfef6ba41efba9989a55bfa0aaeb2",
       "type": "label"
      }
     ],
@@ -38683,7 +38683,7 @@ var vowlresult={
      {
       "identifier": "http://www.w3.org/ns/dcat#contactPoint",
       "language": "undefined",
-      "value": "n836bc755e5234fc4ac480bcbaee5354ab3",
+      "value": "ndacc2bfef6ba41efba9989a55bfa0aaeb3",
       "type": "label"
      }
     ],
@@ -38733,11 +38733,11 @@ var vowlresult={
   },
   {
    "id": 777,
-   "iri": "n836bc755e5234fc4ac480bcbaee5354ab1",
-   "baseIRI": "n836bc755e5234fc4ac480bcbaee5354ab",
+   "iri": "ndacc2bfef6ba41efba9989a55bfa0aaeb1",
+   "baseIRI": "ndacc2bfef6ba41efba9989a55bfa0aaeb",
    "instances": 0,
    "label": {
-    "IRI-based": "n836bc755e5234fc4ac480bcbaee5354ab1"
+    "IRI-based": "ndacc2bfef6ba41efba9989a55bfa0aaeb1"
    },
    "annotations": {},
    "range": [],
@@ -38747,11 +38747,11 @@ var vowlresult={
   },
   {
    "id": 778,
-   "iri": "n836bc755e5234fc4ac480bcbaee5354ab2",
-   "baseIRI": "n836bc755e5234fc4ac480bcbaee5354ab",
+   "iri": "ndacc2bfef6ba41efba9989a55bfa0aaeb2",
+   "baseIRI": "ndacc2bfef6ba41efba9989a55bfa0aaeb",
    "instances": 0,
    "label": {
-    "IRI-based": "n836bc755e5234fc4ac480bcbaee5354ab2"
+    "IRI-based": "ndacc2bfef6ba41efba9989a55bfa0aaeb2"
    },
    "annotations": {},
    "range": [],
@@ -38761,11 +38761,11 @@ var vowlresult={
   },
   {
    "id": 779,
-   "iri": "n836bc755e5234fc4ac480bcbaee5354ab3",
-   "baseIRI": "n836bc755e5234fc4ac480bcbaee5354ab",
+   "iri": "ndacc2bfef6ba41efba9989a55bfa0aaeb3",
+   "baseIRI": "ndacc2bfef6ba41efba9989a55bfa0aaeb",
    "instances": 0,
    "label": {
-    "IRI-based": "n836bc755e5234fc4ac480bcbaee5354ab3"
+    "IRI-based": "ndacc2bfef6ba41efba9989a55bfa0aaeb3"
    },
    "annotations": {},
    "range": [],

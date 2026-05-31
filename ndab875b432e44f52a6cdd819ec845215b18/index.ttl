@@ -1,0 +1,12 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/ns/locn#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+[] a dcterms:Location,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    ns1:geometry "{\"type\": \"Polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> .
+

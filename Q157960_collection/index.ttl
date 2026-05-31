@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q157960_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q157960 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/DRHF315>,
+        <https://gdi-de.github.io/apworkshop2026/HHUF48>,
+        <https://gdi-de.github.io/apworkshop2026/HHUF50>,
+        <https://gdi-de.github.io/apworkshop2026/HHUF51>,
+        <https://gdi-de.github.io/apworkshop2026/HHUF52>,
+        <https://gdi-de.github.io/apworkshop2026/NHKL518>,
+        <https://gdi-de.github.io/apworkshop2026/ROSD269>,
+        <https://gdi-de.github.io/apworkshop2026/ROST448>,
+        <https://gdi-de.github.io/apworkshop2026/ROST450>,
+        <https://gdi-de.github.io/apworkshop2026/ROST452>,
+        <https://gdi-de.github.io/apworkshop2026/ROST70>,
+        <https://gdi-de.github.io/apworkshop2026/ROST71>,
+        <https://gdi-de.github.io/apworkshop2026/ROST72>,
+        <https://gdi-de.github.io/apworkshop2026/STWR135>,
+        <https://gdi-de.github.io/apworkshop2026/STWR235>,
+        <https://gdi-de.github.io/apworkshop2026/STWR236>,
+        <https://gdi-de.github.io/apworkshop2026/VEDL145>,
+        <https://gdi-de.github.io/apworkshop2026/VEDL207>,
+        <https://gdi-de.github.io/apworkshop2026/VEDL211> .
+

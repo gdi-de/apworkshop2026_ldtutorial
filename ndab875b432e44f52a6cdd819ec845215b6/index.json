@@ -1,0 +1,1 @@
+{"http://rdfs.org/ns/void#inDataset": ["https://gdi-de.github.io/apworkshop2026/gdide_dataset"], "http://spdx.org/rdf/terms#checksumValue": ["ec39d1573d404eb54069383fc947b62cf1776beb7a90ae4c9959880a256c400d"], "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": ["http://spdx.org/rdf/terms#Checksum"]}

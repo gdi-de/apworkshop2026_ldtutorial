@@ -12,5 +12,6 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 242 .
+    void:triples 242,
+        18166 .
 

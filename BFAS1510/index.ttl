@@ -1,0 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <https://gdi-de.github.io/apworkshop2026/ont#> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/BFAS1510> a <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.wikidata.org/entity/Q145954>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Baum BFAS1510"@de ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    geo:hasGeometry <https://gdi-de.github.io/apworkshop2026/BFAS1510_geom> ;
+    rdfs:comment "Bahn"@de ;
+    ns2:P2547 <https://gdi-de.github.io/apworkshop2026/BFAS1510_P2547_value> ;
+    ns2:P3018 "Bahnhof Alte Süderelbe Süd"@de ;
+    ns1:stammdurchmesser <https://gdi-de.github.io/apworkshop2026/BFAS1510_stammdurchmesser_value> .
+

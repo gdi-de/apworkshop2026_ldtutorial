@@ -12,5 +12,6 @@
     rdfs:member <https://gdi-de.github.io/apworkshop2026/ont#Bituma>,
         <https://gdi-de.github.io/apworkshop2026/ont#Botsch>,
         <https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger>,
-        <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> .
+        <https://gdi-de.github.io/apworkshop2026/ont#Kaiser>,
+        <https://gdi-de.github.io/apworkshop2026/ont#Tree> .
 

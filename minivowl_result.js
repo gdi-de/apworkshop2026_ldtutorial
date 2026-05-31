@@ -178,104 +178,6 @@ var minivowlresult={
  ],
  "links": [
   {
-   "source": 4,
-   "target": 19,
-   "valueTo": "hasTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasTime"
-  },
-  {
-   "source": 6,
-   "target": 19,
-   "valueTo": "hasTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasTime"
-  },
-  {
-   "source": 7,
-   "target": 19,
-   "valueTo": "hasTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasTime"
-  },
-  {
-   "source": 5,
-   "target": 19,
-   "valueTo": "hasTime",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2006/time#hasTime"
-  },
-  {
-   "source": 4,
-   "target": 22,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 4,
-   "target": 26,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 6,
-   "target": 22,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 6,
-   "target": 26,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 7,
-   "target": 22,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 7,
-   "target": 26,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 5,
-   "target": 22,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 5,
-   "target": 26,
-   "valueTo": "P131",
-   "propertyTo": "class",
-   "uriTo": "http://www.wikidata.org/prop/direct/P131"
-  },
-  {
-   "source": 31,
-   "target": 4,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 31,
-   "target": 7,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
    "source": 31,
    "target": 5,
    "valueTo": "member",
@@ -291,7 +193,14 @@ var minivowlresult={
   },
   {
    "source": 31,
-   "target": 6,
+   "target": 4,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 31,
+   "target": 7,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -304,15 +213,8 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
-   "source": 33,
-   "target": 4,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 33,
-   "target": 7,
+   "source": 31,
+   "target": 6,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -333,7 +235,14 @@ var minivowlresult={
   },
   {
    "source": 33,
-   "target": 6,
+   "target": 4,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 33,
+   "target": 7,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -346,15 +255,8 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
-   "source": 32,
-   "target": 4,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 32,
-   "target": 7,
+   "source": 33,
+   "target": 6,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -375,7 +277,14 @@ var minivowlresult={
   },
   {
    "source": 32,
-   "target": 6,
+   "target": 4,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 32,
+   "target": 7,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -388,14 +297,14 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
-   "source": 4,
-   "target": 18,
-   "valueTo": "hasGeometry",
+   "source": 32,
+   "target": 6,
+   "valueTo": "member",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
-   "source": 6,
+   "source": 4,
    "target": 18,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
@@ -409,11 +318,102 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
+   "source": 6,
+   "target": 18,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
    "source": 5,
    "target": 18,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+  },
+  {
+   "source": 4,
+   "target": 19,
+   "valueTo": "hasTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasTime"
+  },
+  {
+   "source": 7,
+   "target": 19,
+   "valueTo": "hasTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasTime"
+  },
+  {
+   "source": 6,
+   "target": 19,
+   "valueTo": "hasTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasTime"
+  },
+  {
+   "source": 5,
+   "target": 19,
+   "valueTo": "hasTime",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2006/time#hasTime"
+  },
+  {
+   "source": 4,
+   "target": 22,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 4,
+   "target": 26,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 7,
+   "target": 22,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 7,
+   "target": 26,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 6,
+   "target": 22,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 6,
+   "target": 26,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 5,
+   "target": 22,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
+  },
+  {
+   "source": 5,
+   "target": 26,
+   "valueTo": "P131",
+   "propertyTo": "class",
+   "uriTo": "http://www.wikidata.org/prop/direct/P131"
   },
   {
    "source": 18,
@@ -437,14 +437,14 @@ var minivowlresult={
    "uriTo": "http://rdfs.org/ns/void#inDataset"
   },
   {
-   "source": 6,
+   "source": 7,
    "target": 27,
    "valueTo": "inDataset",
    "propertyTo": "class",
    "uriTo": "http://rdfs.org/ns/void#inDataset"
   },
   {
-   "source": 7,
+   "source": 6,
    "target": 27,
    "valueTo": "inDataset",
    "propertyTo": "class",
@@ -458,27 +458,6 @@ var minivowlresult={
    "uriTo": "http://rdfs.org/ns/void#inDataset"
   },
   {
-   "source": 13,
-   "target": 15,
-   "valueTo": "axis",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
-  },
-  {
-   "source": 14,
-   "target": 15,
-   "valueTo": "axis",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/axis"
-  },
-  {
-   "source": 21,
-   "target": 8,
-   "valueTo": "license",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/license"
-  },
-  {
    "source": 21,
    "target": 20,
    "valueTo": "page",
@@ -486,14 +465,7 @@ var minivowlresult={
    "uriTo": "http://xmlns.com/foaf/0.1/page"
   },
   {
-   "source": 24,
-   "target": 13,
-   "valueTo": "coordinateSystem",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
-  },
-  {
-   "source": 24,
+   "source": 23,
    "target": 14,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
@@ -507,14 +479,14 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 23,
+   "source": 24,
    "target": 14,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 25,
+   "source": 24,
    "target": 13,
    "valueTo": "coordinateSystem",
    "propertyTo": "class",
@@ -528,18 +500,11 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
-   "source": 27,
-   "target": 10,
-   "valueTo": "accrualPeriodicity",
+   "source": 25,
+   "target": 13,
+   "valueTo": "coordinateSystem",
    "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/accrualPeriodicity"
-  },
-  {
-   "source": 27,
-   "target": 29,
-   "valueTo": "spatial",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/spatial"
+   "uriTo": "http://www.opengis.net/ont/crs/coordinateSystem"
   },
   {
    "source": 21,
@@ -547,48 +512,6 @@ var minivowlresult={
    "valueTo": "accessURL",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/ns/dcat#accessURL"
-  },
-  {
-   "source": 21,
-   "target": 22,
-   "valueTo": "downloadURL",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/dcat#downloadURL"
-  },
-  {
-   "source": 27,
-   "target": 30,
-   "valueTo": "contactPoint",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/dcat#contactPoint"
-  },
-  {
-   "source": 24,
-   "target": 16,
-   "valueTo": "ellipsoid",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/ellipsoid"
-  },
-  {
-   "source": 23,
-   "target": 16,
-   "valueTo": "ellipsoid",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/ellipsoid"
-  },
-  {
-   "source": 25,
-   "target": 16,
-   "valueTo": "ellipsoid",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/crs/ellipsoid"
-  },
-  {
-   "source": 27,
-   "target": 11,
-   "valueTo": "language",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/language"
   },
   {
    "source": 27,
@@ -599,6 +522,41 @@ var minivowlresult={
   },
   {
    "source": 27,
+   "target": 10,
+   "valueTo": "accrualPeriodicity",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/accrualPeriodicity"
+  },
+  {
+   "source": 27,
+   "target": 30,
+   "valueTo": "contactPoint",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/dcat#contactPoint"
+  },
+  {
+   "source": 23,
+   "target": 16,
+   "valueTo": "ellipsoid",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/ellipsoid"
+  },
+  {
+   "source": 24,
+   "target": 16,
+   "valueTo": "ellipsoid",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/ellipsoid"
+  },
+  {
+   "source": 25,
+   "target": 16,
+   "valueTo": "ellipsoid",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/ellipsoid"
+  },
+  {
+   "source": 27,
    "target": 9,
    "valueTo": "accessRights",
    "propertyTo": "class",
@@ -606,20 +564,20 @@ var minivowlresult={
   },
   {
    "source": 27,
-   "target": 28,
-   "valueTo": "publisher",
+   "target": 11,
+   "valueTo": "language",
    "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/publisher"
+   "uriTo": "http://purl.org/dc/terms/language"
   },
   {
-   "source": 24,
+   "source": 23,
    "target": 12,
    "valueTo": "area_of_use",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/area_of_use"
   },
   {
-   "source": 23,
+   "source": 24,
    "target": 12,
    "valueTo": "area_of_use",
    "propertyTo": "class",
@@ -631,6 +589,48 @@ var minivowlresult={
    "valueTo": "area_of_use",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/crs/area_of_use"
+  },
+  {
+   "source": 14,
+   "target": 15,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
+  },
+  {
+   "source": 13,
+   "target": 15,
+   "valueTo": "axis",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/crs/axis"
+  },
+  {
+   "source": 27,
+   "target": 28,
+   "valueTo": "publisher",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/publisher"
+  },
+  {
+   "source": 21,
+   "target": 8,
+   "valueTo": "license",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/license"
+  },
+  {
+   "source": 21,
+   "target": 22,
+   "valueTo": "downloadURL",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/ns/dcat#downloadURL"
+  },
+  {
+   "source": 27,
+   "target": 29,
+   "valueTo": "spatial",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/terms/spatial"
   }
  ]
 }

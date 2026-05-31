@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: distribution"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property dcat:distribution ;
-    void:triples 1 .
+    void:triples 1,
+        13 .
 

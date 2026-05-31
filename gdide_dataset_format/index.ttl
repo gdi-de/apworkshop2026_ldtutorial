@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: format"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property dcterms:format ;
-    void:triples 1 .
+    void:triples 1,
+        13 .
 

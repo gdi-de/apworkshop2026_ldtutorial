@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q163779_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q163779 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/BUHS250>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS251>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS252>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS253>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS255>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS257>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS258>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS259>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS260>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS261>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS262>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS263>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS264>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS267>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS270>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS271>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS272>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS273>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS35> .
+

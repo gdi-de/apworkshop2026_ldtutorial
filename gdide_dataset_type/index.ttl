@@ -13,5 +13,6 @@
     void:property dcterms:type,
         rdf:type ;
     void:triples 2,
-        787 .
+        787,
+        73011 .
 

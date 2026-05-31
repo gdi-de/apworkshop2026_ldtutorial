@@ -9,5 +9,6 @@
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in gdide_dataset" ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     ns1:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    ns1:occurrences 8 .
+    ns1:occurrences 4,
+        8 .
 

@@ -13,5 +13,6 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget geo: ;
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 5 .
+    void:triples 5,
+        67 .
 

@@ -1,0 +1,11 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+[] a <http://www.w3.org/ns/ldp#Resource>,
+        foaf:Organization,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    foaf:name "Behörde für Umwelt und Energie (BUE), Amt für Naturschutz, Grünplanung und Energie" .
+

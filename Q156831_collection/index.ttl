@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q156831_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q156831 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/ALTW237>,
+        <https://gdi-de.github.io/apworkshop2026/ALTW239>,
+        <https://gdi-de.github.io/apworkshop2026/ALTW485>,
+        <https://gdi-de.github.io/apworkshop2026/ALTW486>,
+        <https://gdi-de.github.io/apworkshop2026/ALTW487>,
+        <https://gdi-de.github.io/apworkshop2026/ALTW488>,
+        <https://gdi-de.github.io/apworkshop2026/ALTW489>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1557>,
+        <https://gdi-de.github.io/apworkshop2026/GZAW42>,
+        <https://gdi-de.github.io/apworkshop2026/GZAW46>,
+        <https://gdi-de.github.io/apworkshop2026/GZAW47>,
+        <https://gdi-de.github.io/apworkshop2026/GZAW49>,
+        <https://gdi-de.github.io/apworkshop2026/GZAW76>,
+        <https://gdi-de.github.io/apworkshop2026/HHBG44>,
+        <https://gdi-de.github.io/apworkshop2026/HHBG47>,
+        <https://gdi-de.github.io/apworkshop2026/HHBG48>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB630>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB693>,
+        <https://gdi-de.github.io/apworkshop2026/RDLD117>,
+        <https://gdi-de.github.io/apworkshop2026/SAHF204>,
+        <https://gdi-de.github.io/apworkshop2026/SAHF62>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB348>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB357>,
+        <https://gdi-de.github.io/apworkshop2026/VHWN407> .
+

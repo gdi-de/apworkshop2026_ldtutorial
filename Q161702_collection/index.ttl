@@ -1,0 +1,19 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q161702_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q161702 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/FINW435>,
+        <https://gdi-de.github.io/apworkshop2026/FRHD258>,
+        <https://gdi-de.github.io/apworkshop2026/GEOW252>,
+        <https://gdi-de.github.io/apworkshop2026/PEUT415>,
+        <https://gdi-de.github.io/apworkshop2026/PEUT416>,
+        <https://gdi-de.github.io/apworkshop2026/SAHF324>,
+        <https://gdi-de.github.io/apworkshop2026/SAHF325> .
+

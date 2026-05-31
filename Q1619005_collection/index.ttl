@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q1619005_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q1619005 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/BFAS962>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB793>,
+        <https://gdi-de.github.io/apworkshop2026/MOBG511>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW236>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW237>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW275>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW307>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW316>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW317>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW344>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW378>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW5>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW683>,
+        <https://gdi-de.github.io/apworkshop2026/NEUW711>,
+        <https://gdi-de.github.io/apworkshop2026/NHKL173>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF688>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF698>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF699> .
+

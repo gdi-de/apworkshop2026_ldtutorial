@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q131517_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q131517 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/FINW463>,
+        <https://gdi-de.github.io/apworkshop2026/FINW464>,
+        <https://gdi-de.github.io/apworkshop2026/FINW465>,
+        <https://gdi-de.github.io/apworkshop2026/FINW466>,
+        <https://gdi-de.github.io/apworkshop2026/FINW467>,
+        <https://gdi-de.github.io/apworkshop2026/FINW480>,
+        <https://gdi-de.github.io/apworkshop2026/ROST257>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB154>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB155>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB159>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB169>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF481>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF482>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF483> .
+

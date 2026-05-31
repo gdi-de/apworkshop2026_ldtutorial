@@ -1,0 +1,34 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q158301_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q158301 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/ALTW225>,
+        <https://gdi-de.github.io/apworkshop2026/BUHS208>,
+        <https://gdi-de.github.io/apworkshop2026/DRHF375>,
+        <https://gdi-de.github.io/apworkshop2026/DRHF383>,
+        <https://gdi-de.github.io/apworkshop2026/DRHF414>,
+        <https://gdi-de.github.io/apworkshop2026/GEOW3>,
+        <https://gdi-de.github.io/apworkshop2026/HOHS487>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB792>,
+        <https://gdi-de.github.io/apworkshop2026/MEFC130>,
+        <https://gdi-de.github.io/apworkshop2026/MEFC131>,
+        <https://gdi-de.github.io/apworkshop2026/NHKL159>,
+        <https://gdi-de.github.io/apworkshop2026/ROSD541>,
+        <https://gdi-de.github.io/apworkshop2026/ROST42>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB170>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB172>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB355>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB365>,
+        <https://gdi-de.github.io/apworkshop2026/TEUB373>,
+        <https://gdi-de.github.io/apworkshop2026/VEDL65>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF205>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF305>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF342> .
+

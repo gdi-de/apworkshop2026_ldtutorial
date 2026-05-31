@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: name"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property foaf:name ;
-    void:triples 1 .
+    void:triples 1,
+        4 .
 

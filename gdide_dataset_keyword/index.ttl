@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: keyword"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property dcat:keyword ;
-    void:triples 12 .
+    void:triples 12,
+        16 .
 

@@ -1,0 +1,37 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q145954_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q145954 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/BFAS1403>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1404>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1405>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1406>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1407>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1408>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1409>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1410>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1411>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1419>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1421>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1422>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1423>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1424>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1438>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1439>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1507>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1509>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1510>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1555>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1556>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1700>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS1702>,
+        <https://gdi-de.github.io/apworkshop2026/HOHS165>,
+        <https://gdi-de.github.io/apworkshop2026/STWR74> .
+

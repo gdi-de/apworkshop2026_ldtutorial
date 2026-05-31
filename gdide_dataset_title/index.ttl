@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: title"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property dcterms:title ;
-    void:triples 2 .
+    void:triples 2,
+        14 .
 

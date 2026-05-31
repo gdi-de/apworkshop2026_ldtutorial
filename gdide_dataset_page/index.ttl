@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: page"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property foaf:page ;
-    void:triples 4 .
+    void:triples 1,
+        4 .
 

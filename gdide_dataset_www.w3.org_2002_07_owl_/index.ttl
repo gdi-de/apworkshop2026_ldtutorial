@@ -13,5 +13,6 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget owl: ;
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 4 .
+    void:triples 2,
+        4 .
 

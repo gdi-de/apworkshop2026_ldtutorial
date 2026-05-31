@@ -1,0 +1,36 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q161382_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q161382 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/DRHF133>,
+        <https://gdi-de.github.io/apworkshop2026/FINW2>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB210>,
+        <https://gdi-de.github.io/apworkshop2026/REIN11>,
+        <https://gdi-de.github.io/apworkshop2026/REIN12>,
+        <https://gdi-de.github.io/apworkshop2026/REIN13>,
+        <https://gdi-de.github.io/apworkshop2026/REIN14>,
+        <https://gdi-de.github.io/apworkshop2026/REIN15>,
+        <https://gdi-de.github.io/apworkshop2026/REIN16>,
+        <https://gdi-de.github.io/apworkshop2026/REIN2>,
+        <https://gdi-de.github.io/apworkshop2026/REIN28>,
+        <https://gdi-de.github.io/apworkshop2026/REIN29>,
+        <https://gdi-de.github.io/apworkshop2026/REIN30>,
+        <https://gdi-de.github.io/apworkshop2026/REIN31>,
+        <https://gdi-de.github.io/apworkshop2026/REIN33>,
+        <https://gdi-de.github.io/apworkshop2026/REIN34>,
+        <https://gdi-de.github.io/apworkshop2026/REIN35>,
+        <https://gdi-de.github.io/apworkshop2026/REIN43>,
+        <https://gdi-de.github.io/apworkshop2026/REIN52>,
+        <https://gdi-de.github.io/apworkshop2026/REIN59>,
+        <https://gdi-de.github.io/apworkshop2026/REIN61>,
+        <https://gdi-de.github.io/apworkshop2026/REIN78>,
+        <https://gdi-de.github.io/apworkshop2026/REIN93>,
+        <https://gdi-de.github.io/apworkshop2026/SCHG96> .
+

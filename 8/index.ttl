@@ -1,8 +1,8 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix ns2: <http://www.w3.org/ns/locn#> .
+@prefix ns1: <http://www.w3.org/ns/locn#> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
@@ -20,9 +20,9 @@
     rdfs:comment "Betriebszeit: Mai bis Oktober, Link: https://www.bwb.de/de/trinkbrunnen.php  "@de ;
     skos:scopeNote "nan"@de ;
     time:hasTime <https://gdi-de.github.io/apworkshop2026/8_openmonths> ;
-    ns2:postCode 12687 ;
-    ns1:P131 <http://www.wikidata.org/entity/Q119284>,
+    ns1:postCode 12687 ;
+    ns2:P131 <http://www.wikidata.org/entity/Q119284>,
         <http://www.wikidata.org/entity/Q64> ;
-    ns1:P571 "1985"^^xsd:gYear ;
+    ns2:P571 "1985"^^xsd:gYear ;
     foaf:homepage "https://www.bwb.de/de/trinkbrunnen.php"^^xsd:anyURI .
 

@@ -1,0 +1,26 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q44120_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q44120 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/BFAS84>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS85>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS86>,
+        <https://gdi-de.github.io/apworkshop2026/BFAS98>,
+        <https://gdi-de.github.io/apworkshop2026/FINW446>,
+        <https://gdi-de.github.io/apworkshop2026/FINW449>,
+        <https://gdi-de.github.io/apworkshop2026/FINW451>,
+        <https://gdi-de.github.io/apworkshop2026/GZAW219>,
+        <https://gdi-de.github.io/apworkshop2026/ROSD309>,
+        <https://gdi-de.github.io/apworkshop2026/ROSD319>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF450>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF453>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF456>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF694> .
+

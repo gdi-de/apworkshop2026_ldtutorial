@@ -1,0 +1,38 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<https://gdi-de.github.io/apworkshop2026/Q146281_collection> a geo:FeatureCollection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Q146281 Instances Collection"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
+    rdfs:member <https://gdi-de.github.io/apworkshop2026/BFAS1135>,
+        <https://gdi-de.github.io/apworkshop2026/FINW426>,
+        <https://gdi-de.github.io/apworkshop2026/FINW427>,
+        <https://gdi-de.github.io/apworkshop2026/FINW428>,
+        <https://gdi-de.github.io/apworkshop2026/FINW429>,
+        <https://gdi-de.github.io/apworkshop2026/FINW430>,
+        <https://gdi-de.github.io/apworkshop2026/FINW431>,
+        <https://gdi-de.github.io/apworkshop2026/FINW432>,
+        <https://gdi-de.github.io/apworkshop2026/FINW433>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB400>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB401>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB402>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB403>,
+        <https://gdi-de.github.io/apworkshop2026/KLGB404>,
+        <https://gdi-de.github.io/apworkshop2026/MOBG872>,
+        <https://gdi-de.github.io/apworkshop2026/MOBG873>,
+        <https://gdi-de.github.io/apworkshop2026/REIS540>,
+        <https://gdi-de.github.io/apworkshop2026/REIS541>,
+        <https://gdi-de.github.io/apworkshop2026/REIS542>,
+        <https://gdi-de.github.io/apworkshop2026/REIS658>,
+        <https://gdi-de.github.io/apworkshop2026/REIS659>,
+        <https://gdi-de.github.io/apworkshop2026/REIS660>,
+        <https://gdi-de.github.io/apworkshop2026/REIS661>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF449>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF455>,
+        <https://gdi-de.github.io/apworkshop2026/WAHF708> .
+

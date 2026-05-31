@@ -6,7 +6,7 @@
 <https://gdi-de.github.io/apworkshop2026/203_openmonths> a time:TemporalEntity,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "openmonths"@en ;
+    rdfs:label "openmonths for https://gdi-de.github.io/apworkshop2026/203"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     time:hasBeginning <http://www.w3.org/ns/time/gregorian/May> ;

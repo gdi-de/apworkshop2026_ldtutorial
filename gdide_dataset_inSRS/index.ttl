@@ -10,5 +10,6 @@
     rdfs:label "Property Partition: inSRS"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property geo:inSRS ;
-    void:triples 242 .
+    void:triples 242,
+        18166 .
 

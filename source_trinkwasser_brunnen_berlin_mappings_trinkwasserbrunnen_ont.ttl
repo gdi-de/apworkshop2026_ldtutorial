@@ -1,0 +1,13 @@
+@prefix ns1: <http://purl.org/vocommons/voaf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gdi-de.github.io/apworkshop2026/ont#> a ns1:Vocabulary,
+        owl:Ontology ;
+    rdfs:label "https://gdi-de.github.io/apworkshop2026/ont# Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ont"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "https://gdi-de.github.io/apworkshop2026/ont#"^^xsd:anyURI ;
+    ns1:usageInDataset "https://gdi-de.github.io/apworkshop2026/"^^xsd:anyURI .
+

@@ -1,0 +1,58 @@
+{
+  "columns": {
+    "baujahr": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:integer",
+      "unique": false
+    },
+    "bezirk": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "einschraenkungen": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "geometry": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "informationen": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "nummer": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:integer",
+      "unique": true
+    },
+    "postleitzahl": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:integer",
+      "unique": false
+    },
+    "standort": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": true
+    },
+    "trinkbrunnenart": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    }
+  }
+}

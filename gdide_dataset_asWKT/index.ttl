@@ -11,7 +11,7 @@
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.opengis.net/ont/crs/asWKT>,
         geo:asWKT ;
-    void:triples 1,
+    void:triples 3,
         242,
         18254 .
 

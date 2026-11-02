@@ -11,7 +11,6 @@
 @prefix ns1: <http://www.wikidata.org/prop/direct/> .
 @prefix ns2: <http://www.w3.org/ns/locn#> .
 @prefix ns3: <http://ldf.fi/void-ext#> .
-@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -854,39 +853,6 @@
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_mailto:Silke.block@bwb.de> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: gdide_dataset - mailto:Silke.block@bwb.de"@en ;
-    void:linkPredicate ns4:hasEmail ;
-    void:objectsTarget <mailto:Silke.block@bwb.de> ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_purl.org_dc_terms_> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: gdide_dataset - terms:"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget dcterms: ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1,
-        2 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_tel:+493086442550> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: gdide_dataset - tel:+493086442550"@en ;
-    void:linkPredicate ns4:hasTelephone ;
-    void:objectsTarget <tel:+493086442550> ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_www.opengis.net_def_crs_EPSG_0_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -961,18 +927,6 @@
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_www.w3.org_2006_vcard_ns_> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: gdide_dataset - Vcard Vocabulary (vcard2006:)"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget ns4: ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_www.w3.org_ns_time_gregorian_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -999,19 +953,6 @@
     void:triples 4,
         484,
         18322 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_xmlns.com_foaf_0.1_> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Linkset: gdide_dataset - Friend Of A Friend Ontology (foaf:)"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget foaf: ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1,
-        4 .
 
 <https://gdi-de.github.io/apworkshop2026/1> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -5119,35 +5060,14 @@
     void:property <http://www.opengis.net/ont/crs/abbreviation> ;
     void:triples 2 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessRights> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_approximates> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: accessRights"@en ;
+    rdfs:label "Property Partition: approximates"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:accessRights ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessURL> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: accessURL"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcat:accessURL ;
-    void:triples 1,
-        13 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_accrualPeriodicity> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: accrualPeriodicity"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:accrualPeriodicity ;
+    void:property <http://www.opengis.net/ont/crs/approximates> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_area_of_use> a void:Dataset,
@@ -5160,6 +5080,16 @@
     void:property <http://www.opengis.net/ont/crs/area_of_use> ;
     void:triples 1 .
 
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProj4> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: asProj4"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property <http://www.opengis.net/ont/crs/asProj4> ;
+    void:triples 1 .
+
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProjJSON> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -5168,7 +5098,7 @@
     rdfs:label "Property Partition: asProjJSON"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.opengis.net/ont/crs/asProjJSON> ;
-    void:triples 1 .
+    void:triples 3 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asWKT> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5179,7 +5109,7 @@
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.opengis.net/ont/crs/asWKT>,
         geo:asWKT ;
-    void:triples 1,
+    void:triples 3,
         242,
         18254 .
 
@@ -5204,27 +5134,6 @@
     void:triples 242,
         18169 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_contactPoint> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: contactPoint"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcat:contactPoint ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_contributorID> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: contributorID"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property <http://dcat-ap.de/def/dcatde/1_0/contributorID>,
-        <http://dcat-ap.de/def/dcatde/contributorID> ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_coordinateSystem> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -5235,16 +5144,25 @@
     void:property <http://www.opengis.net/ont/crs/coordinateSystem> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_description> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_datum> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: description"@en ;
+    rdfs:label "Property Partition: datum"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:description ;
-    void:triples 1,
-        2 .
+    void:property <http://www.opengis.net/ont/crs/datum> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_definition> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: definition"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property skos:definition ;
+    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_direction> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5256,23 +5174,14 @@
     void:property <http://www.opengis.net/ont/crs/direction> ;
     void:triples 2 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_distribution> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_eccentricity> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: distribution"@en ;
+    rdfs:label "Property Partition: eccentricity"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcat:distribution ;
-    void:triples 1,
-        13 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_downloadURL> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: downloadURL"@en ;
-    void:property dcat:downloadURL ;
+    void:property <http://www.opengis.net/ont/crs/eccentricity> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_ellipsoid> a void:Dataset,
@@ -5285,35 +5194,24 @@
     void:property <http://www.opengis.net/ont/crs/ellipsoid> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_fn> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_epsgCode> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: fn"@en ;
+    rdfs:label "Property Partition: epsgCode"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property ns4:fn ;
+    void:property <http://www.opengis.net/ont/crs/epsgCode> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_format> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_flatteningParameter> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: format"@en ;
+    rdfs:label "Property Partition: flatteningParameter"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:format ;
-    void:triples 1,
-        13 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_geometry> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: geometry"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property ns2:geometry ;
+    void:property <http://www.opengis.net/ont/crs/flatteningParameter> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasBeginning> a void:Dataset,
@@ -5323,14 +5221,6 @@
     rdfs:label "Property Partition: hasBeginning"@en ;
     void:property time:hasBeginning ;
     void:triples 242 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEmail> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: hasEmail"@en ;
-    void:property ns4:hasEmail ;
-    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEnd> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5351,14 +5241,6 @@
     void:triples 242,
         18166 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTelephone> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: hasTelephone"@en ;
-    void:property ns4:hasTelephone ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTime> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -5374,17 +5256,6 @@
     rdfs:label "Property Partition: homepage"@en ;
     void:property foaf:homepage ;
     void:triples 242 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_identifier> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: identifier"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:identifier,
-        <http://www.w3.org/ns/adms#identifier> ;
-    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inDataset> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5428,27 +5299,55 @@
     void:property <http://www.opengis.net/ont/crs/isBound> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_issued> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeocentric> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: issued"@en ;
+    rdfs:label "Property Partition: isGeocentric"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:issued ;
-    void:triples 2,
-        14 .
+    void:property <http://www.opengis.net/ont/crs/isGeocentric> ;
+    void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_keyword> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeographic> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: keyword"@en ;
+    rdfs:label "Property Partition: isGeographic"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcat:keyword ;
-    void:triples 12,
-        16 .
+    void:property <http://www.opengis.net/ont/crs/isGeographic> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isProjected> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: isProjected"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property <http://www.opengis.net/ont/crs/isProjected> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isSphere> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: isSphere"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property <http://www.opengis.net/ont/crs/isSphere> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isVertical> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: isVertical"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property <http://www.opengis.net/ont/crs/isVertical> ;
+    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_label> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5458,45 +5357,17 @@
     rdfs:label "Property Partition: label"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property rdfs:label ;
-    void:triples 781,
-        72831 .
+    void:triples 784,
+        72834 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_language> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_longitude> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: language"@en ;
+    rdfs:label "Property Partition: longitude"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:language ;
-    void:triples 1,
-        14 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_license> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: license"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:license ;
-    void:triples 1,
-        13 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_mbox> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: mbox"@en ;
-    void:property foaf:mbox ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_mediaType> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: mediaType"@en ;
-    void:property dcat:mediaType ;
+    void:property <http://www.opengis.net/ont/crs/longitude> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_member> a void:Dataset,
@@ -5510,39 +5381,6 @@
     void:triples 728,
         72823 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_modified> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: modified"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:modified ;
-    void:triples 2,
-        14 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_name> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: name"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property foaf:name ;
-    void:triples 1,
-        4 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_page> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: page"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property foaf:page ;
-    void:triples 1,
-        4 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_postCode> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -5551,14 +5389,14 @@
     void:property ns2:postCode ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_publisher> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_primeMeridian> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: publisher"@en ;
+    rdfs:label "Property Partition: primeMeridian"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:publisher ;
+    void:property <http://www.opengis.net/ont/crs/primeMeridian> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scope> a void:Dataset,
@@ -5569,7 +5407,7 @@
     rdfs:label "Property Partition: scope"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.opengis.net/ont/crs/scope> ;
-    void:triples 1 .
+    void:triples 2 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scopeNote> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5579,14 +5417,24 @@
     void:property skos:scopeNote ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_spatial> a void:Dataset,
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMajorAxis> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: spatial"@en ;
+    rdfs:label "Property Partition: semiMajorAxis"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:spatial ;
+    void:property <http://www.opengis.net/ont/crs/semiMajorAxis> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMinorAxis> a void:Dataset,
+        <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Property Partition: semiMinorAxis"@en ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    void:property <http://www.opengis.net/ont/crs/semiMinorAxis> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_subClassOf> a void:Dataset,
@@ -5600,27 +5448,6 @@
     void:triples 8,
         70 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_theme> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: theme"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcat:theme ;
-    void:triples 2 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_title> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
-    rdfs:label "Property Partition: title"@en ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:title ;
-    void:triples 2,
-        14 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_type> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -5628,11 +5455,9 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: type"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:property dcterms:type,
-        rdf:type ;
-    void:triples 2,
-        787,
-        73011 .
+    void:property rdf:type ;
+    void:triples 776,
+        72980 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5642,7 +5467,7 @@
     rdfs:label "Property Partition: unit"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.opengis.net/ont/crs/unit> ;
-    void:triples 2 .
+    void:triples 3 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_auth_code> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -10076,24 +9901,23 @@
     ns3:averageLiteralLength 0 ;
     ns3:averageObjectIRILength 41,
         45 ;
-    ns3:averagePropertyIRILength 37,
-        40 ;
-    ns3:averageSubjectIRILength 47,
+    ns3:averagePropertyIRILength 41,
+        43 ;
+    ns3:averageSubjectIRILength 48,
         56 ;
     ns3:datatypes 0 ;
-    ns3:distinctBlankNodes 3,
-        20 ;
-    ns3:distinctIRIReferences 2842,
-        235173 ;
+    ns3:distinctBlankNodes 0 ;
+    ns3:distinctIRIReferences 2788,
+        235000 ;
     ns3:distinctLiterals 0 ;
-    ns3:distinctRDFNodes 2845,
-        235193 ;
+    ns3:distinctRDFNodes 2788,
+        235000 ;
     ns3:languages 0 ;
     ns3:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2026-05-31T16:38:33"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T18:29:44"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -10102,37 +9926,28 @@
     dcterms:title "gdide_dataset"@en ;
     vann:preferredNamespacePrefix "gdide"^^xsd:string ;
     vann:preferredNamespaceUri "https://gdi-de.github.io/apworkshop2026/"^^xsd:anyURI ;
-    void:classPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Agent>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AreaOfUse>,
+    void:classPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AreaOfUse>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AxisDirection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Bituma>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Botsch>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Brunnen_fuer_Jogger>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Checksum>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Collection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_CoordinateSystemAxis>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Dataset>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Distribution>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Document>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Datum>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_EllipsoidalCoordinateSystem>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Entity>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_FeatureCollection>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Frequency>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_GeographicCRS>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Geoid>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Geometry>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_GeometryCollection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Kaiser>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_LicenseDocument>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_LinguisticSystem>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Location>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Measure>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_MultiPoint>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_ObservationCollection>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Organization>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PeriodOfTime>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PlanarCoordinateSystem>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Point>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PrimeMeridian>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q104819>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1151129>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q12004>,
@@ -10201,107 +10016,77 @@
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q472943>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q59779164>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Resource>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_RightsStatement>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_SpatialObjectCollection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_TemporalEntity>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Tree> ;
-    void:classes 32,
-        89 ;
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Tree>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Unit> ;
+    void:classes 25,
+        85 ;
     void:dataDump "https://gdi-de.github.io/apworkshop2026_ldtutorial//index.ttl"^^xsd:anyURI ;
-    void:distinctObjects 1992,
-        162248 ;
-    void:distinctSubjects 789,
-        72855 ;
-    void:entities 741,
-        72757 ;
+    void:distinctObjects 1962,
+        162131 ;
+    void:distinctSubjects 778,
+        72824 ;
+    void:entities 738,
+        72737 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 61,
-        70 ;
+    void:properties 45,
+        48 ;
     void:propertyPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P131>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P2547>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P3018>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P571>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_abbreviation>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessRights>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessURL>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_accrualPeriodicity>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_approximates>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_area_of_use>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProj4>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProjJSON>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asWKT>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_axis>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_byteSize>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_checksum>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_checksumValue>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_comment>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_conformsTo>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_contactPoint>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_contributorID>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_coordinateSystem>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_creator>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_description>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_datum>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_definition>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_direction>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_distribution>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_downloadURL>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_eccentricity>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_ellipsoid>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_fn>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_format>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_geocodingText>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_geometry>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_epsgCode>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_flatteningParameter>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasBeginning>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEmail>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEnd>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasGeometry>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasNumericalValue>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTelephone>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTime>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasUnit>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasVersion>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_homepage>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_identifier>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inDataset>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inSRS>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isApplicableTo>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isBound>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_issued>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_keyword>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeocentric>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeographic>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isProjected>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isSphere>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isVertical>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_label>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_landingPage>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_language>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_legalbasisText>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_license>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_licenseAttributionByText>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_maintainer>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_mbox>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_mediaType>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_longitude>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_member>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_modified>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_name>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_originator>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_page>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_politicalGeocodingLevelURI>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_politicalGeocodingURI>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_postCode>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_provenance>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_publisher>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_primeMeridian>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scope>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scopeNote>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_source>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_spatial>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMajorAxis>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMinorAxis>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_stammdurchmesser>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_startDate>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_subClassOf>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_temporal>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_theme>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_title>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_type>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_auth_code>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_code>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_conversion_factor>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_versionInfo> ;
-    void:triples 6503,
-        509824 ;
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_conversion_factor> ;
+    void:triples 6465,
+        509576 ;
     void:uriSpace "https://gdi-de.github.io/apworkshop2026/"^^xsd:string ;
     void:vocabulary ns3:,
         dcam:,
@@ -10344,28 +10129,4 @@
     dcat:landingPage "https://gdi-de.github.io/apworkshop2026_ldtutorial/"^^xsd:anyURI ;
     foaf:homepage "https://gdi-de.github.io/apworkshop2026_ldtutorial/"^^xsd:anyURI ;
     foaf:page "https://gdi-de.github.io/apworkshop2026_ldtutorial//index.html"^^xsd:anyURI .
-
-[] a <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        foaf:Agent ;
-    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    foaf:mbox "Silke.block@bwb.de" ;
-    foaf:name "Berliner Wasserbetriebe" .
-
-[] a dcterms:Location,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    ns2:geometry "POLYGON ((13.0928 52.6688, 13.7501 52.6688, 13.7501 52.3454, 13.0928 52.3454, 13.0928 52.6688))"^^geo:wktLiteral .
-
-[] a ns4:Organization,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    void:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    ns4:fn "Berliner Wasserbetriebe" ;
-    ns4:hasEmail <mailto:Silke.block@bwb.de> ;
-    ns4:hasTelephone <tel:+493086442550> .
 

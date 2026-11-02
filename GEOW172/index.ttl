@@ -1,7 +1,7 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.wikidata.org/prop/direct/> .
-@prefix ns2: <https://gdi-de.github.io/apworkshop2026/ont#> .
+@prefix ns1: <https://gdi-de.github.io/apworkshop2026/ont#> .
+@prefix ns2: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
@@ -14,7 +14,7 @@
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     geo:hasGeometry <https://gdi-de.github.io/apworkshop2026/GEOW172_geom> ;
     rdfs:comment "Bahn"@de ;
-    ns1:P2547 <https://gdi-de.github.io/apworkshop2026/GEOW172_P2547_value> ;
-    ns1:P3018 "Georgswerder"@de ;
-    ns2:stammdurchmesser <https://gdi-de.github.io/apworkshop2026/GEOW172_stammdurchmesser_value> .
+    ns2:P2547 <https://gdi-de.github.io/apworkshop2026/GEOW172_P2547_value> ;
+    ns2:P3018 "Georgswerder"@de ;
+    ns1:stammdurchmesser <https://gdi-de.github.io/apworkshop2026/GEOW172_stammdurchmesser_value> .
 

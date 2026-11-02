@@ -61,8 +61,7 @@
 
 <https://gdi-de.github.io/apworkshop2026/dcterms_gdide_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in gdide_dataset" ;
-    voaf:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    voaf:occurrences 2 .
+    voaf:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> .
 
 <https://gdi-de.github.io/apworkshop2026/doap_gdide_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in gdide_dataset" ;
@@ -70,8 +69,7 @@
 
 <https://gdi-de.github.io/apworkshop2026/foaf_gdide_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in gdide_dataset" ;
-    voaf:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    voaf:occurrences 2 .
+    voaf:inDataset <https://gdi-de.github.io/apworkshop2026/gdide_dataset> .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_gdk.gdi-de.org_inspire_srv_eng_> a void:Linkset ;
     rdfs:label "Linkset: gdide_dataset - eng"@en ;
@@ -79,27 +77,6 @@
     void:objectsTarget <https://gdk.gdi-de.org/inspire/srv/eng/> ;
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     void:triples 242 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_mailto:Silke.block@bwb.de> a void:Linkset ;
-    rdfs:label "Linkset: gdide_dataset - mailto:Silke.block@bwb.de"@en ;
-    void:linkPredicate <http://www.w3.org/2006/vcard/ns#hasEmail> ;
-    void:objectsTarget <mailto:Silke.block@bwb.de> ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_purl.org_dc_terms_> a void:Linkset ;
-    rdfs:label "Linkset: gdide_dataset - terms:"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget dcterms: ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_tel:+493086442550> a void:Linkset ;
-    rdfs:label "Linkset: gdide_dataset - tel:+493086442550"@en ;
-    void:linkPredicate <http://www.w3.org/2006/vcard/ns#hasTelephone> ;
-    void:objectsTarget <tel:+493086442550> ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_www.opengis.net_def_crs_EPSG_0_> a void:Linkset ;
     rdfs:label "Linkset: gdide_dataset - 0"@en ;
@@ -143,13 +120,6 @@
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_www.w3.org_2006_vcard_ns_> a void:Linkset ;
-    rdfs:label "Linkset: gdide_dataset - Vcard Vocabulary (vcard2006:)"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget <http://www.w3.org/2006/vcard/ns#> ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_www.w3.org_ns_time_gregorian_> a void:Linkset ;
     rdfs:label "Linkset: gdide_dataset - greg:"@en ;
     void:linkPredicate time:hasBeginning,
@@ -166,13 +136,6 @@
     void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
     void:triples 4,
         484 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_xmlns.com_foaf_0.1_> a void:Linkset ;
-    rdfs:label "Linkset: gdide_dataset - Friend Of A Friend Ontology (foaf:)"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget foaf: ;
-    void:subjectsTarget <https://gdi-de.github.io/apworkshop2026/gdide_dataset> ;
-    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/geo_gdide_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in gdide_dataset" ;
@@ -301,6 +264,12 @@ dc: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
     voaf:usageInDataset dc:_gdide_dataset_occ .
 
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_gdide_dataset_occ .
+
 qb: a voaf:Vocabulary ;
     rdfs:label "qb Vocabulary"@en ;
     vann:preferredNamespacePrefix "qb"^^xsd:string ;
@@ -417,6 +386,12 @@ ssn: a voaf:Vocabulary ;
 
 <http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
 
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_gdide_dataset_occ .
+
 foaf:Person rdfs:label "Person"@en .
 
 brick: a voaf:Vocabulary ;
@@ -424,11 +399,6 @@ brick: a voaf:Vocabulary ;
     vann:preferredNamespacePrefix "brick"^^xsd:string ;
     vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
     voaf:usageInDataset brick:_gdide_dataset_occ .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Agent> a void:Dataset ;
-    rdfs:label "Class Partition: Agent"@en ;
-    void:class foaf:Agent ;
-    void:entities 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AreaOfUse> a void:Dataset ;
     rdfs:label "Class Partition: AreaOfUse"@en ;
@@ -453,10 +423,6 @@ brick: a voaf:Vocabulary ;
     void:class <https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger> ;
     void:entities 2 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Checksum> a void:Dataset ;
-    rdfs:label "Class Partition: Checksum"@en ;
-    void:class <http://spdx.org/rdf/terms#Checksum> .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Collection> a void:Dataset ;
     rdfs:label "Class Partition: Collection"@en ;
     void:class skos:Collection ;
@@ -466,17 +432,9 @@ brick: a voaf:Vocabulary ;
     rdfs:label "Class Partition: CoordinateSystemAxis"@en ;
     void:class <http://www.opengis.net/ont/crs/CoordinateSystemAxis> .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Dataset> a void:Dataset ;
-    rdfs:label "Class Partition: Dataset"@en ;
-    void:class dcat:Dataset .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Distribution> a void:Dataset ;
-    rdfs:label "Class Partition: Distribution"@en ;
-    void:class dcat:Distribution .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Document> a void:Dataset ;
-    rdfs:label "Class Partition: Document"@en ;
-    void:class foaf:Document .
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Datum> a void:Dataset ;
+    rdfs:label "Class Partition: Datum"@en ;
+    void:class <http://www.opengis.net/ont/crs/Datum> .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_EllipsoidalCoordinateSystem> a void:Dataset ;
     rdfs:label "Class Partition: EllipsoidalCoordinateSystem"@en ;
@@ -490,10 +448,6 @@ brick: a voaf:Vocabulary ;
     rdfs:label "Class Partition: FeatureCollection"@en ;
     void:class geo:FeatureCollection ;
     void:entities 4 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Frequency> a void:Dataset ;
-    rdfs:label "Class Partition: Frequency"@en ;
-    void:class dcterms:Frequency .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_GeographicCRS> a void:Dataset ;
     rdfs:label "Class Partition: GeographicCRS"@en ;
@@ -517,28 +471,9 @@ brick: a voaf:Vocabulary ;
     void:class <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     void:entities 176 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_LicenseDocument> a void:Dataset ;
-    rdfs:label "Class Partition: LicenseDocument"@en ;
-    void:class dcterms:LicenseDocument .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_LinguisticSystem> a void:Dataset ;
-    rdfs:label "Class Partition: LinguisticSystem"@en ;
-    void:class dcterms:LinguisticSystem .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Location> a void:Dataset ;
-    rdfs:label "Class Partition: Location"@en ;
-    void:class dcterms:Location ;
-    void:entities 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Measure> a void:Dataset ;
     rdfs:label "Class Partition: Measure"@en ;
     void:class <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Organization> a void:Dataset ;
-    rdfs:label "Class Partition: Organization"@en ;
-    void:class <http://www.w3.org/2006/vcard/ns#Organization>,
-        foaf:Organization ;
-    void:entities 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P131> a void:Dataset ;
     rdfs:label "Property Partition: P131"@en ;
@@ -550,10 +485,6 @@ brick: a voaf:Vocabulary ;
     void:property <http://www.wikidata.org/prop/direct/P571> ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_PeriodOfTime> a void:Dataset ;
-    rdfs:label "Class Partition: PeriodOfTime"@en ;
-    void:class dcterms:PeriodOfTime .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PlanarCoordinateSystem> a void:Dataset ;
     rdfs:label "Class Partition: PlanarCoordinateSystem"@en ;
     void:class <http://www.opengis.net/ont/crs/PlanarCoordinateSystem> .
@@ -562,6 +493,10 @@ brick: a voaf:Vocabulary ;
     rdfs:label "Class Partition: Point"@en ;
     void:class <http://www.opengis.net/ont/sf#Point> ;
     void:entities 242 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_PrimeMeridian> a void:Dataset ;
+    rdfs:label "Class Partition: PrimeMeridian"@en ;
+    void:class <http://www.opengis.net/ont/crs/PrimeMeridian> .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1630622> a void:Dataset ;
     rdfs:label "Class Partition: Q1630622"@en ;
@@ -575,10 +510,6 @@ brick: a voaf:Vocabulary ;
     rdfs:label "Class Partition: Resource"@en ;
     void:class rdfs:Resource .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_RightsStatement> a void:Dataset ;
-    rdfs:label "Class Partition: RightsStatement"@en ;
-    void:class dcterms:RightsStatement .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_SpatialObjectCollection> a void:Dataset ;
     rdfs:label "Class Partition: SpatialObjectCollection"@en ;
     void:class geo:SpatialObjectCollection .
@@ -588,24 +519,18 @@ brick: a voaf:Vocabulary ;
     void:class time:TemporalEntity ;
     void:entities 242 .
 
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_Unit> a void:Dataset ;
+    rdfs:label "Class Partition: Unit"@en ;
+    void:class <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> .
+
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_abbreviation> a void:Dataset ;
     rdfs:label "Property Partition: abbreviation"@en ;
     void:property <http://www.opengis.net/ont/crs/abbreviation> ;
     void:triples 2 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessRights> a void:Dataset ;
-    rdfs:label "Property Partition: accessRights"@en ;
-    void:property dcterms:accessRights ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessURL> a void:Dataset ;
-    rdfs:label "Property Partition: accessURL"@en ;
-    void:property dcat:accessURL ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_accrualPeriodicity> a void:Dataset ;
-    rdfs:label "Property Partition: accrualPeriodicity"@en ;
-    void:property dcterms:accrualPeriodicity ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_approximates> a void:Dataset ;
+    rdfs:label "Property Partition: approximates"@en ;
+    void:property <http://www.opengis.net/ont/crs/approximates> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_area_of_use> a void:Dataset ;
@@ -613,16 +538,21 @@ brick: a voaf:Vocabulary ;
     void:property <http://www.opengis.net/ont/crs/area_of_use> ;
     void:triples 1 .
 
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProj4> a void:Dataset ;
+    rdfs:label "Property Partition: asProj4"@en ;
+    void:property <http://www.opengis.net/ont/crs/asProj4> ;
+    void:triples 1 .
+
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProjJSON> a void:Dataset ;
     rdfs:label "Property Partition: asProjJSON"@en ;
     void:property <http://www.opengis.net/ont/crs/asProjJSON> ;
-    void:triples 1 .
+    void:triples 3 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asWKT> a void:Dataset ;
     rdfs:label "Property Partition: asWKT"@en ;
     void:property <http://www.opengis.net/ont/crs/asWKT>,
         geo:asWKT ;
-    void:triples 1,
+    void:triples 3,
         242 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_axis> a void:Dataset ;
@@ -635,25 +565,20 @@ brick: a voaf:Vocabulary ;
     void:property rdfs:comment ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_contactPoint> a void:Dataset ;
-    rdfs:label "Property Partition: contactPoint"@en ;
-    void:property dcat:contactPoint ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_contributorID> a void:Dataset ;
-    rdfs:label "Property Partition: contributorID"@en ;
-    void:property <http://dcat-ap.de/def/dcatde/contributorID> ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_coordinateSystem> a void:Dataset ;
     rdfs:label "Property Partition: coordinateSystem"@en ;
     void:property <http://www.opengis.net/ont/crs/coordinateSystem> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_description> a void:Dataset ;
-    rdfs:label "Property Partition: description"@en ;
-    void:property dcterms:description ;
-    void:triples 2 .
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_datum> a void:Dataset ;
+    rdfs:label "Property Partition: datum"@en ;
+    void:property <http://www.opengis.net/ont/crs/datum> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_definition> a void:Dataset ;
+    rdfs:label "Property Partition: definition"@en ;
+    void:property skos:definition ;
+    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_direction> a void:Dataset ;
     rdfs:label "Property Partition: direction"@en ;
@@ -665,14 +590,9 @@ brick: a voaf:Vocabulary ;
     dcat:downloadURL "https://gdi-de.github.io/apworkshop2026_ldtutorial//index.ttl"^^xsd:anyURI ;
     dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_distribution> a void:Dataset ;
-    rdfs:label "Property Partition: distribution"@en ;
-    void:property dcat:distribution ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_downloadURL> a void:Dataset ;
-    rdfs:label "Property Partition: downloadURL"@en ;
-    void:property dcat:downloadURL ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_eccentricity> a void:Dataset ;
+    rdfs:label "Property Partition: eccentricity"@en ;
+    void:property <http://www.opengis.net/ont/crs/eccentricity> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_ellipsoid> a void:Dataset ;
@@ -680,30 +600,20 @@ brick: a voaf:Vocabulary ;
     void:property <http://www.opengis.net/ont/crs/ellipsoid> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_fn> a void:Dataset ;
-    rdfs:label "Property Partition: fn"@en ;
-    void:property <http://www.w3.org/2006/vcard/ns#fn> ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_epsgCode> a void:Dataset ;
+    rdfs:label "Property Partition: epsgCode"@en ;
+    void:property <http://www.opengis.net/ont/crs/epsgCode> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_format> a void:Dataset ;
-    rdfs:label "Property Partition: format"@en ;
-    void:property dcterms:format ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_geometry> a void:Dataset ;
-    rdfs:label "Property Partition: geometry"@en ;
-    void:property <http://www.w3.org/ns/locn#geometry> ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_flatteningParameter> a void:Dataset ;
+    rdfs:label "Property Partition: flatteningParameter"@en ;
+    void:property <http://www.opengis.net/ont/crs/flatteningParameter> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasBeginning> a void:Dataset ;
     rdfs:label "Property Partition: hasBeginning"@en ;
     void:property time:hasBeginning ;
     void:triples 242 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEmail> a void:Dataset ;
-    rdfs:label "Property Partition: hasEmail"@en ;
-    void:property <http://www.w3.org/2006/vcard/ns#hasEmail> ;
-    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEnd> a void:Dataset ;
     rdfs:label "Property Partition: hasEnd"@en ;
@@ -715,11 +625,6 @@ brick: a voaf:Vocabulary ;
     void:property geo:hasGeometry ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTelephone> a void:Dataset ;
-    rdfs:label "Property Partition: hasTelephone"@en ;
-    void:property <http://www.w3.org/2006/vcard/ns#hasTelephone> ;
-    void:triples 1 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTime> a void:Dataset ;
     rdfs:label "Property Partition: hasTime"@en ;
     void:property time:hasTime ;
@@ -729,12 +634,6 @@ brick: a voaf:Vocabulary ;
     rdfs:label "Property Partition: homepage"@en ;
     void:property foaf:homepage ;
     void:triples 242 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_identifier> a void:Dataset ;
-    rdfs:label "Property Partition: identifier"@en ;
-    void:property dcterms:identifier,
-        adms:identifier ;
-    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inDataset> a void:Dataset ;
     rdfs:label "Property Partition: inDataset"@en ;
@@ -756,39 +655,39 @@ brick: a voaf:Vocabulary ;
     void:property <http://www.opengis.net/ont/crs/isBound> ;
     void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_issued> a void:Dataset ;
-    rdfs:label "Property Partition: issued"@en ;
-    void:property dcterms:issued ;
-    void:triples 2 .
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeocentric> a void:Dataset ;
+    rdfs:label "Property Partition: isGeocentric"@en ;
+    void:property <http://www.opengis.net/ont/crs/isGeocentric> ;
+    void:triples 1 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_keyword> a void:Dataset ;
-    rdfs:label "Property Partition: keyword"@en ;
-    void:property dcat:keyword ;
-    void:triples 12 .
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeographic> a void:Dataset ;
+    rdfs:label "Property Partition: isGeographic"@en ;
+    void:property <http://www.opengis.net/ont/crs/isGeographic> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isProjected> a void:Dataset ;
+    rdfs:label "Property Partition: isProjected"@en ;
+    void:property <http://www.opengis.net/ont/crs/isProjected> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isSphere> a void:Dataset ;
+    rdfs:label "Property Partition: isSphere"@en ;
+    void:property <http://www.opengis.net/ont/crs/isSphere> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_isVertical> a void:Dataset ;
+    rdfs:label "Property Partition: isVertical"@en ;
+    void:property <http://www.opengis.net/ont/crs/isVertical> ;
+    void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_label> a void:Dataset ;
     rdfs:label "Property Partition: label"@en ;
     void:property rdfs:label ;
-    void:triples 781 .
+    void:triples 784 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_language> a void:Dataset ;
-    rdfs:label "Property Partition: language"@en ;
-    void:property dcterms:language ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_license> a void:Dataset ;
-    rdfs:label "Property Partition: license"@en ;
-    void:property dcterms:license ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_mbox> a void:Dataset ;
-    rdfs:label "Property Partition: mbox"@en ;
-    void:property foaf:mbox ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_mediaType> a void:Dataset ;
-    rdfs:label "Property Partition: mediaType"@en ;
-    void:property dcat:mediaType ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_longitude> a void:Dataset ;
+    rdfs:label "Property Partition: longitude"@en ;
+    void:property <http://www.opengis.net/ont/crs/longitude> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_member> a void:Dataset ;
@@ -796,44 +695,34 @@ brick: a voaf:Vocabulary ;
     void:property rdfs:member ;
     void:triples 728 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_modified> a void:Dataset ;
-    rdfs:label "Property Partition: modified"@en ;
-    void:property dcterms:modified ;
-    void:triples 2 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_name> a void:Dataset ;
-    rdfs:label "Property Partition: name"@en ;
-    void:property foaf:name ;
-    void:triples 1 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_page> a void:Dataset ;
-    rdfs:label "Property Partition: page"@en ;
-    void:property foaf:page ;
-    void:triples 4 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_postCode> a void:Dataset ;
     rdfs:label "Property Partition: postCode"@en ;
     void:property <http://www.w3.org/ns/locn#postCode> ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_publisher> a void:Dataset ;
-    rdfs:label "Property Partition: publisher"@en ;
-    void:property dcterms:publisher ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_primeMeridian> a void:Dataset ;
+    rdfs:label "Property Partition: primeMeridian"@en ;
+    void:property <http://www.opengis.net/ont/crs/primeMeridian> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scope> a void:Dataset ;
     rdfs:label "Property Partition: scope"@en ;
     void:property <http://www.opengis.net/ont/crs/scope> ;
-    void:triples 1 .
+    void:triples 2 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scopeNote> a void:Dataset ;
     rdfs:label "Property Partition: scopeNote"@en ;
     void:property skos:scopeNote ;
     void:triples 242 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_spatial> a void:Dataset ;
-    rdfs:label "Property Partition: spatial"@en ;
-    void:property dcterms:spatial ;
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMajorAxis> a void:Dataset ;
+    rdfs:label "Property Partition: semiMajorAxis"@en ;
+    void:property <http://www.opengis.net/ont/crs/semiMajorAxis> ;
+    void:triples 1 .
+
+<https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMinorAxis> a void:Dataset ;
+    rdfs:label "Property Partition: semiMinorAxis"@en ;
+    void:property <http://www.opengis.net/ont/crs/semiMinorAxis> ;
     void:triples 1 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_subClassOf> a void:Dataset ;
@@ -841,27 +730,15 @@ brick: a voaf:Vocabulary ;
     void:property rdfs:subClassOf ;
     void:triples 8 .
 
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_theme> a void:Dataset ;
-    rdfs:label "Property Partition: theme"@en ;
-    void:property dcat:theme ;
-    void:triples 2 .
-
-<https://gdi-de.github.io/apworkshop2026/gdide_dataset_title> a void:Dataset ;
-    rdfs:label "Property Partition: title"@en ;
-    void:property dcterms:title ;
-    void:triples 2 .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_type> a void:Dataset ;
     rdfs:label "Property Partition: type"@en ;
-    void:property dcterms:type,
-        rdf:type ;
-    void:triples 2,
-        787 .
+    void:property rdf:type ;
+    void:triples 776 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit> a void:Dataset ;
     rdfs:label "Property Partition: unit"@en ;
     void:property <http://www.opengis.net/ont/crs/unit> ;
-    void:triples 2 .
+    void:triples 3 .
 
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_auth_code> a void:Dataset ;
     rdfs:label "Property Partition: unit_auth_code"@en ;
@@ -890,12 +767,6 @@ wgs: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
     voaf:usageInDataset wgs:_gdide_dataset_occ .
 
-dcterms: a voaf:Vocabulary ;
-    rdfs:label "dcterms Vocabulary"@en ;
-    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
-    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
-    voaf:usageInDataset dcterms:_gdide_dataset_occ .
-
 geo: a voaf:Vocabulary ;
     rdfs:label "The GeoSPARQL Ontology"@en ;
     vann:preferredNamespacePrefix "geo"^^xsd:string ;
@@ -920,29 +791,23 @@ time: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
     voaf:usageInDataset time:_gdide_dataset_occ .
 
-foaf: a voaf:Vocabulary ;
-    rdfs:label "Friend Of A Friend Ontology"@en ;
-    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
-    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
-    voaf:usageInDataset foaf:_gdide_dataset_occ .
-
 <https://gdi-de.github.io/apworkshop2026/gdide_dataset> a void:Dataset,
         adms:Asset ;
     rdfs:label "gdide_dataset"@en ;
     vext:averageLiteralLength 0 ;
     vext:averageObjectIRILength 41 ;
-    vext:averagePropertyIRILength 37 ;
-    vext:averageSubjectIRILength 47 ;
+    vext:averagePropertyIRILength 41 ;
+    vext:averageSubjectIRILength 48 ;
     vext:datatypes 0 ;
-    vext:distinctBlankNodes 3 ;
-    vext:distinctIRIReferences 2842 ;
+    vext:distinctBlankNodes 0 ;
+    vext:distinctIRIReferences 2788 ;
     vext:distinctLiterals 0 ;
-    vext:distinctRDFNodes 2845 ;
+    vext:distinctRDFNodes 2788 ;
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2026-05-31T16:38:33"^^xsd:dateTime ;
+    dcterms:modified "2026-11-02T18:29:44"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -951,108 +816,88 @@ foaf: a voaf:Vocabulary ;
     dcterms:title "gdide_dataset"@en ;
     vann:preferredNamespacePrefix "gdide"^^xsd:string ;
     vann:preferredNamespaceUri "https://gdi-de.github.io/apworkshop2026/"^^xsd:anyURI ;
-    void:classPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Agent>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AreaOfUse>,
+    void:classPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AreaOfUse>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_AxisDirection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Bituma>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Botsch>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Brunnen_fuer_Jogger>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Checksum>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Collection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_CoordinateSystemAxis>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Dataset>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Distribution>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Document>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Datum>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_EllipsoidalCoordinateSystem>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Entity>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_FeatureCollection>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Frequency>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_GeographicCRS>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Geoid>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Geometry>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_GeometryCollection>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Kaiser>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_LicenseDocument>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_LinguisticSystem>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Location>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Measure>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Organization>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PeriodOfTime>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PlanarCoordinateSystem>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Point>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_PrimeMeridian>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q1630622>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Q42744322>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Resource>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_RightsStatement>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_SpatialObjectCollection>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_TemporalEntity> ;
-    void:classes 32 ;
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_TemporalEntity>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_Unit> ;
+    void:classes 25 ;
     void:dataDump "https://gdi-de.github.io/apworkshop2026_ldtutorial//index.ttl"^^xsd:anyURI ;
-    void:distinctObjects 1992 ;
-    void:distinctSubjects 789 ;
-    void:entities 741 ;
+    void:distinctObjects 1962 ;
+    void:distinctSubjects 778 ;
+    void:entities 738 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 61 ;
+    void:properties 48 ;
     void:propertyPartition <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P131>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_P571>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_abbreviation>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessRights>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_accessURL>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_accrualPeriodicity>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_approximates>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_area_of_use>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProj4>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asProjJSON>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_asWKT>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_axis>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_comment>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_contactPoint>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_contributorID>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_coordinateSystem>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_description>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_datum>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_definition>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_direction>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_distribution>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_downloadURL>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_eccentricity>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_ellipsoid>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_fn>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_format>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_geometry>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_epsgCode>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_flatteningParameter>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasBeginning>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEmail>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasEnd>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasGeometry>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTelephone>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_hasTime>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_homepage>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_identifier>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inDataset>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_inSRS>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isApplicableTo>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isBound>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_issued>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_keyword>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeocentric>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isGeographic>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isProjected>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isSphere>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_isVertical>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_label>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_language>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_license>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_mbox>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_mediaType>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_longitude>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_member>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_modified>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_name>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_page>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_postCode>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_publisher>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_primeMeridian>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scope>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_scopeNote>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_spatial>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMajorAxis>,
+        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_semiMinorAxis>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_subClassOf>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_theme>,
-        <https://gdi-de.github.io/apworkshop2026/gdide_dataset_title>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_type>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_auth_code>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_code>,
         <https://gdi-de.github.io/apworkshop2026/gdide_dataset_unit_conversion_factor> ;
-    void:triples 6503 ;
+    void:triples 6465 ;
     void:uriSpace "https://gdi-de.github.io/apworkshop2026/"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

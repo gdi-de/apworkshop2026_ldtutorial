@@ -9,5 +9,5 @@
     rdfs:label "Property Partition: scope"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.opengis.net/ont/crs/scope> ;
-    void:triples 1 .
+    void:triples 2 .
 

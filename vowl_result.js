@@ -7,9 +7,11 @@ var vowlresult={
    "dc": "http://purl.org/dc/elements/1.1/",
    "dcat": "http://www.w3.org/ns/dcat#",
    "dcmitype": "http://purl.org/dc/dcmitype/",
+   "dcterms": "http://purl.org/dc/terms/",
    "dcam": "http://purl.org/dc/dcam/",
    "doap": "http://usefulinc.com/ns/doap#",
    "foaf": "http://xmlns.com/foaf/0.1/",
+   "geo": "http://www.opengis.net/ont/geosparql#",
    "odrl": "http://www.w3.org/ns/odrl/2/",
    "org": "http://www.w3.org/ns/org#",
    "prof": "http://www.w3.org/ns/dx/prof/",
@@ -29,17 +31,12 @@ var vowlresult={
    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
    "xsd": "http://www.w3.org/2001/XMLSchema#",
    "xml": "http://www.w3.org/XML/1998/namespace",
-   "adms": "http://www.w3.org/ns/adms#",
-   "dcatde": "http://dcat-ap.de/def/dcatde/",
-   "dct": "http://purl.org/dc/terms/",
    "gdide": "https://gdi-de.github.io/apworkshop2026/",
-   "gsp": "http://www.opengis.net/ont/geosparql#",
-   "locn": "http://www.w3.org/ns/locn#",
-   "ns1": "http://www.opengis.net/ont/crs/",
+   "ns1": "http://www.w3.org/ns/locn#",
+   "ns2": "http://www.opengis.net/ont/crs/",
    "om": "http://www.ontology-of-units-of-measure.org/resource/om-2/",
    "ont": "https://gdi-de.github.io/apworkshop2026/ont#",
    "sf": "http://www.opengis.net/ont/sf#",
-   "vcard": "http://www.w3.org/2006/vcard/ns#",
    "wdt": "http://www.wikidata.org/prop/direct/"
   },
   "baseIris": [
@@ -48,9 +45,11 @@ var vowlresult={
    "http://purl.org/dc/elements/1.1/",
    "http://www.w3.org/ns/dcat#",
    "http://purl.org/dc/dcmitype/",
+   "http://purl.org/dc/terms/",
    "http://purl.org/dc/dcam/",
    "http://usefulinc.com/ns/doap#",
    "http://xmlns.com/foaf/0.1/",
+   "http://www.opengis.net/ont/geosparql#",
    "http://www.w3.org/ns/odrl/2/",
    "http://www.w3.org/ns/org#",
    "http://www.w3.org/ns/dx/prof/",
@@ -70,17 +69,12 @@ var vowlresult={
    "http://www.w3.org/2000/01/rdf-schema#",
    "http://www.w3.org/2001/XMLSchema#",
    "http://www.w3.org/XML/1998/namespace",
-   "http://www.w3.org/ns/adms#",
-   "http://dcat-ap.de/def/dcatde/",
-   "http://purl.org/dc/terms/",
    "https://gdi-de.github.io/apworkshop2026/",
-   "http://www.opengis.net/ont/geosparql#",
    "http://www.w3.org/ns/locn#",
    "http://www.opengis.net/ont/crs/",
    "http://www.ontology-of-units-of-measure.org/resource/om-2/",
    "https://gdi-de.github.io/apworkshop2026/ont#",
    "http://www.opengis.net/ont/sf#",
-   "http://www.w3.org/2006/vcard/ns#",
    "http://www.wikidata.org/prop/direct/"
   ],
   "languages": []
@@ -88,6 +82,14 @@ var vowlresult={
  "namespace": [],
  "class": [
   {
+   "id": 261,
+   "type": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
+   "id": 262,
+   "type": "http://www.w3.org/2002/07/owl#Class"
+  },
+  {
    "id": 263,
    "type": "http://www.w3.org/2002/07/owl#Class"
   },
@@ -106,19 +108,11 @@ var vowlresult={
   {
    "id": 267,
    "type": "http://www.w3.org/2002/07/owl#Class"
-  },
-  {
-   "id": 268,
-   "type": "http://www.w3.org/2002/07/owl#Class"
-  },
-  {
-   "id": 269,
-   "type": "http://www.w3.org/2002/07/owl#Class"
   }
  ],
  "classAttribute": [
   {
-   "id": 263,
+   "id": 261,
    "iri": "http://www.opengis.net/ont/geosparql#Geometry",
    "baseIRI": "http://www.opengis.net/ont/geosparql",
    "instances": 0,
@@ -126,26 +120,26 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "265"
+    "263"
    ]
   },
   {
-   "id": 264,
+   "id": 262,
    "iri": "https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026/ont",
    "instances": 0,
    "label": "drinking water fountain",
    "annotations": {},
    "subClasses": [
+    "262",
     "264",
-    "266",
-    "267",
-    "268"
+    "265",
+    "266"
    ],
    "superClasses": []
   },
   {
-   "id": 265,
+   "id": 263,
    "iri": "http://www.wikidata.org/entity/Q1630622",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -153,11 +147,11 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "265"
+    "263"
    ]
   },
   {
-   "id": 266,
+   "id": 264,
    "iri": "https://gdi-de.github.io/apworkshop2026/ont#Botsch",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026/ont",
    "instances": 0,
@@ -165,11 +159,11 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "265"
+    "263"
    ]
   },
   {
-   "id": 267,
+   "id": 265,
    "iri": "https://gdi-de.github.io/apworkshop2026/ont#Bituma",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026/ont",
    "instances": 0,
@@ -177,11 +171,11 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "265"
+    "263"
    ]
   },
   {
-   "id": 268,
+   "id": 266,
    "iri": "https://gdi-de.github.io/apworkshop2026/ont#Kaiser",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026/ont",
    "instances": 0,
@@ -191,11 +185,11 @@ var vowlresult={
    "annotations": {},
    "subClasses": [],
    "superClasses": [
-    "263"
+    "261"
    ]
   },
   {
-   "id": 269,
+   "id": 267,
    "iri": "http://www.opengis.net/ont/sf#Point",
    "baseIRI": "http://www.opengis.net/ont/sf",
    "instances": 0,
@@ -204,7 +198,7 @@ var vowlresult={
    },
    "annotations": {},
    "subClasses": [
-    "269"
+    "267"
    ],
    "superClasses": []
   }
@@ -1224,43 +1218,43 @@ var vowlresult={
   },
   {
    "id": 253,
-   "type": "http://purl.org/dc/terms/LicenseDocument"
-  },
-  {
-   "id": 254,
-   "type": "http://purl.org/dc/terms/RightsStatement"
-  },
-  {
-   "id": 255,
-   "type": "http://purl.org/dc/terms/Frequency"
-  },
-  {
-   "id": 256,
-   "type": "http://purl.org/dc/terms/LinguisticSystem"
-  },
-  {
-   "id": 257,
    "type": "http://www.opengis.net/ont/crs/AreaOfUse"
   },
   {
-   "id": 258,
+   "id": 254,
    "type": "http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem"
+  },
+  {
+   "id": 255,
+   "type": "http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem"
+  },
+  {
+   "id": 256,
+   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+  },
+  {
+   "id": 257,
+   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+  },
+  {
+   "id": 258,
+   "type": "http://www.opengis.net/ont/crs/Datum"
   },
   {
    "id": 259,
-   "type": "http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem"
+   "type": "http://www.opengis.net/ont/crs/Geoid"
   },
   {
    "id": 260,
-   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+   "type": "http://www.opengis.net/ont/crs/PrimeMeridian"
   },
   {
-   "id": 261,
-   "type": "http://www.opengis.net/ont/crs/CoordinateSystemAxis"
+   "id": 268,
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
-   "id": 262,
-   "type": "http://www.opengis.net/ont/crs/Geoid"
+   "id": 269,
+   "type": "http://www.opengis.net/ont/sf#Point"
   },
   {
    "id": 270,
@@ -2224,11 +2218,11 @@ var vowlresult={
   },
   {
    "id": 510,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/2006/time#TemporalEntity"
   },
   {
    "id": 511,
-   "type": "http://www.opengis.net/ont/sf#Point"
+   "type": "http://www.w3.org/2006/time#TemporalEntity"
   },
   {
    "id": 512,
@@ -3192,31 +3186,31 @@ var vowlresult={
   },
   {
    "id": 752,
-   "type": "http://www.w3.org/2006/time#TemporalEntity"
+   "type": "http://www.ontology-of-units-of-measure.org/resource/om-2/Unit"
   },
   {
    "id": 753,
-   "type": "http://www.w3.org/2006/time#TemporalEntity"
+   "type": "rdfs:Resource"
   },
   {
    "id": 754,
-   "type": "http://xmlns.com/foaf/0.1/Document"
+   "type": "rdfs:Resource"
   },
   {
    "id": 755,
-   "type": "http://xmlns.com/foaf/0.1/Document"
+   "type": "rdfs:Resource"
   },
   {
    "id": 756,
-   "type": "http://xmlns.com/foaf/0.1/Document"
+   "type": "rdfs:Resource"
   },
   {
    "id": 757,
-   "type": "http://xmlns.com/foaf/0.1/Document"
+   "type": "rdfs:Resource"
   },
   {
    "id": 758,
-   "type": "http://www.w3.org/ns/dcat#Distribution"
+   "type": "rdfs:Resource"
   },
   {
    "id": 759,
@@ -3244,63 +3238,19 @@ var vowlresult={
   },
   {
    "id": 765,
-   "type": "rdfs:Resource"
+   "type": "http://www.opengis.net/ont/crs/GeographicCRS"
   },
   {
    "id": 766,
-   "type": "rdfs:Resource"
+   "type": "http://www.opengis.net/ont/crs/GeographicCRS"
   },
   {
    "id": 767,
-   "type": "rdfs:Resource"
+   "type": "http://www.opengis.net/ont/crs/GeographicCRS"
   },
   {
    "id": 768,
-   "type": "rdfs:Resource"
-  },
-  {
-   "id": 769,
-   "type": "rdfs:Resource"
-  },
-  {
-   "id": 770,
-   "type": "rdfs:Resource"
-  },
-  {
-   "id": 771,
-   "type": "rdfs:Resource"
-  },
-  {
-   "id": 772,
-   "type": "http://www.opengis.net/ont/crs/GeographicCRS"
-  },
-  {
-   "id": 773,
-   "type": "http://www.opengis.net/ont/crs/GeographicCRS"
-  },
-  {
-   "id": 774,
-   "type": "http://www.opengis.net/ont/crs/GeographicCRS"
-  },
-  {
-   "id": 775,
    "type": "http://www.wikidata.org/entity/Q42744322"
-  },
-  {
-   "id": 776,
-   "type": "http://www.w3.org/ns/dcat#Dataset"
-  },
-  {
-   "id": 777,
-   "type": "rdf:Property"
-  },
-  {
-   "id": 778,
-   "type": "rdf:Property"
-  },
-  {
-   "id": 779,
-   "type": "rdf:Property"
   }
  ],
  "propertyAttribute": [
@@ -23859,71 +23809,6 @@ var vowlresult={
    "iri": "https://gdi-de.github.io/apworkshop2026/72",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
-   "label": {
-    "IRI-based": "72"
-   },
-   "annotations": {
-    "http://purl.org/dc/terms/type": [
-     {
-      "identifier": "http://purl.org/dc/terms/type",
-      "language": "undefined",
-      "value": "http://purl.org/adms/licencetype/UnknownIPR",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 253,
-   "iri": "http://dcat-ap.de/def/licenses/dl-zero-de/2.0",
-   "baseIRI": "http://dcat-ap.de/def/licenses/dl-zero-de",
-   "instances": 0,
-   "label": {
-    "IRI-based": "2.0"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 254,
-   "iri": "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations",
-   "baseIRI": "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess",
-   "instances": 0,
-   "label": {
-    "IRI-based": "noLimitations"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 255,
-   "iri": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
-   "baseIRI": "http://publications.europa.eu/resource/authority/frequency",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ANNUAL"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 256,
-   "iri": "http://publications.europa.eu/resource/authority/language/DEU",
-   "baseIRI": "http://publications.europa.eu/resource/authority/language",
-   "instances": 0,
    "label": "World.",
    "annotations": {},
    "range": [],
@@ -23932,7 +23817,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 257,
+   "id": 253,
    "iri": "http://www.opengis.net/def/crs/EPSG/0/4326_area_of_use",
    "baseIRI": "http://www.opengis.net/def/crs/EPSG/0",
    "instances": 0,
@@ -23946,7 +23831,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 258,
+   "id": 254,
    "iri": "http://www.opengis.net/def/crs/EPSG/0/4326_cs",
    "baseIRI": "http://www.opengis.net/def/crs/EPSG/0",
    "instances": 0,
@@ -23983,7 +23868,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 259,
+   "id": 255,
    "iri": "http://www.opengis.net/def/crs/EPSG/0/4326_cs",
    "baseIRI": "http://www.opengis.net/def/crs/EPSG/0",
    "instances": 0,
@@ -24044,7 +23929,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 260,
+   "id": 256,
    "iri": "http://www.opengis.net/ont/crs/cs/axis/Geodetic_latitude_degree_north",
    "baseIRI": "http://www.opengis.net/ont/crs/cs/axis",
    "instances": 0,
@@ -24105,23 +23990,152 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 261,
+   "id": 257,
    "iri": "http://www.opengis.net/ont/crs/cs/axis/Geodetic_longitude_degree_east",
    "baseIRI": "http://www.opengis.net/ont/crs/cs/axis",
    "instances": 0,
-   "label": {
-    "IRI-based": "Geodetic_longitude_degree_east"
+   "label": "Datum: World Geodetic System 1984 ensemble",
+   "annotations": {
+    "http://www.opengis.net/ont/crs/primeMeridian": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/primeMeridian",
+      "language": "undefined",
+      "value": "http://www.opengis.net/ont/crs/primeMeridian/Greenwich",
+      "type": "iri"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/scope": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/scope",
+      "language": "undefined",
+      "value": "Satellite navigation.",
+      "type": "label"
+     }
+    ]
    },
-   "annotations": {},
    "range": [],
    "domain": [],
    "subProperties": [],
    "superProperties": []
   },
   {
-   "id": 262,
+   "id": 258,
+   "iri": "http://www.opengis.net/ont/crs/datum/World_Geodetic_System_1984_ensemble",
+   "baseIRI": "http://www.opengis.net/ont/crs/datum",
+   "instances": 0,
+   "label": "Geoid 1",
+   "annotations": {
+    "http://www.opengis.net/ont/crs/approximates": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/approximates",
+      "language": "undefined",
+      "value": "http://www.opengis.net/ont/crs/isbody/Earth",
+      "type": "iri"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/eccentricity": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/eccentricity",
+      "language": "undefined",
+      "value": "0.00669438",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/flatteningParameter": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/flatteningParameter",
+      "language": "undefined",
+      "value": "0.003352811",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/isSphere": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/isSphere",
+      "language": "undefined",
+      "value": "false",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/semiMajorAxis": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/semiMajorAxis",
+      "language": "undefined",
+      "value": "6378137.0",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/semiMinorAxis": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/semiMinorAxis",
+      "language": "undefined",
+      "value": "6356752.314245179",
+      "type": "label"
+     }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+     {
+      "identifier": "http://www.w3.org/2004/02/skos/core#definition",
+      "language": "undefined",
+      "value": "+a=6378137.0 +f=0.0033528106647475126",
+      "type": "label"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 259,
    "iri": "http://www.opengis.net/ont/crs/geod/1",
    "baseIRI": "http://www.opengis.net/ont/crs/geod",
+   "instances": 0,
+   "label": "Greenwich",
+   "annotations": {
+    "http://www.opengis.net/ont/crs/asProjJSON": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/asProjJSON",
+      "language": "undefined",
+      "value": "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'PrimeMeridian','name':'Greenwich','longitude':0,'id':{'authority':'EPSG','code':8901}}",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/asWKT",
+      "language": "undefined",
+      "value": "PRIMEM['Greenwich',0,ANGLEUNIT['degree',0.0174532925199433],ID['EPSG',8901]]",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/longitude": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/longitude",
+      "language": "undefined",
+      "value": "0.0",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/unit": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/unit",
+      "language": "undefined",
+      "value": "http://www.ontology-of-units-of-measure.org/resource/om-2/http://www.ontology-of-units-of-measure.org/resource/om-2/degree",
+      "type": "iri"
+     }
+    ]
+   },
+   "range": [],
+   "domain": [],
+   "subProperties": [],
+   "superProperties": []
+  },
+  {
+   "id": 260,
+   "iri": "http://www.opengis.net/ont/crs/primeMeridian/Greenwich",
+   "baseIRI": "http://www.opengis.net/ont/crs/primeMeridian",
    "instances": 0,
    "label": "Geometry of 100",
    "annotations": {
@@ -24148,7 +24162,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 270,
+   "id": 268,
    "iri": "https://gdi-de.github.io/apworkshop2026/100_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24177,7 +24191,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 271,
+   "id": 269,
    "iri": "https://gdi-de.github.io/apworkshop2026/101_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24206,7 +24220,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 272,
+   "id": 270,
    "iri": "https://gdi-de.github.io/apworkshop2026/102_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24235,7 +24249,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 273,
+   "id": 271,
    "iri": "https://gdi-de.github.io/apworkshop2026/103_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24264,7 +24278,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 274,
+   "id": 272,
    "iri": "https://gdi-de.github.io/apworkshop2026/104_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24293,7 +24307,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 275,
+   "id": 273,
    "iri": "https://gdi-de.github.io/apworkshop2026/105_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24322,7 +24336,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 276,
+   "id": 274,
    "iri": "https://gdi-de.github.io/apworkshop2026/106_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24351,7 +24365,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 277,
+   "id": 275,
    "iri": "https://gdi-de.github.io/apworkshop2026/107_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24380,7 +24394,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 278,
+   "id": 276,
    "iri": "https://gdi-de.github.io/apworkshop2026/108_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24409,7 +24423,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 279,
+   "id": 277,
    "iri": "https://gdi-de.github.io/apworkshop2026/109_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24438,7 +24452,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 280,
+   "id": 278,
    "iri": "https://gdi-de.github.io/apworkshop2026/10_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24467,7 +24481,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 281,
+   "id": 279,
    "iri": "https://gdi-de.github.io/apworkshop2026/110_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24496,7 +24510,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 282,
+   "id": 280,
    "iri": "https://gdi-de.github.io/apworkshop2026/111_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24525,7 +24539,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 283,
+   "id": 281,
    "iri": "https://gdi-de.github.io/apworkshop2026/112_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24554,7 +24568,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 284,
+   "id": 282,
    "iri": "https://gdi-de.github.io/apworkshop2026/113_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24583,7 +24597,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 285,
+   "id": 283,
    "iri": "https://gdi-de.github.io/apworkshop2026/114_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24612,7 +24626,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 286,
+   "id": 284,
    "iri": "https://gdi-de.github.io/apworkshop2026/115_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24641,7 +24655,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 287,
+   "id": 285,
    "iri": "https://gdi-de.github.io/apworkshop2026/116_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24670,7 +24684,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 288,
+   "id": 286,
    "iri": "https://gdi-de.github.io/apworkshop2026/117_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24699,7 +24713,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 289,
+   "id": 287,
    "iri": "https://gdi-de.github.io/apworkshop2026/118_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24728,7 +24742,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 290,
+   "id": 288,
    "iri": "https://gdi-de.github.io/apworkshop2026/119_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24757,7 +24771,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 291,
+   "id": 289,
    "iri": "https://gdi-de.github.io/apworkshop2026/11_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24786,7 +24800,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 292,
+   "id": 290,
    "iri": "https://gdi-de.github.io/apworkshop2026/120_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24815,7 +24829,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 293,
+   "id": 291,
    "iri": "https://gdi-de.github.io/apworkshop2026/121_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24844,7 +24858,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 294,
+   "id": 292,
    "iri": "https://gdi-de.github.io/apworkshop2026/122_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24873,7 +24887,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 295,
+   "id": 293,
    "iri": "https://gdi-de.github.io/apworkshop2026/123_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24902,7 +24916,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 296,
+   "id": 294,
    "iri": "https://gdi-de.github.io/apworkshop2026/124_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24931,7 +24945,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 297,
+   "id": 295,
    "iri": "https://gdi-de.github.io/apworkshop2026/125_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24960,7 +24974,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 298,
+   "id": 296,
    "iri": "https://gdi-de.github.io/apworkshop2026/126_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -24989,7 +25003,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 299,
+   "id": 297,
    "iri": "https://gdi-de.github.io/apworkshop2026/127_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25018,7 +25032,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 300,
+   "id": 298,
    "iri": "https://gdi-de.github.io/apworkshop2026/128_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25047,7 +25061,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 301,
+   "id": 299,
    "iri": "https://gdi-de.github.io/apworkshop2026/129_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25076,7 +25090,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 302,
+   "id": 300,
    "iri": "https://gdi-de.github.io/apworkshop2026/12_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25105,7 +25119,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 303,
+   "id": 301,
    "iri": "https://gdi-de.github.io/apworkshop2026/130_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25134,7 +25148,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 304,
+   "id": 302,
    "iri": "https://gdi-de.github.io/apworkshop2026/131_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25163,7 +25177,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 305,
+   "id": 303,
    "iri": "https://gdi-de.github.io/apworkshop2026/132_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25192,7 +25206,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 306,
+   "id": 304,
    "iri": "https://gdi-de.github.io/apworkshop2026/133_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25221,7 +25235,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 307,
+   "id": 305,
    "iri": "https://gdi-de.github.io/apworkshop2026/134_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25250,7 +25264,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 308,
+   "id": 306,
    "iri": "https://gdi-de.github.io/apworkshop2026/135_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25279,7 +25293,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 309,
+   "id": 307,
    "iri": "https://gdi-de.github.io/apworkshop2026/136_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25308,7 +25322,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 310,
+   "id": 308,
    "iri": "https://gdi-de.github.io/apworkshop2026/137_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25337,7 +25351,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 311,
+   "id": 309,
    "iri": "https://gdi-de.github.io/apworkshop2026/138_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25366,7 +25380,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 312,
+   "id": 310,
    "iri": "https://gdi-de.github.io/apworkshop2026/139_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25395,7 +25409,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 313,
+   "id": 311,
    "iri": "https://gdi-de.github.io/apworkshop2026/13_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25424,7 +25438,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 314,
+   "id": 312,
    "iri": "https://gdi-de.github.io/apworkshop2026/140_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25453,7 +25467,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 315,
+   "id": 313,
    "iri": "https://gdi-de.github.io/apworkshop2026/141_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25482,7 +25496,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 316,
+   "id": 314,
    "iri": "https://gdi-de.github.io/apworkshop2026/142_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25511,7 +25525,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 317,
+   "id": 315,
    "iri": "https://gdi-de.github.io/apworkshop2026/143_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25540,7 +25554,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 318,
+   "id": 316,
    "iri": "https://gdi-de.github.io/apworkshop2026/144_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25569,7 +25583,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 319,
+   "id": 317,
    "iri": "https://gdi-de.github.io/apworkshop2026/145_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25598,7 +25612,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 320,
+   "id": 318,
    "iri": "https://gdi-de.github.io/apworkshop2026/146_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25627,7 +25641,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 321,
+   "id": 319,
    "iri": "https://gdi-de.github.io/apworkshop2026/147_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25656,7 +25670,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 322,
+   "id": 320,
    "iri": "https://gdi-de.github.io/apworkshop2026/148_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25685,7 +25699,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 323,
+   "id": 321,
    "iri": "https://gdi-de.github.io/apworkshop2026/149_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25714,7 +25728,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 324,
+   "id": 322,
    "iri": "https://gdi-de.github.io/apworkshop2026/14_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25743,7 +25757,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 325,
+   "id": 323,
    "iri": "https://gdi-de.github.io/apworkshop2026/150_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25772,7 +25786,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 326,
+   "id": 324,
    "iri": "https://gdi-de.github.io/apworkshop2026/151_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25801,7 +25815,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 327,
+   "id": 325,
    "iri": "https://gdi-de.github.io/apworkshop2026/152_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25830,7 +25844,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 328,
+   "id": 326,
    "iri": "https://gdi-de.github.io/apworkshop2026/153_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25859,7 +25873,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 329,
+   "id": 327,
    "iri": "https://gdi-de.github.io/apworkshop2026/154_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25888,7 +25902,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 330,
+   "id": 328,
    "iri": "https://gdi-de.github.io/apworkshop2026/155_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25917,7 +25931,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 331,
+   "id": 329,
    "iri": "https://gdi-de.github.io/apworkshop2026/156_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25946,7 +25960,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 332,
+   "id": 330,
    "iri": "https://gdi-de.github.io/apworkshop2026/157_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -25975,7 +25989,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 333,
+   "id": 331,
    "iri": "https://gdi-de.github.io/apworkshop2026/158_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26004,7 +26018,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 334,
+   "id": 332,
    "iri": "https://gdi-de.github.io/apworkshop2026/159_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26033,7 +26047,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 335,
+   "id": 333,
    "iri": "https://gdi-de.github.io/apworkshop2026/15_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26062,7 +26076,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 336,
+   "id": 334,
    "iri": "https://gdi-de.github.io/apworkshop2026/160_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26091,7 +26105,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 337,
+   "id": 335,
    "iri": "https://gdi-de.github.io/apworkshop2026/161_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26120,7 +26134,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 338,
+   "id": 336,
    "iri": "https://gdi-de.github.io/apworkshop2026/162_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26149,7 +26163,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 339,
+   "id": 337,
    "iri": "https://gdi-de.github.io/apworkshop2026/163_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26178,7 +26192,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 340,
+   "id": 338,
    "iri": "https://gdi-de.github.io/apworkshop2026/164_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26207,7 +26221,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 341,
+   "id": 339,
    "iri": "https://gdi-de.github.io/apworkshop2026/165_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26236,7 +26250,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 342,
+   "id": 340,
    "iri": "https://gdi-de.github.io/apworkshop2026/166_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26265,7 +26279,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 343,
+   "id": 341,
    "iri": "https://gdi-de.github.io/apworkshop2026/167_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26294,7 +26308,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 344,
+   "id": 342,
    "iri": "https://gdi-de.github.io/apworkshop2026/168_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26323,7 +26337,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 345,
+   "id": 343,
    "iri": "https://gdi-de.github.io/apworkshop2026/169_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26352,7 +26366,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 346,
+   "id": 344,
    "iri": "https://gdi-de.github.io/apworkshop2026/16_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26381,7 +26395,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 347,
+   "id": 345,
    "iri": "https://gdi-de.github.io/apworkshop2026/170_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26410,7 +26424,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 348,
+   "id": 346,
    "iri": "https://gdi-de.github.io/apworkshop2026/171_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26439,7 +26453,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 349,
+   "id": 347,
    "iri": "https://gdi-de.github.io/apworkshop2026/172_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26468,7 +26482,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 350,
+   "id": 348,
    "iri": "https://gdi-de.github.io/apworkshop2026/173_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26497,7 +26511,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 351,
+   "id": 349,
    "iri": "https://gdi-de.github.io/apworkshop2026/174_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26526,7 +26540,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 352,
+   "id": 350,
    "iri": "https://gdi-de.github.io/apworkshop2026/175_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26555,7 +26569,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 353,
+   "id": 351,
    "iri": "https://gdi-de.github.io/apworkshop2026/176_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26584,7 +26598,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 354,
+   "id": 352,
    "iri": "https://gdi-de.github.io/apworkshop2026/177_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26613,7 +26627,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 355,
+   "id": 353,
    "iri": "https://gdi-de.github.io/apworkshop2026/178_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26642,7 +26656,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 356,
+   "id": 354,
    "iri": "https://gdi-de.github.io/apworkshop2026/179_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26671,7 +26685,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 357,
+   "id": 355,
    "iri": "https://gdi-de.github.io/apworkshop2026/17_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26700,7 +26714,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 358,
+   "id": 356,
    "iri": "https://gdi-de.github.io/apworkshop2026/180_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26729,7 +26743,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 359,
+   "id": 357,
    "iri": "https://gdi-de.github.io/apworkshop2026/181_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26758,7 +26772,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 360,
+   "id": 358,
    "iri": "https://gdi-de.github.io/apworkshop2026/182_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26787,7 +26801,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 361,
+   "id": 359,
    "iri": "https://gdi-de.github.io/apworkshop2026/183_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26816,7 +26830,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 362,
+   "id": 360,
    "iri": "https://gdi-de.github.io/apworkshop2026/184_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26845,7 +26859,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 363,
+   "id": 361,
    "iri": "https://gdi-de.github.io/apworkshop2026/185_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26874,7 +26888,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 364,
+   "id": 362,
    "iri": "https://gdi-de.github.io/apworkshop2026/186_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26903,7 +26917,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 365,
+   "id": 363,
    "iri": "https://gdi-de.github.io/apworkshop2026/187_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26932,7 +26946,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 366,
+   "id": 364,
    "iri": "https://gdi-de.github.io/apworkshop2026/188_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26961,7 +26975,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 367,
+   "id": 365,
    "iri": "https://gdi-de.github.io/apworkshop2026/189_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -26990,7 +27004,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 368,
+   "id": 366,
    "iri": "https://gdi-de.github.io/apworkshop2026/18_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27019,7 +27033,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 369,
+   "id": 367,
    "iri": "https://gdi-de.github.io/apworkshop2026/190_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27048,7 +27062,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 370,
+   "id": 368,
    "iri": "https://gdi-de.github.io/apworkshop2026/191_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27077,7 +27091,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 371,
+   "id": 369,
    "iri": "https://gdi-de.github.io/apworkshop2026/192_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27106,7 +27120,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 372,
+   "id": 370,
    "iri": "https://gdi-de.github.io/apworkshop2026/193_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27135,7 +27149,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 373,
+   "id": 371,
    "iri": "https://gdi-de.github.io/apworkshop2026/194_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27164,7 +27178,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 374,
+   "id": 372,
    "iri": "https://gdi-de.github.io/apworkshop2026/195_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27193,7 +27207,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 375,
+   "id": 373,
    "iri": "https://gdi-de.github.io/apworkshop2026/196_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27222,7 +27236,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 376,
+   "id": 374,
    "iri": "https://gdi-de.github.io/apworkshop2026/197_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27251,7 +27265,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 377,
+   "id": 375,
    "iri": "https://gdi-de.github.io/apworkshop2026/199_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27280,7 +27294,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 378,
+   "id": 376,
    "iri": "https://gdi-de.github.io/apworkshop2026/19_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27309,7 +27323,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 379,
+   "id": 377,
    "iri": "https://gdi-de.github.io/apworkshop2026/1_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27338,7 +27352,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 380,
+   "id": 378,
    "iri": "https://gdi-de.github.io/apworkshop2026/200_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27367,7 +27381,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 381,
+   "id": 379,
    "iri": "https://gdi-de.github.io/apworkshop2026/201_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27396,7 +27410,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 382,
+   "id": 380,
    "iri": "https://gdi-de.github.io/apworkshop2026/202_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27425,7 +27439,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 383,
+   "id": 381,
    "iri": "https://gdi-de.github.io/apworkshop2026/203_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27454,7 +27468,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 384,
+   "id": 382,
    "iri": "https://gdi-de.github.io/apworkshop2026/204_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27483,7 +27497,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 385,
+   "id": 383,
    "iri": "https://gdi-de.github.io/apworkshop2026/205_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27512,7 +27526,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 386,
+   "id": 384,
    "iri": "https://gdi-de.github.io/apworkshop2026/206_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27541,7 +27555,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 387,
+   "id": 385,
    "iri": "https://gdi-de.github.io/apworkshop2026/207_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27570,7 +27584,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 388,
+   "id": 386,
    "iri": "https://gdi-de.github.io/apworkshop2026/208_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27599,7 +27613,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 389,
+   "id": 387,
    "iri": "https://gdi-de.github.io/apworkshop2026/209_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27628,7 +27642,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 390,
+   "id": 388,
    "iri": "https://gdi-de.github.io/apworkshop2026/20_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27657,7 +27671,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 391,
+   "id": 389,
    "iri": "https://gdi-de.github.io/apworkshop2026/210_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27686,7 +27700,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 392,
+   "id": 390,
    "iri": "https://gdi-de.github.io/apworkshop2026/211_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27715,7 +27729,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 393,
+   "id": 391,
    "iri": "https://gdi-de.github.io/apworkshop2026/212_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27744,7 +27758,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 394,
+   "id": 392,
    "iri": "https://gdi-de.github.io/apworkshop2026/213_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27773,7 +27787,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 395,
+   "id": 393,
    "iri": "https://gdi-de.github.io/apworkshop2026/214_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27802,7 +27816,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 396,
+   "id": 394,
    "iri": "https://gdi-de.github.io/apworkshop2026/215_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27831,7 +27845,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 397,
+   "id": 395,
    "iri": "https://gdi-de.github.io/apworkshop2026/216_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27860,7 +27874,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 398,
+   "id": 396,
    "iri": "https://gdi-de.github.io/apworkshop2026/217_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27889,7 +27903,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 399,
+   "id": 397,
    "iri": "https://gdi-de.github.io/apworkshop2026/218_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27918,7 +27932,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 400,
+   "id": 398,
    "iri": "https://gdi-de.github.io/apworkshop2026/219_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27947,7 +27961,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 401,
+   "id": 399,
    "iri": "https://gdi-de.github.io/apworkshop2026/21_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -27976,7 +27990,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 402,
+   "id": 400,
    "iri": "https://gdi-de.github.io/apworkshop2026/220_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28005,7 +28019,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 403,
+   "id": 401,
    "iri": "https://gdi-de.github.io/apworkshop2026/221_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28034,7 +28048,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 404,
+   "id": 402,
    "iri": "https://gdi-de.github.io/apworkshop2026/222_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28063,7 +28077,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 405,
+   "id": 403,
    "iri": "https://gdi-de.github.io/apworkshop2026/223_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28092,7 +28106,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 406,
+   "id": 404,
    "iri": "https://gdi-de.github.io/apworkshop2026/224_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28121,7 +28135,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 407,
+   "id": 405,
    "iri": "https://gdi-de.github.io/apworkshop2026/225_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28150,7 +28164,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 408,
+   "id": 406,
    "iri": "https://gdi-de.github.io/apworkshop2026/226_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28179,7 +28193,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 409,
+   "id": 407,
    "iri": "https://gdi-de.github.io/apworkshop2026/227_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28208,7 +28222,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 410,
+   "id": 408,
    "iri": "https://gdi-de.github.io/apworkshop2026/228_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28237,7 +28251,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 411,
+   "id": 409,
    "iri": "https://gdi-de.github.io/apworkshop2026/229_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28266,7 +28280,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 412,
+   "id": 410,
    "iri": "https://gdi-de.github.io/apworkshop2026/22_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28295,7 +28309,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 413,
+   "id": 411,
    "iri": "https://gdi-de.github.io/apworkshop2026/230_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28324,7 +28338,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 414,
+   "id": 412,
    "iri": "https://gdi-de.github.io/apworkshop2026/231_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28353,7 +28367,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 415,
+   "id": 413,
    "iri": "https://gdi-de.github.io/apworkshop2026/232_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28382,7 +28396,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 416,
+   "id": 414,
    "iri": "https://gdi-de.github.io/apworkshop2026/233_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28411,7 +28425,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 417,
+   "id": 415,
    "iri": "https://gdi-de.github.io/apworkshop2026/234_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28440,7 +28454,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 418,
+   "id": 416,
    "iri": "https://gdi-de.github.io/apworkshop2026/235_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28469,7 +28483,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 419,
+   "id": 417,
    "iri": "https://gdi-de.github.io/apworkshop2026/236_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28498,7 +28512,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 420,
+   "id": 418,
    "iri": "https://gdi-de.github.io/apworkshop2026/237_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28527,7 +28541,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 421,
+   "id": 419,
    "iri": "https://gdi-de.github.io/apworkshop2026/238_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28556,7 +28570,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 422,
+   "id": 420,
    "iri": "https://gdi-de.github.io/apworkshop2026/239_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28585,7 +28599,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 423,
+   "id": 421,
    "iri": "https://gdi-de.github.io/apworkshop2026/23_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28614,7 +28628,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 424,
+   "id": 422,
    "iri": "https://gdi-de.github.io/apworkshop2026/240_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28643,7 +28657,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 425,
+   "id": 423,
    "iri": "https://gdi-de.github.io/apworkshop2026/241_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28672,7 +28686,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 426,
+   "id": 424,
    "iri": "https://gdi-de.github.io/apworkshop2026/242_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28701,7 +28715,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 427,
+   "id": 425,
    "iri": "https://gdi-de.github.io/apworkshop2026/243_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28730,7 +28744,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 428,
+   "id": 426,
    "iri": "https://gdi-de.github.io/apworkshop2026/24_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28759,7 +28773,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 429,
+   "id": 427,
    "iri": "https://gdi-de.github.io/apworkshop2026/25_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28788,7 +28802,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 430,
+   "id": 428,
    "iri": "https://gdi-de.github.io/apworkshop2026/26_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28817,7 +28831,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 431,
+   "id": 429,
    "iri": "https://gdi-de.github.io/apworkshop2026/27_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28846,7 +28860,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 432,
+   "id": 430,
    "iri": "https://gdi-de.github.io/apworkshop2026/28_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28875,7 +28889,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 433,
+   "id": 431,
    "iri": "https://gdi-de.github.io/apworkshop2026/29_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28904,7 +28918,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 434,
+   "id": 432,
    "iri": "https://gdi-de.github.io/apworkshop2026/2_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28933,7 +28947,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 435,
+   "id": 433,
    "iri": "https://gdi-de.github.io/apworkshop2026/30_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28962,7 +28976,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 436,
+   "id": 434,
    "iri": "https://gdi-de.github.io/apworkshop2026/31_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -28991,7 +29005,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 437,
+   "id": 435,
    "iri": "https://gdi-de.github.io/apworkshop2026/32_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29020,7 +29034,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 438,
+   "id": 436,
    "iri": "https://gdi-de.github.io/apworkshop2026/33_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29049,7 +29063,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 439,
+   "id": 437,
    "iri": "https://gdi-de.github.io/apworkshop2026/34_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29078,7 +29092,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 440,
+   "id": 438,
    "iri": "https://gdi-de.github.io/apworkshop2026/35_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29107,7 +29121,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 441,
+   "id": 439,
    "iri": "https://gdi-de.github.io/apworkshop2026/36_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29136,7 +29150,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 442,
+   "id": 440,
    "iri": "https://gdi-de.github.io/apworkshop2026/37_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29165,7 +29179,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 443,
+   "id": 441,
    "iri": "https://gdi-de.github.io/apworkshop2026/38_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29194,7 +29208,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 444,
+   "id": 442,
    "iri": "https://gdi-de.github.io/apworkshop2026/39_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29223,7 +29237,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 445,
+   "id": 443,
    "iri": "https://gdi-de.github.io/apworkshop2026/3_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29252,7 +29266,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 446,
+   "id": 444,
    "iri": "https://gdi-de.github.io/apworkshop2026/40_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29281,7 +29295,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 447,
+   "id": 445,
    "iri": "https://gdi-de.github.io/apworkshop2026/41_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29310,7 +29324,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 448,
+   "id": 446,
    "iri": "https://gdi-de.github.io/apworkshop2026/42_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29339,7 +29353,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 449,
+   "id": 447,
    "iri": "https://gdi-de.github.io/apworkshop2026/43_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29368,7 +29382,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 450,
+   "id": 448,
    "iri": "https://gdi-de.github.io/apworkshop2026/44_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29397,7 +29411,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 451,
+   "id": 449,
    "iri": "https://gdi-de.github.io/apworkshop2026/45_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29426,7 +29440,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 452,
+   "id": 450,
    "iri": "https://gdi-de.github.io/apworkshop2026/46_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29455,7 +29469,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 453,
+   "id": 451,
    "iri": "https://gdi-de.github.io/apworkshop2026/47_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29484,7 +29498,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 454,
+   "id": 452,
    "iri": "https://gdi-de.github.io/apworkshop2026/48_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29513,7 +29527,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 455,
+   "id": 453,
    "iri": "https://gdi-de.github.io/apworkshop2026/49_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29542,7 +29556,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 456,
+   "id": 454,
    "iri": "https://gdi-de.github.io/apworkshop2026/4_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29571,7 +29585,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 457,
+   "id": 455,
    "iri": "https://gdi-de.github.io/apworkshop2026/50_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29600,7 +29614,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 458,
+   "id": 456,
    "iri": "https://gdi-de.github.io/apworkshop2026/51_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29629,7 +29643,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 459,
+   "id": 457,
    "iri": "https://gdi-de.github.io/apworkshop2026/52_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29658,7 +29672,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 460,
+   "id": 458,
    "iri": "https://gdi-de.github.io/apworkshop2026/53_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29687,7 +29701,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 461,
+   "id": 459,
    "iri": "https://gdi-de.github.io/apworkshop2026/54_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29716,7 +29730,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 462,
+   "id": 460,
    "iri": "https://gdi-de.github.io/apworkshop2026/55_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29745,7 +29759,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 463,
+   "id": 461,
    "iri": "https://gdi-de.github.io/apworkshop2026/56_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29774,7 +29788,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 464,
+   "id": 462,
    "iri": "https://gdi-de.github.io/apworkshop2026/57_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29803,7 +29817,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 465,
+   "id": 463,
    "iri": "https://gdi-de.github.io/apworkshop2026/58_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29832,7 +29846,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 466,
+   "id": 464,
    "iri": "https://gdi-de.github.io/apworkshop2026/59_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29861,7 +29875,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 467,
+   "id": 465,
    "iri": "https://gdi-de.github.io/apworkshop2026/5_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29890,7 +29904,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 468,
+   "id": 466,
    "iri": "https://gdi-de.github.io/apworkshop2026/60_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29919,7 +29933,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 469,
+   "id": 467,
    "iri": "https://gdi-de.github.io/apworkshop2026/61_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29948,7 +29962,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 470,
+   "id": 468,
    "iri": "https://gdi-de.github.io/apworkshop2026/62_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -29977,7 +29991,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 471,
+   "id": 469,
    "iri": "https://gdi-de.github.io/apworkshop2026/63_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30006,7 +30020,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 472,
+   "id": 470,
    "iri": "https://gdi-de.github.io/apworkshop2026/64_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30035,7 +30049,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 473,
+   "id": 471,
    "iri": "https://gdi-de.github.io/apworkshop2026/65_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30064,7 +30078,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 474,
+   "id": 472,
    "iri": "https://gdi-de.github.io/apworkshop2026/66_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30093,7 +30107,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 475,
+   "id": 473,
    "iri": "https://gdi-de.github.io/apworkshop2026/67_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30122,7 +30136,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 476,
+   "id": 474,
    "iri": "https://gdi-de.github.io/apworkshop2026/68_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30151,7 +30165,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 477,
+   "id": 475,
    "iri": "https://gdi-de.github.io/apworkshop2026/69_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30180,7 +30194,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 478,
+   "id": 476,
    "iri": "https://gdi-de.github.io/apworkshop2026/6_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30209,7 +30223,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 479,
+   "id": 477,
    "iri": "https://gdi-de.github.io/apworkshop2026/70_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30238,7 +30252,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 480,
+   "id": 478,
    "iri": "https://gdi-de.github.io/apworkshop2026/71_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30267,7 +30281,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 481,
+   "id": 479,
    "iri": "https://gdi-de.github.io/apworkshop2026/72_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30296,7 +30310,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 482,
+   "id": 480,
    "iri": "https://gdi-de.github.io/apworkshop2026/73_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30325,7 +30339,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 483,
+   "id": 481,
    "iri": "https://gdi-de.github.io/apworkshop2026/74_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30354,7 +30368,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 484,
+   "id": 482,
    "iri": "https://gdi-de.github.io/apworkshop2026/75_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30383,7 +30397,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 485,
+   "id": 483,
    "iri": "https://gdi-de.github.io/apworkshop2026/76_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30412,7 +30426,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 486,
+   "id": 484,
    "iri": "https://gdi-de.github.io/apworkshop2026/77_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30441,7 +30455,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 487,
+   "id": 485,
    "iri": "https://gdi-de.github.io/apworkshop2026/78_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30470,7 +30484,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 488,
+   "id": 486,
    "iri": "https://gdi-de.github.io/apworkshop2026/79_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30499,7 +30513,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 489,
+   "id": 487,
    "iri": "https://gdi-de.github.io/apworkshop2026/7_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30528,7 +30542,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 490,
+   "id": 488,
    "iri": "https://gdi-de.github.io/apworkshop2026/80_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30557,7 +30571,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 491,
+   "id": 489,
    "iri": "https://gdi-de.github.io/apworkshop2026/81_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30586,7 +30600,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 492,
+   "id": 490,
    "iri": "https://gdi-de.github.io/apworkshop2026/82_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30615,7 +30629,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 493,
+   "id": 491,
    "iri": "https://gdi-de.github.io/apworkshop2026/83_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30644,7 +30658,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 494,
+   "id": 492,
    "iri": "https://gdi-de.github.io/apworkshop2026/84_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30673,7 +30687,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 495,
+   "id": 493,
    "iri": "https://gdi-de.github.io/apworkshop2026/85_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30702,7 +30716,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 496,
+   "id": 494,
    "iri": "https://gdi-de.github.io/apworkshop2026/86_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30731,7 +30745,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 497,
+   "id": 495,
    "iri": "https://gdi-de.github.io/apworkshop2026/87_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30760,7 +30774,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 498,
+   "id": 496,
    "iri": "https://gdi-de.github.io/apworkshop2026/88_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30789,7 +30803,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 499,
+   "id": 497,
    "iri": "https://gdi-de.github.io/apworkshop2026/89_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30818,7 +30832,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 500,
+   "id": 498,
    "iri": "https://gdi-de.github.io/apworkshop2026/8_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30847,7 +30861,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 501,
+   "id": 499,
    "iri": "https://gdi-de.github.io/apworkshop2026/90_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30876,7 +30890,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 502,
+   "id": 500,
    "iri": "https://gdi-de.github.io/apworkshop2026/91_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30905,7 +30919,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 503,
+   "id": 501,
    "iri": "https://gdi-de.github.io/apworkshop2026/92_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30934,7 +30948,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 504,
+   "id": 502,
    "iri": "https://gdi-de.github.io/apworkshop2026/93_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30963,7 +30977,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 505,
+   "id": 503,
    "iri": "https://gdi-de.github.io/apworkshop2026/94_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -30992,7 +31006,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 506,
+   "id": 504,
    "iri": "https://gdi-de.github.io/apworkshop2026/95_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31021,7 +31035,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 507,
+   "id": 505,
    "iri": "https://gdi-de.github.io/apworkshop2026/96_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31050,7 +31064,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 508,
+   "id": 506,
    "iri": "https://gdi-de.github.io/apworkshop2026/97_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31079,7 +31093,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 509,
+   "id": 507,
    "iri": "https://gdi-de.github.io/apworkshop2026/98_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31108,7 +31122,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 510,
+   "id": 508,
    "iri": "https://gdi-de.github.io/apworkshop2026/99_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31137,7 +31151,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 511,
+   "id": 509,
    "iri": "https://gdi-de.github.io/apworkshop2026/9_geom",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31166,7 +31180,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 512,
+   "id": 510,
    "iri": "https://gdi-de.github.io/apworkshop2026/100_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31195,7 +31209,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 513,
+   "id": 511,
    "iri": "https://gdi-de.github.io/apworkshop2026/101_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31224,7 +31238,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 514,
+   "id": 512,
    "iri": "https://gdi-de.github.io/apworkshop2026/102_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31253,7 +31267,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 515,
+   "id": 513,
    "iri": "https://gdi-de.github.io/apworkshop2026/103_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31282,7 +31296,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 516,
+   "id": 514,
    "iri": "https://gdi-de.github.io/apworkshop2026/104_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31311,7 +31325,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 517,
+   "id": 515,
    "iri": "https://gdi-de.github.io/apworkshop2026/105_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31340,7 +31354,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 518,
+   "id": 516,
    "iri": "https://gdi-de.github.io/apworkshop2026/106_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31369,7 +31383,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 519,
+   "id": 517,
    "iri": "https://gdi-de.github.io/apworkshop2026/107_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31398,7 +31412,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 520,
+   "id": 518,
    "iri": "https://gdi-de.github.io/apworkshop2026/108_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31427,7 +31441,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 521,
+   "id": 519,
    "iri": "https://gdi-de.github.io/apworkshop2026/109_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31456,7 +31470,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 522,
+   "id": 520,
    "iri": "https://gdi-de.github.io/apworkshop2026/10_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31485,7 +31499,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 523,
+   "id": 521,
    "iri": "https://gdi-de.github.io/apworkshop2026/110_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31514,7 +31528,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 524,
+   "id": 522,
    "iri": "https://gdi-de.github.io/apworkshop2026/111_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31543,7 +31557,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 525,
+   "id": 523,
    "iri": "https://gdi-de.github.io/apworkshop2026/112_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31572,7 +31586,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 526,
+   "id": 524,
    "iri": "https://gdi-de.github.io/apworkshop2026/113_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31601,7 +31615,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 527,
+   "id": 525,
    "iri": "https://gdi-de.github.io/apworkshop2026/114_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31630,7 +31644,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 528,
+   "id": 526,
    "iri": "https://gdi-de.github.io/apworkshop2026/115_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31659,7 +31673,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 529,
+   "id": 527,
    "iri": "https://gdi-de.github.io/apworkshop2026/116_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31688,7 +31702,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 530,
+   "id": 528,
    "iri": "https://gdi-de.github.io/apworkshop2026/117_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31717,7 +31731,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 531,
+   "id": 529,
    "iri": "https://gdi-de.github.io/apworkshop2026/118_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31746,7 +31760,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 532,
+   "id": 530,
    "iri": "https://gdi-de.github.io/apworkshop2026/119_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31775,7 +31789,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 533,
+   "id": 531,
    "iri": "https://gdi-de.github.io/apworkshop2026/11_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31804,7 +31818,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 534,
+   "id": 532,
    "iri": "https://gdi-de.github.io/apworkshop2026/120_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31833,7 +31847,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 535,
+   "id": 533,
    "iri": "https://gdi-de.github.io/apworkshop2026/121_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31862,7 +31876,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 536,
+   "id": 534,
    "iri": "https://gdi-de.github.io/apworkshop2026/122_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31891,7 +31905,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 537,
+   "id": 535,
    "iri": "https://gdi-de.github.io/apworkshop2026/123_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31920,7 +31934,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 538,
+   "id": 536,
    "iri": "https://gdi-de.github.io/apworkshop2026/124_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31949,7 +31963,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 539,
+   "id": 537,
    "iri": "https://gdi-de.github.io/apworkshop2026/125_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -31978,7 +31992,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 540,
+   "id": 538,
    "iri": "https://gdi-de.github.io/apworkshop2026/126_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32007,7 +32021,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 541,
+   "id": 539,
    "iri": "https://gdi-de.github.io/apworkshop2026/127_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32036,7 +32050,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 542,
+   "id": 540,
    "iri": "https://gdi-de.github.io/apworkshop2026/128_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32065,7 +32079,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 543,
+   "id": 541,
    "iri": "https://gdi-de.github.io/apworkshop2026/129_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32094,7 +32108,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 544,
+   "id": 542,
    "iri": "https://gdi-de.github.io/apworkshop2026/12_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32123,7 +32137,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 545,
+   "id": 543,
    "iri": "https://gdi-de.github.io/apworkshop2026/130_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32152,7 +32166,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 546,
+   "id": 544,
    "iri": "https://gdi-de.github.io/apworkshop2026/131_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32181,7 +32195,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 547,
+   "id": 545,
    "iri": "https://gdi-de.github.io/apworkshop2026/132_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32210,7 +32224,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 548,
+   "id": 546,
    "iri": "https://gdi-de.github.io/apworkshop2026/133_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32239,7 +32253,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 549,
+   "id": 547,
    "iri": "https://gdi-de.github.io/apworkshop2026/134_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32268,7 +32282,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 550,
+   "id": 548,
    "iri": "https://gdi-de.github.io/apworkshop2026/135_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32297,7 +32311,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 551,
+   "id": 549,
    "iri": "https://gdi-de.github.io/apworkshop2026/136_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32326,7 +32340,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 552,
+   "id": 550,
    "iri": "https://gdi-de.github.io/apworkshop2026/137_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32355,7 +32369,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 553,
+   "id": 551,
    "iri": "https://gdi-de.github.io/apworkshop2026/138_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32384,7 +32398,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 554,
+   "id": 552,
    "iri": "https://gdi-de.github.io/apworkshop2026/139_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32413,7 +32427,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 555,
+   "id": 553,
    "iri": "https://gdi-de.github.io/apworkshop2026/13_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32442,7 +32456,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 556,
+   "id": 554,
    "iri": "https://gdi-de.github.io/apworkshop2026/140_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32471,7 +32485,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 557,
+   "id": 555,
    "iri": "https://gdi-de.github.io/apworkshop2026/141_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32500,7 +32514,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 558,
+   "id": 556,
    "iri": "https://gdi-de.github.io/apworkshop2026/142_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32529,7 +32543,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 559,
+   "id": 557,
    "iri": "https://gdi-de.github.io/apworkshop2026/143_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32558,7 +32572,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 560,
+   "id": 558,
    "iri": "https://gdi-de.github.io/apworkshop2026/144_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32587,7 +32601,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 561,
+   "id": 559,
    "iri": "https://gdi-de.github.io/apworkshop2026/145_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32616,7 +32630,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 562,
+   "id": 560,
    "iri": "https://gdi-de.github.io/apworkshop2026/146_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32645,7 +32659,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 563,
+   "id": 561,
    "iri": "https://gdi-de.github.io/apworkshop2026/147_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32674,7 +32688,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 564,
+   "id": 562,
    "iri": "https://gdi-de.github.io/apworkshop2026/148_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32703,7 +32717,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 565,
+   "id": 563,
    "iri": "https://gdi-de.github.io/apworkshop2026/149_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32732,7 +32746,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 566,
+   "id": 564,
    "iri": "https://gdi-de.github.io/apworkshop2026/14_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32761,7 +32775,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 567,
+   "id": 565,
    "iri": "https://gdi-de.github.io/apworkshop2026/150_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32790,7 +32804,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 568,
+   "id": 566,
    "iri": "https://gdi-de.github.io/apworkshop2026/151_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32819,7 +32833,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 569,
+   "id": 567,
    "iri": "https://gdi-de.github.io/apworkshop2026/152_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32848,7 +32862,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 570,
+   "id": 568,
    "iri": "https://gdi-de.github.io/apworkshop2026/153_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32877,7 +32891,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 571,
+   "id": 569,
    "iri": "https://gdi-de.github.io/apworkshop2026/154_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32906,7 +32920,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 572,
+   "id": 570,
    "iri": "https://gdi-de.github.io/apworkshop2026/155_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32935,7 +32949,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 573,
+   "id": 571,
    "iri": "https://gdi-de.github.io/apworkshop2026/156_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32964,7 +32978,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 574,
+   "id": 572,
    "iri": "https://gdi-de.github.io/apworkshop2026/157_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -32993,7 +33007,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 575,
+   "id": 573,
    "iri": "https://gdi-de.github.io/apworkshop2026/158_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33022,7 +33036,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 576,
+   "id": 574,
    "iri": "https://gdi-de.github.io/apworkshop2026/159_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33051,7 +33065,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 577,
+   "id": 575,
    "iri": "https://gdi-de.github.io/apworkshop2026/15_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33080,7 +33094,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 578,
+   "id": 576,
    "iri": "https://gdi-de.github.io/apworkshop2026/160_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33109,7 +33123,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 579,
+   "id": 577,
    "iri": "https://gdi-de.github.io/apworkshop2026/161_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33138,7 +33152,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 580,
+   "id": 578,
    "iri": "https://gdi-de.github.io/apworkshop2026/162_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33167,7 +33181,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 581,
+   "id": 579,
    "iri": "https://gdi-de.github.io/apworkshop2026/163_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33196,7 +33210,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 582,
+   "id": 580,
    "iri": "https://gdi-de.github.io/apworkshop2026/164_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33225,7 +33239,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 583,
+   "id": 581,
    "iri": "https://gdi-de.github.io/apworkshop2026/165_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33254,7 +33268,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 584,
+   "id": 582,
    "iri": "https://gdi-de.github.io/apworkshop2026/166_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33283,7 +33297,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 585,
+   "id": 583,
    "iri": "https://gdi-de.github.io/apworkshop2026/167_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33312,7 +33326,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 586,
+   "id": 584,
    "iri": "https://gdi-de.github.io/apworkshop2026/168_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33341,7 +33355,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 587,
+   "id": 585,
    "iri": "https://gdi-de.github.io/apworkshop2026/169_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33370,7 +33384,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 588,
+   "id": 586,
    "iri": "https://gdi-de.github.io/apworkshop2026/16_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33399,7 +33413,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 589,
+   "id": 587,
    "iri": "https://gdi-de.github.io/apworkshop2026/170_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33428,7 +33442,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 590,
+   "id": 588,
    "iri": "https://gdi-de.github.io/apworkshop2026/171_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33457,7 +33471,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 591,
+   "id": 589,
    "iri": "https://gdi-de.github.io/apworkshop2026/172_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33486,7 +33500,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 592,
+   "id": 590,
    "iri": "https://gdi-de.github.io/apworkshop2026/173_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33515,7 +33529,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 593,
+   "id": 591,
    "iri": "https://gdi-de.github.io/apworkshop2026/174_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33544,7 +33558,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 594,
+   "id": 592,
    "iri": "https://gdi-de.github.io/apworkshop2026/175_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33573,7 +33587,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 595,
+   "id": 593,
    "iri": "https://gdi-de.github.io/apworkshop2026/176_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33602,7 +33616,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 596,
+   "id": 594,
    "iri": "https://gdi-de.github.io/apworkshop2026/177_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33631,7 +33645,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 597,
+   "id": 595,
    "iri": "https://gdi-de.github.io/apworkshop2026/178_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33660,7 +33674,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 598,
+   "id": 596,
    "iri": "https://gdi-de.github.io/apworkshop2026/179_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33689,7 +33703,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 599,
+   "id": 597,
    "iri": "https://gdi-de.github.io/apworkshop2026/17_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33718,7 +33732,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 600,
+   "id": 598,
    "iri": "https://gdi-de.github.io/apworkshop2026/180_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33747,7 +33761,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 601,
+   "id": 599,
    "iri": "https://gdi-de.github.io/apworkshop2026/181_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33776,7 +33790,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 602,
+   "id": 600,
    "iri": "https://gdi-de.github.io/apworkshop2026/182_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33805,7 +33819,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 603,
+   "id": 601,
    "iri": "https://gdi-de.github.io/apworkshop2026/183_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33834,7 +33848,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 604,
+   "id": 602,
    "iri": "https://gdi-de.github.io/apworkshop2026/184_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33863,7 +33877,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 605,
+   "id": 603,
    "iri": "https://gdi-de.github.io/apworkshop2026/185_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33892,7 +33906,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 606,
+   "id": 604,
    "iri": "https://gdi-de.github.io/apworkshop2026/186_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33921,7 +33935,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 607,
+   "id": 605,
    "iri": "https://gdi-de.github.io/apworkshop2026/187_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33950,7 +33964,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 608,
+   "id": 606,
    "iri": "https://gdi-de.github.io/apworkshop2026/188_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -33979,7 +33993,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 609,
+   "id": 607,
    "iri": "https://gdi-de.github.io/apworkshop2026/189_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34008,7 +34022,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 610,
+   "id": 608,
    "iri": "https://gdi-de.github.io/apworkshop2026/18_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34037,7 +34051,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 611,
+   "id": 609,
    "iri": "https://gdi-de.github.io/apworkshop2026/190_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34066,7 +34080,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 612,
+   "id": 610,
    "iri": "https://gdi-de.github.io/apworkshop2026/191_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34095,7 +34109,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 613,
+   "id": 611,
    "iri": "https://gdi-de.github.io/apworkshop2026/192_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34124,7 +34138,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 614,
+   "id": 612,
    "iri": "https://gdi-de.github.io/apworkshop2026/193_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34153,7 +34167,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 615,
+   "id": 613,
    "iri": "https://gdi-de.github.io/apworkshop2026/194_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34182,7 +34196,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 616,
+   "id": 614,
    "iri": "https://gdi-de.github.io/apworkshop2026/195_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34211,7 +34225,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 617,
+   "id": 615,
    "iri": "https://gdi-de.github.io/apworkshop2026/196_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34240,7 +34254,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 618,
+   "id": 616,
    "iri": "https://gdi-de.github.io/apworkshop2026/197_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34269,7 +34283,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 619,
+   "id": 617,
    "iri": "https://gdi-de.github.io/apworkshop2026/199_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34298,7 +34312,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 620,
+   "id": 618,
    "iri": "https://gdi-de.github.io/apworkshop2026/19_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34327,7 +34341,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 621,
+   "id": 619,
    "iri": "https://gdi-de.github.io/apworkshop2026/1_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34356,7 +34370,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 622,
+   "id": 620,
    "iri": "https://gdi-de.github.io/apworkshop2026/200_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34385,7 +34399,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 623,
+   "id": 621,
    "iri": "https://gdi-de.github.io/apworkshop2026/201_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34414,7 +34428,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 624,
+   "id": 622,
    "iri": "https://gdi-de.github.io/apworkshop2026/202_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34443,7 +34457,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 625,
+   "id": 623,
    "iri": "https://gdi-de.github.io/apworkshop2026/203_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34472,7 +34486,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 626,
+   "id": 624,
    "iri": "https://gdi-de.github.io/apworkshop2026/204_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34501,7 +34515,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 627,
+   "id": 625,
    "iri": "https://gdi-de.github.io/apworkshop2026/205_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34530,7 +34544,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 628,
+   "id": 626,
    "iri": "https://gdi-de.github.io/apworkshop2026/206_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34559,7 +34573,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 629,
+   "id": 627,
    "iri": "https://gdi-de.github.io/apworkshop2026/207_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34588,7 +34602,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 630,
+   "id": 628,
    "iri": "https://gdi-de.github.io/apworkshop2026/208_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34617,7 +34631,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 631,
+   "id": 629,
    "iri": "https://gdi-de.github.io/apworkshop2026/209_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34646,7 +34660,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 632,
+   "id": 630,
    "iri": "https://gdi-de.github.io/apworkshop2026/20_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34675,7 +34689,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 633,
+   "id": 631,
    "iri": "https://gdi-de.github.io/apworkshop2026/210_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34704,7 +34718,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 634,
+   "id": 632,
    "iri": "https://gdi-de.github.io/apworkshop2026/211_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34733,7 +34747,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 635,
+   "id": 633,
    "iri": "https://gdi-de.github.io/apworkshop2026/212_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34762,7 +34776,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 636,
+   "id": 634,
    "iri": "https://gdi-de.github.io/apworkshop2026/213_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34791,7 +34805,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 637,
+   "id": 635,
    "iri": "https://gdi-de.github.io/apworkshop2026/214_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34820,7 +34834,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 638,
+   "id": 636,
    "iri": "https://gdi-de.github.io/apworkshop2026/215_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34849,7 +34863,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 639,
+   "id": 637,
    "iri": "https://gdi-de.github.io/apworkshop2026/216_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34878,7 +34892,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 640,
+   "id": 638,
    "iri": "https://gdi-de.github.io/apworkshop2026/217_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34907,7 +34921,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 641,
+   "id": 639,
    "iri": "https://gdi-de.github.io/apworkshop2026/218_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34936,7 +34950,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 642,
+   "id": 640,
    "iri": "https://gdi-de.github.io/apworkshop2026/219_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34965,7 +34979,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 643,
+   "id": 641,
    "iri": "https://gdi-de.github.io/apworkshop2026/21_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -34994,7 +35008,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 644,
+   "id": 642,
    "iri": "https://gdi-de.github.io/apworkshop2026/220_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35023,7 +35037,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 645,
+   "id": 643,
    "iri": "https://gdi-de.github.io/apworkshop2026/221_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35052,7 +35066,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 646,
+   "id": 644,
    "iri": "https://gdi-de.github.io/apworkshop2026/222_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35081,7 +35095,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 647,
+   "id": 645,
    "iri": "https://gdi-de.github.io/apworkshop2026/223_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35110,7 +35124,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 648,
+   "id": 646,
    "iri": "https://gdi-de.github.io/apworkshop2026/224_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35139,7 +35153,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 649,
+   "id": 647,
    "iri": "https://gdi-de.github.io/apworkshop2026/225_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35168,7 +35182,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 650,
+   "id": 648,
    "iri": "https://gdi-de.github.io/apworkshop2026/226_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35197,7 +35211,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 651,
+   "id": 649,
    "iri": "https://gdi-de.github.io/apworkshop2026/227_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35226,7 +35240,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 652,
+   "id": 650,
    "iri": "https://gdi-de.github.io/apworkshop2026/228_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35255,7 +35269,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 653,
+   "id": 651,
    "iri": "https://gdi-de.github.io/apworkshop2026/229_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35284,7 +35298,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 654,
+   "id": 652,
    "iri": "https://gdi-de.github.io/apworkshop2026/22_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35313,7 +35327,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 655,
+   "id": 653,
    "iri": "https://gdi-de.github.io/apworkshop2026/230_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35342,7 +35356,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 656,
+   "id": 654,
    "iri": "https://gdi-de.github.io/apworkshop2026/231_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35371,7 +35385,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 657,
+   "id": 655,
    "iri": "https://gdi-de.github.io/apworkshop2026/232_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35400,7 +35414,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 658,
+   "id": 656,
    "iri": "https://gdi-de.github.io/apworkshop2026/233_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35429,7 +35443,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 659,
+   "id": 657,
    "iri": "https://gdi-de.github.io/apworkshop2026/234_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35458,7 +35472,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 660,
+   "id": 658,
    "iri": "https://gdi-de.github.io/apworkshop2026/235_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35487,7 +35501,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 661,
+   "id": 659,
    "iri": "https://gdi-de.github.io/apworkshop2026/236_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35516,7 +35530,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 662,
+   "id": 660,
    "iri": "https://gdi-de.github.io/apworkshop2026/237_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35545,7 +35559,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 663,
+   "id": 661,
    "iri": "https://gdi-de.github.io/apworkshop2026/238_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35574,7 +35588,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 664,
+   "id": 662,
    "iri": "https://gdi-de.github.io/apworkshop2026/239_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35603,7 +35617,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 665,
+   "id": 663,
    "iri": "https://gdi-de.github.io/apworkshop2026/23_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35632,7 +35646,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 666,
+   "id": 664,
    "iri": "https://gdi-de.github.io/apworkshop2026/240_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35661,7 +35675,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 667,
+   "id": 665,
    "iri": "https://gdi-de.github.io/apworkshop2026/241_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35690,7 +35704,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 668,
+   "id": 666,
    "iri": "https://gdi-de.github.io/apworkshop2026/242_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35719,7 +35733,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 669,
+   "id": 667,
    "iri": "https://gdi-de.github.io/apworkshop2026/243_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35748,7 +35762,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 670,
+   "id": 668,
    "iri": "https://gdi-de.github.io/apworkshop2026/24_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35777,7 +35791,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 671,
+   "id": 669,
    "iri": "https://gdi-de.github.io/apworkshop2026/25_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35806,7 +35820,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 672,
+   "id": 670,
    "iri": "https://gdi-de.github.io/apworkshop2026/26_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35835,7 +35849,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 673,
+   "id": 671,
    "iri": "https://gdi-de.github.io/apworkshop2026/27_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35864,7 +35878,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 674,
+   "id": 672,
    "iri": "https://gdi-de.github.io/apworkshop2026/28_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35893,7 +35907,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 675,
+   "id": 673,
    "iri": "https://gdi-de.github.io/apworkshop2026/29_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35922,7 +35936,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 676,
+   "id": 674,
    "iri": "https://gdi-de.github.io/apworkshop2026/2_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35951,7 +35965,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 677,
+   "id": 675,
    "iri": "https://gdi-de.github.io/apworkshop2026/30_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -35980,7 +35994,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 678,
+   "id": 676,
    "iri": "https://gdi-de.github.io/apworkshop2026/31_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36009,7 +36023,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 679,
+   "id": 677,
    "iri": "https://gdi-de.github.io/apworkshop2026/32_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36038,7 +36052,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 680,
+   "id": 678,
    "iri": "https://gdi-de.github.io/apworkshop2026/33_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36067,7 +36081,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 681,
+   "id": 679,
    "iri": "https://gdi-de.github.io/apworkshop2026/34_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36096,7 +36110,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 682,
+   "id": 680,
    "iri": "https://gdi-de.github.io/apworkshop2026/35_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36125,7 +36139,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 683,
+   "id": 681,
    "iri": "https://gdi-de.github.io/apworkshop2026/36_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36154,7 +36168,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 684,
+   "id": 682,
    "iri": "https://gdi-de.github.io/apworkshop2026/37_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36183,7 +36197,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 685,
+   "id": 683,
    "iri": "https://gdi-de.github.io/apworkshop2026/38_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36212,7 +36226,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 686,
+   "id": 684,
    "iri": "https://gdi-de.github.io/apworkshop2026/39_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36241,7 +36255,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 687,
+   "id": 685,
    "iri": "https://gdi-de.github.io/apworkshop2026/3_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36270,7 +36284,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 688,
+   "id": 686,
    "iri": "https://gdi-de.github.io/apworkshop2026/40_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36299,7 +36313,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 689,
+   "id": 687,
    "iri": "https://gdi-de.github.io/apworkshop2026/41_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36328,7 +36342,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 690,
+   "id": 688,
    "iri": "https://gdi-de.github.io/apworkshop2026/42_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36357,7 +36371,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 691,
+   "id": 689,
    "iri": "https://gdi-de.github.io/apworkshop2026/43_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36386,7 +36400,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 692,
+   "id": 690,
    "iri": "https://gdi-de.github.io/apworkshop2026/44_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36415,7 +36429,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 693,
+   "id": 691,
    "iri": "https://gdi-de.github.io/apworkshop2026/45_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36444,7 +36458,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 694,
+   "id": 692,
    "iri": "https://gdi-de.github.io/apworkshop2026/46_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36473,7 +36487,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 695,
+   "id": 693,
    "iri": "https://gdi-de.github.io/apworkshop2026/47_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36502,7 +36516,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 696,
+   "id": 694,
    "iri": "https://gdi-de.github.io/apworkshop2026/48_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36531,7 +36545,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 697,
+   "id": 695,
    "iri": "https://gdi-de.github.io/apworkshop2026/49_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36560,7 +36574,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 698,
+   "id": 696,
    "iri": "https://gdi-de.github.io/apworkshop2026/4_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36589,7 +36603,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 699,
+   "id": 697,
    "iri": "https://gdi-de.github.io/apworkshop2026/50_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36618,7 +36632,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 700,
+   "id": 698,
    "iri": "https://gdi-de.github.io/apworkshop2026/51_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36647,7 +36661,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 701,
+   "id": 699,
    "iri": "https://gdi-de.github.io/apworkshop2026/52_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36676,7 +36690,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 702,
+   "id": 700,
    "iri": "https://gdi-de.github.io/apworkshop2026/53_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36705,7 +36719,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 703,
+   "id": 701,
    "iri": "https://gdi-de.github.io/apworkshop2026/54_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36734,7 +36748,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 704,
+   "id": 702,
    "iri": "https://gdi-de.github.io/apworkshop2026/55_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36763,7 +36777,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 705,
+   "id": 703,
    "iri": "https://gdi-de.github.io/apworkshop2026/56_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36792,7 +36806,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 706,
+   "id": 704,
    "iri": "https://gdi-de.github.io/apworkshop2026/57_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36821,7 +36835,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 707,
+   "id": 705,
    "iri": "https://gdi-de.github.io/apworkshop2026/58_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36850,7 +36864,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 708,
+   "id": 706,
    "iri": "https://gdi-de.github.io/apworkshop2026/59_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36879,7 +36893,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 709,
+   "id": 707,
    "iri": "https://gdi-de.github.io/apworkshop2026/5_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36908,7 +36922,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 710,
+   "id": 708,
    "iri": "https://gdi-de.github.io/apworkshop2026/60_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36937,7 +36951,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 711,
+   "id": 709,
    "iri": "https://gdi-de.github.io/apworkshop2026/61_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36966,7 +36980,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 712,
+   "id": 710,
    "iri": "https://gdi-de.github.io/apworkshop2026/62_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -36995,7 +37009,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 713,
+   "id": 711,
    "iri": "https://gdi-de.github.io/apworkshop2026/63_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37024,7 +37038,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 714,
+   "id": 712,
    "iri": "https://gdi-de.github.io/apworkshop2026/64_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37053,7 +37067,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 715,
+   "id": 713,
    "iri": "https://gdi-de.github.io/apworkshop2026/65_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37082,7 +37096,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 716,
+   "id": 714,
    "iri": "https://gdi-de.github.io/apworkshop2026/66_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37111,7 +37125,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 717,
+   "id": 715,
    "iri": "https://gdi-de.github.io/apworkshop2026/67_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37140,7 +37154,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 718,
+   "id": 716,
    "iri": "https://gdi-de.github.io/apworkshop2026/68_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37169,7 +37183,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 719,
+   "id": 717,
    "iri": "https://gdi-de.github.io/apworkshop2026/69_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37198,7 +37212,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 720,
+   "id": 718,
    "iri": "https://gdi-de.github.io/apworkshop2026/6_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37227,7 +37241,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 721,
+   "id": 719,
    "iri": "https://gdi-de.github.io/apworkshop2026/70_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37256,7 +37270,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 722,
+   "id": 720,
    "iri": "https://gdi-de.github.io/apworkshop2026/71_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37285,7 +37299,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 723,
+   "id": 721,
    "iri": "https://gdi-de.github.io/apworkshop2026/72_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37314,7 +37328,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 724,
+   "id": 722,
    "iri": "https://gdi-de.github.io/apworkshop2026/73_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37343,7 +37357,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 725,
+   "id": 723,
    "iri": "https://gdi-de.github.io/apworkshop2026/74_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37372,7 +37386,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 726,
+   "id": 724,
    "iri": "https://gdi-de.github.io/apworkshop2026/75_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37401,7 +37415,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 727,
+   "id": 725,
    "iri": "https://gdi-de.github.io/apworkshop2026/76_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37430,7 +37444,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 728,
+   "id": 726,
    "iri": "https://gdi-de.github.io/apworkshop2026/77_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37459,7 +37473,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 729,
+   "id": 727,
    "iri": "https://gdi-de.github.io/apworkshop2026/78_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37488,7 +37502,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 730,
+   "id": 728,
    "iri": "https://gdi-de.github.io/apworkshop2026/79_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37517,7 +37531,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 731,
+   "id": 729,
    "iri": "https://gdi-de.github.io/apworkshop2026/7_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37546,7 +37560,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 732,
+   "id": 730,
    "iri": "https://gdi-de.github.io/apworkshop2026/80_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37575,7 +37589,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 733,
+   "id": 731,
    "iri": "https://gdi-de.github.io/apworkshop2026/81_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37604,7 +37618,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 734,
+   "id": 732,
    "iri": "https://gdi-de.github.io/apworkshop2026/82_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37633,7 +37647,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 735,
+   "id": 733,
    "iri": "https://gdi-de.github.io/apworkshop2026/83_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37662,7 +37676,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 736,
+   "id": 734,
    "iri": "https://gdi-de.github.io/apworkshop2026/84_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37691,7 +37705,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 737,
+   "id": 735,
    "iri": "https://gdi-de.github.io/apworkshop2026/85_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37720,7 +37734,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 738,
+   "id": 736,
    "iri": "https://gdi-de.github.io/apworkshop2026/86_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37749,7 +37763,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 739,
+   "id": 737,
    "iri": "https://gdi-de.github.io/apworkshop2026/87_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37778,7 +37792,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 740,
+   "id": 738,
    "iri": "https://gdi-de.github.io/apworkshop2026/88_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37807,7 +37821,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 741,
+   "id": 739,
    "iri": "https://gdi-de.github.io/apworkshop2026/89_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37836,7 +37850,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 742,
+   "id": 740,
    "iri": "https://gdi-de.github.io/apworkshop2026/8_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37865,7 +37879,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 743,
+   "id": 741,
    "iri": "https://gdi-de.github.io/apworkshop2026/90_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37894,7 +37908,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 744,
+   "id": 742,
    "iri": "https://gdi-de.github.io/apworkshop2026/91_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37923,7 +37937,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 745,
+   "id": 743,
    "iri": "https://gdi-de.github.io/apworkshop2026/92_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37952,7 +37966,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 746,
+   "id": 744,
    "iri": "https://gdi-de.github.io/apworkshop2026/93_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -37981,7 +37995,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 747,
+   "id": 745,
    "iri": "https://gdi-de.github.io/apworkshop2026/94_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38010,7 +38024,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 748,
+   "id": 746,
    "iri": "https://gdi-de.github.io/apworkshop2026/95_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38039,7 +38053,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 749,
+   "id": 747,
    "iri": "https://gdi-de.github.io/apworkshop2026/96_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38068,7 +38082,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 750,
+   "id": 748,
    "iri": "https://gdi-de.github.io/apworkshop2026/97_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38097,7 +38111,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 751,
+   "id": 749,
    "iri": "https://gdi-de.github.io/apworkshop2026/98_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38126,7 +38140,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 752,
+   "id": 750,
    "iri": "https://gdi-de.github.io/apworkshop2026/99_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38155,7 +38169,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 753,
+   "id": 751,
    "iri": "https://gdi-de.github.io/apworkshop2026/9_openmonths",
    "baseIRI": "https://gdi-de.github.io/apworkshop2026",
    "instances": 0,
@@ -38169,160 +38183,9 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 754,
-   "iri": "https://gdi.berlin.de/data/trinkwasserbrunnen/docs/datenformatbeschreibung_trinkwasserbrunnen.pdf",
-   "baseIRI": "https://gdi.berlin.de/data/trinkwasserbrunnen/docs",
-   "instances": 0,
-   "label": {
-    "IRI-based": "datenformatbeschreibung_trinkwasserbrunnen.pdf"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 755,
-   "iri": "https://gdi.berlin.de/services/wms/trinkwasserbrunnen?request=GetCapabilities&service=WMS",
-   "baseIRI": "https://gdi.berlin.de/services/wms",
-   "instances": 0,
-   "label": {
-    "IRI-based": "trinkwasserbrunnen?request=GetCapabilities&service=WMS"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 756,
-   "iri": "https://gdi.berlin.de/viewer/main/?Map/layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen",
-   "baseIRI": "https://gdi.berlin.de/viewer/main/?Map",
-   "instances": 0,
-   "label": {
-    "IRI-based": "layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 757,
-   "iri": "https://www.bwb.de/de/trinkbrunnen.php",
-   "baseIRI": "https://www.bwb.de/de",
-   "instances": 0,
-   "label": {
-    "IRI-based": "trinkbrunnen.php"
-   },
-   "annotations": {
-    "http://purl.org/dc/terms/description": [
-     {
-      "identifier": "http://purl.org/dc/terms/description",
-      "language": "undefined",
-      "value": "Downloaddienst - Trinkwasserbrunnen (WFS)",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/format": [
-     {
-      "identifier": "http://purl.org/dc/terms/format",
-      "language": "undefined",
-      "value": "HTML",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/issued": [
-     {
-      "identifier": "http://purl.org/dc/terms/issued",
-      "language": "undefined",
-      "value": "2025-12-03T04:28:30.591794",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/license": [
-     {
-      "identifier": "http://purl.org/dc/terms/license",
-      "language": "undefined",
-      "value": "http://dcat-ap.de/def/licenses/dl-zero-de/2.0",
-      "type": "iri"
-     }
-    ],
-    "http://purl.org/dc/terms/modified": [
-     {
-      "identifier": "http://purl.org/dc/terms/modified",
-      "language": "undefined",
-      "value": "2025-12-03T04:28:30.552624",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/title": [
-     {
-      "identifier": "http://purl.org/dc/terms/title",
-      "language": "undefined",
-      "value": "Downloaddienst - Trinkwasserbrunnen (WFS)",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#accessURL": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#accessURL",
-      "language": "undefined",
-      "value": "https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS",
-      "type": "iri"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#downloadURL": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#downloadURL",
-      "language": "undefined",
-      "value": "https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS",
-      "type": "iri"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#mediaType": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#mediaType",
-      "language": "undefined",
-      "value": "Text/HTML",
-      "type": "label"
-     }
-    ],
-    "http://xmlns.com/foaf/0.1/page": [
-     {
-      "identifier": "http://xmlns.com/foaf/0.1/page",
-      "language": "undefined",
-      "value": "https://www.bwb.de/de/trinkbrunnen.php",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 758,
-   "iri": "https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS#distribution",
-   "baseIRI": "https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS",
-   "instances": 0,
-   "label": {
-    "IRI-based": "distribution"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 759,
-   "iri": "https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS",
-   "baseIRI": "https://gdi.berlin.de/services/wfs",
+   "id": 752,
+   "iri": "http://www.ontology-of-units-of-measure.org/resource/om-2/degree",
+   "baseIRI": "http://www.ontology-of-units-of-measure.org/resource/om-2",
    "instances": 0,
    "label": "Tempelhof-Sch\u00f6neberg",
    "annotations": {},
@@ -38332,7 +38195,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 760,
+   "id": 753,
    "iri": "http://www.wikidata.org/entity/Q158106",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38344,7 +38207,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 761,
+   "id": 754,
    "iri": "http://www.wikidata.org/entity/Q158876",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38356,7 +38219,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 762,
+   "id": 755,
    "iri": "http://www.wikidata.org/entity/Q158089",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38368,7 +38231,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 763,
+   "id": 756,
    "iri": "http://www.wikidata.org/entity/Q119284",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38380,7 +38243,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 764,
+   "id": 757,
    "iri": "http://www.wikidata.org/entity/Q158064",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38392,7 +38255,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 765,
+   "id": 758,
    "iri": "http://www.wikidata.org/entity/Q158083",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38404,7 +38267,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 766,
+   "id": 759,
    "iri": "http://www.wikidata.org/entity/Q4071168",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38416,7 +38279,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 767,
+   "id": 760,
    "iri": "http://www.wikidata.org/entity/Q163012",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38428,7 +38291,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 768,
+   "id": 761,
    "iri": "http://www.wikidata.org/entity/Q158095",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38440,7 +38303,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 769,
+   "id": 762,
    "iri": "http://www.wikidata.org/entity/Q329609",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38452,7 +38315,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 770,
+   "id": 763,
    "iri": "http://www.wikidata.org/entity/Q2013767",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38464,7 +38327,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 771,
+   "id": 764,
    "iri": "http://www.wikidata.org/entity/Q158893",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
@@ -38478,7 +38341,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 772,
+   "id": 765,
    "iri": "http://www.opengis.net/def/crs/EPSG/0/4326",
    "baseIRI": "http://www.opengis.net/def/crs/EPSG/0",
    "instances": 0,
@@ -38492,7 +38355,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 773,
+   "id": 766,
    "iri": "http://www.opengis.net/def/crs/EPSG/0/4326",
    "baseIRI": "http://www.opengis.net/def/crs/EPSG/0",
    "instances": 0,
@@ -38506,11 +38369,43 @@ var vowlresult={
       "type": "iri"
      }
     ],
+    "http://www.opengis.net/ont/crs/asProj4": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/asProj4",
+      "language": "undefined",
+      "value": "+proj=longlat +datum=WGS84 +no_defs +type=crs",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/asProjJSON": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/asProjJSON",
+      "language": "undefined",
+      "value": "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'GeographicCRS','name':'WGS 84','datum_ensemble':{'name':'World Geodetic System 1984 ensemble','members':[{'name':'World Geodetic System 1984 (Transit)','id':{'authority':'EPSG','code':1166}},{'name':'World Geodetic System 1984 (G730)','id':{'authority':'EPSG','code':1152}},{'name':'World Geodetic System 1984 (G873)','id':{'authority':'EPSG','code':1153}},{'name':'World Geodetic System 1984 (G1150)','id':{'authority':'EPSG','code':1154}},{'name':'World Geodetic System 1984 (G1674)','id':{'authority':'EPSG','code':1155}},{'name':'World Geodetic System 1984 (G1762)','id':{'authority':'EPSG','code':1156}},{'name':'World Geodetic System 1984 (G2139)','id':{'authority':'EPSG','code':1309}},{'name':'World Geodetic System 1984 (G2296)','id':{'authority':'EPSG','code':1383}}],'ellipsoid':{'name':'WGS 84','semi_major_axis':6378137,'inverse_flattening':298.257223563},'accuracy':'2.0','id':{'authority':'EPSG','code':6326}},'coordinate_system':{'subtype':'ellipsoidal','axis':[{'name':'Geodetic latitude','abbreviation':'Lat','direction':'north','unit':'degree'},{'name':'Geodetic longitude','abbreviation':'Lon','direction':'east','unit':'degree'}]},'scope':'Horizontal component of 3D system.','area':'World.','bbox':{'south_latitude':-90,'west_longitude':-180,'north_latitude':90,'east_longitude':180},'id':{'authority':'EPSG','code':4326}}",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/asWKT": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/asWKT",
+      "language": "undefined",
+      "value": "GEOGCRS['WGS 84',ENSEMBLE['World Geodetic System 1984 ensemble',MEMBER['World Geodetic System 1984 (Transit)'],MEMBER['World Geodetic System 1984 (G730)'],MEMBER['World Geodetic System 1984 (G873)'],MEMBER['World Geodetic System 1984 (G1150)'],MEMBER['World Geodetic System 1984 (G1674)'],MEMBER['World Geodetic System 1984 (G1762)'],MEMBER['World Geodetic System 1984 (G2139)'],MEMBER['World Geodetic System 1984 (G2296)'],ELLIPSOID['WGS 84',6378137,298.257223563,LENGTHUNIT['metre',1]],ENSEMBLEACCURACY[2.0]],PRIMEM['Greenwich',0,ANGLEUNIT['degree',0.0174532925199433]],CS[ellipsoidal,2],AXIS['geodetic latitude (Lat)',north,ORDER[1],ANGLEUNIT['degree',0.0174532925199433]],AXIS['geodetic longitude (Lon)',east,ORDER[2],ANGLEUNIT['degree',0.0174532925199433]],USAGE[SCOPE['Horizontal component of 3D system.'],AREA['World.'],BBOX[-90,-180,90,180]],ID['EPSG',4326]]",
+      "type": "label"
+     }
+    ],
     "http://www.opengis.net/ont/crs/coordinateSystem": [
      {
       "identifier": "http://www.opengis.net/ont/crs/coordinateSystem",
       "language": "undefined",
       "value": "http://www.opengis.net/def/crs/EPSG/0/4326_cs",
+      "type": "iri"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/datum": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/datum",
+      "language": "undefined",
+      "value": "http://www.opengis.net/ont/crs/datum/World_Geodetic_System_1984_ensemble",
       "type": "iri"
      }
     ],
@@ -38520,6 +38415,14 @@ var vowlresult={
       "language": "undefined",
       "value": "http://www.opengis.net/ont/crs/geod/1",
       "type": "iri"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/epsgCode": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/epsgCode",
+      "language": "undefined",
+      "value": "EPSG:4326",
+      "type": "label"
      }
     ],
     "http://www.opengis.net/ont/crs/isApplicableTo": [
@@ -38533,6 +38436,38 @@ var vowlresult={
     "http://www.opengis.net/ont/crs/isBound": [
      {
       "identifier": "http://www.opengis.net/ont/crs/isBound",
+      "language": "undefined",
+      "value": "false",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/isGeocentric": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/isGeocentric",
+      "language": "undefined",
+      "value": "false",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/isGeographic": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/isGeographic",
+      "language": "undefined",
+      "value": "true",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/isProjected": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/isProjected",
+      "language": "undefined",
+      "value": "false",
+      "type": "label"
+     }
+    ],
+    "http://www.opengis.net/ont/crs/isVertical": [
+     {
+      "identifier": "http://www.opengis.net/ont/crs/isVertical",
       "language": "undefined",
       "value": "false",
       "type": "label"
@@ -38553,7 +38488,7 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 774,
+   "id": 767,
    "iri": "http://www.opengis.net/def/crs/EPSG/0/4326",
    "baseIRI": "http://www.opengis.net/def/crs/EPSG/0",
    "instances": 0,
@@ -38567,205 +38502,12 @@ var vowlresult={
    "superProperties": []
   },
   {
-   "id": 775,
+   "id": 768,
    "iri": "http://www.wikidata.org/entity/Q64",
    "baseIRI": "http://www.wikidata.org/entity",
    "instances": 0,
    "label": {
     "IRI-based": "Q64"
-   },
-   "annotations": {
-    "http://dcat-ap.de/def/dcatde/contributorID": [
-     {
-      "identifier": "http://dcat-ap.de/def/dcatde/contributorID",
-      "language": "undefined",
-      "value": "http://dcat-ap.de/def/contributors/gdiDE",
-      "type": "iri"
-     }
-    ],
-    "http://purl.org/dc/terms/accessRights": [
-     {
-      "identifier": "http://purl.org/dc/terms/accessRights",
-      "language": "undefined",
-      "value": "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations",
-      "type": "iri"
-     }
-    ],
-    "http://purl.org/dc/terms/accrualPeriodicity": [
-     {
-      "identifier": "http://purl.org/dc/terms/accrualPeriodicity",
-      "language": "undefined",
-      "value": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
-      "type": "iri"
-     }
-    ],
-    "http://purl.org/dc/terms/description": [
-     {
-      "identifier": "http://purl.org/dc/terms/description",
-      "language": "undefined",
-      "value": "Der Datensatz zeigt die Standorte der Trinkwasserbrunnen in Berlin an. Mit den Trinkwasserbrunnen wird kostenlos und \u00f6ffentlich zug\u00e4nglich Trinkwasser bereitgestellt. Die Trinkwasserbrunnen sind von Mai bis Oktober in Betrieb und werden von den Berliner Wasserbetrieben mit Unterst\u00fctzung des Landes Berlin aufgestellt und betrieben.",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/identifier": [
-     {
-      "identifier": "http://purl.org/dc/terms/identifier",
-      "language": "undefined",
-      "value": "8aaca41b-d665-447a-93ec-b76e431852fc",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/issued": [
-     {
-      "identifier": "http://purl.org/dc/terms/issued",
-      "language": "undefined",
-      "value": "2025-06-15",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/language": [
-     {
-      "identifier": "http://purl.org/dc/terms/language",
-      "language": "undefined",
-      "value": "http://publications.europa.eu/resource/authority/language/DEU",
-      "type": "iri"
-     }
-    ],
-    "http://purl.org/dc/terms/modified": [
-     {
-      "identifier": "http://purl.org/dc/terms/modified",
-      "language": "undefined",
-      "value": "2025-12-15T09:29:37.348945+00:00",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/publisher": [
-     {
-      "identifier": "http://purl.org/dc/terms/publisher",
-      "language": "undefined",
-      "value": "ndacc2bfef6ba41efba9989a55bfa0aaeb1",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/spatial": [
-     {
-      "identifier": "http://purl.org/dc/terms/spatial",
-      "language": "undefined",
-      "value": "ndacc2bfef6ba41efba9989a55bfa0aaeb2",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/title": [
-     {
-      "identifier": "http://purl.org/dc/terms/title",
-      "language": "undefined",
-      "value": "Trinkwasserbrunnen",
-      "type": "label"
-     }
-    ],
-    "http://purl.org/dc/terms/type": [
-     {
-      "identifier": "http://purl.org/dc/terms/type",
-      "language": "undefined",
-      "value": "http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset",
-      "type": "iri"
-     }
-    ],
-    "http://www.w3.org/ns/adms#identifier": [
-     {
-      "identifier": "http://www.w3.org/ns/adms#identifier",
-      "language": "undefined",
-      "value": "8aaca41b-d665-447a-93ec-b76e431852fc",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#contactPoint": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#contactPoint",
-      "language": "undefined",
-      "value": "ndacc2bfef6ba41efba9989a55bfa0aaeb3",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#distribution": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#distribution",
-      "language": "undefined",
-      "value": "https://gdi.berlin.de/services/wfs/trinkwasserbrunnen?request=GetCapabilities&service=WFS#distribution",
-      "type": "iri"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#keyword": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#keyword",
-      "language": "undefined",
-      "value": "trinkwasserbrunnen",
-      "type": "label"
-     }
-    ],
-    "http://www.w3.org/ns/dcat#theme": [
-     {
-      "identifier": "http://www.w3.org/ns/dcat#theme",
-      "language": "undefined",
-      "value": "http://publications.europa.eu/resource/authority/data-theme/TRAN",
-      "type": "iri"
-     }
-    ]
-   },
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 776,
-   "iri": "https://gdk.gdi-de.org/inspire/srv/eng/xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc",
-   "baseIRI": "https://gdk.gdi-de.org/inspire/srv/eng",
-   "instances": 0,
-   "label": {
-    "IRI-based": "xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 777,
-   "iri": "ndacc2bfef6ba41efba9989a55bfa0aaeb1",
-   "baseIRI": "ndacc2bfef6ba41efba9989a55bfa0aaeb",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ndacc2bfef6ba41efba9989a55bfa0aaeb1"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 778,
-   "iri": "ndacc2bfef6ba41efba9989a55bfa0aaeb2",
-   "baseIRI": "ndacc2bfef6ba41efba9989a55bfa0aaeb",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ndacc2bfef6ba41efba9989a55bfa0aaeb2"
-   },
-   "annotations": {},
-   "range": [],
-   "domain": [],
-   "subProperties": [],
-   "superProperties": []
-  },
-  {
-   "id": 779,
-   "iri": "ndacc2bfef6ba41efba9989a55bfa0aaeb3",
-   "baseIRI": "ndacc2bfef6ba41efba9989a55bfa0aaeb",
-   "instances": 0,
-   "label": {
-    "IRI-based": "ndacc2bfef6ba41efba9989a55bfa0aaeb3"
    },
    "annotations": {},
    "range": [],

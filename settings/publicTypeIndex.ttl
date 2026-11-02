@@ -1,6 +1,3 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.w3.org/ns/solid/terms#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -40,9 +37,7 @@ owl:ObjectProperty a owl:Class .
         ns1:TypeIndex,
         "Public Type Index"@en ;
     rdfs:comment "This Document contains a list of links to other Documents, along with the type of data that is to be included in those Documents"@en ;
-    rdfs:member <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#08657de2-6f92-426b-8958-3f88134142fe>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#0febf971-f873-454a-bd19-897dae2b5c48>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#1>,
+    rdfs:member <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#1>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#10>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#100_geom>,
@@ -372,7 +367,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#1_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#1_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2.0>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#200>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#200_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#200_openmonths>,
@@ -536,7 +530,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#29_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2_openmonths>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2a516c94-4869-4305-8bde-0c97cbb7653a>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#3>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#30>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#30_geom>,
@@ -678,7 +671,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#70_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#70_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#71>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#717c6780-5400-4239-979a-12128de1e1b3>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#71_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#71_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#72>,
@@ -707,8 +699,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#79_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7_openmonths>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7d1b7ef4-22d4-484c-8184-d8f176f009c9>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7d7de3db-f1e4-4b86-b3ff-d5633778ecbf>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#80>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#80_geom>,
@@ -742,10 +732,8 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#89_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8_openmonths>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8ba722ae-10be-4912-bf2f-30c0ee5b3ba9>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#90>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9026ee7c-6a4f-461e-a753-92673e7bde47>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#90_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#90_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#91>,
@@ -777,7 +765,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#99_openmonths>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9_openmonths>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9f08c9fb-42c5-4b19-a910-b5f416376ef8>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AEST100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AEST100_P2547_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AEST100_geom>,
@@ -4675,8 +4662,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ALTW9_stammdurchmesser_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ALTW9_suniv0_>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ALTW9_suniv1_>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ANNUAL>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Agent>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AreaOfUse>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AxisDirection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#BFAS1>,
@@ -16894,11 +16879,9 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Botsch_collection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Brunnen_fuer_Jogger>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Brunnen_fuer_Jogger_collection>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Checksum>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Class_collection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Collection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#CoordinateSystemAxis>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DEU>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF1>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF10>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF100>,
@@ -18404,9 +18387,7 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF9_P2547_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF9_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF9_stammdurchmesser_value>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Dataset>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Distribution>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Document>,
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Datum>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ENTW10>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ENTW100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ENTW100_P2547_value>,
@@ -21494,7 +21475,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#FRHD9_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#FRHD9_stammdurchmesser_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#FeatureCollection>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Frequency>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#GEOW1>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#GEOW100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#GEOW100_P2547_value>,
@@ -25809,6 +25789,7 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Geoid>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Geometry>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#GeometryCollection>,
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Greenwich>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#HHBG10>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#HHBG103>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#HHBG103_P2547_value>,
@@ -36219,9 +36200,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#KTWK9_stammdurchmesser_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Kaiser>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Kaiser_collection>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#LicenseDocument>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#LinguisticSystem>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Location>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#MEFC1>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#MEFC100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#MEFC100_P2547_value>,
@@ -47347,7 +47325,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#NHKL9_stammdurchmesser_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ObjectProperty_collection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ObservationCollection>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Organization>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PEUB10>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PEUB100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PEUB100_P2547_value>,
@@ -51178,10 +51155,10 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PIOI9_P2547_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PIOI9_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PIOI9_stammdurchmesser_value>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PeriodOfTime>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PlanarCoordinateSystem>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Point>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Point_collection>,
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PrimeMeridian>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Q104819>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Q104819_collection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Q1151129>,
@@ -61353,7 +61330,6 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ROST9_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ROST9_stammdurchmesser_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Resource>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#RightsStatement>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#SAHF100_P2547_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#SAHF100_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#SAHF100_stammdurchmesser_value>,
@@ -66015,6 +65991,7 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#TemporalEntity_collection>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Tree>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Tree_collection>,
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Unit>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#VEDL1>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#VEDL100>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#VEDL100_P2547_value>,
@@ -73777,42 +73754,13 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#WITB97_P2547_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#WITB97_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#WITB97_stammdurchmesser_value>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#d4d0f641-e942-4d54-9f0e-96b2778bb722>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#datenformatbeschreibung_trinkwasserbrunnen.pdf>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#distribution>,
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#World_Geodetic_System_1984_ensemble>,
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#degree>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#east>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#f12fa444-59c2-49e9-a053-d5e7f9902276>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#f5311edc-19d6-4c62-86e4-ad0ed3d5507f>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#f77c7c68-827c-4f64-9a45-f38572a1598e>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nan>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nan_P2547_value>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nan_geom>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nan_stammdurchmesser_value>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b1>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b10>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b11>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b12>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b13>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b14>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b15>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b16>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b17>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b18>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b19>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b2>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b20>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b3>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b4>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b5>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b6>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b7>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b8>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b9>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndacc2bfef6ba41efba9989a55bfa0aaeb1>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndacc2bfef6ba41efba9989a55bfa0aaeb2>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndacc2bfef6ba41efba9989a55bfa0aaeb3>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#noLimitations>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_4326.html>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_Q119284.html>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_Q158064.html>,
@@ -73828,24 +73776,15 @@ owl:ObjectProperty a owl:Class .
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_Q329609.html>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_Q4071168.html>,
         <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_Q64.html>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_dc163b2f-3fe3-4df3-96e9-b1c501b88ed7.html>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc.html>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#north>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#trinkbrunnen.php>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#trinkwasserbrunnen?request=GetCapabilities&service=WFS>,
-        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#trinkwasserbrunnen?request=GetCapabilities&service=WMS> .
+        <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#north> .
 
 <https://www.iana.org/assignments/media-types/text/turtle#Resource> a owl:Class .
 
-dcterms:Frequency a owl:Class .
-
-dcterms:LicenseDocument a owl:Class .
-
-dcterms:LinguisticSystem a owl:Class .
-
-dcterms:RightsStatement a owl:Class .
+<http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> a owl:Class .
 
 <http://www.opengis.net/ont/crs/AreaOfUse> a owl:Class .
+
+<http://www.opengis.net/ont/crs/Datum> a owl:Class .
 
 <http://www.opengis.net/ont/crs/EllipsoidalCoordinateSystem> a owl:Class .
 
@@ -73855,17 +73794,11 @@ dcterms:RightsStatement a owl:Class .
 
 <http://www.opengis.net/ont/crs/PlanarCoordinateSystem> a owl:Class .
 
+<http://www.opengis.net/ont/crs/PrimeMeridian> a owl:Class .
+
 prov:Entity a owl:Class .
 
 <http://www.wikidata.org/entity/Q42744322> a owl:Class .
-
-foaf:Agent a owl:Class .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#08657de2-6f92-426b-8958-3f88134142fe> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//08657de2-6f92-426b-8958-3f88134142fe> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#0febf971-f873-454a-bd19-897dae2b5c48> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//0febf971-f873-454a-bd19-897dae2b5c48> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#1> ns1:forClass <http://www.opengis.net/ont/crs/Geoid>,
         <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
@@ -74858,9 +74791,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//2> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2.0> ns1:forClass dcterms:LicenseDocument ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//2.0> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#200> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//200> .
 
@@ -75350,9 +75280,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2_openmonths> ns1:forClass time:TemporalEntity ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//2_openmonths> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#2a516c94-4869-4305-8bde-0c97cbb7653a> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//2a516c94-4869-4305-8bde-0c97cbb7653a> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#3> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//3> .
 
@@ -75776,9 +75703,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#71> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//71> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#717c6780-5400-4239-979a-12128de1e1b3> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//717c6780-5400-4239-979a-12128de1e1b3> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#71_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//71_geom> .
 
@@ -75862,12 +75786,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7_openmonths> ns1:forClass time:TemporalEntity ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//7_openmonths> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7d1b7ef4-22d4-484c-8184-d8f176f009c9> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//7d1b7ef4-22d4-484c-8184-d8f176f009c9> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#7d7de3db-f1e4-4b86-b3ff-d5633778ecbf> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//7d7de3db-f1e4-4b86-b3ff-d5633778ecbf> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//8> .
@@ -75968,17 +75886,11 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8_openmonths> ns1:forClass time:TemporalEntity ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//8_openmonths> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#8ba722ae-10be-4912-bf2f-30c0ee5b3ba9> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//8ba722ae-10be-4912-bf2f-30c0ee5b3ba9> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//9> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#90> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Kaiser> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//90> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9026ee7c-6a4f-461e-a753-92673e7bde47> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//9026ee7c-6a4f-461e-a753-92673e7bde47> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#90_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//90_geom> .
@@ -76072,9 +75984,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9_openmonths> ns1:forClass time:TemporalEntity ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//9_openmonths> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#9f08c9fb-42c5-4b19-a910-b5f416376ef8> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//9f08c9fb-42c5-4b19-a910-b5f416376ef8> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AEST100> ns1:forClass <http://www.wikidata.org/entity/Q156907> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//AEST100> .
@@ -87766,12 +87675,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ALTW9_suniv1_> ns1:forClass <http://www.wikidata.org/entity/Q158746> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ALTW9_suniv1_> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ANNUAL> ns1:forClass dcterms:Frequency ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ANNUAL> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Agent> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Agent> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#AreaOfUse> ns1:forClass <#> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//AreaOfUse> .
@@ -124424,9 +124327,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Brunnen_fuer_Jogger_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Brunnen_fuer_Jogger_collection> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Checksum> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Checksum> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Class_collection> ns1:forClass skos:Collection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Class_collection> .
 
@@ -124435,9 +124335,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#CoordinateSystemAxis> ns1:forClass <#> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//CoordinateSystemAxis> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DEU> ns1:forClass dcterms:LinguisticSystem ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//DEU> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF1> ns1:forClass <http://www.wikidata.org/entity/Q26745> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//DRHF1> .
@@ -128954,14 +128851,8 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#DRHF9_stammdurchmesser_value> ns1:forClass <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//DRHF9_stammdurchmesser_value> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Dataset> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Dataset> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Distribution> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Distribution> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Document> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Document> .
+<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Datum> ns1:forClass <#> ;
+    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Datum> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ENTW10> ns1:forClass <http://www.wikidata.org/entity/Q15546565> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ENTW10> .
@@ -138223,9 +138114,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass geo:SpatialObjectCollection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//FeatureCollection> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Frequency> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Frequency> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#GEOW1> ns1:forClass <http://www.wikidata.org/entity/Q158785> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//GEOW1> .
@@ -151168,6 +151056,9 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//GeometryCollection> .
+
+<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Greenwich> ns1:forClass <http://www.opengis.net/ont/crs/PrimeMeridian> ;
+    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Greenwich> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#HHBG10> ns1:forClass <http://www.wikidata.org/entity/Q156907> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//HHBG10> .
@@ -182398,15 +182289,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Kaiser_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Kaiser_collection> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#LicenseDocument> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//LicenseDocument> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#LinguisticSystem> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//LinguisticSystem> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Location> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Location> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#MEFC1> ns1:forClass <http://www.wikidata.org/entity/Q147492> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//MEFC1> .
@@ -215783,9 +215665,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ObservationCollection> ns1:forClass skos:Collection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ObservationCollection> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Organization> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Organization> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PEUB10> ns1:forClass <http://www.wikidata.org/entity/Q146149> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//PEUB10> .
 
@@ -227276,9 +227155,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PIOI9_stammdurchmesser_value> ns1:forClass <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//PIOI9_stammdurchmesser_value> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PeriodOfTime> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//PeriodOfTime> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PlanarCoordinateSystem> ns1:forClass <#> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//PlanarCoordinateSystem> .
 
@@ -227287,6 +227163,9 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Point_collection> .
+
+<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#PrimeMeridian> ns1:forClass <#> ;
+    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//PrimeMeridian> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Q104819> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Tree> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Q104819> .
@@ -257801,9 +257680,6 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Resource> ns1:forClass <#> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Resource> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#RightsStatement> ns1:forClass <#> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//RightsStatement> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#SAHF100_P2547_value> ns1:forClass <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//SAHF100_P2547_value> .
 
@@ -271786,6 +271662,9 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Tree_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Tree_collection> .
+
+<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#Unit> ns1:forClass <#> ;
+    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//Unit> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#VEDL1> ns1:forClass <http://www.wikidata.org/entity/Q156944> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//VEDL1> .
@@ -295073,29 +294952,14 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#WITB97_stammdurchmesser_value> ns1:forClass <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//WITB97_stammdurchmesser_value> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#d4d0f641-e942-4d54-9f0e-96b2778bb722> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//d4d0f641-e942-4d54-9f0e-96b2778bb722> .
+<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#World_Geodetic_System_1984_ensemble> ns1:forClass <http://www.opengis.net/ont/crs/Datum> ;
+    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//World_Geodetic_System_1984_ensemble> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#datenformatbeschreibung_trinkwasserbrunnen.pdf> ns1:forClass foaf:Document ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//datenformatbeschreibung_trinkwasserbrunnen.pdf> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#distribution> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//distribution> .
+<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#degree> ns1:forClass <http://www.ontology-of-units-of-measure.org/resource/om-2/Unit> ;
+    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//degree> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#east> ns1:forClass <http://www.opengis.net/ont/crs/AxisDirection> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//east> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#f12fa444-59c2-49e9-a053-d5e7f9902276> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//f12fa444-59c2-49e9-a053-d5e7f9902276> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#f5311edc-19d6-4c62-86e4-ad0ed3d5507f> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//f5311edc-19d6-4c62-86e4-ad0ed3d5507f> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#f77c7c68-827c-4f64-9a45-f38572a1598e> ns1:forClass dcat:Distribution ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//f77c7c68-827c-4f64-9a45-f38572a1598e> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen> ns1:forClass foaf:Document ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//layerIds=hintergrund_default_grau%2Ctrinkwasserbrunnen:trinkwasserbrunnen> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nan> ns1:forClass <https://gdi-de.github.io/apworkshop2026/ont#Tree> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//nan> .
@@ -295108,78 +294972,6 @@ foaf:Agent a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nan_stammdurchmesser_value> ns1:forClass <http://www.ontology-of-units-of-measure.org/resource/om-2/Measure> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//nan_stammdurchmesser_value> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b1> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b1> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b10> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b10> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b11> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b11> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b12> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b12> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b13> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b13> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b14> ns1:forClass foaf:Organization ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b14> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b15> ns1:forClass foaf:Organization ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b15> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b16> ns1:forClass foaf:Organization ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b16> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b17> ns1:forClass foaf:Organization ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b17> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b18> ns1:forClass dcterms:Location ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b18> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b19> ns1:forClass dcterms:PeriodOfTime ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b19> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b2> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b2> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b20> ns1:forClass <http://www.w3.org/2006/vcard/ns#Organization> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b20> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b3> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b3> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b4> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b4> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b5> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b5> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b6> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b6> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b7> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b7> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b8> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b8> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndab875b432e44f52a6cdd819ec845215b9> ns1:forClass <http://spdx.org/rdf/terms#Checksum> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndab875b432e44f52a6cdd819ec845215b9> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndacc2bfef6ba41efba9989a55bfa0aaeb1> ns1:forClass foaf:Agent ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndacc2bfef6ba41efba9989a55bfa0aaeb1> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndacc2bfef6ba41efba9989a55bfa0aaeb2> ns1:forClass dcterms:Location ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndacc2bfef6ba41efba9989a55bfa0aaeb2> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#ndacc2bfef6ba41efba9989a55bfa0aaeb3> ns1:forClass <http://www.w3.org/2006/vcard/ns#Organization> ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//ndacc2bfef6ba41efba9989a55bfa0aaeb3> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#noLimitations> ns1:forClass dcterms:RightsStatement ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//noLimitations> .
 
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_4326.html> ns1:forClass prov:Entity ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//nonns_4326.html> .
@@ -295226,25 +295018,8 @@ foaf:Agent a owl:Class .
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_Q64.html> ns1:forClass <http://www.wikidata.org/entity/Q42744322> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//nonns_Q64.html> .
 
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_dc163b2f-3fe3-4df3-96e9-b1c501b88ed7.html> ns1:forClass dcat:Dataset ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//nonns_dc163b2f-3fe3-4df3-96e9-b1c501b88ed7.html> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#nonns_xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc.html> ns1:forClass dcat:Dataset ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//nonns_xml_iso19139?uuid=8aaca41b-d665-447a-93ec-b76e431852fc.html> .
-
 <https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#north> ns1:forClass <http://www.opengis.net/ont/crs/AxisDirection> ;
     ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//north> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#trinkbrunnen.php> ns1:forClass foaf:Document ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//trinkbrunnen.php> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#trinkwasserbrunnen?request=GetCapabilities&service=WFS> ns1:forClass rdfs:Resource ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//trinkwasserbrunnen?request=GetCapabilities&service=WFS> .
-
-<https://gdi-de.github.io/apworkshop2026_ldtutorial//settings/publicTypeIndex.ttl#trinkwasserbrunnen?request=GetCapabilities&service=WMS> ns1:forClass foaf:Document ;
-    ns1:instance <https://gdi-de.github.io/apworkshop2026_ldtutorial//trinkwasserbrunnen?request=GetCapabilities&service=WMS> .
-
-dcterms:Location a owl:Class .
 
 <http://www.opengis.net/ont/crs/AxisDirection> a owl:Class .
 
@@ -295252,10 +295027,6 @@ dcterms:Location a owl:Class .
 
 geo:GeometryCollection a owl:Class ;
     rdfs:subClassOf geo:SpatialObjectCollection .
-
-<http://www.w3.org/2006/vcard/ns#Organization> a owl:Class .
-
-dcat:Dataset a owl:Class .
 
 <https://gdi-de.github.io/apworkshop2026/ont#Brunnen_fuer_Jogger> a owl:Class ;
     rdfs:subClassOf <http://www.wikidata.org/entity/Q1630622> .
@@ -295265,23 +295036,19 @@ geo:Geometry a owl:Class .
 geo:SpatialObjectCollection a owl:Class ;
     rdfs:subClassOf skos:Collection .
 
-foaf:Document a owl:Class .
-
 skos:Collection a owl:Class .
 
 <http://www.wikidata.org/entity/Q1630622> a owl:Class .
 
 rdfs:Resource a owl:Class .
 
-dcat:Distribution a owl:Class .
-
 <https://gdi-de.github.io/apworkshop2026/ont#Botsch> a owl:Class ;
     rdfs:subClassOf <http://www.wikidata.org/entity/Q1630622> .
 
+owl:Class a owl:Class .
+
 <https://gdi-de.github.io/apworkshop2026/ont#Bituma> a owl:Class ;
     rdfs:subClassOf <http://www.wikidata.org/entity/Q1630622> .
-
-owl:Class a owl:Class .
 
 geo:FeatureCollection a owl:Class ;
     rdfs:subClassOf geo:SpatialObjectCollection .

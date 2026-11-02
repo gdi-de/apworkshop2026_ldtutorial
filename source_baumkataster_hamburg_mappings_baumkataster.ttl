@@ -1,28 +1,20 @@
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
-@prefix dct: <http://purl.org/dc/terms/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix gdide: <https://gdi-de.github.io/apworkshop2026/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix locn: <http://www.w3.org/ns/locn#> .
-@prefix ns1: <http://dcat-ap.de/def/dcatde/1_0/> .
-@prefix ns2: <http://www.opengis.net/ont/crs/> .
+@prefix ns1: <http://www.opengis.net/ont/crs/> .
 @prefix om: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
 @prefix ont: <https://gdi-de.github.io/apworkshop2026/ont#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix schema1: <http://schema.org/> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
-@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://www.opengis.net/ont/crs/cs/axis/east> a ns2:AxisDirection .
+<http://www.opengis.net/ont/crs/cs/axis/east> a ns1:AxisDirection .
 
-<http://www.opengis.net/ont/crs/cs/axis/north> a ns2:AxisDirection .
+<http://www.opengis.net/ont/crs/cs/axis/north> a ns1:AxisDirection .
 
 geo:asWKT a owl:DatatypeProperty .
 
@@ -163696,218 +163688,56 @@ gdide:nan a ont:Tree ;
 ont:stammdurchmesser a owl:ObjectProperty ;
     rdfs:label "tree trunk diameter"@en .
 
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/08657de2-6f92-426b-8958-3f88134142fe> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "ZIP" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Straßenbaumkataster Hamburg, 2015 (GML)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "11132472"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_2015-10_gml_3520_snap_1_16735_snap_1.ZIP> ;
-    dcat:byteSize 11132472.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/0febf971-f873-454a-bd19-897dae2b5c48> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "HTML" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Metadatenbeschreibung aus dem MetaVer" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "30c83479c11bf29b17bf73161aaa23e4363c097488009fca0821063df5183853"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/trefferanzeige_3522_snap_1_16737_snap_1.HTML> ;
-    dcat:byteSize -1.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/2a516c94-4869-4305-8bde-0c97cbb7653a> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "CSV" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Baumarten, lateinisch (CSV)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "a50de5c255bdf65971b6841dd9bf3d0012a81f94743ba0958333dca271e8f761"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_baumarten_latein_3515_snap_1_16730_snap_1.CSV> ;
-    dcat:byteSize 12902.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/717c6780-5400-4239-979a-12128de1e1b3> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "ZIP" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Straßenbaumkataster Hamburg, 2013 (shp)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "8616914"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_2014-02-17_shp_3513_snap_1_16728_snap_1.ZIP> ;
-    dcat:byteSize 8616914.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/7d1b7ef4-22d4-484c-8184-d8f176f009c9> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "ZIP" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Straßenbaumkataster Hamburg, 2014 (GML)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "15142734"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_2014-10_gml_3516_snap_1_16731_snap_1.ZIP> ;
-    dcat:byteSize 15142734.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/7d7de3db-f1e4-4b86-b3ff-d5633778ecbf> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "XML" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Dienst \"WFS Straßenbaumkataster Hamburg\" (GetCapabilities)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "ec39d1573d404eb54069383fc947b62cf1776beb7a90ae4c9959880a256c400d"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wfs_strassenbaumkataster_3512_snap_1_16727_snap_1.XML> ;
-    dcat:byteSize 24485.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/8ba722ae-10be-4912-bf2f-30c0ee5b3ba9> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "XML" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Dienst \"WMS Karten-Cache Hamburg\" (GetCapabilities)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "7813c66405d762272ecdfb66e1c1a9529988fe263481824b1444b762f691d398"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wms_cache_901_snap_1_16329_snap_1.XML> ;
-    dcat:byteSize 7284.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/9026ee7c-6a4f-461e-a753-92673e7bde47> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "ZIP" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Straßenbaumkataster Hamburg, 2013 (GML)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "12254952"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_2014-02-17_gml_3518_snap_1_16733_snap_1.ZIP> ;
-    dcat:byteSize 12254952.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/9f08c9fb-42c5-4b19-a910-b5f416376ef8> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "gml" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Straßenbäume online" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "75764427d8ddeb20c01b4a3bd0f437a2fc0d679efa661c374df02e4709947d80"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/4406652_3517_snap_1_16732_snap_1.gml> ;
-    dcat:byteSize 55359.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/d4d0f641-e942-4d54-9f0e-96b2778bb722> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "ZIP" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Straßenbaumkataster Hamburg, 2015 (Shp)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "10512728"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_2015-10_shp_3521_snap_1_16736_snap_1.ZIP> ;
-    dcat:byteSize 10512728.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/f12fa444-59c2-49e9-a053-d5e7f9902276> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "CSV" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Baumarten, deutsch (CSV)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "58a3c5cfc1afdd41ea12b84a4d4afba0f92486b50e47054476a9222efd82dbee"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_baumarten_deutsch_3514_snap_1_16729_snap_1.CSV> ;
-    dcat:byteSize 10531.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/f5311edc-19d6-4c62-86e4-ad0ed3d5507f> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "ZIP" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Download Straßenbaumkataster Hamburg, 2014 (Shp)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "10483192"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/strassenbaumkataster_hh_2014-10_shp_3519_snap_1_16734_snap_1.ZIP> ;
-    dcat:byteSize 10483192.0 .
-
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/f77c7c68-827c-4f64-9a45-f38572a1598e> a dcat:Distribution ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:format "XML" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:license <http://dcat-ap.de/def/licenses/dl-by-de/2.0> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:title "Dienst \"WMS Straßenbaumkataster Hamburg\" (GetCapabilities)" ;
-    spdx:checksum [ a spdx:Checksum ;
-            spdx:checksumValue "e9c4343d25c577dd6a66102bb0575d2214a9599c74e1e06eb518f144148637bc"^^xsd:hexBinary ] ;
-    dcat:accessURL <https://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wms_strassenbaumkataster_3511_snap_1_16726_snap_1.XML> ;
-    dcat:byteSize 11419.0 .
-
-<http://www.opengis.net/def/crs/EPSG/0/4326_area_of_use> a ns2:AreaOfUse ;
+<http://www.opengis.net/def/crs/EPSG/0/4326_area_of_use> a ns1:AreaOfUse ;
     rdfs:label "World."@en .
 
-<http://www.opengis.net/def/crs/EPSG/0/4326_cs> a ns2:EllipsoidalCoordinateSystem,
-        ns2:PlanarCoordinateSystem ;
+<http://www.opengis.net/def/crs/EPSG/0/4326_cs> a ns1:EllipsoidalCoordinateSystem,
+        ns1:PlanarCoordinateSystem ;
     rdfs:label "EPSG:4326 CS: ellipsoidal" ;
-    ns2:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'CoordinateSystem','subtype':'ellipsoidal','axis':[{'name':'Geodetic latitude','abbreviation':'Lat','direction':'north','unit':'degree'},{'name':'Geodetic longitude','abbreviation':'Lon','direction':'east','unit':'degree'}],'id':{'authority':'EPSG','code':6422}}" ;
-    ns2:asWKT "CS[ellipsoidal,2],AXIS['geodetic latitude (Lat)',north,ORDER[1],ANGLEUNIT['degree',0.0174532925199433,ID['EPSG',9122]]],AXIS['geodetic longitude (Lon)',east,ORDER[2],ANGLEUNIT['degree',0.0174532925199433,ID['EPSG',9122]]]" ;
-    ns2:axis <http://www.opengis.net/ont/crs/cs/axis/Geodetic_latitude_degree_north>,
+    ns1:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'CoordinateSystem','subtype':'ellipsoidal','axis':[{'name':'Geodetic latitude','abbreviation':'Lat','direction':'north','unit':'degree'},{'name':'Geodetic longitude','abbreviation':'Lon','direction':'east','unit':'degree'}],'id':{'authority':'EPSG','code':6422}}" ;
+    ns1:asWKT "CS[ellipsoidal,2],AXIS['geodetic latitude (Lat)',north,ORDER[1],ANGLEUNIT['degree',0.0174532925199433,ID['EPSG',9122]]],AXIS['geodetic longitude (Lon)',east,ORDER[2],ANGLEUNIT['degree',0.0174532925199433,ID['EPSG',9122]]]" ;
+    ns1:axis <http://www.opengis.net/ont/crs/cs/axis/Geodetic_latitude_degree_north>,
         <http://www.opengis.net/ont/crs/cs/axis/Geodetic_longitude_degree_east> .
 
-<http://www.opengis.net/ont/crs/cs/axis/Geodetic_latitude_degree_north> a ns2:CoordinateSystemAxis ;
+<http://www.opengis.net/ont/crs/cs/axis/Geodetic_latitude_degree_north> a ns1:CoordinateSystemAxis ;
     rdfs:label "Geodetic latitude (degree)"@en ;
-    ns2:abbreviation "Lat"^^xsd:string ;
-    ns2:direction ns2:north ;
-    ns2:unit om:degree ;
-    ns2:unit_auth_code "EPSG"^^xsd:string ;
-    ns2:unit_code "9122"^^xsd:string ;
-    ns2:unit_conversion_factor 1.745329e-02 .
+    ns1:abbreviation "Lat"^^xsd:string ;
+    ns1:direction ns1:north ;
+    ns1:unit om:degree ;
+    ns1:unit_auth_code "EPSG"^^xsd:string ;
+    ns1:unit_code "9122"^^xsd:string ;
+    ns1:unit_conversion_factor 1.745329e-02 .
 
-<http://www.opengis.net/ont/crs/cs/axis/Geodetic_longitude_degree_east> a ns2:CoordinateSystemAxis ;
+<http://www.opengis.net/ont/crs/cs/axis/Geodetic_longitude_degree_east> a ns1:CoordinateSystemAxis ;
     rdfs:label "Geodetic longitude (degree)"@en ;
-    ns2:abbreviation "Lon"^^xsd:string ;
-    ns2:direction ns2:east ;
-    ns2:unit om:degree ;
-    ns2:unit_auth_code "EPSG"^^xsd:string ;
-    ns2:unit_code "9122"^^xsd:string ;
-    ns2:unit_conversion_factor 1.745329e-02 .
+    ns1:abbreviation "Lon"^^xsd:string ;
+    ns1:direction ns1:east ;
+    ns1:unit om:degree ;
+    ns1:unit_auth_code "EPSG"^^xsd:string ;
+    ns1:unit_code "9122"^^xsd:string ;
+    ns1:unit_conversion_factor 1.745329e-02 .
 
-<http://www.opengis.net/ont/crs/geod/1> a ns2:Geoid .
+<http://www.opengis.net/ont/crs/datum/World_Geodetic_System_1984_ensemble> a ns1:Datum ;
+    rdfs:label "Datum: World Geodetic System 1984 ensemble"@en ;
+    ns1:primeMeridian <http://www.opengis.net/ont/crs/primeMeridian/Greenwich> ;
+    ns1:scope "Satellite navigation."^^xsd:string .
+
+<http://www.opengis.net/ont/crs/geod/1> a ns1:Geoid ;
+    rdfs:label "Geoid 1"@en ;
+    ns1:approximates <http://www.opengis.net/ont/crs/isbody/Earth> ;
+    ns1:eccentricity 6.69438e-03 ;
+    ns1:flatteningParameter 3.352811e-03 ;
+    ns1:isSphere false ;
+    ns1:semiMajorAxis "6378137.0"^^xsd:string ;
+    ns1:semiMinorAxis "6356752.314245179"^^xsd:string ;
+    skos:definition "+a=6378137.0 +f=0.0033528106647475126"^^xsd:string .
+
+<http://www.opengis.net/ont/crs/primeMeridian/Greenwich> a ns1:PrimeMeridian ;
+    rdfs:label "Greenwich"@en ;
+    ns1:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'PrimeMeridian','name':'Greenwich','longitude':0,'id':{'authority':'EPSG','code':8901}}"^^xsd:string ;
+    ns1:asWKT "PRIMEM['Greenwich',0,ANGLEUNIT['degree',0.0174532925199433],ID['EPSG',8901]]"^^xsd:string ;
+    ns1:longitude 0e+00 ;
+    ns1:unit <http://www.ontology-of-units-of-measure.org/resource/om-2/http://www.ontology-of-units-of-measure.org/resource/om-2/degree> .
 
 geo:Geometry a owl:Class .
 
@@ -436499,6 +436329,8 @@ gdide:nan_stammdurchmesser_value a om:Measure ;
     om:hasNumericalValue "NaN"^^xsd:double ;
     om:hasUnit om:centimeter .
 
+om:degree a om:Unit .
+
 <http://www.wikidata.org/entity/Q146992> a owl:Class ;
     rdfs:label "Abies alba"@en ;
     rdfs:subClassOf ont:Tree .
@@ -436780,87 +436612,25 @@ ont:Tree a owl:Class ;
         "ash tree"@en ;
     rdfs:subClassOf ont:Tree .
 
-<http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7> a dcat:Dataset ;
-    ns1:contributorID <http://dcat-ap.de/def/contributors/transparenzportalHamburg> ;
-    ns1:geocodingText "Freie und Hansestadt Hamburg" ;
-    ns1:legalbasisText "Hamburgisches Transparenzgesetz (HmbTG). URL: http://transparenz.hamburg.de/das-hmbtg/ Gesetzestext: http://transparenz.hamburg.de/contentblob/4318588/c8600b2b27ea31a5de6a92dacc138894/data/gesetzestext-hmbtg.pdf" ;
-    ns1:licenseAttributionByText "Freie und Hansestadt Hamburg, Behörde für Umwelt und Energie, 2015" ;
-    ns1:originator [ a foaf:Organization ;
-            foaf:name "Behörde für Umwelt und Energie (BUE), Amt für Naturschutz, Grünplanung und Energie" ] ;
-    ns1:politicalGeocodingLevelURI <http://dcat-ap.de/def/politicalGeocoding/level/state> ;
-    ns1:politicalGeocodingURI <http://dcat-ap.de/def/politicalGeocoding/regionalKey/020000000000> ;
-    dcatde:maintainer [ a foaf:Organization ;
-            foaf:name "Doobe, Gerhard, Herr" ] ;
-    dct:accessRights <https://www.govdata.de/dl-de/by-2-0> ;
-    dct:accrualPeriodicity <http://publications.europa.eu/resource/authority/frequency/NEVER> ;
-    dct:conformsTo <http://dcat-ap.de/def/dcatde/1.0/> ;
-    dct:creator [ a foaf:Organization ;
-            foaf:name "Behörde für Umwelt und Energie (BUE), Amt für Naturschutz, Grünplanung und Energie" ] ;
-    dct:description """Das Straßenbaumkataster umfasst die flächendeckende Darstellung der Bäume auf öffentlichen Straßenflurstücken als Grundlage der Baumkontrollen zur Verkehrssicherheit und der Planung. Wesentliche Datenfelder sind: Standort, Gattung/Art,  Pflanzjahr, Vitalität (ggf. CIR-Befliegung),  biologische Parameter, Schadensmerkmale.\r
-Die schnelle grafische Visualisierung der Baumstandorte und Hintergrundkarten leistet eine integrierte GIS-Komponente. Die Sachdaten liegen in einer ACCESS-Datenbank vor. Erfasst im Rahmen fortlaufender Vermessungsgänge und Aktualisierungen. Fortschreibung im Rahmen der Baumkontrollen zur Verkehrssicherheit.\r
-\r
-Das - Online-Straßenbaumkataster - umfasst die flächendeckende Darstellung der Bäume auf öffentlichen Straßenflurstücken. Jedem Baum sind die folgenden Datenfelder zugeordnet: Standort, Gattung/Art, Pflanzjahr, Kronendurchmesser und Stammumfang. Diese im Rahmen regelmäßiger Baumkontrollen erfassten Daten werden für das Internet jährlich aktualisiert. Sie stehen als WMS- u. WFS-Dienst sowie in den Formaten GML und Shape als Download zur Verfügung.""" ;
-    dct:hasVersion <http://suche.transparenz.hamburg.de/dataset/strassenbaumkataster-hamburg1> ;
-    dct:identifier "C1C61928-C602-4E37-AF31-2D23901E2540###V1" ;
-    dct:issued "2014-09-01T00:00:00"^^xsd:dateTime ;
-    dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
-    dct:modified "2020-09-09T02:40:32.762730"^^xsd:dateTime ;
-    dct:provenance "Der Datensatz wurde geharvestet. Ursprung: Metaverbund Katalog" ;
-    dct:publisher [ a foaf:Organization ;
-            foaf:name "Behörde für Umwelt und Energie (BUE), Amt für Naturschutz, Grünplanung und Energie" ] ;
-    dct:source <https://metaver.de/cswhh> ;
-    dct:spatial [ a dct:Location ;
-            locn:geometry "{\"type\": \"Polygon\", \"coordinates\": [[[10.326304, 53.394985], [10.326304, 53.964153], [8.420551, 53.964153], [8.420551, 53.394985], [10.326304, 53.394985]]]}"^^<https://www.iana.org/assignments/media-types/application/vnd.geo+json> ] ;
-    dct:temporal [ a dct:PeriodOfTime ;
-            schema1:startDate "1995-01-01T00:00:00"^^xsd:dateTime ] ;
-    dct:title "Straßenbaumkataster Hamburg" ;
-    owl:versionInfo "1.0" ;
-    dcat:contactPoint [ a vcard:Organization ;
-            vcard:fn "Doobe, Gerhard, Herr" ] ;
-    dcat:distribution <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/08657de2-6f92-426b-8958-3f88134142fe>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/0febf971-f873-454a-bd19-897dae2b5c48>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/2a516c94-4869-4305-8bde-0c97cbb7653a>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/717c6780-5400-4239-979a-12128de1e1b3>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/7d1b7ef4-22d4-484c-8184-d8f176f009c9>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/7d7de3db-f1e4-4b86-b3ff-d5633778ecbf>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/8ba722ae-10be-4912-bf2f-30c0ee5b3ba9>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/9026ee7c-6a4f-461e-a753-92673e7bde47>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/9f08c9fb-42c5-4b19-a910-b5f416376ef8>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/d4d0f641-e942-4d54-9f0e-96b2778bb722>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/f12fa444-59c2-49e9-a053-d5e7f9902276>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/f5311edc-19d6-4c62-86e4-ad0ed3d5507f>,
-        <http://suche.transparenz.hamburg.de/dataset/dc163b2f-3fe3-4df3-96e9-b1c501b88ed7/resource/f77c7c68-827c-4f64-9a45-f38572a1598e> ;
-    dcat:keyword "Baum",
-        "Baumarten",
-        "Baumkataster",
-        "Baumkontrolle",
-        "Baumkrankheiten",
-        "Baumschaden",
-        "Flora",
-        "Geodaten",
-        "Land cover",
-        "Landschaft",
-        "Natur",
-        "Straßenbaum",
-        "Straßenbäume",
-        "Verkehrssicherheit",
-        "Verkehrssicherungspflicht",
-        "inspireidentifiziert" ;
-    dcat:landingPage <http://www.hamburg.de/fhh-permalink/1065232> ;
-    dcat:theme <http://publications.europa.eu/resource/authority/data-theme/ENER>,
-        <http://publications.europa.eu/resource/authority/data-theme/ENVI> ;
-    foaf:page <http://suche.transparenz.hamburg.de/dataset/strassenbaumkataster-hamburg> .
-
-<http://www.opengis.net/def/crs/EPSG/0/4326> a ns2:GeographicCRS,
+<http://www.opengis.net/def/crs/EPSG/0/4326> a ns1:GeographicCRS,
         owl:NamedIndividual,
         prov:Entity ;
     rdfs:label "WGS 84"@en ;
-    ns2:area_of_use <http://www.opengis.net/def/crs/EPSG/0/4326_area_of_use> ;
-    ns2:coordinateSystem <http://www.opengis.net/def/crs/EPSG/0/4326_cs> ;
-    ns2:ellipsoid <http://www.opengis.net/ont/crs/geod/1> ;
-    ns2:isApplicableTo <http://www.opengis.net/ont/crs/isbody/Earth> ;
-    ns2:isBound false ;
-    ns2:scope "Horizontal component of 3D system."^^xsd:string .
+    ns1:area_of_use <http://www.opengis.net/def/crs/EPSG/0/4326_area_of_use> ;
+    ns1:asProj4 "+proj=longlat +datum=WGS84 +no_defs +type=crs"^^xsd:string ;
+    ns1:asProjJSON "{'$schema':'https://proj.org/schemas/v0.7/projjson.schema.json','type':'GeographicCRS','name':'WGS 84','datum_ensemble':{'name':'World Geodetic System 1984 ensemble','members':[{'name':'World Geodetic System 1984 (Transit)','id':{'authority':'EPSG','code':1166}},{'name':'World Geodetic System 1984 (G730)','id':{'authority':'EPSG','code':1152}},{'name':'World Geodetic System 1984 (G873)','id':{'authority':'EPSG','code':1153}},{'name':'World Geodetic System 1984 (G1150)','id':{'authority':'EPSG','code':1154}},{'name':'World Geodetic System 1984 (G1674)','id':{'authority':'EPSG','code':1155}},{'name':'World Geodetic System 1984 (G1762)','id':{'authority':'EPSG','code':1156}},{'name':'World Geodetic System 1984 (G2139)','id':{'authority':'EPSG','code':1309}},{'name':'World Geodetic System 1984 (G2296)','id':{'authority':'EPSG','code':1383}}],'ellipsoid':{'name':'WGS 84','semi_major_axis':6378137,'inverse_flattening':298.257223563},'accuracy':'2.0','id':{'authority':'EPSG','code':6326}},'coordinate_system':{'subtype':'ellipsoidal','axis':[{'name':'Geodetic latitude','abbreviation':'Lat','direction':'north','unit':'degree'},{'name':'Geodetic longitude','abbreviation':'Lon','direction':'east','unit':'degree'}]},'scope':'Horizontal component of 3D system.','area':'World.','bbox':{'south_latitude':-90,'west_longitude':-180,'north_latitude':90,'east_longitude':180},'id':{'authority':'EPSG','code':4326}}"^^xsd:string ;
+    ns1:asWKT "GEOGCRS['WGS 84',ENSEMBLE['World Geodetic System 1984 ensemble',MEMBER['World Geodetic System 1984 (Transit)'],MEMBER['World Geodetic System 1984 (G730)'],MEMBER['World Geodetic System 1984 (G873)'],MEMBER['World Geodetic System 1984 (G1150)'],MEMBER['World Geodetic System 1984 (G1674)'],MEMBER['World Geodetic System 1984 (G1762)'],MEMBER['World Geodetic System 1984 (G2139)'],MEMBER['World Geodetic System 1984 (G2296)'],ELLIPSOID['WGS 84',6378137,298.257223563,LENGTHUNIT['metre',1]],ENSEMBLEACCURACY[2.0]],PRIMEM['Greenwich',0,ANGLEUNIT['degree',0.0174532925199433]],CS[ellipsoidal,2],AXIS['geodetic latitude (Lat)',north,ORDER[1],ANGLEUNIT['degree',0.0174532925199433]],AXIS['geodetic longitude (Lon)',east,ORDER[2],ANGLEUNIT['degree',0.0174532925199433]],USAGE[SCOPE['Horizontal component of 3D system.'],AREA['World.'],BBOX[-90,-180,90,180]],ID['EPSG',4326]]"^^ns1:wktLiteral ;
+    ns1:coordinateSystem <http://www.opengis.net/def/crs/EPSG/0/4326_cs> ;
+    ns1:datum <http://www.opengis.net/ont/crs/datum/World_Geodetic_System_1984_ensemble> ;
+    ns1:ellipsoid <http://www.opengis.net/ont/crs/geod/1> ;
+    ns1:epsgCode "EPSG:4326"^^xsd:string ;
+    ns1:isApplicableTo <http://www.opengis.net/ont/crs/isbody/Earth> ;
+    ns1:isBound false ;
+    ns1:isGeocentric false ;
+    ns1:isGeographic true ;
+    ns1:isProjected false ;
+    ns1:isVertical false ;
+    ns1:scope "Horizontal component of 3D system."^^xsd:string .
 
 sf:MultiPoint a owl:Class ;
     rdfs:subClassOf geo:Geometry .
